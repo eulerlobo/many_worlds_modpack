@@ -266,7 +266,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 50
+				"cluster-size": 35
 			},
 			"cluster-count": 20,
 			"chunk-chance": 15,
@@ -331,7 +331,7 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 50
+				"cluster-size": 35
 			},
 			"cluster-count": 20,
 			"chunk-chance": 25,
