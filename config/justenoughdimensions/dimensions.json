@@ -1,0 +1,41 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": -10,
+      "dimensiontype": {
+        "id": -10,
+        "name": "hell_core",
+        "suffix": "_hellcore",
+        "keeploaded": false,
+        "worldprovider": "biomesoplenty.common.world.WorldProviderBOPHell"
+      }
+    },
+    {
+      "dim": 225,
+      "dimensiontype": {
+        "id": 225,
+        "name": "Draco",
+        "suffix": "_draco",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      }
+    },
+    {
+      "dim": 227,
+      "dimensiontype": {
+        "id": 227,
+        "name": "Thessaly",
+        "suffix": "_thessaly",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "worldinfo_onetime": {
+        "generatorName": "BIOMESOP"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+		"mob": "minecraft:squid",
+    "mincount": {
+      "amount": 20,
+      "mob": "minecraft:squid",
+      "perchunk": true
+    },
+		"result": "deny"
+  },
+  {
+    "mob": "abyssalcraft:abyssalzombie",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 1, 50, 111, 227],
+    "mob": "abyssalcraft:abyssalzombie",
+    "result": "allow"
+  },
+  {
+    "biome": ["abyssalcraft:darklands_plains", "abyssalcraft:darklands_hills", "abyssalcraft:darklands_mountains", "abyssalcraft:darklands_forest", "abyssalcraft:darklands"],
+    "mob": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombie_horse"],
+    "result": "deny"
+  },
+  {
+    "dimension": [50, 51, 52, 53],
+    "mob": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombie_horse", "minecraft:creeper", "minecraft:skeleton", "minecraft:skeleton_horse", "minecraft:spider", "minecraft:cave_spider", "minecraft:slime"],
+    "result": "deny"
+  },
+  {
+    "mob": "rewired:cyberskeleton",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "rewired:cyberskeleton",
+    "result": "allow"
+  },
+  {
+    "mod": "iceandfire",
+    "result": "deny"
+  },
+  {
+    "onjoin": true,
+    "dimension": 225,
+    "mod": "iceandfire",
+    "result": "allow"
+  },
+  {
+    "mob": "iceandfire:stymphalianbird",
+		"mincount": {
+      "amount": 20,
+      "mob": "iceandfire:stymphalianbird",
+      "perchunk": true
+    },
+		"result": "deny"
+	},
+  {
+    "dimension": 227,
+    "mod": "familiarfauna",
+    "result": "deny"
+  },
+  {
+    "dimension": 227,
+    "mod": "primitivemobs",
+    "result": "deny"
+  },
+  {
+    "dimension": 227,
+    "mob": ["minecraft:wolf", "minecraft:ocelot", "minecraft:horse", "minecraft:rabbit", "minecraft:polar_bear", "minecraft:llama", "minecraft:parrot", "minecraft:bat", "minecraft:slime", "minecraft:skeleton_horse", "minecraft:zombie_horse", "minecraft:donkey", "minecraft:mule"],
+    "result": "deny"
+  },
+  {
+    "dimension": [-23, -10, -1, 0, 111, 113, 225],
+    "mod": "betteranimalsplus",
+    "result": "deny"
+  },
+  {
+    "onjoin": true,
+    "mod": "betteranimalsplus",
+    "dimension": 227,
+    "result": "allow"
+  },
+  {
+    "dimension": 227,
+    "mod": "betteranimalsplus",
+    "mincount": {
+      "amount": 30,
+      "mod": "betteranimalsplus",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": 111,
+    "mob": "minecraft:zombie_villager",
+    "seasky": false,
+    "result": "allow",
+    "healthmultiply": 25,
+    "damagemultiply": 2,
+    "random": 0.1,
+    "angry": true
+  }
+]

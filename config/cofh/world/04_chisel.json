@@ -1,0 +1,100 @@
+{
+  "dependencies": "chisel",
+	"populate": {
+    "marble": {
+			"enabled": true,
+      "distribution": "gaussian",
+      "center-height": 32,
+      "spread": 5,
+			"generator": {
+				"block": {
+          "name": "chisel:marble2",
+          "properties": {
+						"variation": "7"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 22
+			},
+			"cluster-count": 4,
+			"chunk-chance": 5,
+			"min-height": 25,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					225,
+					227
+				]
+			}
+    },
+    "limeston": {
+			"enabled": true,
+      "distribution": "gaussian",
+      "center-height": 32,
+      "spread": 5,
+			"generator": {
+				"block": {
+          "name": "chisel:limestone2",
+          "properties": {
+						"variation": "7"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 22
+			},
+			"cluster-count": 4,
+			"chunk-chance": 5,
+			"min-height": 25,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					225,
+					227
+				]
+			}
+		},
+		"basalt": {
+			"enabled": true,
+			"distribution": "underwater",
+			"material": "lava",
+      "center-height": 32,
+      "spread": 5,
+			"generator": {
+				"type": "plate",
+				"block": {
+          "name": "chisel:basalt",
+          "properties": {
+						"variation": "0"
+					}
+				},
+				"radius": 8,
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 20,
+			"chunk-chance": 5,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					3,
+					9,
+					16,
+					18,
+					225,
+					227
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "inventory": {
+    "0:21": "toughasnails:campfire",
+    "0:7": "minecraft:potion,1,0,{Potion:\"toughasnails:cold_resistance_type\"}",
+    "0:20": "realistictorches:matchbox",
+    "0:0": "advancementbook:advancement_book",
+    "0:18": "minecraft:coal,8,1",
+    "0:27": "harvestcraft:grapejuiceitem,4",
+    "0:28": "harvestcraft:popcornitem,8",
+    "0:29": "harvestcraft:applejellysandwichitem,2",
+    "0:1": "minecraft:stone_axe",
+    "0:19": "realistictorches:torch_unlit,16",
+    "0:8": "minecraft:potion,1,0,{Potion:\"toughasnails:heat_resistance_type\"}",
+    "0:9": "minecraft:wool,8",
+    "0:35": "roughtweaks:medikit"
+  }
+}

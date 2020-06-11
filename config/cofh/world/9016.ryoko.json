@@ -1,0 +1,195 @@
+{
+  "dependencies": ["nuclearcraft", "thermalfoundation", "libvulpes"],
+  "populate": {
+    "ryoko_lake": {
+      "enabled": true,
+      "distribution": "surface",
+      "generator": {
+        "type": "lake",
+        "block": "minecraft:lava",
+        "material": "minecraft:stone",
+        "use-material": true,
+        "total-outline": true
+      },
+      "material": "minecraft:stone",
+      "min-height": 70,
+      "max-height": 90,
+      "chunk-chance": 5,
+      "cluster-count": 2,
+      "follow-terrain": true,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_lava": {
+      "enabled": true,
+      "generator": {
+        "type": "geode",
+        "block": "lava",
+        "crust": [
+          {
+            "name": "nuclearcraft:ore",
+            "properties":{
+              "type": "magnesium"
+            },
+            "weight": 30
+          },
+          {
+            "name": "minecraft:stone",
+            "weight": 70
+          }
+        ]
+      },
+      "distribution": "uniform",
+      "min-height": 0,
+      "max-height": 60,
+      "chunk-chance": 3,
+      "cluster-count": 1,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_quartz": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": {
+          "name": "appliedenergistics2:quartz_ore"
+        },
+        "cluster-size": 10
+      },
+      "chunk-chance": 3,
+      "cluster-count": 4,
+      "ground-level": 35,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_diamond": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": {
+          "name": "minecraft:diamond_ore"
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "ground-level": 25,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_copper": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": {
+          "name": "thermalfoundation:ore",
+          "properties": {
+            "type": "copper"
+          }
+        },
+        "cluster-size": 30
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "ground-level": 35,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_iron": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "iron_ore",
+        "cluster-size": 60
+      },
+      "chunk-chance": 7,
+      "cluster-count": 4,
+      "ground-level": 35,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_rutile": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "type": "lake",
+        "block": "lava",
+        "outline-block": {
+          "name": "libvulpes:ore0",
+          "properties": {
+            "varient": "8"
+          }
+        }
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "ground-level": 35,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_dirty": {
+      "enabled": true,
+      "distribution": "surface",
+      "material": "minecraft:stone",
+      "generator": {
+        "type": "geode",
+        "block": "minecraft:gravel",
+        "crust": [
+          {
+            "name": "minecraft:cobblestone",
+            "weight": 30
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 70
+          }
+        ]
+      },
+      "chunk-chance": 10,
+      "cluster-count": 1,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    },
+    "ryoko_dirty-moon": {
+      "enabled": true,
+      "distribution": "surface",
+      "material": "minecraft:stone",
+      "generator": {
+        "type": "cluster",
+        "block": "advancedrocketry:moonturf_dark",
+        "cluster-size": 50
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [16]
+      }
+    }
+  }
+}

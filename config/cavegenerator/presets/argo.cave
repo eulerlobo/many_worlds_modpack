@@ -1,0 +1,46 @@
+{
+  enabled: true
+  dimensions: [23]
+  caverns: {
+    enabled: true
+    minHeight: 5
+    maxHeight: 75
+    noise3D: {
+      frequency: 0.02
+      scale: 0.4
+      scaleY: 0.75
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 1
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+    }
+  }
+  ravines: {
+    chance: 0.0333
+    minHeight: 10
+    maxHeight: 50
+    distance: 140
+    twistXZ: { randFactor: 5 }
+    scaleY: { startVal: 4 }
+    angleXZ: { startValRandFactor: 1.5 }
+    angleY: { startValRandFactor: 0.75 }
+    scale: {
+      startVal: 2
+      startValRandFactor: 2
+    }
+    noiseYFactor: 0.9
+    wallNoise: {
+      noise2D: {
+        frequency: 0.1
+        minVal: 0
+        maxVal: 4
+      }
+    }
+  }
+  caveBlocks: [
+    { states: "lava", maxHeight: 10 }
+  ]
+}

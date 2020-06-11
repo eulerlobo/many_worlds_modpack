@@ -1,0 +1,67 @@
+{
+  "dependencies": "tconstruct",
+  "populate": {
+    "cobalt": {
+      "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+        "block": {
+          "name": "tconstruct:ore",
+					"properties": {
+						"type": "cobalt"
+					}
+        },
+        "material": "minecraft:netherrack",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 50,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": {
+        "restriction": "whitelist",
+        "value": [-10]
+      }
+    },
+    "ardite": {
+      "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+          "name": "tconstruct:ore",
+					"properties": {
+						"type": "ardite"
+					}
+        },
+        "material": "minecraft:netherrack",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 78,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": {
+        "restriction": "whitelist",
+        "value": [-10]
+      }
+		}
+  }
+}

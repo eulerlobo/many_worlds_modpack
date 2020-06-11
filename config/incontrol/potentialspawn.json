@@ -1,0 +1,40 @@
+[
+  {
+    "dimension": 227,
+    "maxheight": 50,
+    "maxlight": 8,
+    "seesky": false,
+    "maxcount": {
+      "amount": 6,
+      "mob": "betteranimalsplus:zotzpyre",
+      "perchunk": true
+    },
+    "mobs": [
+      {
+        "mob": "betteranimalsplus:zotzpyre",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 111,
+    "seesky": false,
+    "maxlight": 8,
+    "minheight": 40,
+    "maxcount": {
+      "amount": 20,
+      "mob": "minecraft:zombie_villager",
+      "perchunk": true
+    },
+    "mobs": [
+      {
+        "mob": "minecraft:zombie_villager",
+        "weight": 20,
+        "groupcountmin": 3,
+        "groupcountmax": 5
+      }
+    ]
+  }
+]

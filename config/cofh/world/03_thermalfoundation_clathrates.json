@@ -1,0 +1,118 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"redstone_clathrate": {
+			"enabled": true,
+			"distribution": "gaussian",
+			"center-height": 5,
+			"spread": 5,
+			"generator": {
+				"type": "geode",
+				"block": "minecraft:redstone_ore",
+				"crust": [
+					{
+						"name": "minecraft:redstone_ore",
+						"weight": 30
+					},
+					{
+						"name": "minecraft:stone",
+						"weight": 70
+					}
+				],
+				"hollow": true,
+				"filler": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "redstone"
+					}
+				}
+			},
+			"cluster-count": 20,
+			"chunk-chance": 2,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					5,
+					13,
+					17,
+					25,
+					225,
+					227
+				]
+			}
+		},
+		"glowstone_clathrate": {
+			"enabled": true,
+			"distribution": "gaussian",
+			"center-height": 105,
+			"spread": 15,
+			"generator": {
+				"type": "geode",
+				"block": "minecraft:glowstone",
+				"material": "minecraft:netherrack",
+				"crust": [
+					{
+						"name": "minecraft:lava",
+						"weight": 30
+					},
+					{
+						"name": "minecraft:glowstone",
+						"weight": 70
+					}
+				],
+				"hollow": true,
+				"filler": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "glowstone"
+					}
+				}
+			},
+			"cluster-count": 20,
+			"chunk-chance": 15,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"ender_clathrate": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "ender"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 10,
+			"chunk-chance": 25,
+			"min-height": 10,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

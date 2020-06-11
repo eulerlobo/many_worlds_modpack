@@ -1,0 +1,37 @@
+[
+  {
+    "names": [
+      "toughasnails:jelled_slime_helmet",
+      "toughasnails:jelled_slime_chestplate",
+      "toughasnails:jelled_slime_leggings",
+      "toughasnails:jelled_slime_boots"
+    ],
+    "modifier": -3
+  },
+  {
+    "names": [
+      "toughasnails:wool_helmet",
+      "toughasnails:wool_chestplate",
+      "toughasnails:wool_leggings",
+      "toughasnails:wool_boots",
+      "nuclearcraft:helm_hazmat",
+      "nuclearcraft:chest_hazmat",
+      "nuclearcraft:legs_hazmat",
+      "nuclearcraft:boots_hazmat"
+    ],
+    "modifier": 1
+  },
+  {
+    "names": [
+      "advancedrocketry:spacehelmet",
+      "advancedrocketry:spacechestplate",
+      "advancedrocketry:spaceleggings",
+      "advancedrocketry:spaceboots",
+      "twilightforest:arctic_helmet",
+      "twilightforest:arctic_chestplate",
+      "twilightforest:arctic_leggings",
+      "twilightforest:arctic_boots"
+    ],
+    "modifier": 2
+  }
+]

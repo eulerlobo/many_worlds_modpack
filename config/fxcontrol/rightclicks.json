@@ -1,0 +1,403 @@
+[
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:comanche_blue",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:comanche_blue",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:comanche_grey",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:comanche_grey",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:comanche_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:comanche_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:comanche_yellow",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:comanche_yellow",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:e500_blue",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:e500_blue",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:e500_green",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:e500_green",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:e500_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:e500_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:e500_yellow",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:e500_yellow",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:firetruck",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:firetruck",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:gmcbrig_black",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:gmcbrig_black",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:gmcbrig_blue",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:gmcbrig_blue",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:gmcbrig_green",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:gmcbrig_green",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:gmcbrig_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:gmcbrig_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:gmcbrig_white",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:gmcbrig_white",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:gmcbrig_yellow",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:gmcbrig_yellow",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:mc172_oak",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:mc172_oak",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:mc172_spruce",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:mc172_spruce",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:mc172_birch",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:mc172_birch",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:mc172_jungle",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:mc172_jungle",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:mc172_acacia",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:mc172_acacia",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:mc172_darkoak",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:mc172_darkoak",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:pzlp11",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:pzlp11",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:scout_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:scout_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:scout_black",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:scout_black",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:scout_orange",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:scout_orange",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:scout_patriot",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:scout_patriot",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:scout_beaut",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:scout_beaut",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:scout_pzl",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:scout_pzl",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:trimotor_black",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:trimotor_black",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:trimotor_blue",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:trimotor_blue",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:trimotor_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:trimotor_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:trimotor_white",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:trimotor_white",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:vulcanair_white",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:vulcanair_white",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:vulcanair_green",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:vulcanair_green",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:vulcanair_blue",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:vulcanair_blue",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:vulcanair_black",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:vulcanair_black",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:vulcanair_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:vulcanair_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:vulcanair_dark_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:vulcanair_dark_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mtsofficialpack:vulcanair_white_orange",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mtsofficialpack:vulcanair_white_orange",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "immersiverailroading:item_rolling_stock",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "immersiverailroading:item_rolling_stock",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  }
+ ]
+ 

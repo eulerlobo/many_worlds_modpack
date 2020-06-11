@@ -1,0 +1,258 @@
+{
+	"dependencies": "nuclearcraft",
+	"populate": {
+		"thorium": {
+			"enabled": true,
+			"distribution": "gaussian",
+			"center-height": 20,
+			"spread": 5,
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"properties": {
+            "type": "thorium"
+					}
+				},
+				"cluster-size": 20
+			},
+			"cluster-count": 10,
+			"chunk-chance": 10,
+			"min-height": 10,
+			"max-height": 30,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					111,
+					112,
+					113,
+					225,
+					227
+				]
+			}
+    },
+    "thorium_moon": {
+      "enabled": true,
+			"distribution": "cave",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"properties": {
+            "type": "thorium"
+					}
+				},
+				"cluster-size": 17
+			},
+			"cluster-count": 4,
+			"ground-level": 30,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biometweaker:earthlike_moon_white",
+							"biometweaker:earthlike_moon_dark"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"magnesium": {
+			"enabled": true,
+			"distribution": "gaussian",
+			"center-height": 60,
+			"spread": 9,
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"properties":{
+						"type": "magnesium"
+					}
+				},
+				"material": [
+					{
+						"name": "minecraft:stone"
+					},
+					{
+						"name": "minecraft:sand"
+					},
+					{
+						"name": "minecraft:dirt"
+					},
+					{
+						"name": "minecraft:grass"
+					}
+				],
+				"cluster-size": 50
+			},
+			"cluster-count": 10,
+			"chunk-chance": 10,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "RIVER"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					111,
+					225,
+					227
+				]
+			}
+		},
+		"magnesium_ocean": {
+			"enabled": true,
+			"distribution": "gaussian",
+			"center-height": 30,
+			"spread": 10,
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"properties":{
+						"type": "magnesium"
+					}
+				},
+				"material": [
+					{
+						"name": "minecraft:stone"
+					},
+					{
+						"name": "minecraft:sand"
+					},
+					{
+						"name": "minecraft:dirt"
+					},
+					{
+						"name": "minecraft:grass"
+					},
+					{
+						"name": "minecraft:gravel"
+					}
+				],
+				"cluster-size": 30
+			},
+			"cluster-count": 4,
+			"chunk-chance": 10,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					111,
+					225,
+					227
+				]
+			}
+		},
+		"magnesium_space": {
+			"enabled": true,
+			"distribution": "gaussian",
+			"center-height": 60,
+			"spread": 9,
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"properties":{
+						"type": "magnesium"
+					}
+				},
+				"material": [
+					{
+						"name": "minecraft:stone"
+					},
+					{
+						"name": "advancedrocketry:hotturf"
+					}
+				],
+				"cluster-size": 30
+			},
+			"cluster-count": 10,
+			"chunk-chance": 10,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					5,
+					6,
+					13,
+					14,
+					17,
+					23,
+					25
+				]
+			}
+		},
+		"boron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"properties": {
+            "type": "boron"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 35
+			},
+			"cluster-count": 10,
+			"chunk-chance": 15,
+			"min-height": 3,
+			"max-height": 10,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-23,
+					-10,
+					-1,
+					1,
+					3,
+					4,
+					5,
+					6,
+					7,
+					9,
+					10,
+					11,
+					13,
+					14,
+					16,
+					17,
+					18,
+					20,
+					21,
+					25,
+					28,
+					50,
+					51,
+					52,
+					53,
+					66
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+recipes.addShapeless(<biomesoplenty:ash> * 4, [<biomesoplenty:ash_block>]);

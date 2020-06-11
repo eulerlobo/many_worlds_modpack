@@ -1,0 +1,1 @@
+<minecraft:stick>.addTooltip("Leaves drop sticks when broken");
