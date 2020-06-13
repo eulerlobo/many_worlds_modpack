@@ -125,10 +125,10 @@ woodBoat.add(<biomesoplenty:boat_ebony>);
 woodBoat.add(<biomesoplenty:boat_eucalyptus>);
 
 //More hard start for Minecolonies
-recipes.remove(<minecolonies:supplycampdeployer>);
-recipes.remove(<minecolonies:supplychestdeployer>);
-recipes.addShaped(<minecolonies:supplycampdeployer>, [[<ore:chestWood>, <ore:chestWood>, <ore:chestWood>], [<ore:chestWood>, <structurize:sceptergold>, <ore:chestWood>], [<ore:chestWood>, <ore:chestWood>, <ore:chestWood>]]);
-recipes.addShaped(<minecolonies:supplychestdeployer>, [[<ore:boatWood>, <ore:boatWood>, <ore:boatWood>], [<ore:boatWood>, <structurize:sceptergold>, <ore:boatWood>], [<ore:boatWood>, <ore:boatWood>, <ore:boatWood>]]);
+//recipes.remove(<minecolonies:supplycampdeployer>);
+//recipes.remove(<minecolonies:supplychestdeployer>);
+//recipes.addShaped(<minecolonies:supplycampdeployer>, [[<ore:chestWood>, <ore:chestWood>, <ore:chestWood>], [<ore:chestWood>, <structurize:sceptergold>, <ore:chestWood>], [<ore:chestWood>, <ore:chestWood>, <ore:chestWood>]]);
+//recipes.addShaped(<minecolonies:supplychestdeployer>, [[<ore:boatWood>, <ore:boatWood>, <ore:boatWood>], [<ore:boatWood>, <structurize:sceptergold>, <ore:boatWood>], [<ore:boatWood>, <ore:boatWood>, <ore:boatWood>]]);
 
 //Change the Combustive Fishing Rod recipe
 var combustFishRod = <combustfish:golden_rod>;

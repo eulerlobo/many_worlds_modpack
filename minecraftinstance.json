@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-13T16:04:55.8203075Z",
+  "lastPlayed": "2020-06-13T19:40:26.8194375Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1135,7 +1135,7 @@
       "status": 1,
       "timestamp": "2020-06-11T17:32:41.7440896Z",
       "lastWriteTimeUtc": "2020-06-11T17:24:35.5861843Z",
-      "queryTimestamp": "2020-06-12T17:44:12.8744307Z",
+      "queryTimestamp": "2020-06-13T18:00:26.7100161Z",
       "fileCount": 1,
       "fileSize": 272732
     },
@@ -2175,14 +2175,29 @@
       "fileSize": 71278
     },
     {
+      "folderName": "Divergent-Underground-1.12-0.64.0.jar",
+      "fingerprint": 1022988196,
+      "fileDateHash": 1842713685,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1022988196
+      ],
+      "status": 1,
+      "timestamp": "2020-06-13T16:41:04.1272671Z",
+      "lastWriteTimeUtc": "2020-06-13T16:33:13.4551905Z",
+      "queryTimestamp": "2020-06-13T16:41:05.2455187Z",
+      "fileCount": 1,
+      "fileSize": 343711
+    },
+    {
       "folderName": "Test",
       "fingerprint": 0,
-      "fileDateHash": 104526290,
+      "fileDateHash": 1719483445,
       "sectionID": 10,
       "individualFingerprints": null,
       "status": 4,
-      "timestamp": "2020-06-13T15:45:08.3929635Z",
-      "lastWriteTimeUtc": "2020-06-13T15:45:07.4227452Z",
+      "timestamp": "2020-06-13T19:37:35.0096683Z",
+      "lastWriteTimeUtc": "2020-06-13T19:37:34.0603106Z",
       "queryTimestamp": "0001-01-01T00:00:00",
       "fileCount": 34,
       "fileSize": 0
@@ -2393,7 +2408,7 @@
       "status": 1,
       "timestamp": "2020-06-11T17:13:53.8516429Z",
       "lastWriteTimeUtc": "2020-06-11T17:12:05.5592237Z",
-      "queryTimestamp": "2020-06-12T17:44:12.9294412Z",
+      "queryTimestamp": "2020-06-13T18:00:26.7410227Z",
       "fileCount": 1,
       "fileSize": 13778210
     },
@@ -2715,15 +2730,15 @@
     {
       "folderName": "vorbisspi-1.0.3-1.jar",
       "fingerprint": 1891114319,
-      "fileDateHash": 467379147,
+      "fileDateHash": 784291445,
       "sectionID": 8,
       "individualFingerprints": [
         1891114319
       ],
       "status": 1,
-      "timestamp": "2020-06-13T15:45:08.3919627Z",
-      "lastWriteTimeUtc": "2020-06-13T15:39:45.3002438Z",
-      "queryTimestamp": "2020-06-13T15:45:09.2791625Z",
+      "timestamp": "2020-06-13T19:37:35.0096683Z",
+      "lastWriteTimeUtc": "2020-06-13T19:32:24.7099527Z",
+      "queryTimestamp": "2020-06-13T19:37:36.1369207Z",
       "fileCount": 1,
       "fileSize": 18826
     },
@@ -2756,6 +2771,21 @@
       "queryTimestamp": "2020-06-13T16:14:28.0022347Z",
       "fileCount": 1,
       "fileSize": 103903246
+    },
+    {
+      "folderName": "ContentTweaker-1.12.2-4.9.1.jar",
+      "fingerprint": 4180990591,
+      "fileDateHash": 2412155476,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4180990591
+      ],
+      "status": 1,
+      "timestamp": "2020-06-13T16:41:04.1252672Z",
+      "lastWriteTimeUtc": "2020-06-13T16:27:52.7980937Z",
+      "queryTimestamp": "2020-06-13T16:41:05.2605222Z",
+      "fileCount": 1,
+      "fileSize": 274895
     },
     {
       "folderName": "p455w0rdslib-1.12.2-2.3.161.jar",
@@ -2805,15 +2835,15 @@
     {
       "folderName": "mp3spi-1.9.5-1.jar",
       "fingerprint": 2618895256,
-      "fileDateHash": 964684216,
+      "fileDateHash": 117557230,
       "sectionID": 8,
       "individualFingerprints": [
         2618895256
       ],
       "status": 1,
-      "timestamp": "2020-06-13T15:45:08.3919627Z",
-      "lastWriteTimeUtc": "2020-06-13T15:39:45.3022448Z",
-      "queryTimestamp": "2020-06-13T15:45:09.2831645Z",
+      "timestamp": "2020-06-13T19:37:35.0086689Z",
+      "lastWriteTimeUtc": "2020-06-13T19:32:24.7109539Z",
+      "queryTimestamp": "2020-06-13T19:37:36.138922Z",
       "fileCount": 1,
       "fileSize": 33102
     },
@@ -3833,7 +3863,7 @@
       "status": 1,
       "timestamp": "2020-06-11T17:13:53.8486421Z",
       "lastWriteTimeUtc": "2020-06-11T17:12:24.0580914Z",
-      "queryTimestamp": "2020-06-12T17:44:13.0054425Z",
+      "queryTimestamp": "2020-06-13T18:00:26.7800319Z",
       "fileCount": 1,
       "fileSize": 503902
     },
@@ -3974,7 +4004,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-06-13T15:45:10.058338Z",
+  "lastPreviousMatchUpdate": "2020-06-13T19:28:14.8447366Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -5344,7 +5374,7 @@
       "dateInstalled": "2020-02-20T23:39:15.6169564Z",
       "dateUpdated": "2020-06-11T17:12:05.5812291Z",
       "dateLastUpdateAttempted": "2020-06-11T17:12:05.5812291Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9048,6 +9078,86 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 237065,
+      "gameInstanceID": "c316216e-eb22-4731-9326-a4cc4a3cc24b",
+      "installedFile": {
+        "id": 2652853,
+        "displayName": "ContentTweaker-1.12.2-4.9.1.jar",
+        "fileName": "ContentTweaker-1.12.2-4.9.1.jar",
+        "fileDate": "2018-12-27T02:46:34.317Z",
+        "fileLength": 274895,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2652/853/ContentTweaker-1.12.2-4.9.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 246996,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 239197,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3127095813,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2369474583,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2284558611,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3309217721,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 4180990591,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "ContentTweaker-1.12.2-4.9.1.jar"
+      },
+      "dateInstalled": "2020-06-13T16:27:52.8070956Z",
+      "dateUpdated": "2020-06-13T16:27:52.813097Z",
+      "dateLastUpdateAttempted": "2020-06-13T16:27:52.813097Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 231484,
@@ -23323,6 +23433,78 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 320470,
+      "gameInstanceID": "c316216e-eb22-4731-9326-a4cc4a3cc24b",
+      "installedFile": {
+        "id": 2722140,
+        "displayName": "Divergent-Underground-1.12-0.64.0.jar",
+        "fileName": "Divergent-Underground-1.12-0.64.0.jar",
+        "fileDate": "2019-06-09T00:30:01.483Z",
+        "fileLength": 343711,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2722/140/Divergent-Underground-1.12-0.64.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 752691712,
+            "type": 0
+          },
+          {
+            "foldername": "panda",
+            "fingerprint": 2012774486,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 708170356,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2612192314,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2233374248,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1022988196,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Divergent-Underground-1.12-0.64.0.jar"
+      },
+      "dateInstalled": "2020-06-13T16:33:13.4611914Z",
+      "dateUpdated": "2020-06-13T16:33:13.4631928Z",
+      "dateLastUpdateAttempted": "2020-06-13T16:33:13.4631928Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 248994,
