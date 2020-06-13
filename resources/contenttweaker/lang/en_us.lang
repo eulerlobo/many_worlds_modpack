@@ -1,5 +1,5 @@
 #Ore
-tile.contenttweaker.magnetite.name=Magnetite
+tile.contenttweaker.magnetite_ore.name=Magnetite Ore
 
 #Crushed
 item.contenttweaker.crushed_magnetite.name=Crushed Magnetite

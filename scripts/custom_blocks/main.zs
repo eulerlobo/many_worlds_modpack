@@ -12,7 +12,7 @@ import mods.contenttweaker.Item;
 //---- Magnetite ----//
 
 //---> Ore Magnetite
-var magnetiteOre = VanillaFactory.createBlock("magnetite", <blockmaterial:rock>);
+var magnetiteOre = VanillaFactory.createBlock("magnetite_ore", <blockmaterial:rock>);
 magnetiteOre.setBlockHardness(5.0);
 magnetiteOre.setBlockResistance(8.0);
 magnetiteOre.setToolClass("pickaxe");

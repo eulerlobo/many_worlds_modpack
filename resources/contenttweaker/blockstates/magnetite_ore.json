@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/magnetite",
-      "particle": "contenttweaker:blocks/magnetite"
+      "texture": "contenttweaker:blocks/magnetite_ore",
+      "particle": "contenttweaker:blocks/magnetite_ore"
     },
     "model": "base:storage",
     "uvlock": true,
