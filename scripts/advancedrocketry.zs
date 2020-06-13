@@ -8,7 +8,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
 recipes.remove(<libvulpes:productdust>);
 furnace.remove(<libvulpes:productdust>);
 mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productdust>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<libvulpes:ore0>);
+//mods.thermalexpansion.Pulverizer.removeRecipe(<libvulpes:ore0>);
 
 //Remove the Homing Missile/Tracker to be the Black Hole Missile in the AdvancedRocketry.zs
 recipes.remove(<icbmclassic:tracker>);

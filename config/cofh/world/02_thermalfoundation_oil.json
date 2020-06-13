@@ -33,14 +33,7 @@
 					}
 				]
 			},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0,
-					225,
-					227
-				]
-			}
+			"dimension": "all"
 		},
 		"oil_shale_clathrate": {
 			"enabled": false,
@@ -93,14 +86,7 @@
 					}
 				]
 			},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0,
-					225,
-					227
-				]
-			}
+			"dimension": "all"
 		},
 		"oil_sand": {
 			"enabled": false,
@@ -145,11 +131,10 @@
 				]
 			},
 			"dimension": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
-					0,
-					225,
-					227
+					-1,
+					1
 				]
 			}
 		},
@@ -186,33 +171,12 @@
 			"max-height": 60,
 			"in-village": "false",
 			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "MESA"
-					},
-					{
-						"type": "dictionary",
-						"entry": "OCEAN"
-					},
-					{
-						"type": "dictionary",
-						"entry": "SNOWY"
-					},
-					{
-						"type": "dictionary",
-						"entry": "SWAMP"
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
-					0,
-					225,
-					227
+					-1,
+					1
 				]
 			}
 		}

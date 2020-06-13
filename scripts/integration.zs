@@ -59,18 +59,18 @@ recipes.addShaped(<nuclearcraft:glowing_mushroom>, [[null, <ore:dustGlowstone>, 
 recipes.addShaped(<nuclearcraft:glowing_mushroom>, [[null, null, null], [<ore:dustGlowstone>, <minecraft:brown_mushroom>, <ore:dustGlowstone>], [null, <thermalfoundation:fertilizer:1>, null]]);
 
 //Thermal Expansion dynamo energy balance
-mods.thermalexpansion.Refinery.removeRecipe(<liquid:crude_oil>);
-mods.thermalexpansion.Refinery.removeRecipe(<liquid:oil>);
-mods.thermalexpansion.Refinery.removeRecipe(<liquid:resin>);
-mods.thermalexpansion.Refinery.removeRecipe(<liquid:biocrude>);
-mods.thermalexpansion.Refinery.removeRecipe(<liquid:refined_oil>);
-mods.thermalexpansion.Refinery.removeRecipe(<liquid:coal>);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_oil> * 150, <thermalfoundation:material:833> % 50, <liquid:crude_oil> * 200, 12500);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_oil> * 150, <thermalfoundation:material:833> % 50, <liquid:oil> * 200, 12500);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:tree_oil> * 150, <thermalfoundation:material:832> % 50, <liquid:resin> * 200, 12500);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_biofuel> * 100, null, <liquid:biocrude> * 200, 12500);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_fuel> * 150, <thermalfoundation:material:771> % 50 , <liquid:refined_oil> * 150, 12500);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_oil> * 150, <thermalfoundation:material:833> % 50, <liquid:coal> * 200, 12500);
+//mods.thermalexpansion.Refinery.removeRecipe(<liquid:crude_oil>);
+//mods.thermalexpansion.Refinery.removeRecipe(<liquid:oil>);
+//mods.thermalexpansion.Refinery.removeRecipe(<liquid:resin>);
+//mods.thermalexpansion.Refinery.removeRecipe(<liquid:biocrude>);
+//mods.thermalexpansion.Refinery.removeRecipe(<liquid:refined_oil>);
+//mods.thermalexpansion.Refinery.removeRecipe(<liquid:coal>);
+//mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_oil> * 150, <thermalfoundation:material:833> % 50, <liquid:crude_oil> * 200, 12500);
+//mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_oil> * 150, <thermalfoundation:material:833> % 50, <liquid:oil> * 200, 12500);
+//mods.thermalexpansion.Refinery.addRecipe(<liquid:tree_oil> * 150, <thermalfoundation:material:832> % 50, <liquid:resin> * 200, 12500);
+//mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_biofuel> * 100, null, <liquid:biocrude> * 200, 12500);
+//mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_fuel> * 150, <thermalfoundation:material:771> % 50 , <liquid:refined_oil> * 150, 12500);
+//mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_oil> * 150, <thermalfoundation:material:833> % 50, <liquid:coal> * 200, 12500);
 
 //Change the sticks recipes for compability
 recipes.remove(<immersiveengineering:material:1>);
