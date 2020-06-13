@@ -490,3 +490,7 @@ downloads/
 
 #betweenlands_gallery
 betweenlands_gallery/
+
+cache/
+anotacoes.txt
+crash-reports/
