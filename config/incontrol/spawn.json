@@ -9,20 +9,6 @@
 		"result": "deny"
   },
   {
-    "mob": "abyssalcraft:abyssalzombie",
-    "result": "deny"
-  },
-  {
-    "dimension": [0, 1, 50, 111, 227],
-    "mob": "abyssalcraft:abyssalzombie",
-    "result": "allow"
-  },
-  {
-    "biome": ["abyssalcraft:darklands_plains", "abyssalcraft:darklands_hills", "abyssalcraft:darklands_mountains", "abyssalcraft:darklands_forest", "abyssalcraft:darklands"],
-    "mob": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombie_horse"],
-    "result": "deny"
-  },
-  {
     "dimension": [50, 51, 52, 53],
     "mob": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombie_horse", "minecraft:creeper", "minecraft:skeleton", "minecraft:skeleton_horse", "minecraft:spider", "minecraft:cave_spider", "minecraft:slime"],
     "result": "deny"

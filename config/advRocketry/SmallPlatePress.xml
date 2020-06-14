@@ -314,22 +314,6 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<oreDict>oreAbyssalnite</oreDict>
-		</input>
-		<output>
-			<itemStack>acintegration:dust;1;0</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
-			<oreDict>oreLiquifiedCoralium</oreDict>
-		</input>
-		<output>
-			<itemStack>acintegration:dust;1;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="0" power ="0">
-		<input>
 			<oreDict>oreCertusQuartz</oreDict>
 		</input>
 		<output>

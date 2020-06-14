@@ -7,10 +7,10 @@ recipes.addShaped(<advancedrocketry:seat>, [[<minecraft:wool:*>, <minecraft:wool
 //recipes.addShaped(<openblocks:scaffolding>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 //Abyssalcraft Button/Plate conflict with Minecraft Button/Plate
-recipes.remove(<abyssalcraft:dltbutton>);
-recipes.remove(<abyssalcraft:dltpplate>);
-recipes.addShaped(<abyssalcraft:dltbutton>, [[<abyssalcraft:dltplank>, null, null], [<abyssalcraft:dltplank>, null, null], [<abyssalcraft:dltplank>, null, null]]);
-recipes.addShaped(<abyssalcraft:dltpplate>, [[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]);
+//recipes.remove(<abyssalcraft:dltbutton>);
+//recipes.remove(<abyssalcraft:dltpplate>);
+//recipes.addShaped(<abyssalcraft:dltbutton>, [[<abyssalcraft:dltplank>, null, null], [<abyssalcraft:dltplank>, null, null], [<abyssalcraft:dltplank>, null, null]]);
+//recipes.addShaped(<abyssalcraft:dltpplate>, [[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]);
 
 //Fix Nether Amethyst Crystal and Ender Amyethyst Conflict
 val gemAmethyst = <ore:gemAmethyst>;

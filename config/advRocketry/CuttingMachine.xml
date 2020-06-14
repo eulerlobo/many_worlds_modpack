@@ -114,22 +114,6 @@
 	</Recipe>
 	<Recipe timeRequired="120" power ="20">
 		<input>
-			<itemStack>abyssalcraft:dltlog;1;0</itemStack>
-		</input>
-		<output>
-			<itemStack>abyssalcraft:dltplank;6;0</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="20">
-		<input>
-			<itemStack>abyssalcraft:dreadlog;1;0</itemStack>
-		</input>
-		<output>
-			<itemStack>abyssalcraft:dreadplanks;6;0</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="20">
-		<input>
 			<itemStack>biomesoplenty:log_2;1;4</itemStack>
 		</input>
 		<output>

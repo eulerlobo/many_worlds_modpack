@@ -88,7 +88,7 @@ recipes.remove(<ore:plateSteel>);
 //Gravity Gun
 recipes.remove(<gravitygun:gravitygun>);
 recipes.remove(<gravitygun:gravitygun:1>);
-recipes.addShaped(<gravitygun:gravitygun:1>, [[<ore:dustAbyssalnite>, <ore:netherStar>, <ore:dustDreadium>], [<ore:netherStar>, <gravitygun:gravitygun>, <ore:netherStar>], [<ore:dustDreadium>, <ore:netherStar>, <ore:dustAbyssalnite>]]);
+//recipes.addShaped(<gravitygun:gravitygun:1>, [[<ore:dustAbyssalnite>, <ore:netherStar>, <ore:dustDreadium>], [<ore:netherStar>, <gravitygun:gravitygun>, <ore:netherStar>], [<ore:dustDreadium>, <ore:netherStar>, <ore:dustAbyssalnite>]]);
 
 //Change the Diamond Saw recipe for the Forge Microblocks and resolve Stone Rod conflict
 recipes.remove(<tconstruct:stone_stick>);

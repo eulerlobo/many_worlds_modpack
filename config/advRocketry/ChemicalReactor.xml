@@ -81,7 +81,6 @@
 			<oreDict>dustLithium;1</oreDict>
 			<itemStack>nuclearcraft:americium;1;1</itemStack>
 			<fluidStack>neutron;20</fluidStack>
-			<oreDict>dustAbyssalnite;1</oreDict>
 			<fluidStack>helium;20</fluidStack>
 		</input>
 		<output>
