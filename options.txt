@@ -90,6 +90,8 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
+key_Change Caster Focus:33
+key_Misc Caster Toggle:34
 key_ir_keys.increase_throttle:72
 key_ir_keys.zero_throttle:76
 key_ir_keys.decrease_throttle:80
@@ -101,8 +103,6 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_key.staff_mode.desc:50
-key_key.use_cage.desc:49
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -165,6 +165,8 @@ key_key.openglasses.thermalvision:48
 key_key.openglasses.config:46:SHIFT
 key_key.openglasses.opensecurity:24
 key_key.narrator:48:CONTROL
+key_key.unhook:45
+key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -176,8 +178,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.unhook:45
-key_key.cofh.multimode:47
 key_key.toggle_focus.desc:15
 key_key.astikorcarts.desc:19
 key_gui.xaero_better_pvp_settings:21
