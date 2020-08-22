@@ -63,6 +63,7 @@
   "coralreef": "2.0",
   "cyberware": "0.2.11.22",
   "jee": "1.0.8",
+  "tandimensions": "0.2.0",
   "configmod": "v1.0",
   "hungeroverhaul": "1.12.2-1.3.3.jenkins148",
   "jei": "4.15.0.291",
