@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-24T16:23:04.6949348Z",
+  "lastPlayed": "2020-08-24T16:39:40.2555845Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -2207,12 +2207,12 @@
     {
       "folderName": "Test",
       "fingerprint": 0,
-      "fileDateHash": 3666866834,
+      "fileDateHash": 3607615351,
       "sectionID": 10,
       "individualFingerprints": null,
       "status": 4,
-      "timestamp": "2020-08-24T16:15:52.4926892Z",
-      "lastWriteTimeUtc": "2020-08-24T16:15:51.3676948Z",
+      "timestamp": "2020-08-24T16:30:43.0544899Z",
+      "lastWriteTimeUtc": "2020-08-24T16:30:42.0214018Z",
       "queryTimestamp": "0001-01-01T00:00:00",
       "fileCount": 31,
       "fileSize": 0
@@ -2715,15 +2715,15 @@
     {
       "folderName": "vorbisspi-1.0.3-1.jar",
       "fingerprint": 1891114319,
-      "fileDateHash": 3383002310,
+      "fileDateHash": 1650531067,
       "sectionID": 8,
       "individualFingerprints": [
         1891114319
       ],
       "status": 1,
-      "timestamp": "2020-08-24T16:02:31.4523451Z",
-      "lastWriteTimeUtc": "2020-08-24T15:56:28.0988944Z",
-      "queryTimestamp": "2020-08-24T16:02:32.3139983Z",
+      "timestamp": "2020-08-24T16:30:43.0534901Z",
+      "lastWriteTimeUtc": "2020-08-24T16:23:22.4316904Z",
+      "queryTimestamp": "2020-08-24T16:30:44.0626425Z",
       "fileCount": 1,
       "fileSize": 18826
     },
@@ -2820,15 +2820,15 @@
     {
       "folderName": "mp3spi-1.9.5-1.jar",
       "fingerprint": 2618895256,
-      "fileDateHash": 495152014,
+      "fileDateHash": 1483404964,
       "sectionID": 8,
       "individualFingerprints": [
         2618895256
       ],
       "status": 1,
-      "timestamp": "2020-08-24T16:02:31.4513435Z",
-      "lastWriteTimeUtc": "2020-08-24T15:56:28.0998943Z",
-      "queryTimestamp": "2020-08-24T16:02:32.3229952Z",
+      "timestamp": "2020-08-24T16:30:43.0524886Z",
+      "lastWriteTimeUtc": "2020-08-24T16:23:22.4336913Z",
+      "queryTimestamp": "2020-08-24T16:30:44.0656429Z",
       "fileCount": 1,
       "fileSize": 33102
     },
@@ -3161,6 +3161,21 @@
       "queryTimestamp": "2020-08-24T14:21:20.6344769Z",
       "fileCount": 1,
       "fileSize": 183579
+    },
+    {
+      "folderName": "advancedmortars-1.12.2-1.7.1.jar",
+      "fingerprint": 1476952758,
+      "fileDateHash": 1952854913,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1476952758
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T16:30:43.0514906Z",
+      "lastWriteTimeUtc": "2020-08-24T16:22:47.6424816Z",
+      "queryTimestamp": "2020-08-24T16:30:44.0756603Z",
+      "fileCount": 1,
+      "fileSize": 116831
     },
     {
       "folderName": "CommonCapabilities-1.12.2-2.4.5.jar",

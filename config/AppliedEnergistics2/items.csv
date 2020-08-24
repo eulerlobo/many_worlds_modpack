@@ -8466,6 +8466,13 @@ advancedrocketry:thermite, Thermite
 advancedrocketry:hovercraft, HoverCraft
 advancedrocketry:biomechanger, Biome Changer Remote
 forge:bucketfilled, %s Bucket
+advancedmortars:mortar:0, Wood Mortar
+advancedmortars:mortar:1, Stone Mortar
+advancedmortars:mortar:2, Iron Mortar
+advancedmortars:mortar:3, Diamond Mortar
+advancedmortars:mortar:4, Golden Mortar
+advancedmortars:mortar:5, Obsidian Mortar
+advancedmortars:mortar:6, Emerald Mortar
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
@@ -8880,6 +8887,82 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, Smoker
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:paper_wall, tile.paper_wall.name
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, Paper Lamp
+quark:paper_lantern:1, Decorated Paper Lamp
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:leaf_carpet:6, Swamp Oak Leaf Carpet
+quark:leaf_carpet:7, Blossoming Leaf Carpet
+quark:grate, tile.grate.name
+quark:glass_item_frame, item.glass_item_frame.name
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -9068,82 +9151,6 @@ quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
 quark:witch_hat, item.witch_hat.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
-quark:paper_wall, tile.paper_wall.name
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, Paper Lamp
-quark:paper_lantern:1, Decorated Paper Lamp
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:leaf_carpet:6, Swamp Oak Leaf Carpet
-quark:leaf_carpet:7, Blossoming Leaf Carpet
-quark:grate, tile.grate.name
-quark:glass_item_frame, item.glass_item_frame.name
 quark:pickarang, item.pickarang.name
 quark:slime_bucket:0, Slime in a Bucket
 quark:black_ash, tile.black_ash.name
@@ -10311,44 +10318,44 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
 tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Laser Medium Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Armor Plates Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Pipe Piece Pattern
 tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Polishing Kit Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Armor Trim Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Helmet Core Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Laser Medium Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
 tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Battery Cell Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Hammer Head Pattern
 tconstruct:shard:0, Naga Scale Shard
 tconstruct:shard:0, Steeleaf Shard
 tconstruct:shard:0, Fiery Shard
@@ -12414,80 +12421,80 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Polishing Kit Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Arrow Shaft Cast
 tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Fletching Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Armor Plates Cast
+tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Polishing Kit Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Armor Trim Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Helmet Core Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Chestplate Core Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Sharpening Kit Cast
 tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Hammer Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
 tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Polishing Kit Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Armor Trim Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
 tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -13840,8 +13847,6 @@ divergentunderground:diorite_cobblestone, Diorite Cobblestone
 divergentunderground:granite_cobblestone, Granite Cobblestone
 divergentunderground:fossil, Fossil
 divergentunderground:boulder, tile.divergentunderground.boulder.name
-doggytalents:dog_bath, Dog Bath
-doggytalents:food_bowl, Food Bowl
 doggytalents:throw_bone, Throw Bone
 doggytalents:throw_bone_wet, Drool Throw Bone
 doggytalents:throw_stick, Throw Stick
@@ -13870,6 +13875,8 @@ doggytalents:leather_jacket, Leather Jacket
 doggytalents:tiny_bone, Tiny Bone
 doggytalents:big_bone, Big Bone
 doggytalents:owner_change, Change Dog Owner
+doggytalents:dog_bath, Dog Bath
+doggytalents:food_bowl, Food Bowl
 eplus:advanced_table, Advanced Enchantment Table
 eplus:decorative_book:0, Enchanting Plus Book
 eplus:decorative_book:1, Enchanting Book
@@ -13879,6 +13886,11 @@ eplus:decorative_book:4, Tartarite Book
 eplus:decorative_book:5, Pale Book
 eplus:decorative_book:6, Metal Book
 eplus:table_upgrade, Table Upgrade
+engineersdoors:trapdoor_steel, Steel Trapdoor
+engineersdoors:trapdoor_treated, Treated Wood Trapdoor
+engineersdoors:fencegate_aluminium, Aluminum Fence Gate
+engineersdoors:fencegate_steel, Steel Fence Gate
+engineersdoors:fencegate_treated, Treated Wood Fence Gate
 engineersdoors:door_concrete, Concrete Door
 engineersdoors:door_concrete_ornate, Concrete Door
 engineersdoors:door_concrete_reinforced, Concrete Door
@@ -13888,144 +13900,6 @@ engineersdoors:door_steel_reinforced, Steel Door
 engineersdoors:door_treated, Treated Wood Door
 engineersdoors:door_treated_ornate, Treated Wood Door
 engineersdoors:door_treated_reinforced, Treated Wood Door
-engineersdoors:fencegate_aluminium, Aluminum Fence Gate
-engineersdoors:fencegate_steel, Steel Fence Gate
-engineersdoors:fencegate_treated, Treated Wood Fence Gate
-engineersdoors:trapdoor_steel, Steel Trapdoor
-engineersdoors:trapdoor_treated, Treated Wood Trapdoor
-erebus:erebus_food:0, Beetle Larva
-erebus:erebus_food:1, Cooked Beetle Larva
-erebus:erebus_food:2, Grasshopper Leg
-erebus:erebus_food:3, Cooked Grasshopper Leg
-erebus:erebus_food:4, Tarantula Leg
-erebus:erebus_food:5, Crispy Tarantula Leg
-erebus:erebus_food:6, Bamboo Soup
-erebus:erebus_food:7, Melonade
-erebus:erebus_food:8, Sparkly Melonade
-erebus:erebus_food:9, Larvae-on-a-Stick
-erebus:erebus_food:10, Honey Sandwich
-erebus:erebus_food:11, Dark Fruit
-erebus:erebus_food:12, Raw Titan Chop
-erebus:erebus_food:13, Cooked Titan Chop
-erebus:erebus_food:14, Swampberries
-erebus:erebus_food:15, Cabbage
-erebus:erebus_food:16, Cooked Titan Stew
-erebus:erebus_food:17, Raw Prickly Pear
-erebus:erebus_food:18, Cooked Prickly Pear
-erebus:erebus_food:19, Dark Fruit Pie
-erebus:heart_berries, Heartberries
-erebus:life_blood, Life Blood
-erebus:turnip, Turnips
-erebus:cabbage_seeds, Cabbage Seeds
-erebus:mandrake_root, Mandrake Root
-erebus:stag_heart_raw, Heart of the Stag
-erebus:stag_heart_cooked, Roasted Heart of the Stag
-erebus:smoothie:0, Green Tea Grasshopper Smoothie
-erebus:smoothie:1, Money Honey Smoothie
-erebus:smoothie:2, Nothing In The Middle Smoothie
-erebus:smoothie:3, Green Giant Smoothie
-erebus:smoothie:4, Seedy Goodness Smoothie
-erebus:smoothie:5, Givin' Me The Blues Smoothie
-erebus:smoothie:6, Hot Hot Baby Smoothie
-erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
-erebus:smoothie:8, Liquid Gold Smoothie
-erebus:smoothie:9, Bryuf's Brew Smoothie
-erebus:idols:0, Mud Scarab
-erebus:idols:1, Iron Scarab
-erebus:idols:2, Gold Scarab
-erebus:idols:3, Jade Scarab
-erebus:idols:4, Spawn Mud Umbergolem
-erebus:idols:5, Spawn Iron Umbergolem
-erebus:idols:6, Spawn Gold Umbergolem
-erebus:idols:7, Spawn Jade Umbergolem
-erebus:jade_helmet, Jade Helmet
-erebus:jade_chestplate, Jade Chestplate
-erebus:jade_leggings, Jade Leggings
-erebus:jade_boots, Jade Boots
-erebus:jade_sword, Jade Sword
-erebus:jade_pickaxe, Jade Pickaxe
-erebus:jade_axe, Jade Axe
-erebus:jade_shovel, Jade Shovel
-erebus:jade_paxel, Jade Paxel
-erebus:jade_hoe, Jade Hoe
-erebus:exoskeleton_helmet, Exoskeleton Helmet
-erebus:exoskeleton_chestplate, Exoskeleton Chestplate
-erebus:exoskeleton_leggings, Exoskeleton Leggings
-erebus:exoskeleton_boots, Exoskeleton Boots
-erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
-erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
-erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
-erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
-erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
-erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
-erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
-erebus:rhino_exoskeleton_boots, Rhino Plate Boots
-erebus:bamboo_helmet, Bamboo Helmet
-erebus:bamboo_chestplate, Bamboo Chestplate
-erebus:bamboo_leggings, Bamboo Leggings
-erebus:bamboo_boots, Bamboo Boots
-erebus:bambucket, Bambucket
-erebus:rein_compound_goggles, Reinforced Compound Goggles
-erebus:compound_goggles, Compound Goggles
-erebus:sprint_leggings, Sprint Leggings
-erebus:jump_boots, Jump Boots
-erebus:glider_chestplate, Glider Chestplate
-erebus:glider_chestplate_powered, Powered Glider Chestplate
-erebus:mushroom_helmet, Mush Helm
-erebus:spider_t_shirt, Tarantula Boss Trophy
-erebus:water_striders, Water Striders
-erebus:bamboo_shield, Bamboo Shield
-erebus:exoskeleton_shield, Exoskeleton Shield
-erebus:jade_shield, Jade Shield
-erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
-erebus:rhino_exoskeleton_shield, Rhino Plate Shield
-erebus:rolled_newspaper, Rolled-up Newspaper
-erebus:wasp_sword, Wasp Sword
-erebus:wasp_dagger, Wasp Dagger
-erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
-erebus:war_hammer, Quake Hammer
-erebus:web_slinger, Web Slinger
-erebus:web_slinger_wither, Wither Web Slinger
-erebus:max_speed_bow, Maximum Speed Bow
-erebus:nectar_collector, Nectar Collector
-erebus:ant_taming_amulet, Ant Taming Amulet
-erebus:bee_taming_amulet, Bee Taming Amulet
-erebus:woodlouse_ball, Woodlouse Ball
-erebus:wand_of_animation, Wand of Animation
-erebus:anti_venom_bottle, Bottle of Anti-Venom
-erebus:flower_seed:0, Black Flower Seeds
-erebus:flower_seed:1, Red Flower Seeds
-erebus:flower_seed:2, Brown Flower Seeds
-erebus:flower_seed:3, Blue Flower Seeds
-erebus:flower_seed:4, Purple Flower Seeds
-erebus:flower_seed:5, Cyan Flower Seeds
-erebus:flower_seed:6, Light Gray Flower Seeds
-erebus:flower_seed:7, Gray Flower Seeds
-erebus:flower_seed:8, Pink Flower Seeds
-erebus:flower_seed:9, Yellow Flower Seeds
-erebus:flower_seed:10, Light Blue Flower Seeds
-erebus:flower_seed:11, Magenta Flower Seeds
-erebus:flower_seed:12, Orange Flower Seeds
-erebus:flower_seed:13, White Flower Seeds
-erebus:flower_seed:14, Rainbow Flower Seeds
-erebus:death_compass, Death Compass
-erebus:spray_can, Insect Repellent
-erebus:whetstone:0, Whetstone
-erebus:whetstone:1, Whetstone
-erebus:whetstone:2, Whetstone
-erebus:whetstone:3, Whetstone
-erebus:whetstone:4, Whetstone
-erebus:whetstone:5, Whetstone
-erebus:portal_activator, Staff of Gaea
-erebus:homing_beecon, Homing Beecon
-erebus:homing_beecon_advanced, Advanced Homing Beecon
-erebus:wand_of_preservation, Wand of Preservation
-erebus:compost, Compost
-erebus:planticide, Planticide
-erebus:smoothie_book, Smoothie-matic 2000
-erebus:horn_of_summoning, Horn of Bee Summoning
-erebus:erebus_map, Empty Papyrus Map (N.Y.I)
-erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 erebus:umberstone:0, Umberstone
 erebus:umberstone:1, Umbercobble
 erebus:umberstone:2, Mossy Umbercobble
@@ -14406,6 +14280,139 @@ erebus:stairs_varnished, Varnished Stairs
 erebus:slab_planks_varnished, Varnished Slab
 erebus:fence_varnished, Varnished Fence
 erebus:fence_gate_varnished, Varnished Fence Gate
+erebus:erebus_food:0, Beetle Larva
+erebus:erebus_food:1, Cooked Beetle Larva
+erebus:erebus_food:2, Grasshopper Leg
+erebus:erebus_food:3, Cooked Grasshopper Leg
+erebus:erebus_food:4, Tarantula Leg
+erebus:erebus_food:5, Crispy Tarantula Leg
+erebus:erebus_food:6, Bamboo Soup
+erebus:erebus_food:7, Melonade
+erebus:erebus_food:8, Sparkly Melonade
+erebus:erebus_food:9, Larvae-on-a-Stick
+erebus:erebus_food:10, Honey Sandwich
+erebus:erebus_food:11, Dark Fruit
+erebus:erebus_food:12, Raw Titan Chop
+erebus:erebus_food:13, Cooked Titan Chop
+erebus:erebus_food:14, Swampberries
+erebus:erebus_food:15, Cabbage
+erebus:erebus_food:16, Cooked Titan Stew
+erebus:erebus_food:17, Raw Prickly Pear
+erebus:erebus_food:18, Cooked Prickly Pear
+erebus:erebus_food:19, Dark Fruit Pie
+erebus:heart_berries, Heartberries
+erebus:life_blood, Life Blood
+erebus:turnip, Turnips
+erebus:cabbage_seeds, Cabbage Seeds
+erebus:mandrake_root, Mandrake Root
+erebus:stag_heart_raw, Heart of the Stag
+erebus:stag_heart_cooked, Roasted Heart of the Stag
+erebus:smoothie:0, Green Tea Grasshopper Smoothie
+erebus:smoothie:1, Money Honey Smoothie
+erebus:smoothie:2, Nothing In The Middle Smoothie
+erebus:smoothie:3, Green Giant Smoothie
+erebus:smoothie:4, Seedy Goodness Smoothie
+erebus:smoothie:5, Givin' Me The Blues Smoothie
+erebus:smoothie:6, Hot Hot Baby Smoothie
+erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
+erebus:smoothie:8, Liquid Gold Smoothie
+erebus:smoothie:9, Bryuf's Brew Smoothie
+erebus:idols:0, Mud Scarab
+erebus:idols:1, Iron Scarab
+erebus:idols:2, Gold Scarab
+erebus:idols:3, Jade Scarab
+erebus:idols:4, Spawn Mud Umbergolem
+erebus:idols:5, Spawn Iron Umbergolem
+erebus:idols:6, Spawn Gold Umbergolem
+erebus:idols:7, Spawn Jade Umbergolem
+erebus:jade_helmet, Jade Helmet
+erebus:jade_chestplate, Jade Chestplate
+erebus:jade_leggings, Jade Leggings
+erebus:jade_boots, Jade Boots
+erebus:jade_sword, Jade Sword
+erebus:jade_pickaxe, Jade Pickaxe
+erebus:jade_axe, Jade Axe
+erebus:jade_shovel, Jade Shovel
+erebus:jade_paxel, Jade Paxel
+erebus:jade_hoe, Jade Hoe
+erebus:exoskeleton_helmet, Exoskeleton Helmet
+erebus:exoskeleton_chestplate, Exoskeleton Chestplate
+erebus:exoskeleton_leggings, Exoskeleton Leggings
+erebus:exoskeleton_boots, Exoskeleton Boots
+erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
+erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
+erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
+erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
+erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
+erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
+erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
+erebus:rhino_exoskeleton_boots, Rhino Plate Boots
+erebus:bamboo_helmet, Bamboo Helmet
+erebus:bamboo_chestplate, Bamboo Chestplate
+erebus:bamboo_leggings, Bamboo Leggings
+erebus:bamboo_boots, Bamboo Boots
+erebus:bambucket, Bambucket
+erebus:rein_compound_goggles, Reinforced Compound Goggles
+erebus:compound_goggles, Compound Goggles
+erebus:sprint_leggings, Sprint Leggings
+erebus:jump_boots, Jump Boots
+erebus:glider_chestplate, Glider Chestplate
+erebus:glider_chestplate_powered, Powered Glider Chestplate
+erebus:mushroom_helmet, Mush Helm
+erebus:spider_t_shirt, Tarantula Boss Trophy
+erebus:water_striders, Water Striders
+erebus:bamboo_shield, Bamboo Shield
+erebus:exoskeleton_shield, Exoskeleton Shield
+erebus:jade_shield, Jade Shield
+erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
+erebus:rhino_exoskeleton_shield, Rhino Plate Shield
+erebus:rolled_newspaper, Rolled-up Newspaper
+erebus:wasp_sword, Wasp Sword
+erebus:wasp_dagger, Wasp Dagger
+erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
+erebus:war_hammer, Quake Hammer
+erebus:web_slinger, Web Slinger
+erebus:web_slinger_wither, Wither Web Slinger
+erebus:max_speed_bow, Maximum Speed Bow
+erebus:nectar_collector, Nectar Collector
+erebus:ant_taming_amulet, Ant Taming Amulet
+erebus:bee_taming_amulet, Bee Taming Amulet
+erebus:woodlouse_ball, Woodlouse Ball
+erebus:wand_of_animation, Wand of Animation
+erebus:anti_venom_bottle, Bottle of Anti-Venom
+erebus:flower_seed:0, Black Flower Seeds
+erebus:flower_seed:1, Red Flower Seeds
+erebus:flower_seed:2, Brown Flower Seeds
+erebus:flower_seed:3, Blue Flower Seeds
+erebus:flower_seed:4, Purple Flower Seeds
+erebus:flower_seed:5, Cyan Flower Seeds
+erebus:flower_seed:6, Light Gray Flower Seeds
+erebus:flower_seed:7, Gray Flower Seeds
+erebus:flower_seed:8, Pink Flower Seeds
+erebus:flower_seed:9, Yellow Flower Seeds
+erebus:flower_seed:10, Light Blue Flower Seeds
+erebus:flower_seed:11, Magenta Flower Seeds
+erebus:flower_seed:12, Orange Flower Seeds
+erebus:flower_seed:13, White Flower Seeds
+erebus:flower_seed:14, Rainbow Flower Seeds
+erebus:death_compass, Death Compass
+erebus:spray_can, Insect Repellent
+erebus:whetstone:0, Whetstone
+erebus:whetstone:1, Whetstone
+erebus:whetstone:2, Whetstone
+erebus:whetstone:3, Whetstone
+erebus:whetstone:4, Whetstone
+erebus:whetstone:5, Whetstone
+erebus:portal_activator, Staff of Gaea
+erebus:homing_beecon, Homing Beecon
+erebus:homing_beecon_advanced, Advanced Homing Beecon
+erebus:wand_of_preservation, Wand of Preservation
+erebus:compost, Compost
+erebus:planticide, Planticide
+erebus:smoothie_book, Smoothie-matic 2000
+erebus:horn_of_summoning, Horn of Bee Summoning
+erebus:erebus_map, Empty Papyrus Map (N.Y.I)
+erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 extraalchemy:breakable_potion, item.null.name
 extraalchemy:vial_break, item.null.name
 extraalchemy:potion_bag, item.null.name
@@ -16200,86 +16207,86 @@ millenaire:stone_deco:0, Mud Brick
 millenaire:stone_deco:2, Gold Ornament
 millenaire:earth_deco:0, Dirt Wall
 millenaire:wall_mud_brick, Mud Brick Wall
-millenaire:stairs_painted_brick_yellow, Yellow Painted Stairs
-millenaire:stairs_painted_brick_lime, Lime Painted Stairs
 millenaire:stairs_painted_brick_cyan, Cyan Painted Stairs
+millenaire:stairs_painted_brick_brown, Brown Painted Stairs
+millenaire:stairs_painted_brick_orange, Orange Painted Stairs
+millenaire:stairs_painted_brick_gray, Gray Painted Stairs
+millenaire:stairs_painted_brick_green, Green Painted Stairs
 millenaire:stairs_painted_brick_black, Black Painted Stairs
+millenaire:stairs_painted_brick_pink, Pink Painted Stairs
+millenaire:stairs_painted_brick_purple, Purple Painted Stairs
+millenaire:stairs_painted_brick_yellow, Yellow Painted Stairs
+millenaire:stairs_painted_brick_magenta, Magenta Painted Stairs
 millenaire:stairs_painted_brick_red, Red Painted Stairs
 millenaire:stairs_painted_brick_white, White Painted Stairs
-millenaire:stairs_painted_brick_brown, Brown Painted Stairs
-millenaire:stairs_painted_brick_purple, Purple Painted Stairs
 millenaire:stairs_painted_brick_silver, Silver Painted Stairs
-millenaire:stairs_painted_brick_orange, Orange Painted Stairs
-millenaire:stairs_painted_brick_magenta, Magenta Painted Stairs
-millenaire:stairs_painted_brick_gray, Gray Painted Stairs
-millenaire:stairs_painted_brick_pink, Pink Painted Stairs
-millenaire:stairs_painted_brick_light_blue, Light Blue Painted Stairs
-millenaire:stairs_painted_brick_green, Green Painted Stairs
 millenaire:stairs_painted_brick_blue, Blue Painted Stairs
-millenaire:painted_brick_yellow, Yellow Painted Brick
-millenaire:painted_brick_lime, Lime Painted Brick
+millenaire:stairs_painted_brick_lime, Lime Painted Stairs
+millenaire:stairs_painted_brick_light_blue, Light Blue Painted Stairs
 millenaire:painted_brick_cyan, Cyan Painted Brick
+millenaire:painted_brick_brown, Brown Painted Brick
+millenaire:painted_brick_orange, Orange Painted Brick
+millenaire:painted_brick_gray, Gray Painted Brick
+millenaire:painted_brick_green, Green Painted Brick
 millenaire:painted_brick_black, Black Painted Brick
+millenaire:painted_brick_pink, Pink Painted Brick
+millenaire:painted_brick_purple, Purple Painted Brick
+millenaire:painted_brick_yellow, Yellow Painted Brick
+millenaire:painted_brick_magenta, Magenta Painted Brick
 millenaire:painted_brick_red, Red Painted Brick
 millenaire:painted_brick_white, White Painted Brick
-millenaire:painted_brick_brown, Brown Painted Brick
-millenaire:painted_brick_purple, Purple Painted Brick
 millenaire:painted_brick_silver, Silver Painted Brick
-millenaire:painted_brick_orange, Orange Painted Brick
-millenaire:painted_brick_magenta, Magenta Painted Brick
-millenaire:painted_brick_gray, Gray Painted Brick
-millenaire:painted_brick_pink, Pink Painted Brick
-millenaire:painted_brick_light_blue, Light Blue Painted Brick
-millenaire:painted_brick_green, Green Painted Brick
 millenaire:painted_brick_blue, Blue Painted Brick
-millenaire:wall_painted_brick_yellow, Yellow Painted Wall
-millenaire:wall_painted_brick_lime, Lime Painted Wall
+millenaire:painted_brick_lime, Lime Painted Brick
+millenaire:painted_brick_light_blue, Light Blue Painted Brick
 millenaire:wall_painted_brick_cyan, Cyan Painted Wall
+millenaire:wall_painted_brick_brown, Brown Painted Wall
+millenaire:wall_painted_brick_orange, Orange Painted Wall
+millenaire:wall_painted_brick_gray, Gray Painted Wall
+millenaire:wall_painted_brick_green, Green Painted Wall
 millenaire:wall_painted_brick_black, Black Painted Wall
+millenaire:wall_painted_brick_pink, Pink Painted Wall
+millenaire:wall_painted_brick_purple, Purple Painted Wall
+millenaire:wall_painted_brick_yellow, Yellow Painted Wall
+millenaire:wall_painted_brick_magenta, Magenta Painted Wall
 millenaire:wall_painted_brick_red, Red Painted Wall
 millenaire:wall_painted_brick_white, White Painted Wall
-millenaire:wall_painted_brick_brown, Brown Painted Wall
-millenaire:wall_painted_brick_purple, Purple Painted Wall
 millenaire:wall_painted_brick_silver, Silver Painted Wall
-millenaire:wall_painted_brick_orange, Orange Painted Wall
-millenaire:wall_painted_brick_magenta, Magenta Painted Wall
-millenaire:wall_painted_brick_gray, Gray Painted Wall
-millenaire:wall_painted_brick_pink, Pink Painted Wall
-millenaire:wall_painted_brick_light_blue, Light Blue Painted Wall
-millenaire:wall_painted_brick_green, Green Painted Wall
 millenaire:wall_painted_brick_blue, Blue Painted Wall
-millenaire:slab_painted_brick_yellow, Yellow Painted Slab
-millenaire:slab_painted_brick_lime, Lime Painted Slab
+millenaire:wall_painted_brick_lime, Lime Painted Wall
+millenaire:wall_painted_brick_light_blue, Light Blue Painted Wall
 millenaire:slab_painted_brick_cyan, Cyan Painted Slab
+millenaire:slab_painted_brick_brown, Brown Painted Slab
+millenaire:slab_painted_brick_orange, Orange Painted Slab
+millenaire:slab_painted_brick_gray, Gray Painted Slab
+millenaire:slab_painted_brick_green, Green Painted Slab
 millenaire:slab_painted_brick_black, Black Painted Slab
+millenaire:slab_painted_brick_pink, Pink Painted Slab
+millenaire:slab_painted_brick_purple, Purple Painted Slab
+millenaire:slab_painted_brick_yellow, Yellow Painted Slab
+millenaire:slab_painted_brick_magenta, Magenta Painted Slab
 millenaire:slab_painted_brick_red, Red Painted Slab
 millenaire:slab_painted_brick_white, White Painted Slab
-millenaire:slab_painted_brick_brown, Brown Painted Slab
-millenaire:slab_painted_brick_purple, Purple Painted Slab
 millenaire:slab_painted_brick_silver, Silver Painted Slab
-millenaire:slab_painted_brick_orange, Orange Painted Slab
-millenaire:slab_painted_brick_magenta, Magenta Painted Slab
-millenaire:slab_painted_brick_gray, Gray Painted Slab
-millenaire:slab_painted_brick_pink, Pink Painted Slab
-millenaire:slab_painted_brick_light_blue, Light Blue Painted Slab
-millenaire:slab_painted_brick_green, Green Painted Slab
 millenaire:slab_painted_brick_blue, Blue Painted Slab
-millenaire:painted_brick_decorated_yellow, Yellow Decorated Brick
-millenaire:painted_brick_decorated_lime, Lime Decorated Brick
+millenaire:slab_painted_brick_lime, Lime Painted Slab
+millenaire:slab_painted_brick_light_blue, Light Blue Painted Slab
 millenaire:painted_brick_decorated_cyan, Cyan Decorated Brick
+millenaire:painted_brick_decorated_brown, Brown Decorated Brick
+millenaire:painted_brick_decorated_orange, Orange Decorated Brick
+millenaire:painted_brick_decorated_gray, Gray Decorated Brick
+millenaire:painted_brick_decorated_green, Green Decorated Brick
 millenaire:painted_brick_decorated_black, Black Decorated Brick
+millenaire:painted_brick_decorated_pink, Pink Decorated Brick
+millenaire:painted_brick_decorated_purple, Purple Decorated Brick
+millenaire:painted_brick_decorated_yellow, Yellow Decorated Brick
+millenaire:painted_brick_decorated_magenta, Magenta Decorated Brick
 millenaire:painted_brick_decorated_red, Red Decorated Brick
 millenaire:painted_brick_decorated_white, White Decorated Brick
-millenaire:painted_brick_decorated_brown, Brown Decorated Brick
-millenaire:painted_brick_decorated_purple, Purple Decorated Brick
 millenaire:painted_brick_decorated_silver, Silver Decorated Brick
-millenaire:painted_brick_decorated_orange, Orange Decorated Brick
-millenaire:painted_brick_decorated_magenta, Magenta Decorated Brick
-millenaire:painted_brick_decorated_gray, Gray Decorated Brick
-millenaire:painted_brick_decorated_pink, Pink Decorated Brick
-millenaire:painted_brick_decorated_light_blue, Light Blue Decorated Brick
-millenaire:painted_brick_decorated_green, Green Decorated Brick
 millenaire:painted_brick_decorated_blue, Blue Decorated Brick
+millenaire:painted_brick_decorated_lime, Lime Decorated Brick
+millenaire:painted_brick_decorated_light_blue, Light Blue Decorated Brick
 millenaire:slab_wood_deco:0, Timber Frame Slab
 millenaire:slab_wood_deco:2, Thatch Slab
 millenaire:slab_stone_deco:0, Mud Brick Slab
@@ -17110,32 +17117,32 @@ notenoughscaffold:wooden_scaffold, Wooden Scaffold
 notenoughscaffold:iron_scaffold, Reinforced Scaffold
 openlights:prismaticpaste, Prismatic Paste
 openlights:openlight, OpenLight
-opensecurity:mag_reader, Magnetic Card Reader
-opensecurity:biometric_reader, Biometric Reader
+opensecurity:keypad, Keypad
+opensecurity:rfid_reader, RFID Reader
+opensecurity:nanofog_terminal, NanoFog Terminal
+opensecurity:rolldoor_element, Rolldoor Element
 opensecurity:entity_detector, Entity Detector
 opensecurity:card_writer, Card Writer
 opensecurity:security_terminal, Security Terminal
-opensecurity:rfid_reader, RFID Reader
-opensecurity:keypad, Keypad
-opensecurity:nanofog_terminal, NanoFog Terminal
-opensecurity:alarm, Alarm
 opensecurity:data_block, Data Block
+opensecurity:mag_reader, Magnetic Card Reader
+opensecurity:biometric_reader, Biometric Reader
+opensecurity:alarm, Alarm
 opensecurity:energy_turret, Energy Turret
-opensecurity:rolldoor_element, Rolldoor Element
 opensecurity:secure_door, Security Door
 opensecurity:private_secure_door, Private Security Door
-opensecurity:rolldoor_controller, Rolldoor Controller
-opensecurity:rolldoor, Rolldoor
-opensecurity:nanofog, NanoFog
 opensecurity:door_controller, Door Controller
-opensecurity:energy_upgrade, Energy Upgrade
-opensecurity:rfid_reader_card, RFID Reader Card
+opensecurity:nanofog, NanoFog
+opensecurity:rolldoor, Rolldoor
+opensecurity:rolldoor_controller, Rolldoor Controller
+opensecurity:cooldown_upgrade, Cooldown Upgrade
+opensecurity:rfid_card, RFID Card
 opensecurity:damage_upgrade, Damage Upgrade
 opensecurity:nanodna, NanoDNA
-opensecurity:mag_card, Magnetic Strip Card
+opensecurity:energy_upgrade, Energy Upgrade
 opensecurity:movement_upgrade, Movement Upgrade
-opensecurity:rfid_card, RFID Card
-opensecurity:cooldown_upgrade, Cooldown Upgrade
+opensecurity:rfid_reader_card, RFID Reader Card
+opensecurity:mag_card, Magnetic Strip Card
 plustic:pipe_piece:0, Stone Pipe Piece
 plustic:laser_medium:0, Stone Laser Medium
 plustic:battery_cell:0, Stone Battery Cell
@@ -17403,31 +17410,31 @@ rftoolsdim:structure_essence:8, Structure Swamp Hut Essence
 rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
-rftoolsdim:known_dimlet:7, Feature Dimlet (None)
-rftoolsdim:known_dimlet:10, Effect Dimlet (None)
-rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
-rftoolsdim:known_dimlet:5, Structure Dimlet (None)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
-rftoolsdim:known_dimlet:9, Digit Dimlet (8)
-rftoolsdim:known_dimlet:9, Digit Dimlet (9)
-rftoolsdim:known_dimlet:9, Digit Dimlet (6)
-rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (7)
-rftoolsdim:known_dimlet:9, Digit Dimlet (4)
-rftoolsdim:known_dimlet:9, Digit Dimlet (5)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
 rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:9, Digit Dimlet (2)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
 rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
+rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
+rftoolsdim:known_dimlet:5, Structure Dimlet (None)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
+rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:7, Feature Dimlet (None)
+rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+rftoolsdim:known_dimlet:9, Digit Dimlet (7)
+rftoolsdim:known_dimlet:9, Digit Dimlet (6)
+rftoolsdim:known_dimlet:9, Digit Dimlet (5)
+rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
 rftoolsdim:known_dimlet:9, Digit Dimlet (3)
-rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:9, Digit Dimlet (2)
 rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
 rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
+rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
 rftoolsdim:empty_dimension_tab, Empty Dimension Tab
@@ -17652,12 +17659,12 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 tanspit:spit, Campfire Spit
+torchmaster:frozen_pearl, Frozen Pearl
 torchmaster:mega_torch:0, Mega Torch
 torchmaster:mega_torch:1, Unlit Mega Torch
 torchmaster:terrain_lighter, Terrain Lighter
 torchmaster:dread_lamp, Dread Lamp
 torchmaster:feral_flare_lantern, Feral Flare Lantern
-torchmaster:frozen_pearl, Frozen Pearl
 traverse:red_autumnal_leaves, Red Autumnal Leaves
 traverse:red_autumnal_sapling, Red Autumnal Sapling
 traverse:brown_autumnal_leaves, Brown Autumnal Leaves
@@ -20762,6 +20769,10 @@ chiselsandbits:block_bit:0, Chiseled Bit - Elder Prismarine
 chiselsandbits:block_bit:0, Chiseled Bit - Elder Prismarine Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Elder Prismarine
 chiselsandbits:block_bit:0, Chiseled Bit - Elder Sea Lantern
+chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
+chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
+chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
+chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Sandstone Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Red Sandstone
@@ -20832,10 +20843,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Brown Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Green Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Red Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Black Quilted Wool
-chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
-chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
-chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
-chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Twilight Oak Wood Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Canopy Tree Wood Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Mangrove Wood Up/Down
@@ -21261,38 +21268,38 @@ chiselsandbits:block_bit:0, Chiseled Bit - Thatch
 chiselsandbits:block_bit:0, Chiseled Bit - Mud Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Gold Ornament
 chiselsandbits:block_bit:0, Chiseled Bit - Dirt Wall
-chiselsandbits:block_bit:0, Chiseled Bit - Yellow Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Lime Painted Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Cyan Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Brown Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Orange Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Gray Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Green Painted Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Black Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Pink Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Purple Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Yellow Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Magenta Painted Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Red Painted Brick
 chiselsandbits:block_bit:0, Chiseled Bit - White Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Brown Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Purple Painted Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Silver Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Orange Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Magenta Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Gray Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Pink Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Green Painted Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Blue Painted Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Yellow Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Lime Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Lime Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Painted Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Cyan Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Brown Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Orange Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Gray Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Green Decorated Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Black Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Pink Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Purple Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Yellow Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Magenta Decorated Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Red Decorated Brick
 chiselsandbits:block_bit:0, Chiseled Bit - White Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Brown Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Purple Decorated Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Silver Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Orange Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Magenta Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Gray Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Pink Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Decorated Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Green Decorated Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Blue Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Lime Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Decorated Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Carved Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Carved Red Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Carved Ochre Sandstone
@@ -21364,14 +21371,21 @@ chiselsandbits:block_bit:0, Chiseled Bit - Skyroot Bookshelf
 chiselsandbits:block_bit:0, Chiseled Bit - Skyroot Crafting Table
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Ambrosium
 chiselsandbits:block_bit:0, Chiseled Bit - Magnetite Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Amethyst Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Ruby Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Peridot Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Topaz Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Tanzanite Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Malachite Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Sapphire Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Amber Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Aluminum Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Lead Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Silver Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Nickel Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Uranium Ore
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit - Marble
 chiselsandbits:block_bit:0, Chiseled Bit - Limestone Cobblestone
@@ -21381,21 +21395,14 @@ chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Tin Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Lead Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Uranium Ore
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Aluminum Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Lead Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Silver Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Nickel Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Uranium Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Amethyst Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Ruby Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Peridot Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Topaz Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Tanzanite Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Malachite Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Sapphire Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Amber Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Bodypart Template
 chiselsandbits:block_bit:0, Chiseled Bit - Compact Raw Porkchop
 chiselsandbits:block_bit:0, Chiseled Bit - Well
@@ -21769,41 +21776,20 @@ chiselsandbits:chiseled_fluid, Chiseled Fluid
 chiselsandbits:chiseled_leaves, Chiseled Leaves
 contenttweaker:magnetite_ore:0, Magnetite Ore
 contenttweaker:crushed_magnetite, Crushed Magnetite
+contenttweaker:purified_crushed_magnetite, Purified Crushed Magnetite
 patchouli:guide_book, Guide Book
-divergentunderground:gem_raw_bop_amethyst, Uncut Amethyst
-divergentunderground:gem_raw_bop_ruby, Uncut Ruby
-divergentunderground:gem_raw_bop_peridot, Uncut Peridot
-divergentunderground:gem_raw_bop_topaz, Uncut Topaz
-divergentunderground:gem_raw_bop_tanzanite, Uncut Tanzanite
-divergentunderground:gem_raw_bop_malachite, Uncut Malachite
-divergentunderground:gem_raw_bop_sapphire, Uncut Sapphire
-divergentunderground:gem_raw_bop_amber, Uncut Amber
-divergentunderground:bop_hard_amethyst_ore, Amethyst Ore
-divergentunderground:bop_hard_ruby_ore, Ruby Ore
-divergentunderground:bop_hard_peridot_ore, Peridot Ore
-divergentunderground:bop_hard_topaz_ore, Topaz Ore
-divergentunderground:bop_hard_tanzanite_ore, Tanzanite Ore
-divergentunderground:bop_hard_malachite_ore, Malachite Ore
-divergentunderground:bop_hard_sapphire_ore, Sapphire Ore
-divergentunderground:bop_hard_amber_ore, Amber Ore
-divergentunderground:rock_quark_basalt, Basalt Rock
-divergentunderground:quark_basalt_cobblestone, Basalt Cobblestone
-divergentunderground:rock_quark_icystone, Permafrost Rock
-divergentunderground:rock_quark_firestone, Brimstone Rock
-divergentunderground:rock_quark_marble, Marble Rock
-divergentunderground:quark_hard_marble_rock, Marble
-divergentunderground:quark_limestone_cobblestone, Limestone Cobblestone
-divergentunderground:rock_quark_limestone, Limestone Chunk
-divergentunderground:quark_hard_limestone_rock, Limestone
-divergentunderground:quark_marble_cobblestone, Marble Cobblestone
-divergentunderground:ore_ic2_copper, Copper Ore
-divergentunderground:ore_ic2_tin, Tin Ore
-divergentunderground:ore_ic2_lead, Lead Ore
-divergentunderground:ore_ic2_uranium, Uranium Ore
-divergentunderground:ic2_hard_copper_ore, Copper Ore
-divergentunderground:ic2_hard_tin_ore, Tin Ore
-divergentunderground:ic2_hard_lead_ore, Lead Ore
-divergentunderground:ic2_hard_uranium_ore, Uranium Ore
+divergentunderground:ore_ie_copper, Copper Ore
+divergentunderground:ore_ie_aluminum, Aluminum Ore
+divergentunderground:ore_ie_lead, Lead Ore
+divergentunderground:ore_ie_silver, Silver Ore
+divergentunderground:ore_ie_nickel, Nickel Ore
+divergentunderground:ore_ie_uranium, Uranium Ore
+divergentunderground:ie_hard_copper_ore, Copper Ore
+divergentunderground:ie_hard_aluminum_ore, Aluminum Ore
+divergentunderground:ie_hard_lead_ore, Lead Ore
+divergentunderground:ie_hard_silver_ore, Silver Ore
+divergentunderground:ie_hard_nickel_ore, Nickel Ore
+divergentunderground:ie_hard_uranium_ore, Uranium Ore
 divergentunderground:ore_thermal_copper, Copper Ore
 divergentunderground:ore_thermal_tin, Tin Ore
 divergentunderground:ore_thermal_silver, Silver Ore
@@ -21822,18 +21808,40 @@ divergentunderground:thermal_hard_nickel_ore, Nickel Ore
 divergentunderground:thermal_hard_platinum_ore, Platinum Ore
 divergentunderground:thermal_hard_iridium_ore, Iridium Ore
 divergentunderground:thermal_hard_mithril_ore, Mithril Ore
-divergentunderground:ore_ie_copper, Copper Ore
-divergentunderground:ore_ie_aluminum, Aluminum Ore
-divergentunderground:ore_ie_lead, Lead Ore
-divergentunderground:ore_ie_silver, Silver Ore
-divergentunderground:ore_ie_nickel, Nickel Ore
-divergentunderground:ore_ie_uranium, Uranium Ore
-divergentunderground:ie_hard_copper_ore, Copper Ore
-divergentunderground:ie_hard_aluminum_ore, Aluminum Ore
-divergentunderground:ie_hard_lead_ore, Lead Ore
-divergentunderground:ie_hard_silver_ore, Silver Ore
-divergentunderground:ie_hard_nickel_ore, Nickel Ore
-divergentunderground:ie_hard_uranium_ore, Uranium Ore
+divergentunderground:rock_quark_basalt, Basalt Rock
+divergentunderground:quark_basalt_cobblestone, Basalt Cobblestone
+divergentunderground:rock_quark_icystone, Permafrost Rock
+divergentunderground:rock_quark_firestone, Brimstone Rock
+divergentunderground:rock_quark_marble, Marble Rock
+divergentunderground:quark_hard_marble_rock, Marble
+divergentunderground:quark_limestone_cobblestone, Limestone Cobblestone
+divergentunderground:rock_quark_limestone, Limestone Chunk
+divergentunderground:quark_hard_limestone_rock, Limestone
+divergentunderground:quark_marble_cobblestone, Marble Cobblestone
+divergentunderground:ore_ic2_copper, Copper Ore
+divergentunderground:ore_ic2_tin, Tin Ore
+divergentunderground:ore_ic2_lead, Lead Ore
+divergentunderground:ore_ic2_uranium, Uranium Ore
+divergentunderground:ic2_hard_copper_ore, Copper Ore
+divergentunderground:ic2_hard_tin_ore, Tin Ore
+divergentunderground:ic2_hard_lead_ore, Lead Ore
+divergentunderground:ic2_hard_uranium_ore, Uranium Ore
+divergentunderground:gem_raw_bop_amethyst, Uncut Amethyst
+divergentunderground:gem_raw_bop_ruby, Uncut Ruby
+divergentunderground:gem_raw_bop_peridot, Uncut Peridot
+divergentunderground:gem_raw_bop_topaz, Uncut Topaz
+divergentunderground:gem_raw_bop_tanzanite, Uncut Tanzanite
+divergentunderground:gem_raw_bop_malachite, Uncut Malachite
+divergentunderground:gem_raw_bop_sapphire, Uncut Sapphire
+divergentunderground:gem_raw_bop_amber, Uncut Amber
+divergentunderground:bop_hard_amethyst_ore, Amethyst Ore
+divergentunderground:bop_hard_ruby_ore, Ruby Ore
+divergentunderground:bop_hard_peridot_ore, Peridot Ore
+divergentunderground:bop_hard_topaz_ore, Topaz Ore
+divergentunderground:bop_hard_tanzanite_ore, Tanzanite Ore
+divergentunderground:bop_hard_malachite_ore, Malachite Ore
+divergentunderground:bop_hard_sapphire_ore, Sapphire Ore
+divergentunderground:bop_hard_amber_ore, Amber Ore
 endercompass:ender_compass, Ender Compass
 endercrop:ender_crop, Ender Crop
 endercrop:tilled_end_stone, Tilled End Stone
