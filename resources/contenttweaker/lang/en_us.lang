@@ -3,3 +3,6 @@ tile.contenttweaker.magnetite_ore.name=Magnetite Ore
 
 #Crushed
 item.contenttweaker.crushed_magnetite.name=Crushed Magnetite
+
+#Purified
+item.contenttweaker.purified_crushed_magnetite.name=Purified Crushed Magnetite

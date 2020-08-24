@@ -23,3 +23,8 @@ magnetiteOre.register();
 //---> Crushed Magnetite
 var magnetiteCrushed = VanillaFactory.createItem("crushed_magnetite");
 magnetiteCrushed.register();
+
+//---> Purified Crushed Magnetite
+
+var purifiedMagnetiteCrushed = VanillaFactory.createItem("purified_crushed_magnetite");
+purifiedMagnetiteCrushed.register();
