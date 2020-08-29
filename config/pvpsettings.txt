@@ -14,8 +14,8 @@ showMobs:true
 showItems:true
 showOther:true
 showOtherTeam:true
-showWaypoints:true
-showIngameWaypoints:true
+showWaypoints:false
+showIngameWaypoints:false
 displayRedstone:true
 deathpoints:false
 oldDeathpoints:false

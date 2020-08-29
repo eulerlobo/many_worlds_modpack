@@ -180,21 +180,21 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
 key_key.astikorcarts.desc:19
-key_gui.xaero_better_pvp_settings:21
+key_gui.xaero_better_pvp_settings:0
 key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:78
+key_gui.xaero_instant_waypoint:0
 key_gui.xaero_toggle_slime:0
 key_gui.xaero_toggle_grid:0
 key_gui.xaero_toggle_waypoints:0
-key_gui.xaero_toggle_map:35
-key_gui.xaero_enlarge_map:44
-key_gui.xaero_waypoints_key:22
-key_gui.xaero_zoom_in:23
-key_gui.xaero_zoom_out:24
-key_gui.xaero_new_waypoint:48
+key_gui.xaero_toggle_map:0
+key_gui.xaero_enlarge_map:0
+key_gui.xaero_waypoints_key:0
+key_gui.xaero_zoom_in:0
+key_gui.xaero_zoom_out:0
+key_gui.xaero_new_waypoint:0
 key_gui.xaero_display_all_sets:0
-key_gui.xaero_quick_eat:19
-key_gui.xaero_toggle_sneak:46
+key_gui.xaero_quick_eat:0
+key_gui.xaero_toggle_sneak:0
 key_gui.xaero_quick_use_1:79
 key_gui.xaero_quick_use_2:80
 key_gui.xaero_quick_use_3:81
@@ -236,7 +236,7 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-key_Options Gui:23
+key_Options Gui:0
 key_key.toggleCleanView:0
 key_key.clipboardPaste:210
 key_cyberware.keybinds.menu:19
@@ -255,7 +255,7 @@ key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
 key_key.dragon_down:45
 key_key.dragon_change_view:65
-key_invtweaks.key.sort:19
+key_invtweaks.key.sort:0
 key_key.menu:50
 key_key.villages:47
 key_key.escorts:34
