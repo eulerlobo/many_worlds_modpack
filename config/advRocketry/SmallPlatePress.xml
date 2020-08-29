@@ -360,4 +360,12 @@
 			<itemStack>nuclearcraft:dust;1;7</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreMagnetite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_magnetite;2;0</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

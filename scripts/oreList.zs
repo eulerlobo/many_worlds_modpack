@@ -1,11 +1,27 @@
-//Map ore list
+#priority 99
 
-//---- Magnetite ----//
-val magnetiteOreList = <ore:magnetiteOre>;
+val oreIron = <ore:oreIron>;
+
+//--- Magnetite ---//
+val magnetiteOreList = <ore:oreMagnetite>;
 magnetiteOreList.add(<contenttweaker:magnetite_ore>);
+
+val rockMagnetiteOreList = <ore:rockMagnetiteOre>;
+magnetiteOreList.add(<contenttweaker:rock_magnetite_ore>);
+rockMagnetiteOreList.add(<contenttweaker:rock_magnetite_ore>);
 
 val crushedMagnetiteList = <ore:crushedMagnetite>;
 crushedMagnetiteList.add(<contenttweaker:crushed_magnetite>);
 
 val crushedPurifiedMagnetiteList = <ore:crushedPurifiedMagnetite>;
 crushedPurifiedMagnetiteList.add(<contenttweaker:purified_crushed_magnetite>);
+
+//--- Slag Unification ---//
+val ic2Slag = <ic2:misc_resource:5>;
+val crystalSlagList = <ore:crystalSlag>;
+
+crystalSlagList.add(ic2Slag);
+
+//--- Aluminum ---/
+val aluminumTinyDustList = <ore:dustTinyAluminum>;
+aluminumTinyDustList.add(<contenttweaker:tiny_pile_of_aluminum_dust>);
