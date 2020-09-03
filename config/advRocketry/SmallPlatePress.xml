@@ -368,4 +368,12 @@
 			<itemStack>contenttweaker:crushed_magnetite;2;0</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreIron</oreDict>
+		</input>
+		<output>
+			<itemStack>ic2:crushed;2;2</itemStack>
+		</output>
+	</Recipe>
 </Recipes>
