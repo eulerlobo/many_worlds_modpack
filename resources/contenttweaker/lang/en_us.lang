@@ -1,14 +1,18 @@
 #Ore
 tile.contenttweaker.magnetite_ore.name=Magnetite Ore
+tile.contenttweaker.hematite_ore.name=Hematite Ore
 
 #Rock
 item.contenttweaker.rock_magnetite_ore.name=Magnetite Ore
+item.contenttweaker.rock_hematite_ore.name=Hematite Ore
 
 #Crushed
 item.contenttweaker.crushed_magnetite.name=Crushed Magnetite
+item.contenttweaker.crushed_hematite.name=Crushed Hematite
 
 #Purified
 item.contenttweaker.purified_crushed_magnetite.name=Purified Crushed Magnetite
+item.contenttweaker.purified_crushed_hematite.name=Purified Crushed Hematite
 
 #Tiny Dust
 item.contenttweaker.tiny_pile_of_aluminum_dust.name=Tiny Pile of Aluminum Dust

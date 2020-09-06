@@ -5,6 +5,9 @@ import mods.advancedmortars.Mortar;
 val oreMagnetite = <ore:oreMagnetite>;
 val crushedMagnetite = <contenttweaker:crushed_magnetite>;
 
+val oreHematite = <ore:oreHematite>;
+val crushedHematite = <contenttweaker:crushed_hematite>;
+
 val oreIron = <ore:oreIron>;
 val crushedOreIron = <ic2:crushed:2>;
 
@@ -20,6 +23,14 @@ Mortar.addRecipe(["diamond"], crushedMagnetite * 2, 5, [oreMagnetite]);
 Mortar.addRecipe(["obsidian"], crushedMagnetite * 2, 3, [oreMagnetite]);
 Mortar.addRecipe(["emerald"], crushedMagnetite * 2, 3, [oreMagnetite]);
 Mortar.addRecipe(["gold"], crushedMagnetite * 2, 1, [oreMagnetite]);
+
+//---> Add Hematite
+Mortar.addRecipe(["stone"], crushedHematite * 2, 9, [oreHematite]);
+Mortar.addRecipe(["iron"], crushedHematite * 2, 7, [oreHematite]);
+Mortar.addRecipe(["diamond"], crushedHematite * 2, 5, [oreHematite]);
+Mortar.addRecipe(["obsidian"], crushedHematite * 2, 3, [oreHematite]);
+Mortar.addRecipe(["emerald"], crushedHematite * 2, 3, [oreHematite]);
+Mortar.addRecipe(["gold"], crushedHematite * 2, 1, [oreHematite]);
 
 //---> Remap Iron Ore recipes
 Mortar.addRecipe(["stone"], crushedOreIron * 2, 9, [oreIron]);

@@ -16,6 +16,20 @@ crushedMagnetiteList.add(<contenttweaker:crushed_magnetite>);
 val crushedPurifiedMagnetiteList = <ore:crushedPurifiedMagnetite>;
 crushedPurifiedMagnetiteList.add(<contenttweaker:purified_crushed_magnetite>);
 
+//--- Hematite ---//
+val hematiteOreList = <ore:oreHematite>;
+hematiteOreList.add(<contenttweaker:hematite_ore>);
+
+val rockHematiteOreList = <ore:rockHematiteOre>;
+hematiteOreList.add(<contenttweaker:rock_hematite_ore>);
+rockHematiteOreList.add(<contenttweaker:rock_hematite_ore>);
+
+val crushedHematiteList = <ore:crushedHematite>;
+crushedHematiteList.add(<contenttweaker:crushed_hematite>);
+
+val crushedPurifiedHematiteList = <ore:crushedPurifiedHematite>;
+crushedPurifiedHematiteList.add(<contenttweaker:purified_crushed_hematite>);
+
 //--- Slag Unification ---//
 val ic2Slag = <ic2:misc_resource:5>;
 val crystalSlagList = <ore:crystalSlag>;

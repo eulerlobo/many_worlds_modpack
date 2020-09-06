@@ -58,6 +58,44 @@ magnetiteOre.setDropHandler(function(drops, world, position, state, fortune) {
 });
 magnetiteOre.register();
 
+//--- Hematite ---//
+
+//---> Rock Hematite Ore
+var rockHematiteOre = VanillaFactory.createItem("rock_hematite_ore");
+rockHematiteOre.register();
+
+//---> Crushed Hematite
+var hematiteCrushed = VanillaFactory.createItem("crushed_hematite");
+hematiteCrushed.register();
+
+//---> Purified Crushed Hematite
+var purifiedHematiteCrushed = VanillaFactory.createItem("purified_crushed_hematite");
+purifiedHematiteCrushed.register();
+
+//---> Ore Hematite
+var hematiteOre = VanillaFactory.createBlock("hematite_ore", <blockmaterial:rock>);
+hematiteOre.setBlockHardness(5.0);
+hematiteOre.setBlockResistance(8.0);
+hematiteOre.setToolClass("pickaxe");
+hematiteOre.setToolLevel(1);
+hematiteOre.setBlockSoundType(<soundtype:stone>);
+hematiteOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:contenttweaker:rock_hematite_ore> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone>);
+
+    return;
+});
+hematiteOre.register();
 
 //--- Aluminum ---//
 

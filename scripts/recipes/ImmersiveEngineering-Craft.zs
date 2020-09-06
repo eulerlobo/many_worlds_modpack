@@ -10,6 +10,10 @@ val oreMagnetite = <ore:oreMagnetite>;
 val crushedMagnetite = <contenttweaker:crushed_magnetite>;
 val purifiedCrushedMagnetite = <contenttweaker:purified_crushed_magnetite>;
 
+val oreHematite = <ore:oreHematite>;
+val crushedHematite = <contenttweaker:crushed_hematite>;
+val purifiedCrushedHematite = <contenttweaker:purified_crushed_magnetite>;
+
 val dustGold = <thermalfoundation:material:1>;
 val dustAluminum = <thermalfoundation:material:68>;
 val gravel = <ore:gravel>;
@@ -35,6 +39,12 @@ Crusher.addRecipe(crushedMagnetite * 3, oreMagnetite, crusherBaseEnergy, dustAlu
 recipes.addShapeless("MagnetiteIEHammer", crushedMagnetite * 2, [oreMagnetite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(ironIngot * 2, crushedMagnetite, slag, 200, 512);
 ArcFurnace.addRecipe(ironIngot * 3, purifiedCrushedMagnetite, null, 200, 512);
+
+//---> Add Hematite Crusher, Hammer Crusher and Iron Recipes
+Crusher.addRecipe(crushedHematite * 3, oreHematite, crusherBaseEnergy);
+recipes.addShapeless("HematiteIEHammer", crushedHematite * 2, [oreHematite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(ironIngot * 2, crushedHematite, slag, 200, 512);
+ArcFurnace.addRecipe(ironIngot * 3, purifiedCrushedHematite, null, 200, 512);
 
 //---> Add slag from furnace
 furnace.addRecipe(slag, gravel);
