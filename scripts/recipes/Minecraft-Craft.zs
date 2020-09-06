@@ -10,6 +10,11 @@ val tinyPileAluminumDust = <contenttweaker:tiny_pile_of_aluminum_dust>;
 val aluminumDust = <thermalfoundation:material:68>;
 
 val dustIron = <ore:dustIron>;
+val dustGold = <ore:dustGold>;
+val dustTinyIron = <ore:dustTinyIron>;
+val dustTinyGold = <ore:dustTinyGold>;
+val ironDust = <thermalfoundation:material>;
+val goldDust = <thermalfoundation:material:1>;
 
 //--- Add Recipes ---//
 
@@ -23,3 +28,8 @@ recipes.addShaped("TinyPileOfAlToAlDust", aluminumDust, [[tinyPileAluminumDust, 
 
 //---> Remap Iron Ore recipes
 recipes.remove(dustIron);
+recipes.addShaped("TinyPileOfFeToFeDust", ironDust, [[dustTinyIron, dustTinyIron, dustTinyIron], [dustTinyIron, dustTinyIron, dustTinyIron], [dustTinyIron, dustTinyIron, dustTinyIron]]);
+
+//---> Remap Gold Ore recipes
+recipes.remove(dustGold);
+recipes.addShaped("TinyPileOfAuToAuDust", goldDust, [[dustTinyGold, dustTinyGold, dustTinyGold], [dustTinyGold, dustTinyGold, dustTinyGold], [dustTinyGold, dustTinyGold, dustTinyGold]]);
