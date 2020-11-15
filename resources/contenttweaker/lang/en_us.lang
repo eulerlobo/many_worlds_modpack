@@ -1,18 +1,152 @@
 #Ore
 tile.contenttweaker.magnetite_ore.name=Magnetite Ore
 tile.contenttweaker.hematite_ore.name=Hematite Ore
+tile.contenttweaker.native_copper_ore.name=Native Copper Ore
+tile.contenttweaker.chalcopyrite_ore.name=Chalcopyrite Ore
+tile.contenttweaker.teallite_ore.name=Teallite Ore
+tile.contenttweaker.cassiterite_ore.name=Cassiterite Ore
+tile.contenttweaker.galena_ore.name=Galena Ore
+tile.contenttweaker.cerussite_ore.name=Cerussite Ore
+tile.contenttweaker.bauxite_ore.name=Bauxite Ore
+tile.contenttweaker.leucite_ore.name=Leucite Ore
+tile.contenttweaker.pentlandite_ore.name=Pentlandite Ore
+tile.contenttweaker.garnierite_ore.name=Garnierite Ore
+tile.contenttweaker.native_gold_ore.name=Native Gold Ore
+tile.contenttweaker.native_silver_ore.name=Native Silver Ore
+tile.contenttweaker.sulfur_ore.name=Sulfur Ore
+tile.contenttweaker.lithium_ore.name=Lithium Ore
+tile.contenttweaker.spodumene_ore.name=Spodumene Ore
+tile.contenttweaker.rutile_ore.name=Rutile Ore
+tile.contenttweaker.ilmenite_ore.name=Ilmenite Ore
+tile.contenttweaker.brucite_ore.name=Brucite Ore
+tile.contenttweaker.magnesite_ore.name=Magnesite Ore
+tile.contenttweaker.carnotite_ore.name=Carnotite Ore
+tile.contenttweaker.uraninite_ore.name=Uraninite Ore
+tile.contenttweaker.thorite_ore.name=Thorite Ore
+tile.contenttweaker.monazite_ore.name=Monazite Ore
+tile.contenttweaker.colemanite_ore.name=Colemanite Ore
+tile.contenttweaker.kernite_ore.name=Kernite Ore
+
+#Cobblestone
+tile.contenttweaker.limestone_cobblestone.name=Limestone Cobblestone
+tile.contenttweaker.marble_cobblestone.name=Marble Cobblestone
 
 #Rock
 item.contenttweaker.rock_magnetite_ore.name=Magnetite Ore
 item.contenttweaker.rock_hematite_ore.name=Hematite Ore
+item.contenttweaker.rock_native_copper_ore.name=Native Copper Ore
+item.contenttweaker.rock_chalcopyrite_ore.name=Chalcopyrite Ore
+item.contenttweaker.rock_teallite_ore.name=Teallite Ore
+item.contenttweaker.rock_cassiterite_ore.name=Cassiterite Ore
+item.contenttweaker.rock_galena_ore.name=Galena Ore
+item.contenttweaker.rock_cerussite_ore.name=Cerussite Ore
+item.contenttweaker.rock_bauxite_ore.name=Bauxite Ore
+item.contenttweaker.rock_leucite_ore.name=Leucite Ore
+item.contenttweaker.rock_pentlandite_ore.name=Pentlandite Ore
+item.contenttweaker.rock_garnierite_ore.name=Garnierite Ore
+item.contenttweaker.rock_native_gold_ore.name=Native Gold Ore
+item.contenttweaker.rock_sulfur_ore.name=Sulfur Ore
+item.contenttweaker.rock_lithium_ore.name=Lithium Ore
+item.contenttweaker.rock_spodumene_ore.name=Spodumene Ore
+item.contenttweaker.rock_rutile_ore.name=Rutile Ore
+item.contenttweaker.rock_ilmenite_ore.name=Ilmenite Ore
+item.contenttweaker.rock_brucite_ore.name=Brucite Ore
+item.contenttweaker.rock_magnesite_ore.name=Magnesite Ore
+item.contenttweaker.rock_carnotite_ore.name=Carnotite Ore
+item.contenttweaker.rock_uraninite_ore.name=Uraninite Ore
+item.contenttweaker.rock_thorite_ore.name=Thorite Ore
+item.contenttweaker.rock_monazite_ore.name=Monazite Ore
+item.contenttweaker.rock_colemanite_ore.name=Colemanite Ore
+item.contenttweaker.rock_kernite_ore.name=Kernite Ore
+item.contenttweaker.limestone_rock.name=Limestone Rock
+item.contenttweaker.marble_rock.name=Marble Rock
 
 #Crushed
 item.contenttweaker.crushed_magnetite.name=Crushed Magnetite
 item.contenttweaker.crushed_hematite.name=Crushed Hematite
+item.contenttweaker.crushed_chalcopyrite.name=Crushed Chalcopyrite
+item.contenttweaker.crushed_teallite.name=Crushed Teallite
+item.contenttweaker.crushed_cassiterite.name=Crushed Cassiterite
+item.contenttweaker.crushed_galena.name=Crushed Galena
+item.contenttweaker.crushed_cerussite.name=Crushed Cerussite
+item.contenttweaker.crushed_bauxite.name=Crushed Bauxite
+item.contenttweaker.crushed_leucite.name=Crushed Leucite
+item.contenttweaker.crushed_pentlandite.name=Crushed Pentlandite
+item.contenttweaker.crushed_garnierite.name=Crushed Garnierite
+item.contenttweaker.crushed_spodumene.name=Crushed Spodumene
+item.contenttweaker.crushed_rutile.name=Crushed Rutile
+item.contenttweaker.crushed_ilmenite.name=Crushed Ilmenite
+item.contenttweaker.crushed_brucite.name=Crushed Brucite
+item.contenttweaker.crushed_magnesite.name=Crushed Magnesite
+item.contenttweaker.crushed_carnotite.name=Crushed Carnotite
+item.contenttweaker.crushed_uraninite.name=Crushed Uraninite
+item.contenttweaker.crushed_thorite.name=Crushed Thorite
+item.contenttweaker.crushed_monazite.name=Crushed Monazite
+item.contenttweaker.crushed_colemanite.name=Crushed Colemanite
+item.contenttweaker.crushed_kernite.name=Crushed Kernite
 
 #Purified
 item.contenttweaker.purified_crushed_magnetite.name=Purified Crushed Magnetite
 item.contenttweaker.purified_crushed_hematite.name=Purified Crushed Hematite
+item.contenttweaker.purified_crushed_chalcopyrite.name=Purified Crushed Chalcopyrite
+item.contenttweaker.purified_crushed_teallite.name=Purified Crushed Teallite
+item.contenttweaker.purified_crushed_cassiterite.name=Purified Crushed Cassiterite
+item.contenttweaker.purified_crushed_galena.name=Purified Crushed Galena
+item.contenttweaker.purified_crushed_cerussite.name=Purified Crushed Cerussite
+item.contenttweaker.purified_crushed_bauxite.name=Purified Crushed Bauxite
+item.contenttweaker.purified_crushed_leucite.name=Purified Crushed Leucite
+item.contenttweaker.purified_crushed_pentlandite.name=Purified Crushed Pentlandite
+item.contenttweaker.purified_crushed_garnierite.name=Purified Crushed Garnierite
+item.contenttweaker.purified_crushed_spodumene.name=Purified Crushed Spodumene
+item.contenttweaker.purified_crushed_rutile.name=Purified Crushed Rutile
+item.contenttweaker.purified_crushed_ilmenite.name=Purified Crushed Ilmenite
+item.contenttweaker.purified_crushed_brucite.name=Purified Crushed Brucite
+item.contenttweaker.purified_crushed_magnesite.name=Purified Crushed Magnesite
+item.contenttweaker.purified_crushed_carnotite.name=Purified Crushed Carnotite
+item.contenttweaker.purified_crushed_uraninite.name=Purified Crushed Uraninite
+item.contenttweaker.purified_crushed_thorite.name=Purified Crushed Thorite
+item.contenttweaker.purified_crushed_monazite.name=Purified Crushed Monazite
+item.contenttweaker.purified_crushed_colemanite.name=Purified Crushed Colemanite
+item.contenttweaker.purified_crushed_kernite.name=Purified Crushed Kernite
 
 #Tiny Dust
 item.contenttweaker.tiny_pile_of_aluminum_dust.name=Tiny Pile of Aluminum Dust
+
+#Chunks
+item.contenttweaker.iron_chunks.name=Iron Chunks
+item.contenttweaker.copper_chunks.name=Copper Chunks
+item.contenttweaker.tin_chunks.name=Tin Chunks
+item.contenttweaker.lead_chunks.name=Lead Chunks
+item.contenttweaker.aluminum_chunks.name=Aluminum Chunks
+item.contenttweaker.nickel_chunks.name=Nickel Chunks
+item.contenttweaker.titanium_chunks.name=Titanium Chunks
+item.contenttweaker.magnesium_chunks.name=Magnesium Chunks
+item.contenttweaker.uranium_chunks.name=Uranium Chunks
+item.contenttweaker.thorium_chunks.name=Thorium Chunks
+item.contenttweaker.boron_chunks.name=Boron Chunks
+item.contenttweaker.dirt_chunk.name=Dirt Chunk
+item.contenttweaker.sand_chunk.name=Sand Chunk
+item.contenttweaker.red_sand_chunk.name=Red Sand Chunk
+item.contenttweaker.loamy_chunk.name=Loamy Chunk
+item.contenttweaker.silty_chunk.name=Silty Chunk
+item.contenttweaker.sandy_chunk.name=Sandy Chunk
+item.contenttweaker.dried_sand_chunk.name=Dried Sand Chunk
+item.contenttweaker.white_sand_chunk.name=White Sand Chunk
+
+
+#Crystal
+item.contenttweaker.iron_crystal.name=Iron Crystal
+item.contenttweaker.copper_crystal.name=Copper Crystal
+item.contenttweaker.tin_crystal.name=Tin Crystal
+item.contenttweaker.lead_crystal.name=Lead Crystal
+item.contenttweaker.aluminum_crystal.name=Aluminum Crystal
+item.contenttweaker.nickel_crystal.name=Nickel Crystal
+item.contenttweaker.titanium_crystal.name=Titanium Crystal
+item.contenttweaker.magnesium_crystal.name=Magnesium Crystal
+item.contenttweaker.uranium_crystal.name=Uranium Crystal
+item.contenttweaker.thorium_crystal.name=Thorium Crystal
+item.contenttweaker.boron_crystal.name=Boron Crystal
+
+#Fluid
+fluid.slag_slurry=Slag Slurry
+fluid.mineralized_acid_water=Mineralized Acid Water

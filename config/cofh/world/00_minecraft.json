@@ -1,8 +1,8 @@
 {
 	"priority": 1000000000000,
 	"populate": {
-		"dirt": {
 
+		"dirt": {
 			"distribution": "uniform",
 			"generator": {
 				"block": "dirt",

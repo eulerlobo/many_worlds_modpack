@@ -242,10 +242,34 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>rockOreGold</oreDict>
+		</input>
+		<output>
+			<itemStack>ic2:crushed;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreCopper</oreDict>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;64</itemStack>
+			<itemStack>ic2:crushed;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<itemStack>divergentunderground:ie_hard_copper_ore</itemStack>
+		</input>
+		<output>
+			<itemStack>ic2:crushed;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<itemStack>divergentunderground:ic2_hard_tin_ore</itemStack>
+		</input>
+		<output>
+			<itemStack>ic2:crushed;2;5</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -253,7 +277,7 @@
 			<oreDict>oreTin</oreDict>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;65</itemStack>
+			<itemStack>ic2:crushed;1;5</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -370,10 +394,50 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>oreHematite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_hematite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreIron</oreDict>
 		</input>
 		<output>
 			<itemStack>ic2:crushed;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>rockOreIron</oreDict>
+		</input>
+		<output>
+			<itemStack>ic2:crushed;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreNativeGold</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreNativeCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material;1;64</itemStack>
+		</output>
+	</Recipe>
+		<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreChalcopyrite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_chalcopyrite;2;0</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
