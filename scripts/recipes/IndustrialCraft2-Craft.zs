@@ -22,3 +22,5 @@ mods.jei.JEI.removeAndHide(<ic2:resource:1>);
 //---> Hide Tin Ore
 mods.jei.JEI.removeAndHide(<ic2:resource:3>);
 
+//---> Hide Lead Ore
+mods.jei.JEI.removeAndHide(<ic2:resource:2>);

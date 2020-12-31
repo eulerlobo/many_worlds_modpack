@@ -15,3 +15,9 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:ore>);
 
 //---> Hide Tin Ore
 mods.jei.JEI.removeAndHide(<thermalfoundation:ore:1>);
+
+//---> Hide Lead Ore
+mods.jei.JEI.removeAndHide(<thermalfoundation:ore:3>);
+
+//---> Hide Aluminum Ore
+mods.jei.JEI.removeAndHide(<thermalfoundation:ore:4>);

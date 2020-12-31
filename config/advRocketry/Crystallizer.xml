@@ -73,4 +73,20 @@
 			<itemStack>contenttweaker:tin_crystal</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="400" power ="280">
+		<input>
+			<oreDict>leadChunks</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:lead_crystal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="400" power ="280">
+		<input>
+			<oreDict>aluminumChunks</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:aluminum_crystal</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

@@ -274,10 +274,26 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<itemStack>divergentunderground:ie_hard_lead_ore</itemStack>
+		</input>
+		<output>
+			<itemStack>ic2:crushed;2;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<itemStack>divergentunderground:ie_hard_aluminum_ore</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_aluminum;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreTin</oreDict>
 		</input>
 		<output>
-			<itemStack>ic2:crushed;1;5</itemStack>
+			<itemStack>ic2:crushed;2;5</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -293,7 +309,7 @@
 			<oreDict>oreLead</oreDict>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;67</itemStack>
+			<itemStack>ic2:crushed;2;3</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -301,7 +317,7 @@
 			<oreDict>oreAluminum</oreDict>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;68</itemStack>
+			<itemStack>contenttweaker:crushed_aluminum;2;0</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -438,6 +454,54 @@
 		</input>
 		<output>
 			<itemStack>contenttweaker:crushed_chalcopyrite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreCassiterite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_cassiterite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreTeallite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_teallite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreGalena</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_galena;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreCerussite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_cerussite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreBauxite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_bauxite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreLeucite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_leucite;2;0</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

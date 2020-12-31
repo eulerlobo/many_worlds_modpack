@@ -5,3 +5,6 @@ mods.jei.JEI.removeAndHide(<libvulpes:ore0:4>);
 
 //---> Hide Tin Ore
 mods.jei.JEI.removeAndHide(<libvulpes:ore0:5>);
+
+//---> Hide Aluminum Ore
+mods.jei.JEI.removeAndHide(<libvulpes:ore0:9>);

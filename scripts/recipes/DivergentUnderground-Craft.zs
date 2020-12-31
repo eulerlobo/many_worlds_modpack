@@ -50,6 +50,17 @@ mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_copper>);
 
 //---> Hide Tin Ore
 mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_tin_ore>);
+mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_tin>);
+
+//---> Hide Lead Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_lead_ore>);
+mods.jei.JEI.removeAndHide(<divergentunderground:ic2_hard_lead_ore>);
+mods.jei.JEI.removeAndHide(<divergentunderground:ore_ic2_lead>);
+mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_lead>);
+
+//---> Hide Aluminum Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_aluminum_ore>);
+mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_aluminum>);
 
 //---> Hide Basalt from Divergent Underground
 mods.jei.JEI.removeAndHide(<divergentunderground:quark_basalt_cobblestone>);

@@ -84,6 +84,8 @@ item.contenttweaker.crushed_thorite.name=Crushed Thorite
 item.contenttweaker.crushed_monazite.name=Crushed Monazite
 item.contenttweaker.crushed_colemanite.name=Crushed Colemanite
 item.contenttweaker.crushed_kernite.name=Crushed Kernite
+item.contenttweaker.crushed_aluminum.name=Crushed Aluminum
+item.contenttweaker.crushed_nickel.name=Crushed Nickel
 
 #Purified
 item.contenttweaker.purified_crushed_magnetite.name=Purified Crushed Magnetite
@@ -108,9 +110,12 @@ item.contenttweaker.purified_crushed_thorite.name=Purified Crushed Thorite
 item.contenttweaker.purified_crushed_monazite.name=Purified Crushed Monazite
 item.contenttweaker.purified_crushed_colemanite.name=Purified Crushed Colemanite
 item.contenttweaker.purified_crushed_kernite.name=Purified Crushed Kernite
+item.contenttweaker.purified_crushed_aluminum.name=Purified Crushed Aluminum
+item.contenttweaker.purified_crushed_nickel.name=Purified Crushed Nickel
 
 #Tiny Dust
 item.contenttweaker.tiny_pile_of_aluminum_dust.name=Tiny Pile of Aluminum Dust
+item.contenttweaker.tiny_pile_of_nickel_dust.name=Tiny Pile of Nickel Dust
 
 #Chunks
 item.contenttweaker.iron_chunks.name=Iron Chunks

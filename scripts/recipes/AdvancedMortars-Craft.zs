@@ -39,6 +39,26 @@ val oreTin = <ore:oreTin>;
 val crushedOreTin = <ic2:crushed:5>;
 val divergentUndergroundTinOre = <divergentunderground:ic2_hard_tin_ore>;
 
+val oreGalena = <ore:oreGalena>;
+val crushedGalena = <contenttweaker:crushed_galena>;
+
+val oreCerussite = <ore:oreCerussite>;
+val crushedCerussite = <contenttweaker:crushed_cerussite>;
+
+val oreLead = <ore:oreLead>;
+val crushedOreLead = <ic2:crushed:3>;
+val divergentUndergroundLeadOre = <divergentunderground:ie_hard_lead_ore>;
+
+val oreBauxite = <ore:oreBauxite>;
+val crushedBauxite = <contenttweaker:crushed_bauxite>;
+
+val oreLeucite = <ore:oreLeucite>;
+val crushedLeucite = <contenttweaker:crushed_leucite>;
+
+val oreAluminum = <ore:oreAluminum>;
+val crushedOreAluminum = <contenttweaker:crushed_aluminum>;
+val divergentUndergroundAluminumOre = <divergentunderground:ie_hard_aluminum_ore>;
+
 //--- Add Recipes ---//
 
 //---> Add Magnetite
@@ -117,6 +137,36 @@ Mortar.addRecipe(["obsidian"], crushedOreTin * 2, 3, [divergentUndergroundTinOre
 Mortar.addRecipe(["emerald"], crushedOreTin * 2, 3, [divergentUndergroundTinOre]);
 Mortar.addRecipe(["gold"], crushedOreTin * 2, 1, [divergentUndergroundTinOre]);
 
+//---> Remap Lead Ore recipes
+Mortar.addRecipe(["stone"], crushedOreLead * 2, 9, [oreLead]);
+Mortar.addRecipe(["iron"], crushedOreLead * 2, 7, [oreLead]);
+Mortar.addRecipe(["diamond"], crushedOreLead * 2, 5, [oreLead]);
+Mortar.addRecipe(["obsidian"], crushedOreLead * 2, 3, [oreLead]);
+Mortar.addRecipe(["emerald"], crushedOreLead * 2, 3, [oreLead]);
+Mortar.addRecipe(["gold"], crushedOreLead * 2, 1, [oreLead]);
+
+Mortar.addRecipe(["stone"], crushedOreLead * 2, 9, [divergentUndergroundLeadOre]);
+Mortar.addRecipe(["iron"], crushedOreLead * 2, 7, [divergentUndergroundLeadOre]);
+Mortar.addRecipe(["diamond"], crushedOreLead * 2, 5, [divergentUndergroundLeadOre]);
+Mortar.addRecipe(["obsidian"], crushedOreLead * 2, 3, [divergentUndergroundLeadOre]);
+Mortar.addRecipe(["emerald"], crushedOreLead * 2, 3, [divergentUndergroundLeadOre]);
+Mortar.addRecipe(["gold"], crushedOreLead * 2, 1, [divergentUndergroundLeadOre]);
+
+//---> Remap Aluminum Ore recipes
+Mortar.addRecipe(["stone"], crushedOreAluminum * 2, 9, [oreAluminum]);
+Mortar.addRecipe(["iron"], crushedOreAluminum * 2, 7, [oreAluminum]);
+Mortar.addRecipe(["diamond"], crushedOreAluminum * 2, 5, [oreAluminum]);
+Mortar.addRecipe(["obsidian"], crushedOreAluminum * 2, 3, [oreAluminum]);
+Mortar.addRecipe(["emerald"], crushedOreAluminum * 2, 3, [oreAluminum]);
+Mortar.addRecipe(["gold"], crushedOreAluminum * 2, 1, [oreAluminum]);
+
+Mortar.addRecipe(["stone"], crushedOreAluminum * 2, 9, [divergentUndergroundAluminumOre]);
+Mortar.addRecipe(["iron"], crushedOreAluminum * 2, 7, [divergentUndergroundAluminumOre]);
+Mortar.addRecipe(["diamond"], crushedOreAluminum * 2, 5, [divergentUndergroundAluminumOre]);
+Mortar.addRecipe(["obsidian"], crushedOreAluminum * 2, 3, [divergentUndergroundAluminumOre]);
+Mortar.addRecipe(["emerald"], crushedOreAluminum * 2, 3, [divergentUndergroundAluminumOre]);
+Mortar.addRecipe(["gold"], crushedOreAluminum * 2, 1, [divergentUndergroundAluminumOre]);
+
 //---> Add Native Gold
 Mortar.addRecipe(["stone"], pulverizedGold, 9, [oreNativeGold]);
 Mortar.addRecipe(["iron"], pulverizedGold, 7, [oreNativeGold]);
@@ -156,3 +206,35 @@ Mortar.addRecipe(["diamond"], crushedCassiterite * 2, 5, [oreCassiterite]);
 Mortar.addRecipe(["obsidian"], crushedCassiterite * 2, 3, [oreCassiterite]);
 Mortar.addRecipe(["emerald"], crushedCassiterite * 2, 3, [oreCassiterite]);
 Mortar.addRecipe(["gold"], crushedCassiterite * 2, 1, [oreCassiterite]);
+
+//---> Add Galena
+Mortar.addRecipe(["stone"], crushedGalena * 2, 9, [oreGalena]);
+Mortar.addRecipe(["iron"], crushedGalena * 2, 7, [oreGalena]);
+Mortar.addRecipe(["diamond"], crushedGalena * 2, 5, [oreGalena]);
+Mortar.addRecipe(["obsidian"], crushedGalena * 2, 3, [oreGalena]);
+Mortar.addRecipe(["emerald"], crushedGalena * 2, 3, [oreGalena]);
+Mortar.addRecipe(["gold"], crushedGalena * 2, 1, [oreGalena]);
+
+//---> Add Cerussite
+Mortar.addRecipe(["stone"], crushedCerussite * 2, 9, [oreCerussite]);
+Mortar.addRecipe(["iron"], crushedCerussite * 2, 7, [oreCerussite]);
+Mortar.addRecipe(["diamond"], crushedCerussite * 2, 5, [oreCerussite]);
+Mortar.addRecipe(["obsidian"], crushedCerussite * 2, 3, [oreCerussite]);
+Mortar.addRecipe(["emerald"], crushedCerussite * 2, 3, [oreCerussite]);
+Mortar.addRecipe(["gold"], crushedCerussite * 2, 1, [oreCerussite]);
+
+//---> Add Bauxite
+Mortar.addRecipe(["stone"], crushedBauxite * 2, 9, [oreBauxite]);
+Mortar.addRecipe(["iron"], crushedBauxite * 2, 7, [oreBauxite]);
+Mortar.addRecipe(["diamond"], crushedBauxite * 2, 5, [oreBauxite]);
+Mortar.addRecipe(["obsidian"], crushedBauxite * 2, 3, [oreBauxite]);
+Mortar.addRecipe(["emerald"], crushedBauxite * 2, 3, [oreBauxite]);
+Mortar.addRecipe(["gold"], crushedBauxite * 2, 1, [oreBauxite]);
+
+//---> Add Leucite
+Mortar.addRecipe(["stone"], crushedLeucite * 2, 9, [oreLeucite]);
+Mortar.addRecipe(["iron"], crushedLeucite * 2, 7, [oreLeucite]);
+Mortar.addRecipe(["diamond"], crushedLeucite * 2, 5, [oreLeucite]);
+Mortar.addRecipe(["obsidian"], crushedLeucite * 2, 3, [oreLeucite]);
+Mortar.addRecipe(["emerald"], crushedLeucite * 2, 3, [oreLeucite]);
+Mortar.addRecipe(["gold"], crushedLeucite * 2, 1, [oreLeucite]);

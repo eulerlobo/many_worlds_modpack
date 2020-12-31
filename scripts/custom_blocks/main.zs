@@ -196,6 +196,28 @@ hematiteOre.register();
 var tinyPileAluminumDust = VanillaFactory.createItem("tiny_pile_of_aluminum_dust");
 tinyPileAluminumDust.register();
 
+//---> Crushed Aluminum
+var aluminumCrushed = VanillaFactory.createItem("crushed_aluminum");
+aluminumCrushed.register();
+
+//---> Purified Crushed Aluminum
+var purifiedAluminumCrushed = VanillaFactory.createItem("purified_crushed_aluminum");
+purifiedAluminumCrushed.register();
+
+//--- Nickel ---//
+
+//---> Tiny Pile of Nickel Dust
+var tinyPileNickelDust = VanillaFactory.createItem("tiny_pile_of_nickel_dust");
+tinyPileNickelDust.register();
+
+//---> Crushed Nickel
+var nickelCrushed = VanillaFactory.createItem("crushed_nickel");
+nickelCrushed.register();
+
+//---> Purified Crushed Nickel
+var purifiedNickelCrushed = VanillaFactory.createItem("purified_crushed_nickel");
+purifiedNickelCrushed.register();
+
 //--- Native Copper ---//
 
 //---> Rock Native Copper Ore

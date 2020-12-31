@@ -26,25 +26,52 @@ val oreMagnetite = <ore:oreMagnetite>;
 val oreCrushedPurifiedMagnetite = <ore:crushedPurifiedMagnetite>;
 
 val oreGold = <ore:oreGold>;
-val oreNativeGold = <ore:oreNativeGold>;
 val liquidGold = <liquid:gold>;
 
-val oreNativeCopper = <ore:oreNativeCopper>;
-val oreCrushedPurifiedCopper = <ore:crushedPurifiedCopper>;
+val oreNativeGold = <ore:oreNativeGold>;
+
 val liquidCopper = <liquid:copper>;
-val oreChalcopyrite = <ore:oreChalcopyrite>;
-val oreCrushedPurifiedChalcopyrite = <ore:crushedPurifiedChalcopyrite>;
+val oreCrushedPurifiedCopper = <ore:crushedPurifiedCopper>;
 val copperChunks = <contenttweaker:copper_chunks>;
 val oreCopperCrystal = <ore:copperCrystal>;
 
-val oreTeallite = <ore:oreTeallite>;
-val oreCrushedPurifiedTeallite = <ore:crushedPurifiedTeallite>;
+val oreNativeCopper = <ore:oreNativeCopper>;
+
+val oreChalcopyrite = <ore:oreChalcopyrite>;
+val oreCrushedPurifiedChalcopyrite = <ore:crushedPurifiedChalcopyrite>;
+
+val oreCrushedPurifiedTin = <ore:crushedPurifiedTin>;
 val liquidTin = <liquid:tin>;
 val tinChunks = <contenttweaker:tin_chunks>;
 val oreTinCrystal = <ore:tinCrystal>;
 
+val oreTeallite = <ore:oreTeallite>;
+val oreCrushedPurifiedTeallite = <ore:crushedPurifiedTeallite>;
+
 val oreCassiterite = <ore:oreCassiterite>;
 val oreCrushedPurifiedCassiterite = <ore:crushedPurifiedCassiterite>;
+
+val oreCrushedPurifiedLead = <ore:crushedPurifiedLead>;
+val liquidLead = <liquid:lead>;
+val leadChunks = <contenttweaker:lead_chunks>;
+val oreLeadCrystal = <ore:leadCrystal>;
+
+val oreGalena = <ore:oreGalena>;
+val oreCrushedPurifiedGalena = <ore:crushedPurifiedGalena>;
+
+val oreCerussite = <ore:oreCerussite>;
+val oreCrushedPurifiedCerussite = <ore:crushedPurifiedCerussite>;
+
+val oreCrushedPurifiedAluminum = <ore:crushedPurifiedAluminum>;
+val liquidAluminum = <liquid:aluminum>;
+val aluminumChunks = <contenttweaker:aluminum_chunks>;
+val oreAluminumCrystal = <ore:aluminumCrystal>;
+
+val oreBauxite = <ore:oreBauxite>;
+val oreCrushedPurifiedBauxite = <ore:crushedPurifiedBauxite>;
+
+val oreLeucite = <ore:oreLeucite>;
+val oreCrushedPurifiedLeucite = <ore:crushedPurifiedLeucite>;
 
 //--- Add Recipes ---//
 
@@ -57,13 +84,11 @@ melter.addRecipe([oreCopperCrystal, liquidCopper * mbCrystalOre, timeBaseMultipl
 //---> Add Tin Crystal Smelting
 melter.addRecipe([oreTinCrystal, liquidTin * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
-//---> Add Magnetite Recipes
-melter.addRecipe([oreMagnetite, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
-infuser.addRecipe([oreCrushedPurifiedHematite, liquidMineralizedAcidWater * mbChunks, ironChunks]);
+//---> Add Lead Crystal Smelting
+melter.addRecipe([oreLeadCrystal, liquidLead * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
-//---> Add Hematite Recipes
-melter.addRecipe([oreHematite, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
-infuser.addRecipe([oreCrushedPurifiedMagnetite, liquidMineralizedAcidWater * mbChunks, ironChunks]);
+//---> Add Aluminum Crystal Smelting
+melter.addRecipe([oreAluminumCrystal, liquidAluminum * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
 //---> Remap Iron Ore recipes
 melter.addRecipe([<divergentunderground:ore_iron>, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
@@ -80,7 +105,23 @@ infuser.addRecipe([oreCrushedPurifiedCopper, liquidMineralizedAcidWater * mbChun
 mods.jei.JEI.removeAndHide(<nuclearcraft:ore>);
 
 //---> Remap Tin Ore recipes
+infuser.addRecipe([oreCrushedPurifiedTin, liquidMineralizedAcidWater * mbChunks, tinChunks]);
 mods.jei.JEI.removeAndHide(<nuclearcraft:ore:1>);
+
+//---> Remap Lead Ore recipes
+infuser.addRecipe([oreCrushedPurifiedLead, liquidMineralizedAcidWater * mbChunks, leadChunks]);
+mods.jei.JEI.removeAndHide(<nuclearcraft:ore:2>);
+
+//---> Remap Aluminum Ore recipes
+infuser.addRecipe([oreCrushedPurifiedAluminum, liquidMineralizedAcidWater * mbChunks, aluminumChunks]);
+
+//---> Add Magnetite Recipes
+melter.addRecipe([oreMagnetite, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedHematite, liquidMineralizedAcidWater * mbChunks, ironChunks]);
+
+//---> Add Hematite Recipes
+melter.addRecipe([oreHematite, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedMagnetite, liquidMineralizedAcidWater * mbChunks, ironChunks]);
 
 //---> Add Native Gold Smelting
 melter.addRecipe([oreNativeGold, liquidGold * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
@@ -102,3 +143,19 @@ infuser.addRecipe([oreCrushedPurifiedTeallite, liquidMineralizedAcidWater * mbCh
 //---> Add Cassiterite Recipes
 melter.addRecipe([oreCassiterite, liquidTin * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedCassiterite, liquidMineralizedAcidWater * mbChunks, tinChunks]);
+
+//---> Add Galena Recipes
+melter.addRecipe([oreGalena, liquidLead * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedGalena, liquidMineralizedAcidWater * mbChunks, leadChunks]);
+
+//---> Add Cerussite Recipes
+melter.addRecipe([oreCerussite, liquidLead * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedCerussite, liquidMineralizedAcidWater * mbChunks, leadChunks]);
+
+//---> Add Bauxite Recipes
+melter.addRecipe([oreBauxite, liquidAluminum * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedBauxite, liquidMineralizedAcidWater * mbChunks, aluminumChunks]);
+
+//---> Add Leucite Recipes
+melter.addRecipe([oreLeucite, liquidAluminum * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedLeucite, liquidMineralizedAcidWater * mbChunks, aluminumChunks]);

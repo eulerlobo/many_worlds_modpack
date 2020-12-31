@@ -184,5 +184,19 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
       return;
     }
 
+    //Fix Divergent Lead Ore drop with skilk touch
+    if (block == "divergentunderground:ie_hard_lead_ore" && event.silkTouch) {
+      val leadOreBlock = [<divergentunderground:ie_hard_lead_ore>] as IItemStack[];
+      event.drops = leadOreBlock;
+      return;
+    }
+
+    //Fix Divergent Aluminum Ore drop with skilk touch
+    if (block == "divergentunderground:ie_hard_aluminum_ore" && event.silkTouch) {
+      val aluminumOreBlock = [<divergentunderground:ie_hard_aluminum_ore>] as IItemStack[];
+      event.drops = aluminumOreBlock;
+      return;
+    }
+
   }
 });
