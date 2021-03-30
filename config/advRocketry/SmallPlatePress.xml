@@ -325,7 +325,7 @@
 			<oreDict>oreNickel</oreDict>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;69</itemStack>
+			<itemStack>contenttweaker:crushed_nickel;2;0</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -502,6 +502,22 @@
 		</input>
 		<output>
 			<itemStack>contenttweaker:crushed_leucite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>orePentlandite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_pentlandite;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreGarnierite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_garnierite;2;0</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

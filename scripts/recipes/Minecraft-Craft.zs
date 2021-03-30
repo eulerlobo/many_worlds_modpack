@@ -76,6 +76,22 @@ val oreLeucite = <ore:oreLeucite>;
 val oreCrushedLeucite = <ore:crushedLeucite>;
 val oreCrushedPurifiedLeucite = <ore:crushedPurifiedLeucite>;
 
+val oreDustNickel = <ore:dustNickel>;
+val oreDustTinyNickel = <ore:dustTinyNickel>;
+val nickelDust = <thermalfoundation:material:69>;
+val nickelIngot = <thermalfoundation:material:133>;
+val divergentUndergroundNickelOre = <divergentunderground:ie_hard_nickel_ore>;
+val oreCrushedNickel = <ore:crushedNickel>;
+val oreCrushedPurifiedNickel = <ore:crushedPurifiedNickel>;
+
+val orePentlandite = <ore:orePentlandite>;
+val oreCrushedPentlandite = <ore:crushedPentlandite>;
+val oreCrushedPurifiedPentlandite = <ore:crushedPurifiedPentlandite>;
+
+val oreGarnierite = <ore:oreGarnierite>;
+val oreCrushedGarnierite = <ore:crushedGarnierite>;
+val oreCrushedPurifiedGarnierite = <ore:crushedPurifiedGarnierite>;
+
 //--- Add Recipes ---//
 
 //---> Remap Iron Ore recipes
@@ -104,6 +120,13 @@ recipes.addShaped("TinyPileOfAlToAlDust", aluminumDust, [[oreDustTinyAluminum, o
 furnace.addRecipe(aluminumIngot, divergentUndergroundAluminumOre, experienceSmelting);
 furnace.addRecipe(aluminumIngot, oreCrushedAluminum, experienceSmelting);
 furnace.addRecipe(aluminumIngot, oreCrushedPurifiedAluminum, experienceSmelting);
+
+//---> Remap Nickel Ore recipes
+recipes.remove(oreDustNickel);
+recipes.addShaped("TinyPileOfNiToNiDust", nickelDust, [[oreDustTinyNickel, oreDustTinyNickel, oreDustTinyNickel], [oreDustTinyNickel, oreDustTinyNickel, oreDustTinyNickel], [oreDustTinyNickel, oreDustTinyNickel, oreDustTinyNickel]]);
+furnace.addRecipe(nickelIngot, divergentUndergroundNickelOre, experienceSmelting);
+furnace.addRecipe(nickelIngot, oreCrushedNickel, experienceSmelting);
+furnace.addRecipe(nickelIngot, oreCrushedPurifiedNickel, experienceSmelting);
 
 //---> Add Magnetite Smelting
 furnace.addRecipe(ironIngot, oreMagnetite, experienceSmelting);
@@ -159,3 +182,13 @@ furnace.addRecipe(aluminumIngot, oreCrushedPurifiedBauxite, experienceSmelting);
 furnace.addRecipe(aluminumIngot, oreLeucite, experienceSmelting);
 furnace.addRecipe(aluminumIngot, oreCrushedLeucite, experienceSmelting);
 furnace.addRecipe(aluminumIngot, oreCrushedPurifiedLeucite, experienceSmelting);
+
+//---> Add Pentlandite Smelting
+furnace.addRecipe(nickelIngot, orePentlandite, experienceSmelting);
+furnace.addRecipe(nickelIngot, oreCrushedPentlandite, experienceSmelting);
+furnace.addRecipe(nickelIngot, oreCrushedPurifiedPentlandite, experienceSmelting);
+
+//---> Add Garnierite Smelting
+furnace.addRecipe(nickelIngot, oreGarnierite, experienceSmelting);
+furnace.addRecipe(nickelIngot, oreCrushedGarnierite, experienceSmelting);
+furnace.addRecipe(nickelIngot, oreCrushedPurifiedGarnierite, experienceSmelting);

@@ -89,4 +89,12 @@
 			<itemStack>contenttweaker:aluminum_crystal</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="400" power ="280">
+		<input>
+			<oreDict>nickelChunks</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:nickel_crystal</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

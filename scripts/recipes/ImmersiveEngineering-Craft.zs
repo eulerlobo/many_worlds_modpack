@@ -124,6 +124,26 @@ val crushedLeucite = <contenttweaker:crushed_leucite>;
 val oreCrushedLeucite = <ore:crushedLeucite>;
 val oreCrushedPurifiedLeucite = <ore:crushedPurifiedLeucite>;
 
+val nickelIngot = <thermalfoundation:material:133>;
+val oreNickel = <ore:oreNickel>;
+val divergentUndergroundNickelOre = <divergentunderground:ie_hard_nickel_ore>;
+val dustNickel = <thermalfoundation:material:69>;
+val oreDustNickel = <ore:dustNickel>;
+val tinyDustNickel = <ore:dustTinyNickel>;
+val oreCrushedNickel = <ore:crushedNickel>;
+val orePurifiedCrushedNickel = <ore:crushedPurifiedNickel>;
+val oreNickelCystal = <ore:nickelCrystal>;
+
+val orePentlandite = <ore:orePentlandite>;
+val crushedPentlandite = <contenttweaker:crushed_pentlandite>;
+val oreCrushedPentlandite = <ore:crushedPentlandite>;
+val oreCrushedPurifiedPentlandite = <ore:crushedPurifiedPentlandite>;
+
+val oreGarnierite = <ore:oreGarnierite>;
+val crushedGarnierite = <contenttweaker:crushed_garnierite>;
+val oreCrushedGarnierite = <ore:crushedGarnierite>;
+val oreCrushedPurifiedGarnierite = <ore:crushedPurifiedGarnierite>;
+
 //--- Add Recipes ---//
 
 //---> Hide Copper Ore
@@ -132,6 +152,9 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:ore>);
 //---> Hide Lead Ore
 mods.jei.JEI.removeAndHide(<immersiveengineering:ore:2>);
 
+//---> Hide Nickel Ore
+mods.jei.JEI.removeAndHide(<immersiveengineering:ore:4>);
+
 //---> Remove ingots recipes for remap
 ArcFurnace.removeRecipe(ironIngot);
 ArcFurnace.removeRecipe(copperIngot);
@@ -139,6 +162,7 @@ ArcFurnace.removeRecipe(tinIngot);
 ArcFurnace.removeRecipe(goldIngot);
 ArcFurnace.removeRecipe(leadIngot);
 ArcFurnace.removeRecipe(aluminumIngot);
+ArcFurnace.removeRecipe(nickelIngot);
 
 //---> Add slag from furnace
 furnace.addRecipe(slag, oreGravel);
@@ -148,6 +172,8 @@ ArcFurnace.addRecipe(ironIngot * 3, oreIronCrystal, null, ticksArcFurnace, rfTic
 ArcFurnace.addRecipe(copperIngot * 3, oreCopperCrystal, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(tinIngot * 3, oreTinCystal, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(leadIngot * 3, oreLeadCystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(aluminumIngot * 3, oreAluminumCystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(nickelIngot * 3, oreNickelCystal, null, ticksArcFurnace, rfTickArcFurnace);
 
 //---> Add Magnetite Crusher, Hammer Crusher and Iron Recipes
 Crusher.addRecipe(crushedMagnetite * 3, oreMagnetite, crusherBaseEnergy, dustAluminum, dropRateSecondaryOutput);
@@ -225,6 +251,17 @@ ArcFurnace.addRecipe(aluminumIngot, oreCrushedAluminum, slag, ticksArcFurnace, r
 ArcFurnace.addRecipe(aluminumIngot * 2, orePurifiedCrushedAluminum, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(aluminumIngot, oreDustAluminum, null, ticksArcFurnace, rfTickArcFurnace);
 
+//---> Remap Nickel ore recipes
+Crusher.removeRecipe(<thermalfoundation:material:69>);
+Crusher.addRecipe(<contenttweaker:crushed_nickel> * 3, oreNickel, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+Crusher.addRecipe(<contenttweaker:crushed_nickel> * 3, divergentUndergroundNickelOre, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+Crusher.addRecipe(<thermalfoundation:material:69>, nickelIngot, crusherBaseEnergy);
+recipes.addShapeless("NickelOreIEHammer", <contenttweaker:crushed_nickel> * 2, [oreNickel, <immersiveengineering:tool>]);
+recipes.addShapeless("DivergentNickelOreIEHammer", <contenttweaker:crushed_nickel> * 2, [divergentUndergroundNickelOre, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(nickelIngot, oreCrushedNickel, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(nickelIngot * 2, orePurifiedCrushedNickel, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(nickelIngot, oreDustNickel, null, ticksArcFurnace, rfTickArcFurnace);
+
 //---> Add Craft to Slag Slurry with Mixer
 Mixer.addRecipe(<liquid:slag_slurry> * 500, <liquid:sulfuric_acid> * 500, [<ore:itemSlag>], 1000);
 
@@ -271,14 +308,26 @@ recipes.addShapeless("CerussiteIEHammer", crushedCerussite * 2, [oreCerussite, <
 ArcFurnace.addRecipe(leadIngot, oreCrushedCerussite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(leadIngot * 2, oreCrushedPurifiedCerussite, null, ticksArcFurnace, rfTickArcFurnace);
 
-//---> Add Bauxite Crusher, Hammer Crusher and Lead Recipes
+//---> Add Bauxite Crusher, Hammer Crusher and Aluminum Recipes
 Crusher.addRecipe(crushedBauxite * 3, oreBauxite, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
 recipes.addShapeless("BauxiteIEHammer", crushedBauxite * 2, [oreBauxite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(aluminumIngot, oreCrushedBauxite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(aluminumIngot * 2, oreCrushedPurifiedBauxite, null, ticksArcFurnace, rfTickArcFurnace);
 
-//---> Add Leucite Crusher, Hammer Crusher and Lead Recipes
+//---> Add Leucite Crusher, Hammer Crusher and Aluminum Recipes
 Crusher.addRecipe(crushedLeucite * 3, oreLeucite, crusherBaseEnergy);
 recipes.addShapeless("LeuciteIEHammer", crushedLeucite * 2, [oreLeucite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(aluminumIngot, oreCrushedLeucite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(aluminumIngot * 2, oreCrushedPurifiedLeucite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Pentlandite Crusher, Hammer Crusher and Nickel Recipes
+Crusher.addRecipe(crushedPentlandite * 3, orePentlandite, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+recipes.addShapeless("PentlanditeIEHammer", crushedPentlandite * 2, [orePentlandite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(nickelIngot, oreCrushedPentlandite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(nickelIngot * 2, oreCrushedPurifiedPentlandite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Garnierite Crusher, Hammer Crusher and Nickel Recipes
+Crusher.addRecipe(crushedGarnierite * 3, oreGarnierite, crusherBaseEnergy);
+recipes.addShapeless("GarnieriteIEHammer", crushedGarnierite * 2, [oreGarnierite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(nickelIngot, oreCrushedGarnierite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(nickelIngot * 2, oreCrushedPurifiedGarnierite, null, ticksArcFurnace, rfTickArcFurnace);

@@ -73,6 +73,17 @@ val oreCrushedPurifiedBauxite = <ore:crushedPurifiedBauxite>;
 val oreLeucite = <ore:oreLeucite>;
 val oreCrushedPurifiedLeucite = <ore:crushedPurifiedLeucite>;
 
+val oreCrushedPurifiedNickel = <ore:crushedPurifiedNickel>;
+val liquidNickel = <liquid:nickel>;
+val nickelChunks = <contenttweaker:nickel_chunks>;
+val oreNickelCrystal = <ore:nickelCrystal>;
+
+val orePentlandite = <ore:orePentlandite>;
+val oreCrushedPurifiedPentlandite = <ore:crushedPurifiedPentlandite>;
+
+val oreGarnierite = <ore:oreGarnierite>;
+val oreCrushedPurifiedGarnierite = <ore:crushedPurifiedGarnierite>;
+
 //--- Add Recipes ---//
 
 //---> Add Iron Crystal Smelting
@@ -89,6 +100,9 @@ melter.addRecipe([oreLeadCrystal, liquidLead * mbCrystalOre, timeBaseMultiplier,
 
 //---> Add Aluminum Crystal Smelting
 melter.addRecipe([oreAluminumCrystal, liquidAluminum * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Nickel Crystal Smelting
+melter.addRecipe([oreNickelCrystal, liquidNickel * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
 //---> Remap Iron Ore recipes
 melter.addRecipe([<divergentunderground:ore_iron>, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
@@ -114,6 +128,9 @@ mods.jei.JEI.removeAndHide(<nuclearcraft:ore:2>);
 
 //---> Remap Aluminum Ore recipes
 infuser.addRecipe([oreCrushedPurifiedAluminum, liquidMineralizedAcidWater * mbChunks, aluminumChunks]);
+
+//---> Remap Nickel Ore recipes
+infuser.addRecipe([oreCrushedPurifiedNickel, liquidMineralizedAcidWater * mbChunks, nickelChunks]);
 
 //---> Add Magnetite Recipes
 melter.addRecipe([oreMagnetite, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
@@ -159,3 +176,11 @@ infuser.addRecipe([oreCrushedPurifiedBauxite, liquidMineralizedAcidWater * mbChu
 //---> Add Leucite Recipes
 melter.addRecipe([oreLeucite, liquidAluminum * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedLeucite, liquidMineralizedAcidWater * mbChunks, aluminumChunks]);
+
+//---> Add Pentlandite Recipes
+melter.addRecipe([orePentlandite, liquidNickel * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedPentlandite, liquidMineralizedAcidWater * mbChunks, nickelChunks]);
+
+//---> Add Garnierite Recipes
+melter.addRecipe([oreGarnierite, liquidNickel * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedGarnierite, liquidMineralizedAcidWater * mbChunks, nickelChunks]);

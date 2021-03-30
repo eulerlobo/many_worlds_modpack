@@ -21,3 +21,6 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:ore:3>);
 
 //---> Hide Aluminum Ore
 mods.jei.JEI.removeAndHide(<thermalfoundation:ore:4>);
+
+//---> Hide Nickel Ore
+mods.jei.JEI.removeAndHide(<thermalfoundation:ore:5>);

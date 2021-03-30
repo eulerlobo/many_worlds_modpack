@@ -198,5 +198,12 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
       return;
     }
 
+    //Fix Divergent Nickel Ore drop with skilk touch
+    if (block == "divergentunderground:ie_hard_nickel_ore" && event.silkTouch) {
+      val nickelOreBlock = [<divergentunderground:ie_hard_nickel_ore>] as IItemStack[];
+      event.drops = nickelOreBlock;
+      return;
+    }
+
   }
 });
