@@ -1149,6 +1149,15 @@ kerniteOre.setDropHandler(function(drops, world, position, state, fortune) {
 });
 kerniteOre.register();
 
+//--- Titanium ---//
+
+//---> Pulverized Titanium
+var pulverizedTitanium = VanillaFactory.createItem("pulverized_titanium");
+pulverizedTitanium.register();
+
+//---> Tiny Pile of Titanium Dust
+var tinyPileTitaniumDust = VanillaFactory.createItem("tiny_pile_of_titanium_dust");
+tinyPileTitaniumDust.register();
 
 //----------------//
 //     Fluids     //

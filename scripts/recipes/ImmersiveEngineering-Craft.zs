@@ -71,7 +71,7 @@ val dustTin = <thermalfoundation:material:65>;
 val oreDustTin = <ore:dustTin>;
 val oreCrushedTin = <ore:crushedTin>;
 val orePurifiedCrushedTin = <ore:crushedPurifiedTin>;
-val oreTinCystal = <ore:tinCrystal>;
+val oreTinCrystal = <ore:tinCrystal>;
 
 val oreTeallite = <ore:oreTeallite>;
 val crushedTeallite = <contenttweaker:crushed_teallite>;
@@ -92,7 +92,7 @@ val oreDustLead = <ore:dustLead>;
 val tinyDustLead = <ore:dustTinyLead>;
 val oreCrushedLead = <ore:crushedLead>;
 val orePurifiedCrushedLead = <ore:crushedPurifiedLead>;
-val oreLeadCystal = <ore:leadCrystal>;
+val oreLeadCrystal = <ore:leadCrystal>;
 
 val oreGalena = <ore:oreGalena>;
 val crushedGalena = <contenttweaker:crushed_galena>;
@@ -112,7 +112,7 @@ val oreDustAluminum = <ore:dustAluminum>;
 val tinyDustAluminum = <ore:dustTinyAluminum>;
 val oreCrushedAluminum = <ore:crushedAluminum>;
 val orePurifiedCrushedAluminum = <ore:crushedPurifiedAluminum>;
-val oreAluminumCystal = <ore:aluminumCrystal>;
+val oreAluminumCrystal = <ore:aluminumCrystal>;
 
 val oreBauxite = <ore:oreBauxite>;
 val crushedBauxite = <contenttweaker:crushed_bauxite>;
@@ -132,7 +132,7 @@ val oreDustNickel = <ore:dustNickel>;
 val tinyDustNickel = <ore:dustTinyNickel>;
 val oreCrushedNickel = <ore:crushedNickel>;
 val orePurifiedCrushedNickel = <ore:crushedPurifiedNickel>;
-val oreNickelCystal = <ore:nickelCrystal>;
+val oreNickelCrystal = <ore:nickelCrystal>;
 
 val orePentlandite = <ore:orePentlandite>;
 val crushedPentlandite = <contenttweaker:crushed_pentlandite>;
@@ -143,6 +143,20 @@ val oreGarnierite = <ore:oreGarnierite>;
 val crushedGarnierite = <contenttweaker:crushed_garnierite>;
 val oreCrushedGarnierite = <ore:crushedGarnierite>;
 val oreCrushedPurifiedGarnierite = <ore:crushedPurifiedGarnierite>;
+
+val titaniumIngot = <libvulpes:productingot:7>;
+val oreTitaniumCrystal = <ore:titaniumCrystal>;
+val oreDustTitanium = <ore:dustTitanium>;
+
+val oreRutile = <ore:oreRutile>;
+val crushedRutile = <contenttweaker:crushed_rutile>;
+val oreCrushedRutile = <ore:crushedRutile>;
+val oreCrushedPurifiedRutile = <ore:crushedPurifiedRutile>;
+
+val oreIlmenite = <ore:oreIlmenite>;
+val crushedOreIlmenite = <contenttweaker:crushed_ilmenite>;
+val oreCrushedIlmenite = <ore:crushedIlmenite>;
+val oreCrushedPurifiedIlmenite = <ore:crushedPurifiedIlmenite>;
 
 //--- Add Recipes ---//
 
@@ -163,6 +177,7 @@ ArcFurnace.removeRecipe(goldIngot);
 ArcFurnace.removeRecipe(leadIngot);
 ArcFurnace.removeRecipe(aluminumIngot);
 ArcFurnace.removeRecipe(nickelIngot);
+ArcFurnace.removeRecipe(titaniumIngot);
 
 //---> Add slag from furnace
 furnace.addRecipe(slag, oreGravel);
@@ -170,10 +185,11 @@ furnace.addRecipe(slag, oreGravel);
 //---> Add Crystals Recipe
 ArcFurnace.addRecipe(ironIngot * 3, oreIronCrystal, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(copperIngot * 3, oreCopperCrystal, null, ticksArcFurnace, rfTickArcFurnace);
-ArcFurnace.addRecipe(tinIngot * 3, oreTinCystal, null, ticksArcFurnace, rfTickArcFurnace);
-ArcFurnace.addRecipe(leadIngot * 3, oreLeadCystal, null, ticksArcFurnace, rfTickArcFurnace);
-ArcFurnace.addRecipe(aluminumIngot * 3, oreAluminumCystal, null, ticksArcFurnace, rfTickArcFurnace);
-ArcFurnace.addRecipe(nickelIngot * 3, oreNickelCystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(tinIngot * 3, oreTinCrystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(leadIngot * 3, oreLeadCrystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(aluminumIngot * 3, oreAluminumCrystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(nickelIngot * 3, oreNickelCrystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(titaniumIngot * 3, oreTitaniumCrystal, null, ticksArcFurnace, rfTickArcFurnace);
 
 //---> Add Magnetite Crusher, Hammer Crusher and Iron Recipes
 Crusher.addRecipe(crushedMagnetite * 3, oreMagnetite, crusherBaseEnergy, dustAluminum, dropRateSecondaryOutput);
@@ -262,6 +278,10 @@ ArcFurnace.addRecipe(nickelIngot, oreCrushedNickel, slag, ticksArcFurnace, rfTic
 ArcFurnace.addRecipe(nickelIngot * 2, orePurifiedCrushedNickel, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(nickelIngot, oreDustNickel, null, ticksArcFurnace, rfTickArcFurnace);
 
+//---> Remap Titanium ore recipes
+Crusher.removeRecipe(<libvulpes:productdust:7>);
+ArcFurnace.addRecipe(titaniumIngot, oreDustTitanium, null, ticksArcFurnace, rfTickArcFurnace);
+
 //---> Add Craft to Slag Slurry with Mixer
 Mixer.addRecipe(<liquid:slag_slurry> * 500, <liquid:sulfuric_acid> * 500, [<ore:itemSlag>], 1000);
 
@@ -331,3 +351,15 @@ Crusher.addRecipe(crushedGarnierite * 3, oreGarnierite, crusherBaseEnergy);
 recipes.addShapeless("GarnieriteIEHammer", crushedGarnierite * 2, [oreGarnierite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(nickelIngot, oreCrushedGarnierite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(nickelIngot * 2, oreCrushedPurifiedGarnierite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Rutile Crusher, Hammer Crusher and Nickel Recipes
+Crusher.addRecipe(crushedRutile * 3, oreRutile, crusherBaseEnergy);
+recipes.addShapeless("RutileIEHammer", crushedRutile * 2, [oreRutile, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(titaniumIngot, oreCrushedRutile, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(titaniumIngot * 2, oreCrushedPurifiedRutile, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Ilmenite Crusher, Hammer Crusher and Nickel Recipes
+Crusher.addRecipe(crushedIlmenite * 3, oreIlmenite, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+recipes.addShapeless("IlmeniteIEHammer", crushedIlmenite * 2, [oreIlmenite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(titaniumIngot, oreCrushedIlmenite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(titaniumIngot * 2, oreCrushedPurifiedIlmenite, null, ticksArcFurnace, rfTickArcFurnace);

@@ -69,6 +69,12 @@ val oreNickel = <ore:oreNickel>;
 val crushedOreNickel = <contenttweaker:crushed_nickel>;
 val divergentUndergroundNickelOre = <divergentunderground:ie_hard_nickel_ore>;
 
+val oreRutile = <ore:oreRutile>;
+val crushedOreRutile = <contenttweaker:crushed_rutile>;
+
+val oreIlmenite = <ore:oreIlmenite>;
+val crushedOreIlmenite = <contenttweaker:crushed_ilmenite>;
+
 //--- Add Recipes ---//
 
 //---> Add Magnetite
@@ -280,3 +286,19 @@ Mortar.addRecipe(["diamond"], crushedGarnierite * 2, 5, [oreGarnierite]);
 Mortar.addRecipe(["obsidian"], crushedGarnierite * 2, 3, [oreGarnierite]);
 Mortar.addRecipe(["emerald"], crushedGarnierite * 2, 3, [oreGarnierite]);
 Mortar.addRecipe(["gold"], crushedGarnierite * 2, 1, [oreGarnierite]);
+
+//---> Add Rutile
+Mortar.addRecipe(["stone"], crushedOreRutile * 2, 9, [oreRutile]);
+Mortar.addRecipe(["iron"], crushedOreRutile * 2, 7, [oreRutile]);
+Mortar.addRecipe(["diamond"], crushedOreRutile * 2, 5, [oreRutile]);
+Mortar.addRecipe(["obsidian"], crushedOreRutile * 2, 3, [oreRutile]);
+Mortar.addRecipe(["emerald"], crushedOreRutile * 2, 3, [oreRutile]);
+Mortar.addRecipe(["gold"], crushedOreRutile * 2, 1, [oreRutile]);
+
+//---> Add Ilmenite
+Mortar.addRecipe(["stone"], crushedOreIlmenite * 2, 9, [oreIlmenite]);
+Mortar.addRecipe(["iron"], crushedOreIlmenite * 2, 7, [oreIlmenite]);
+Mortar.addRecipe(["diamond"], crushedOreIlmenite * 2, 5, [oreIlmenite]);
+Mortar.addRecipe(["obsidian"], crushedOreIlmenite * 2, 3, [oreIlmenite]);
+Mortar.addRecipe(["emerald"], crushedOreIlmenite * 2, 3, [oreIlmenite]);
+Mortar.addRecipe(["gold"], crushedOreIlmenite * 2, 1, [oreIlmenite]);

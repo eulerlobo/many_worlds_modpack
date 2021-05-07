@@ -520,4 +520,20 @@
 			<itemStack>contenttweaker:crushed_garnierite;2;0</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreRutile</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_rutile;2;0</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreIlmenite</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:crushed_ilmenite;2;0</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

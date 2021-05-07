@@ -84,6 +84,16 @@ val oreCrushedPurifiedPentlandite = <ore:crushedPurifiedPentlandite>;
 val oreGarnierite = <ore:oreGarnierite>;
 val oreCrushedPurifiedGarnierite = <ore:crushedPurifiedGarnierite>;
 
+val liquidTitanium = <liquid:titanium>;
+val titaniumChunks = <contenttweaker:titanium_chunks>;
+val oreTitaniumCrystal = <ore:titaniumCrystal>;
+
+val oreRutile = <ore:oreRutile>;
+val oreCrushedPurifiedRutile = <ore:crushedPurifiedRutile>;
+
+val oreIlmenite = <ore:oreIlmenite>;
+val oreCrushedPurifiedIlmenite = <ore:crushedPurifiedIlmenite>;
+
 //--- Add Recipes ---//
 
 //---> Add Iron Crystal Smelting
@@ -103,6 +113,9 @@ melter.addRecipe([oreAluminumCrystal, liquidAluminum * mbCrystalOre, timeBaseMul
 
 //---> Add Nickel Crystal Smelting
 melter.addRecipe([oreNickelCrystal, liquidNickel * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Titanium Crystal Smelting
+melter.addRecipe([oreTitaniumCrystal, liquidTitanium * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
 //---> Remap Iron Ore recipes
 melter.addRecipe([<divergentunderground:ore_iron>, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
@@ -184,3 +197,11 @@ infuser.addRecipe([oreCrushedPurifiedPentlandite, liquidMineralizedAcidWater * m
 //---> Add Garnierite Recipes
 melter.addRecipe([oreGarnierite, liquidNickel * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedGarnierite, liquidMineralizedAcidWater * mbChunks, nickelChunks]);
+
+//---> Add Rutile Recipes
+melter.addRecipe([oreRutile, liquidTitanium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedRutile, liquidMineralizedAcidWater * mbChunks, titaniumChunks]);
+
+//---> Add Ilmenite Recipes
+melter.addRecipe([oreIlmenite, liquidTitanium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedIlmenite, liquidMineralizedAcidWater * mbChunks, titaniumChunks]);

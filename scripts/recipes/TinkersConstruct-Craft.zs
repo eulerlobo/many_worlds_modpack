@@ -10,6 +10,7 @@ val tinSmeltingTemperature = 333; //33 Celsius
 val leadSmeltingTemperature = 366; //66 Celsius
 val aluminumSmeltingTemperature = 320; //20 Celsius
 val nickelSmeltingTemperature = 585; //285 Celsius
+val titaniumSmeltingTemperature = 545; //245 Celsius
 
 val rockOreIron = <ore:rockOreIron>;
 val liquidIron = <liquid:iron>;
@@ -61,6 +62,13 @@ val orePentlandite = <ore:orePentlandite>;
 
 val oreGarnierite = <ore:oreGarnierite>;
 
+val liquidTitanium = <liquid:titanium>;
+val oreTitaniumCrystal = <ore:titaniumCrystal>;
+
+val oreRutile = <ore:oreRutile>;
+
+val oreIlmenite = <ore:oreIlmenite>;
+
 //--- Add Recipes ---/
 
 //---> Remap Tin Ore Smelting
@@ -89,6 +97,9 @@ mods.tconstruct.Melting.addRecipe(liquidAluminum * mbCrystalOre, oreAluminumCrys
 
 //---> Add Nickel Crystal Smelting
 mods.tconstruct.Melting.addRecipe(liquidNickel * mbCrystalOre, oreNickelCrystal, nickelSmeltingTemperature);
+
+//---> Add Titanium Crystal Smelting
+mods.tconstruct.Melting.addRecipe(liquidTitanium * mbCrystalOre, oreTitaniumCrystal, nickelSmeltingTemperature);
 
 //---> Add Magnetite Smelting
 mods.tconstruct.Melting.addRecipe(liquidIron * mbIngotOre, oreMagnetite, ironSmeltingTemperature);
@@ -133,3 +144,9 @@ mods.tconstruct.Melting.addRecipe(liquidNickel * mbIngotOre, orePentlandite, nic
 
 //---> Add Garnierite Smelting
 mods.tconstruct.Melting.addRecipe(liquidNickel * mbIngotOre, oreGarnierite, nickelSmeltingTemperature);
+
+//---> Add Rutile Smelting
+mods.tconstruct.Melting.addRecipe(liquidTitanium * mbIngotOre, oreRutile, titaniumSmeltingTemperature);
+
+//---> Add Ilmenite Smelting
+mods.tconstruct.Melting.addRecipe(liquidTitanium * mbIngotOre, oreIlmenite, titaniumSmeltingTemperature);

@@ -97,4 +97,12 @@
 			<itemStack>contenttweaker:nickel_crystal</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="400" power ="280">
+		<input>
+			<oreDict>titaniumChunks</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:titanium_crystal</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

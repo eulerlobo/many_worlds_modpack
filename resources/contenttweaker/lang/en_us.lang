@@ -116,6 +116,10 @@ item.contenttweaker.purified_crushed_nickel.name=Purified Crushed Nickel
 #Tiny Dust
 item.contenttweaker.tiny_pile_of_aluminum_dust.name=Tiny Pile of Aluminum Dust
 item.contenttweaker.tiny_pile_of_nickel_dust.name=Tiny Pile of Nickel Dust
+item.contenttweaker.tiny_pile_of_titanium_dust.name=Tiny Pile of Titanium Dust
+
+#Dust
+item.contenttweaker.pulverized_titanium.name=Pulverized Titanium
 
 #Chunks
 item.contenttweaker.iron_chunks.name=Iron Chunks

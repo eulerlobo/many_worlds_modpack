@@ -102,7 +102,7 @@ val crystalSlagList = <ore:crystalSlag>;
 
 crystalSlagList.add(ic2Slag);
 
-//--- Aluminum ---/
+//--- Aluminum ---//
 val aluminumTinyDustList = <ore:dustTinyAluminum>;
 aluminumTinyDustList.add(<contenttweaker:tiny_pile_of_aluminum_dust>);
 
@@ -112,7 +112,7 @@ crushedAluminumList.add(<contenttweaker:crushed_aluminum>);
 val crushedPurifiedAluminumList = <ore:crushedPurifiedAluminum>;
 crushedPurifiedAluminumList.add(<contenttweaker:purified_crushed_aluminum>);
 
-//--- Nickel ---/
+//--- Nickel ---//
 val nickelTinyDustList = <ore:dustTinyNickel>;
 nickelTinyDustList.add(<contenttweaker:tiny_pile_of_nickel_dust>);
 
@@ -121,6 +121,13 @@ crushedNickelList.add(<contenttweaker:crushed_nickel>);
 
 val crushedPurifiedNickelList = <ore:crushedPurifiedNickel>;
 crushedPurifiedNickelList.add(<contenttweaker:purified_crushed_nickel>);
+
+//--- Titanium ---//
+val dustTitanium = <ore:dustTitanium>;
+dustTitanium.add(<contenttweaker:pulverized_titanium>);
+
+val titaniumTinyDustList = <ore:dustTinyTitanium>;
+titaniumTinyDustList.add(<contenttweaker:tiny_pile_of_titanium_dust>);
 
 //--- Native Copper ---//
 val nativeCopperOreList = <ore:oreNativeCopper>;

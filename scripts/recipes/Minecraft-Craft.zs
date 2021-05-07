@@ -92,6 +92,19 @@ val oreGarnierite = <ore:oreGarnierite>;
 val oreCrushedGarnierite = <ore:crushedGarnierite>;
 val oreCrushedPurifiedGarnierite = <ore:crushedPurifiedGarnierite>;
 
+val oreDustTitanium = <ore:dustTitanium>;
+val oreDustTinyTitanium = <ore:dustTinyTitanium>;
+val titaniumDust = <contenttweaker:pulverized_titanium>;
+val titaniumIngot = <libvulpes:productingot:7>;
+
+val oreRutile = <ore:oreRutile>;
+val oreCrushedRutile = <ore:crushedRutile>;
+val oreCrushedPurifiedRutile = <ore:crushedPurifiedRutile>;
+
+val oreIlmenite = <ore:oreIlmenite>;
+val oreCrushedIlmenite = <ore:crushedIlmenite>;
+val oreCrushedPurifiedIlmenite = <ore:crushedPurifiedIlmenite>;
+
 //--- Add Recipes ---//
 
 //---> Remap Iron Ore recipes
@@ -127,6 +140,9 @@ recipes.addShaped("TinyPileOfNiToNiDust", nickelDust, [[oreDustTinyNickel, oreDu
 furnace.addRecipe(nickelIngot, divergentUndergroundNickelOre, experienceSmelting);
 furnace.addRecipe(nickelIngot, oreCrushedNickel, experienceSmelting);
 furnace.addRecipe(nickelIngot, oreCrushedPurifiedNickel, experienceSmelting);
+
+//---> Remap Titanium Ore recipes
+recipes.addShaped("TinyPileOfTiToTiDust", titaniumDust, [[oreDustTinyTitanium, oreDustTinyTitanium, oreDustTinyTitanium], [oreDustTinyTitanium, oreDustTinyTitanium, oreDustTinyTitanium], [oreDustTinyTitanium, oreDustTinyTitanium, oreDustTinyTitanium]]);
 
 //---> Add Magnetite Smelting
 furnace.addRecipe(ironIngot, oreMagnetite, experienceSmelting);
@@ -192,3 +208,13 @@ furnace.addRecipe(nickelIngot, oreCrushedPurifiedPentlandite, experienceSmelting
 furnace.addRecipe(nickelIngot, oreGarnierite, experienceSmelting);
 furnace.addRecipe(nickelIngot, oreCrushedGarnierite, experienceSmelting);
 furnace.addRecipe(nickelIngot, oreCrushedPurifiedGarnierite, experienceSmelting);
+
+//---> Add Rutile Smelting
+furnace.addRecipe(titaniumIngot, oreRutile, experienceSmelting);
+furnace.addRecipe(titaniumIngot, oreCrushedRutile, experienceSmelting);
+furnace.addRecipe(titaniumIngot, oreCrushedPurifiedRutile, experienceSmelting);
+
+//---> Add Ilmenite Smelting
+furnace.addRecipe(titaniumIngot, oreIlmenite, experienceSmelting);
+furnace.addRecipe(titaniumIngot, oreCrushedIlmenite, experienceSmelting);
+furnace.addRecipe(titaniumIngot, oreCrushedPurifiedIlmenite, experienceSmelting);
