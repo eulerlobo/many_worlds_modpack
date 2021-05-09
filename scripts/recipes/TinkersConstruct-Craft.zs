@@ -11,6 +11,7 @@ val leadSmeltingTemperature = 366; //66 Celsius
 val aluminumSmeltingTemperature = 320; //20 Celsius
 val nickelSmeltingTemperature = 585; //285 Celsius
 val titaniumSmeltingTemperature = 545; //245 Celsius
+val silverSmeltingTemperature = 427; //127 Celsius
 
 val rockOreIron = <ore:rockOreIron>;
 val liquidIron = <liquid:iron>;
@@ -68,6 +69,10 @@ val oreTitaniumCrystal = <ore:titaniumCrystal>;
 val oreRutile = <ore:oreRutile>;
 
 val oreIlmenite = <ore:oreIlmenite>;
+
+val rockOreSilver = <ore:rockOreSilver>;
+val oreNativeSilver = <ore:oreNativeSilver>;
+val liquidSilver = <liquid:silver>;
 
 //--- Add Recipes ---/
 
@@ -150,3 +155,7 @@ mods.tconstruct.Melting.addRecipe(liquidTitanium * mbIngotOre, oreRutile, titani
 
 //---> Add Ilmenite Smelting
 mods.tconstruct.Melting.addRecipe(liquidTitanium * mbIngotOre, oreIlmenite, titaniumSmeltingTemperature);
+
+//---> Add Silver and Native Silver Ore Smelting
+mods.tconstruct.Melting.addRecipe(liquidSilver * mbIngotOre, rockOreSilver, silverSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidSilver * mbCrystalOre, oreNativeSilver, silverSmeltingTemperature);

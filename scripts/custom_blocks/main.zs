@@ -633,7 +633,11 @@ nativeGoldOre.register();
 
 //--- Native Silver ---//
 
-//---> Ore Native Gold
+//---> Rock Native Silver Ore
+var rockNativeSilverOre = VanillaFactory.createItem("rock_native_silver_ore");
+rockNativeSilverOre.register();
+
+//---> Ore Native Silver
 var nativeSilverOre = VanillaFactory.createBlock("native_silver_ore", <blockmaterial:rock>);
 nativeSilverOre.setBlockHardness(3.0);
 nativeSilverOre.setBlockResistance(3.0);
@@ -651,12 +655,39 @@ nativeSilverOre.setDropHandler(function(drops, world, position, state, fortune) 
     ) {
         fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
     }
-    drops.add(<item:divergentunderground:ore_ie_silver> * fortuneMultiplier);
+    drops.add(<item:contenttweaker:rock_native_silver_ore> * fortuneMultiplier);
     drops.add(<item:divergentunderground:rock_stone> * 2);
 
     return;
 });
 nativeSilverOre.register();
+
+//--- Silver ore ---//
+
+//---> Silver Ore
+var silverOre = VanillaFactory.createBlock("silver_ore", <blockmaterial:rock>);
+silverOre.setBlockHardness(3.0);
+silverOre.setBlockResistance(3.0);
+silverOre.setToolClass("pickaxe");
+silverOre.setToolLevel(1);
+silverOre.setBlockSoundType(<soundtype:stone>);
+silverOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_ie_silver> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+silverOre.register();
 
 //--- Sulfur ---//
 

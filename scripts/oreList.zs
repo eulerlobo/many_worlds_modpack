@@ -276,8 +276,8 @@ val nativeSilverOreList = <ore:oreNativeSilver>;
 nativeSilverOreList.add(<contenttweaker:native_silver_ore>);
 
 val rockNativeSilverOreList = <ore:rockNativeSilverOre>;
-nativeSilverOreList.add(<divergentunderground:ore_ie_silver>);
-rockNativeSilverOreList.add(<divergentunderground:ore_ie_silver>);
+nativeSilverOreList.add(<contenttweaker:rock_native_silver_ore>);
+rockNativeSilverOreList.add(<contenttweaker:rock_native_silver_ore>);
 
 //--- Sulfur ---//
 val sulfurOreList = <ore:oreSulfur>;

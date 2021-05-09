@@ -154,9 +154,18 @@ val oreCrushedRutile = <ore:crushedRutile>;
 val oreCrushedPurifiedRutile = <ore:crushedPurifiedRutile>;
 
 val oreIlmenite = <ore:oreIlmenite>;
-val crushedOreIlmenite = <contenttweaker:crushed_ilmenite>;
+val crushedIlmenite = <contenttweaker:crushed_ilmenite>;
 val oreCrushedIlmenite = <ore:crushedIlmenite>;
 val oreCrushedPurifiedIlmenite = <ore:crushedPurifiedIlmenite>;
+
+val oreSilver = <ore:oreSilver>;
+val rockOreSilver = <ore:rockOreSilver>;
+val silverIngot = <thermalfoundation:material:130>;
+val oreCrushedSilver = <ore:crushedSilver>;
+val orePurifiedCrushedSilver = <ore:crushedPurifiedSilver>;
+
+val oreNativeSilver = <ore:oreNativeSilver>;
+val pulverizedSilver = <thermalfoundation:material:66>;
 
 //--- Add Recipes ---//
 
@@ -171,13 +180,15 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:ore:4>);
 
 //---> Remove ingots recipes for remap
 ArcFurnace.removeRecipe(ironIngot);
+ArcFurnace.removeRecipe(goldIngot);
 ArcFurnace.removeRecipe(copperIngot);
 ArcFurnace.removeRecipe(tinIngot);
-ArcFurnace.removeRecipe(goldIngot);
 ArcFurnace.removeRecipe(leadIngot);
 ArcFurnace.removeRecipe(aluminumIngot);
 ArcFurnace.removeRecipe(nickelIngot);
 ArcFurnace.removeRecipe(titaniumIngot);
+ArcFurnace.removeRecipe(<thermalfoundation:material:130>);
+ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
 
 //---> Add slag from furnace
 furnace.addRecipe(slag, oreGravel);
@@ -282,6 +293,17 @@ ArcFurnace.addRecipe(nickelIngot, oreDustNickel, null, ticksArcFurnace, rfTickAr
 Crusher.removeRecipe(<libvulpes:productdust:7>);
 ArcFurnace.addRecipe(titaniumIngot, oreDustTitanium, null, ticksArcFurnace, rfTickArcFurnace);
 
+//---> Remap Silver ore recipes
+Crusher.removeRecipe(<thermalfoundation:material:66>);
+Crusher.addRecipe(<ic2:crushed:4> * 3, oreSilver, crusherBaseEnergy, dustLead, dropRateSecondaryOutput);
+Crusher.addRecipe(<ic2:crushed:4> * 3, rockOreSilver, crusherBaseEnergy, dustLead, dropRateSecondaryOutput);
+Crusher.addRecipe(<thermalfoundation:material:66>, silverIngot, crusherBaseEnergy);
+recipes.addShapeless("SilverOreIEHammer", <ic2:crushed:4> * 2, [oreSilver, <immersiveengineering:tool>]);
+recipes.addShapeless("RockSilverOreIEHammer", <ic2:crushed:4> * 2, [rockOreSilver, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(silverIngot, oreCrushedSilver, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(silverIngot * 2, orePurifiedCrushedSilver, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(silverIngot, oreDustSilver, null, ticksArcFurnace, rfTickArcFurnace);
+
 //---> Add Craft to Slag Slurry with Mixer
 Mixer.addRecipe(<liquid:slag_slurry> * 500, <liquid:sulfuric_acid> * 500, [<ore:itemSlag>], 1000);
 
@@ -363,3 +385,8 @@ Crusher.addRecipe(crushedIlmenite * 3, oreIlmenite, crusherBaseEnergy, dustIron,
 recipes.addShapeless("IlmeniteIEHammer", crushedIlmenite * 2, [oreIlmenite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(titaniumIngot, oreCrushedIlmenite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(titaniumIngot * 2, oreCrushedPurifiedIlmenite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Native Silver Crusher, Hammer Crusher
+Crusher.addRecipe(pulverizedSilver * 2, oreNativeSilver, crusherBaseEnergy);
+recipes.addShapeless("NativeSilverIEHammer", pulverizedSilver, [oreNativeSilver, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(pulverizedSilver * 3, oreNativeSilver, slag, ticksArcFurnace, rfTickArcFurnace);

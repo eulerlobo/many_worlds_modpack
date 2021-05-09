@@ -75,6 +75,13 @@ val crushedOreRutile = <contenttweaker:crushed_rutile>;
 val oreIlmenite = <ore:oreIlmenite>;
 val crushedOreIlmenite = <contenttweaker:crushed_ilmenite>;
 
+val oreSilver = <ore:oreSilver>;
+val rockOreSilver = <ore:rockOreSilver>;
+val crushedOreSilver = <ic2:crushed:4>;
+
+val oreNativeSilver = <ore:oreNativeSilver>;
+val pulverizedSilver = <thermalfoundation:material:66>;
+
 //--- Add Recipes ---//
 
 //---> Add Magnetite
@@ -302,3 +309,26 @@ Mortar.addRecipe(["diamond"], crushedOreIlmenite * 2, 5, [oreIlmenite]);
 Mortar.addRecipe(["obsidian"], crushedOreIlmenite * 2, 3, [oreIlmenite]);
 Mortar.addRecipe(["emerald"], crushedOreIlmenite * 2, 3, [oreIlmenite]);
 Mortar.addRecipe(["gold"], crushedOreIlmenite * 2, 1, [oreIlmenite]);
+
+//---> Remap Silver Ore recipes
+Mortar.addRecipe(["stone"], crushedOreSilver * 2, 9, [oreSilver]);
+Mortar.addRecipe(["iron"], crushedOreSilver * 2, 7, [oreSilver]);
+Mortar.addRecipe(["diamond"], crushedOreSilver * 2, 5, [oreSilver]);
+Mortar.addRecipe(["obsidian"], crushedOreSilver * 2, 3, [oreSilver]);
+Mortar.addRecipe(["emerald"], crushedOreSilver * 2, 3, [oreSilver]);
+Mortar.addRecipe(["gold"], crushedOreSilver * 2, 1, [oreSilver]);
+
+Mortar.addRecipe(["stone"], crushedOreSilver * 2, 9, [rockOreSilver]);
+Mortar.addRecipe(["iron"], crushedOreSilver * 2, 7, [rockOreSilver]);
+Mortar.addRecipe(["diamond"], crushedOreSilver * 2, 5, [rockOreSilver]);
+Mortar.addRecipe(["obsidian"], crushedOreSilver * 2, 3, [rockOreSilver]);
+Mortar.addRecipe(["emerald"], crushedOreSilver * 2, 3, [rockOreSilver]);
+Mortar.addRecipe(["gold"], crushedOreSilver * 2, 1, [rockOreSilver]);
+
+//---> Add Native Silver
+Mortar.addRecipe(["stone"], pulverizedSilver, 9, [oreNativeSilver]);
+Mortar.addRecipe(["iron"], pulverizedSilver, 7, [oreNativeSilver]);
+Mortar.addRecipe(["diamond"], pulverizedSilver, 5, [oreNativeSilver]);
+Mortar.addRecipe(["obsidian"], pulverizedSilver, 3, [oreNativeSilver]);
+Mortar.addRecipe(["emerald"], pulverizedSilver, 3, [oreNativeSilver]);
+Mortar.addRecipe(["gold"], pulverizedSilver, 1, [oreNativeSilver]);
