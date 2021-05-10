@@ -35,6 +35,7 @@ val orePurifiedCrushedIron = <ore:crushedPurifiedIron>;
 val oreIronCrystal = <ore:ironCrystal>;
 
 val oreGold = <ore:oreGold>;
+val oreRockOreGold = <ore:rockOreGold>;
 val goldIngot = <minecraft:gold_ingot>;
 val cinnabar = <thermalfoundation:material:866>;
 val oreDustSilver = <ore:dustSilver>;
@@ -43,8 +44,8 @@ val oreCrushedGold = <ore:crushedGold>;
 val orePurifiedCrushedGold = <ore:crushedPurifiedGold>;
 
 val oreCopper = <ore:oreCopper>;
+val oreRockOreCopper = <ore:rockOreCopper>;
 val copperIngot = <thermalfoundation:material:128>;
-val divergentUndergroundCopperOre = <divergentunderground:ie_hard_copper_ore>;
 val oreDustCopper = <ore:dustCopper>;
 val oreCrushedCopper = <ore:crushedCopper>;
 val orePurifiedCrushedCopper = <ore:crushedPurifiedCopper>;
@@ -66,7 +67,7 @@ val oreStone = <ore:stone>;
 
 val tinIngot = <thermalfoundation:material:129>;
 val oreTin = <ore:oreTin>;
-val divergentUndergroundTinOre = <divergentunderground:ic2_hard_tin_ore>;
+val oreRockOreTin = <ore:rockOreTin>;
 val dustTin = <thermalfoundation:material:65>;
 val oreDustTin = <ore:dustTin>;
 val oreCrushedTin = <ore:crushedTin>;
@@ -85,7 +86,7 @@ val oreCrushedPurifiedCassiterite = <ore:crushedPurifiedCassiterite>;
 
 val leadIngot = <thermalfoundation:material:131>;
 val oreLead = <ore:oreLead>;
-val divergentUndergroundLeadOre = <divergentunderground:ie_hard_lead_ore>;
+val oreRockOreLead = <ore:rockOreLead>;
 val dustLead = <thermalfoundation:material:67>;
 val dustSilver = <thermalfoundation:material:66>;
 val oreDustLead = <ore:dustLead>;
@@ -106,7 +107,7 @@ val oreCrushedPurifiedCerussite = <ore:crushedPurifiedCerussite>;
 
 val aluminumIngot = <thermalfoundation:material:132>;
 val oreAluminum = <ore:oreAluminum>;
-val divergentUndergroundAluminumOre = <divergentunderground:ie_hard_aluminum_ore>;
+val rockOreAluminum = <ore:rockOreAluminum>;
 val dustAluminum = <thermalfoundation:material:68>;
 val oreDustAluminum = <ore:dustAluminum>;
 val tinyDustAluminum = <ore:dustTinyAluminum>;
@@ -126,7 +127,7 @@ val oreCrushedPurifiedLeucite = <ore:crushedPurifiedLeucite>;
 
 val nickelIngot = <thermalfoundation:material:133>;
 val oreNickel = <ore:oreNickel>;
-val divergentUndergroundNickelOre = <divergentunderground:ie_hard_nickel_ore>;
+val rockOreNickel = <ore:rockOreNickel>;
 val dustNickel = <thermalfoundation:material:69>;
 val oreDustNickel = <ore:dustNickel>;
 val tinyDustNickel = <ore:dustTinyNickel>;
@@ -181,12 +182,30 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:ore:4>);
 //---> Remove ingots recipes for remap
 ArcFurnace.removeRecipe(ironIngot);
 ArcFurnace.removeRecipe(goldIngot);
-ArcFurnace.removeRecipe(copperIngot);
+
+//Copper Ingot
+ArcFurnace.removeRecipe(<thermalfoundation:material:128>);
+ArcFurnace.removeRecipe(<immersiveengineering:metal>);
+
+//Tin Ingot
 ArcFurnace.removeRecipe(tinIngot);
-ArcFurnace.removeRecipe(leadIngot);
-ArcFurnace.removeRecipe(aluminumIngot);
-ArcFurnace.removeRecipe(nickelIngot);
+
+//Lead Ingot
+ArcFurnace.removeRecipe(<thermalfoundation:material:131>);
+ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
+
+//Aluminum Ingot
+ArcFurnace.removeRecipe(<thermalfoundation:material:132>);
+ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
+
+//Nickel Ingot
+ArcFurnace.removeRecipe(<thermalfoundation:material:133>);
+ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
+
+//Titanium Ingot
 ArcFurnace.removeRecipe(titaniumIngot);
+
+//Silver Ingot
 ArcFurnace.removeRecipe(<thermalfoundation:material:130>);
 ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
 
@@ -230,6 +249,7 @@ Crusher.removeRecipe(<thermalfoundation:material:1>);
 Crusher.addRecipe(<ic2:crushed:1> * 3, oreGold, crusherBaseEnergy, cinnabar, dropRateSecondaryOutput);
 Crusher.addRecipe(<thermalfoundation:material:1>, goldIngot, crusherBaseEnergy);
 recipes.addShapeless("GoldOreIEHammer", <ic2:crushed:1> * 2, [oreGold, <immersiveengineering:tool>]);
+recipes.addShapeless("RockOreGoldIEHammer", <ic2:crushed:1> * 2, [oreRockOreGold, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(goldIngot, oreCrushedGold, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(goldIngot * 2, orePurifiedCrushedGold, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(goldIngot, oreDustGold, null, ticksArcFurnace, rfTickArcFurnace);
@@ -237,10 +257,10 @@ ArcFurnace.addRecipe(goldIngot, oreDustGold, null, ticksArcFurnace, rfTickArcFur
 //---> Remap Copper ore recipes
 Crusher.removeRecipe(<thermalfoundation:material:64>);
 Crusher.addRecipe(<ic2:crushed> * 3, oreCopper, crusherBaseEnergy, dustTin, dropRateSecondaryOutput);
-Crusher.addRecipe(<ic2:crushed> * 3, divergentUndergroundCopperOre, crusherBaseEnergy, dustTin, dropRateSecondaryOutput);
+Crusher.addRecipe(<ic2:crushed> * 3, oreRockOreCopper, crusherBaseEnergy, dustTin, dropRateSecondaryOutput);
 Crusher.addRecipe(<thermalfoundation:material:64>, copperIngot, crusherBaseEnergy);
 recipes.addShapeless("CopperOreIEHammer", <ic2:crushed> * 2, [oreCopper, <immersiveengineering:tool>]);
-recipes.addShapeless("DivergentCopperOreIEHammer", <ic2:crushed> * 2, [divergentUndergroundCopperOre, <immersiveengineering:tool>]);
+recipes.addShapeless("RockOreCopperIEHammer", <ic2:crushed> * 2, [oreRockOreCopper, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(copperIngot, oreCrushedCopper, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(copperIngot * 2, orePurifiedCrushedCopper, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(copperIngot, oreDustCopper, null, ticksArcFurnace, rfTickArcFurnace);
@@ -248,10 +268,10 @@ ArcFurnace.addRecipe(copperIngot, oreDustCopper, null, ticksArcFurnace, rfTickAr
 //---> Remap Tin ore recipes
 Crusher.removeRecipe(<thermalfoundation:material:65>);
 Crusher.addRecipe(<ic2:crushed:5> * 3, oreTin, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
-Crusher.addRecipe(<ic2:crushed:5> * 3, divergentUndergroundTinOre, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+Crusher.addRecipe(<ic2:crushed:5> * 3, oreRockOreTin, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
 Crusher.addRecipe(<thermalfoundation:material:65>, tinIngot, crusherBaseEnergy);
 recipes.addShapeless("TinOreIEHammer", <ic2:crushed:5> * 2, [oreTin, <immersiveengineering:tool>]);
-recipes.addShapeless("DivergentTinOreIEHammer", <ic2:crushed:5> * 2, [divergentUndergroundTinOre, <immersiveengineering:tool>]);
+recipes.addShapeless("RockOreTinIEHammer", <ic2:crushed:5> * 2, [oreRockOreTin, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(tinIngot, oreCrushedTin, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(tinIngot * 2, orePurifiedCrushedTin, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(tinIngot, oreDustTin, null, ticksArcFurnace, rfTickArcFurnace);
@@ -259,10 +279,10 @@ ArcFurnace.addRecipe(tinIngot, oreDustTin, null, ticksArcFurnace, rfTickArcFurna
 //---> Remap Lead ore recipes
 Crusher.removeRecipe(<thermalfoundation:material:67>);
 Crusher.addRecipe(<ic2:crushed:3> * 3, oreLead, crusherBaseEnergy, dustSulfur, dropRateSecondaryOutput);
-Crusher.addRecipe(<ic2:crushed:3> * 3, divergentUndergroundLeadOre, crusherBaseEnergy, dustSulfur, dropRateSecondaryOutput);
+Crusher.addRecipe(<ic2:crushed:3> * 3, oreRockOreLead, crusherBaseEnergy, dustSulfur, dropRateSecondaryOutput);
 Crusher.addRecipe(<thermalfoundation:material:67>, leadIngot, crusherBaseEnergy);
 recipes.addShapeless("LeadOreIEHammer", <ic2:crushed:3> * 2, [oreLead, <immersiveengineering:tool>]);
-recipes.addShapeless("DivergentLeadOreIEHammer", <ic2:crushed:3> * 2, [divergentUndergroundLeadOre, <immersiveengineering:tool>]);
+recipes.addShapeless("RockLeadOreIEHammer", <ic2:crushed:3> * 2, [oreRockOreLead, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(leadIngot, oreCrushedLead, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(leadIngot * 2, orePurifiedCrushedLead, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(leadIngot, oreDustLead, null, ticksArcFurnace, rfTickArcFurnace);
@@ -270,10 +290,10 @@ ArcFurnace.addRecipe(leadIngot, oreDustLead, null, ticksArcFurnace, rfTickArcFur
 //---> Remap Aluminum ore recipes
 Crusher.removeRecipe(<thermalfoundation:material:68>);
 Crusher.addRecipe(<contenttweaker:crushed_aluminum> * 3, oreAluminum, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
-Crusher.addRecipe(<contenttweaker:crushed_aluminum> * 3, divergentUndergroundAluminumOre, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+Crusher.addRecipe(<contenttweaker:crushed_aluminum> * 3, rockOreAluminum, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
 Crusher.addRecipe(<thermalfoundation:material:68>, aluminumIngot, crusherBaseEnergy);
 recipes.addShapeless("AluminumOreIEHammer", <contenttweaker:crushed_aluminum> * 2, [oreAluminum, <immersiveengineering:tool>]);
-recipes.addShapeless("DivergentAluminumOreIEHammer", <contenttweaker:crushed_aluminum> * 2, [divergentUndergroundAluminumOre, <immersiveengineering:tool>]);
+recipes.addShapeless("RockAluminumOreIEHammer", <contenttweaker:crushed_aluminum> * 2, [rockOreAluminum, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(aluminumIngot, oreCrushedAluminum, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(aluminumIngot * 2, orePurifiedCrushedAluminum, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(aluminumIngot, oreDustAluminum, null, ticksArcFurnace, rfTickArcFurnace);
@@ -281,10 +301,10 @@ ArcFurnace.addRecipe(aluminumIngot, oreDustAluminum, null, ticksArcFurnace, rfTi
 //---> Remap Nickel ore recipes
 Crusher.removeRecipe(<thermalfoundation:material:69>);
 Crusher.addRecipe(<contenttweaker:crushed_nickel> * 3, oreNickel, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
-Crusher.addRecipe(<contenttweaker:crushed_nickel> * 3, divergentUndergroundNickelOre, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+Crusher.addRecipe(<contenttweaker:crushed_nickel> * 3, rockOreNickel, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
 Crusher.addRecipe(<thermalfoundation:material:69>, nickelIngot, crusherBaseEnergy);
 recipes.addShapeless("NickelOreIEHammer", <contenttweaker:crushed_nickel> * 2, [oreNickel, <immersiveengineering:tool>]);
-recipes.addShapeless("DivergentNickelOreIEHammer", <contenttweaker:crushed_nickel> * 2, [divergentUndergroundNickelOre, <immersiveengineering:tool>]);
+recipes.addShapeless("RockNickelOreIEHammer", <contenttweaker:crushed_nickel> * 2, [rockOreNickel, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(nickelIngot, oreCrushedNickel, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(nickelIngot * 2, orePurifiedCrushedNickel, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(nickelIngot, oreDustNickel, null, ticksArcFurnace, rfTickArcFurnace);

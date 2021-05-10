@@ -26,14 +26,14 @@ val liquidGold = <liquid:gold>;
 
 val oreNativeCopper = <ore:oreNativeCopper>;
 val liquidCopper = <liquid:copper>;
-val divergentUndergroundCopperOre = <divergentunderground:ie_hard_copper_ore>;
+val oreRockOreCopper = <ore:rockOreCopper>;
 
 val oreChalcopyrite = <ore:oreChalcopyrite>;
 val oreCopperCrystal = <ore:copperCrystal>;
 
 val liquidTin = <liquid:tin>;
 val oreTinCrystal = <ore:tinCrystal>;
-val divergentUndergroundTinOre = <divergentunderground:ic2_hard_tin_ore>;
+val oreRockOreTin = <ore:rockOreTin>;
 
 val oreTeallite = <ore:oreTeallite>;
 
@@ -41,7 +41,7 @@ val oreCassiterite = <ore:oreCassiterite>;
 
 val liquidLead = <liquid:lead>;
 val oreLeadCrystal = <ore:leadCrystal>;
-val divergentUndergroundLeadOre = <divergentunderground:ie_hard_lead_ore>;
+val oreRockOreLead = <ore:rockOreLead>;
 
 val oreGalena = <ore:oreGalena>;
 
@@ -49,7 +49,7 @@ val oreCerussite = <ore:oreCerussite>;
 
 val liquidAluminum = <liquid:aluminum>;
 val oreAluminumCrystal = <ore:aluminumCrystal>;
-val divergentUndergroundAluminumOre = <divergentunderground:ie_hard_aluminum_ore>;
+val oreRockOreAluminum = <ore:rockOreAluminum>;
 
 val oreBauxite = <ore:oreBauxite>;
 
@@ -57,7 +57,7 @@ val oreLeucite = <ore:oreLeucite>;
 
 val liquidNickel = <liquid:nickel>;
 val oreNickelCrystal = <ore:nickelCrystal>;
-val divergentUndergroundNickelOre = <divergentunderground:ie_hard_nickel_ore>;
+val oreRockOreNickel = <ore:rockOreNickel>;
 
 val orePentlandite = <ore:orePentlandite>;
 
@@ -77,13 +77,16 @@ val liquidSilver = <liquid:silver>;
 //--- Add Recipes ---/
 
 //---> Remap Tin Ore Smelting
-mods.tconstruct.Melting.addRecipe(liquidTin * mbIngotOre, divergentUndergroundTinOre, tinSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidTin * mbIngotOre, oreRockOreTin, tinSmeltingTemperature);
 
 //---> Remap Lead Ore Smelting
-mods.tconstruct.Melting.addRecipe(liquidLead * mbIngotOre, divergentUndergroundLeadOre, leadSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidLead * mbIngotOre, oreRockOreLead, leadSmeltingTemperature);
 
 //---> Remap Aluminum Ore Smelting
-mods.tconstruct.Melting.addRecipe(liquidAluminum * mbIngotOre, divergentUndergroundAluminumOre, aluminumSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidAluminum * mbIngotOre, oreRockOreAluminum, aluminumSmeltingTemperature);
+
+//---> Remap Nickel Ore Smelting
+mods.tconstruct.Melting.addRecipe(liquidNickel * mbIngotOre, oreRockOreNickel, nickelSmeltingTemperature);
 
 //---> Add Iron Crystal Smelting
 mods.tconstruct.Melting.addRecipe(liquidIron * mbCrystalOre, oreIronCrystal, ironSmeltingTemperature);
@@ -104,7 +107,7 @@ mods.tconstruct.Melting.addRecipe(liquidAluminum * mbCrystalOre, oreAluminumCrys
 mods.tconstruct.Melting.addRecipe(liquidNickel * mbCrystalOre, oreNickelCrystal, nickelSmeltingTemperature);
 
 //---> Add Titanium Crystal Smelting
-mods.tconstruct.Melting.addRecipe(liquidTitanium * mbCrystalOre, oreTitaniumCrystal, nickelSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidTitanium * mbCrystalOre, oreTitaniumCrystal, titaniumSmeltingTemperature);
 
 //---> Add Magnetite Smelting
 mods.tconstruct.Melting.addRecipe(liquidIron * mbIngotOre, oreMagnetite, ironSmeltingTemperature);
@@ -120,7 +123,7 @@ mods.tconstruct.Melting.addRecipe(liquidGold * mbIngotOre, rockOreGold, goldSmel
 mods.tconstruct.Melting.addRecipe(liquidGold * mbCrystalOre, oreNativeGold, goldSmeltingTemperature);
 
 //---> Add Copper and Native Copper Ore Smelting
-mods.tconstruct.Melting.addRecipe(liquidCopper * mbIngotOre, divergentUndergroundCopperOre, goldSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidCopper * mbIngotOre, oreRockOreCopper, copperSmeltingTemperature);
 mods.tconstruct.Melting.addRecipe(liquidCopper * mbCrystalOre, oreNativeCopper, copperSmeltingTemperature);
 
 //---> Add Chalcopyrite Smelting

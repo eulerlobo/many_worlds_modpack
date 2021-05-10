@@ -15,28 +15,31 @@ import mods.ctutils.utils.Math;
 
 //Remap the drops of block harvested
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
-  print("Block Harvest Event Trigger");
+  //print("Block Harvest Event Trigger");
+
   if (event) {
-    print("Event Match!");
-    print("---| Harvest informations:");
-    print("Silk Touck: " + event.silkTouch);
-    print("Fortune Level: " + event.fortuneLevel);
-    print("isPlayer: " + event.isPlayer);
+    //print("Event Match!");
+    //print("---| Harvest informations:");
+    //print("Silk Touck: " + event.silkTouch);
+    //print("Fortune Level: " + event.fortuneLevel);
+    //print("isPlayer: " + event.isPlayer);
+
     if (event.isPlayer) {
       if (event.player.currentItem) {
         print("Player Item: " + event.player.currentItem.definition.id);
       }
     }
-    print("---| Block informations:");
-    print("Block Name: " + event.block.definition.id);
-    print("Block Metadata: " + event.block.meta);
+
+    //print("---| Block informations:");
+    //print("Block Name: " + event.block.definition.id);
+    //print("Block Metadata: " + event.block.meta);
 
     //Fix integration problems with Quark/Chisel/IC2/Divergent Underground
 
     //Get block unique name
     val block = event.block.meta > 0 ? event.block.definition.id + ":" + event.block.meta : event.block.definition.id;
 
-    print("Block unique name: " + block);
+    //print("Block unique name: " + block);
 
     //Limestone drops
     if (block == "chisel:limestone2:7") {
@@ -183,27 +186,5 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
       event.drops = pamCinnamon;
       return;
     }
-
-    //Fix Divergent Lead Ore drop with skilk touch
-    if (block == "divergentunderground:ie_hard_lead_ore" && event.silkTouch) {
-      val leadOreBlock = [<divergentunderground:ie_hard_lead_ore>] as IItemStack[];
-      event.drops = leadOreBlock;
-      return;
-    }
-
-    //Fix Divergent Aluminum Ore drop with skilk touch
-    if (block == "divergentunderground:ie_hard_aluminum_ore" && event.silkTouch) {
-      val aluminumOreBlock = [<divergentunderground:ie_hard_aluminum_ore>] as IItemStack[];
-      event.drops = aluminumOreBlock;
-      return;
-    }
-
-    //Fix Divergent Nickel Ore drop with skilk touch
-    if (block == "divergentunderground:ie_hard_nickel_ore" && event.silkTouch) {
-      val nickelOreBlock = [<divergentunderground:ie_hard_nickel_ore>] as IItemStack[];
-      event.drops = nickelOreBlock;
-      return;
-    }
-
   }
 });

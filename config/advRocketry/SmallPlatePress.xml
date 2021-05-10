@@ -258,7 +258,7 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<itemStack>divergentunderground:ie_hard_copper_ore</itemStack>
+			<oreDict>rockOreCopper</oreDict>
 		</input>
 		<output>
 			<itemStack>ic2:crushed;2;0</itemStack>
@@ -282,7 +282,7 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
-			<itemStack>divergentunderground:ie_hard_aluminum_ore</itemStack>
+			<oreDict>rockOreAluminum</oreDict>
 		</input>
 		<output>
 			<itemStack>contenttweaker:crushed_aluminum;2;0</itemStack>

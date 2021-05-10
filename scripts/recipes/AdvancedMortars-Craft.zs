@@ -17,8 +17,8 @@ val rockOreGold = <ore:rockOreGold>;
 val crushedOreGold = <ic2:crushed:1>;
 
 val oreCopper = <ore:oreCopper>;
+val rockOreCopper = <ore:rockOreCopper>;
 val crushedOreCopper = <ic2:crushed>;
-val divergentUndergroundCopperOre = <divergentunderground:ie_hard_copper_ore>;
 
 val oreNativeGold = <ore:oreNativeGold>;
 val pulverizedGold = <thermalfoundation:material:1>;
@@ -36,8 +36,8 @@ val oreCassiterite = <ore:oreCassiterite>;
 val crushedCassiterite = <contenttweaker:crushed_cassiterite>;
 
 val oreTin = <ore:oreTin>;
+val rockOreTin = <ore:rockOreTin>;
 val crushedOreTin = <ic2:crushed:5>;
-val divergentUndergroundTinOre = <divergentunderground:ic2_hard_tin_ore>;
 
 val oreGalena = <ore:oreGalena>;
 val crushedGalena = <contenttweaker:crushed_galena>;
@@ -46,8 +46,8 @@ val oreCerussite = <ore:oreCerussite>;
 val crushedCerussite = <contenttweaker:crushed_cerussite>;
 
 val oreLead = <ore:oreLead>;
+val rockOreLead = <ore:rockOreLead>;
 val crushedOreLead = <ic2:crushed:3>;
-val divergentUndergroundLeadOre = <divergentunderground:ie_hard_lead_ore>;
 
 val oreBauxite = <ore:oreBauxite>;
 val crushedBauxite = <contenttweaker:crushed_bauxite>;
@@ -56,8 +56,8 @@ val oreLeucite = <ore:oreLeucite>;
 val crushedLeucite = <contenttweaker:crushed_leucite>;
 
 val oreAluminum = <ore:oreAluminum>;
+val rockOreAluminum = <ore:rockOreAluminum>;
 val crushedOreAluminum = <contenttweaker:crushed_aluminum>;
-val divergentUndergroundAluminumOre = <divergentunderground:ie_hard_aluminum_ore>;
 
 val orePentlandite = <ore:orePentlandite>;
 val crushedPentlandite = <contenttweaker:crushed_pentlandite>;
@@ -66,8 +66,8 @@ val oreGarnierite = <ore:oreGarnierite>;
 val crushedGarnierite = <contenttweaker:crushed_garnierite>;
 
 val oreNickel = <ore:oreNickel>;
+val rockOreNickel = <ore:rockOreNickel>;
 val crushedOreNickel = <contenttweaker:crushed_nickel>;
-val divergentUndergroundNickelOre = <divergentunderground:ie_hard_nickel_ore>;
 
 val oreRutile = <ore:oreRutile>;
 val crushedOreRutile = <contenttweaker:crushed_rutile>;
@@ -138,12 +138,12 @@ Mortar.addRecipe(["obsidian"], crushedOreCopper * 2, 3, [oreCopper]);
 Mortar.addRecipe(["emerald"], crushedOreCopper * 2, 3, [oreCopper]);
 Mortar.addRecipe(["gold"], crushedOreCopper * 2, 1, [oreCopper]);
 
-Mortar.addRecipe(["stone"], crushedOreCopper * 2, 9, [divergentUndergroundCopperOre]);
-Mortar.addRecipe(["iron"], crushedOreCopper * 2, 7, [divergentUndergroundCopperOre]);
-Mortar.addRecipe(["diamond"], crushedOreCopper * 2, 5, [divergentUndergroundCopperOre]);
-Mortar.addRecipe(["obsidian"], crushedOreCopper * 2, 3, [divergentUndergroundCopperOre]);
-Mortar.addRecipe(["emerald"], crushedOreCopper * 2, 3, [divergentUndergroundCopperOre]);
-Mortar.addRecipe(["gold"], crushedOreCopper * 2, 1, [divergentUndergroundCopperOre]);
+Mortar.addRecipe(["stone"], crushedOreCopper * 2, 9, [rockOreCopper]);
+Mortar.addRecipe(["iron"], crushedOreCopper * 2, 7, [rockOreCopper]);
+Mortar.addRecipe(["diamond"], crushedOreCopper * 2, 5, [rockOreCopper]);
+Mortar.addRecipe(["obsidian"], crushedOreCopper * 2, 3, [rockOreCopper]);
+Mortar.addRecipe(["emerald"], crushedOreCopper * 2, 3, [rockOreCopper]);
+Mortar.addRecipe(["gold"], crushedOreCopper * 2, 1, [rockOreCopper]);
 
 //---> Remap Tin Ore recipes
 Mortar.addRecipe(["stone"], crushedOreTin * 2, 9, [oreTin]);
@@ -153,12 +153,12 @@ Mortar.addRecipe(["obsidian"], crushedOreTin * 2, 3, [oreTin]);
 Mortar.addRecipe(["emerald"], crushedOreTin * 2, 3, [oreTin]);
 Mortar.addRecipe(["gold"], crushedOreTin * 2, 1, [oreTin]);
 
-Mortar.addRecipe(["stone"], crushedOreTin * 2, 9, [divergentUndergroundTinOre]);
-Mortar.addRecipe(["iron"], crushedOreTin * 2, 7, [divergentUndergroundTinOre]);
-Mortar.addRecipe(["diamond"], crushedOreTin * 2, 5, [divergentUndergroundTinOre]);
-Mortar.addRecipe(["obsidian"], crushedOreTin * 2, 3, [divergentUndergroundTinOre]);
-Mortar.addRecipe(["emerald"], crushedOreTin * 2, 3, [divergentUndergroundTinOre]);
-Mortar.addRecipe(["gold"], crushedOreTin * 2, 1, [divergentUndergroundTinOre]);
+Mortar.addRecipe(["stone"], crushedOreTin * 2, 9, [rockOreTin]);
+Mortar.addRecipe(["iron"], crushedOreTin * 2, 7, [rockOreTin]);
+Mortar.addRecipe(["diamond"], crushedOreTin * 2, 5, [rockOreTin]);
+Mortar.addRecipe(["obsidian"], crushedOreTin * 2, 3, [rockOreTin]);
+Mortar.addRecipe(["emerald"], crushedOreTin * 2, 3, [rockOreTin]);
+Mortar.addRecipe(["gold"], crushedOreTin * 2, 1, [rockOreTin]);
 
 //---> Remap Lead Ore recipes
 Mortar.addRecipe(["stone"], crushedOreLead * 2, 9, [oreLead]);
@@ -168,12 +168,12 @@ Mortar.addRecipe(["obsidian"], crushedOreLead * 2, 3, [oreLead]);
 Mortar.addRecipe(["emerald"], crushedOreLead * 2, 3, [oreLead]);
 Mortar.addRecipe(["gold"], crushedOreLead * 2, 1, [oreLead]);
 
-Mortar.addRecipe(["stone"], crushedOreLead * 2, 9, [divergentUndergroundLeadOre]);
-Mortar.addRecipe(["iron"], crushedOreLead * 2, 7, [divergentUndergroundLeadOre]);
-Mortar.addRecipe(["diamond"], crushedOreLead * 2, 5, [divergentUndergroundLeadOre]);
-Mortar.addRecipe(["obsidian"], crushedOreLead * 2, 3, [divergentUndergroundLeadOre]);
-Mortar.addRecipe(["emerald"], crushedOreLead * 2, 3, [divergentUndergroundLeadOre]);
-Mortar.addRecipe(["gold"], crushedOreLead * 2, 1, [divergentUndergroundLeadOre]);
+Mortar.addRecipe(["stone"], crushedOreLead * 2, 9, [rockOreLead]);
+Mortar.addRecipe(["iron"], crushedOreLead * 2, 7, [rockOreLead]);
+Mortar.addRecipe(["diamond"], crushedOreLead * 2, 5, [rockOreLead]);
+Mortar.addRecipe(["obsidian"], crushedOreLead * 2, 3, [rockOreLead]);
+Mortar.addRecipe(["emerald"], crushedOreLead * 2, 3, [rockOreLead]);
+Mortar.addRecipe(["gold"], crushedOreLead * 2, 1, [rockOreLead]);
 
 //---> Remap Aluminum Ore recipes
 Mortar.addRecipe(["stone"], crushedOreAluminum * 2, 9, [oreAluminum]);
@@ -183,12 +183,12 @@ Mortar.addRecipe(["obsidian"], crushedOreAluminum * 2, 3, [oreAluminum]);
 Mortar.addRecipe(["emerald"], crushedOreAluminum * 2, 3, [oreAluminum]);
 Mortar.addRecipe(["gold"], crushedOreAluminum * 2, 1, [oreAluminum]);
 
-Mortar.addRecipe(["stone"], crushedOreAluminum * 2, 9, [divergentUndergroundAluminumOre]);
-Mortar.addRecipe(["iron"], crushedOreAluminum * 2, 7, [divergentUndergroundAluminumOre]);
-Mortar.addRecipe(["diamond"], crushedOreAluminum * 2, 5, [divergentUndergroundAluminumOre]);
-Mortar.addRecipe(["obsidian"], crushedOreAluminum * 2, 3, [divergentUndergroundAluminumOre]);
-Mortar.addRecipe(["emerald"], crushedOreAluminum * 2, 3, [divergentUndergroundAluminumOre]);
-Mortar.addRecipe(["gold"], crushedOreAluminum * 2, 1, [divergentUndergroundAluminumOre]);
+Mortar.addRecipe(["stone"], crushedOreAluminum * 2, 9, [rockOreAluminum]);
+Mortar.addRecipe(["iron"], crushedOreAluminum * 2, 7, [rockOreAluminum]);
+Mortar.addRecipe(["diamond"], crushedOreAluminum * 2, 5, [rockOreAluminum]);
+Mortar.addRecipe(["obsidian"], crushedOreAluminum * 2, 3, [rockOreAluminum]);
+Mortar.addRecipe(["emerald"], crushedOreAluminum * 2, 3, [rockOreAluminum]);
+Mortar.addRecipe(["gold"], crushedOreAluminum * 2, 1, [rockOreAluminum]);
 
 //---> Remap Nickel Ore recipes
 Mortar.addRecipe(["stone"], crushedOreNickel * 2, 9, [oreNickel]);
@@ -198,13 +198,12 @@ Mortar.addRecipe(["obsidian"], crushedOreNickel * 2, 3, [oreNickel]);
 Mortar.addRecipe(["emerald"], crushedOreNickel * 2, 3, [oreNickel]);
 Mortar.addRecipe(["gold"], crushedOreNickel * 2, 1, [oreNickel]);
 
-Mortar.addRecipe(["stone"], crushedOreNickel * 2, 9, [divergentUndergroundNickelOre]);
-Mortar.addRecipe(["iron"], crushedOreNickel * 2, 7, [divergentUndergroundNickelOre]);
-Mortar.addRecipe(["diamond"], crushedOreNickel * 2, 5, [divergentUndergroundNickelOre]);
-Mortar.addRecipe(["obsidian"], crushedOreNickel * 2, 3, [divergentUndergroundNickelOre]);
-Mortar.addRecipe(["emerald"], crushedOreNickel * 2, 3, [divergentUndergroundNickelOre]);
-Mortar.addRecipe(["gold"], crushedOreNickel * 2, 1, [divergentUndergroundNickelOre]);
-
+Mortar.addRecipe(["stone"], crushedOreNickel * 2, 9, [rockOreNickel]);
+Mortar.addRecipe(["iron"], crushedOreNickel * 2, 7, [rockOreNickel]);
+Mortar.addRecipe(["diamond"], crushedOreNickel * 2, 5, [rockOreNickel]);
+Mortar.addRecipe(["obsidian"], crushedOreNickel * 2, 3, [rockOreNickel]);
+Mortar.addRecipe(["emerald"], crushedOreNickel * 2, 3, [rockOreNickel]);
+Mortar.addRecipe(["gold"], crushedOreNickel * 2, 1, [rockOreNickel]);
 
 //---> Add Native Gold
 Mortar.addRecipe(["stone"], pulverizedGold, 9, [oreNativeGold]);

@@ -12,6 +12,7 @@ val mbCrystalOre = 540; //540mb --> 3 Ingots
 val mbChunks = 500;
 
 val oreIron = <ore:oreIron>;
+val oreRockOreIron = <ore:rockOreIron>;
 val liquidIron = <liquid:iron>;
 val oreCrushedPurifiedIron = <ore:crushedPurifiedIron>;
 val ironChunks = <contenttweaker:iron_chunks>;
@@ -26,6 +27,7 @@ val oreMagnetite = <ore:oreMagnetite>;
 val oreCrushedPurifiedMagnetite = <ore:crushedPurifiedMagnetite>;
 
 val oreGold = <ore:oreGold>;
+val oreRockOreGold = <ore:rockOreGold>;
 val liquidGold = <liquid:gold>;
 
 val oreNativeGold = <ore:oreNativeGold>;
@@ -40,6 +42,8 @@ val oreNativeCopper = <ore:oreNativeCopper>;
 val oreChalcopyrite = <ore:oreChalcopyrite>;
 val oreCrushedPurifiedChalcopyrite = <ore:crushedPurifiedChalcopyrite>;
 
+val oreTin = <ore:oreTin>;
+val oreRockOreTin = <ore:oreRockOreTin>;
 val oreCrushedPurifiedTin = <ore:crushedPurifiedTin>;
 val liquidTin = <liquid:tin>;
 val tinChunks = <contenttweaker:tin_chunks>;
@@ -51,6 +55,7 @@ val oreCrushedPurifiedTeallite = <ore:crushedPurifiedTeallite>;
 val oreCassiterite = <ore:oreCassiterite>;
 val oreCrushedPurifiedCassiterite = <ore:crushedPurifiedCassiterite>;
 
+val oreLead = <ore:oreLead>;
 val oreCrushedPurifiedLead = <ore:crushedPurifiedLead>;
 val liquidLead = <liquid:lead>;
 val leadChunks = <contenttweaker:lead_chunks>;
@@ -122,6 +127,7 @@ melter.addRecipe([oreNickelCrystal, liquidNickel * mbCrystalOre, timeBaseMultipl
 melter.addRecipe([oreTitaniumCrystal, liquidTitanium * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
 //---> Remap Iron Ore recipes
+melter.addRecipe([<divergentunderground:hard_iron_ore>, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 melter.addRecipe([<divergentunderground:ore_iron>, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedIron, liquidMineralizedAcidWater * mbChunks, ironChunks]);
 
@@ -129,25 +135,37 @@ infuser.addRecipe([oreCrushedPurifiedIron, liquidMineralizedAcidWater * mbChunks
 melter.addRecipe([<divergentunderground:hard_gold_ore>, liquidGold * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 melter.addRecipe([<divergentunderground:ore_gold>, liquidGold * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 
-//---> Remap Tin Ore recipes
-melter.addRecipe([<divergentunderground:ic2_hard_tin_ore>, liquidTin * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
-
 //---> Remap Copper Ore recipes
+melter.removeRecipeWithInput(<divergentunderground:ore_ie_copper>);
+melter.addRecipe([<contenttweaker:copper_ore>, liquidCopper * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([<divergentunderground:ore_ie_copper>, liquidCopper * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedCopper, liquidMineralizedAcidWater * mbChunks, copperChunks]);
 mods.jei.JEI.removeAndHide(<nuclearcraft:ore>);
 
 //---> Remap Tin Ore recipes
+melter.removeRecipeWithInput(<divergentunderground:ore_ic2_tin>);
+melter.addRecipe([<contenttweaker:tin_ore>, liquidTin * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([<divergentunderground:ore_ic2_tin>, liquidTin * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedTin, liquidMineralizedAcidWater * mbChunks, tinChunks]);
 mods.jei.JEI.removeAndHide(<nuclearcraft:ore:1>);
 
 //---> Remap Lead Ore recipes
+melter.removeRecipeWithInput(<divergentunderground:ore_ie_lead>);
+melter.addRecipe([<contenttweaker:lead_ore>, liquidLead * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([<divergentunderground:ore_ie_lead>, liquidLead * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedLead, liquidMineralizedAcidWater * mbChunks, leadChunks]);
 mods.jei.JEI.removeAndHide(<nuclearcraft:ore:2>);
 
 //---> Remap Aluminum Ore recipes
+melter.removeRecipeWithInput(<divergentunderground:ore_ie_aluminum>);
+melter.addRecipe([<contenttweaker:aluminum_ore>, liquidAluminum * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([<divergentunderground:ore_ie_aluminum>, liquidAluminum * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedAluminum, liquidMineralizedAcidWater * mbChunks, aluminumChunks]);
 
 //---> Remap Nickel Ore recipes
+melter.removeRecipeWithInput(<divergentunderground:ore_ie_nickel>);
+melter.addRecipe([<contenttweaker:nickel_ore>, liquidNickel * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([<divergentunderground:ore_ie_nickel>, liquidNickel * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedNickel, liquidMineralizedAcidWater * mbChunks, nickelChunks]);
 
 //---> Remap Silver Ore recipes

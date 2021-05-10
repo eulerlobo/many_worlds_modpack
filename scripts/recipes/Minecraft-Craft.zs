@@ -67,7 +67,6 @@ val oreDustAluminum = <ore:dustAluminum>;
 val oreDustTinyAluminum = <ore:dustTinyAluminum>;
 val aluminumDust = <thermalfoundation:material:68>;
 val aluminumIngot = <thermalfoundation:material:132>;
-val divergentUndergroundAluminumOre = <divergentunderground:ie_hard_aluminum_ore>;
 val oreCrushedAluminum = <ore:crushedAluminum>;
 val oreCrushedPurifiedAluminum = <ore:crushedPurifiedAluminum>;
 
@@ -83,7 +82,6 @@ val oreDustNickel = <ore:dustNickel>;
 val oreDustTinyNickel = <ore:dustTinyNickel>;
 val nickelDust = <thermalfoundation:material:69>;
 val nickelIngot = <thermalfoundation:material:133>;
-val divergentUndergroundNickelOre = <divergentunderground:ie_hard_nickel_ore>;
 val oreCrushedNickel = <ore:crushedNickel>;
 val oreCrushedPurifiedNickel = <ore:crushedPurifiedNickel>;
 
@@ -111,10 +109,10 @@ val oreCrushedPurifiedIlmenite = <ore:crushedPurifiedIlmenite>;
 val oreSilver = <ore:oreSilver>;
 val oreDustSilver = <ore:dustSilver>;
 val oreDustTinySilver = <ore:dustTinySilver>;
-val silverIngot = <thermalfoundation:material:130>;
 val divergentUndergroundSilverOre = <divergentunderground:ore_ie_silver>;
 val oreCrushedSilver = <ore:crushedSilver>;
 val oreCrushedPurifiedSilver = <ore:crushedPurifiedSilver>;
+val silverIngot = <thermalfoundation:material:130>;
 
 val oreNativeSilver = <ore:oreNativeSilver>;
 val silverDust = <thermalfoundation:material:66>;
@@ -133,26 +131,29 @@ furnace.addRecipe(goldIngot, divergentUndergroundGoldOre, experienceSmelting);
 //---> Remap Copper Ore recipes
 recipes.remove(oreDustCopper);
 recipes.addShaped("TinyPileOfCuToCuDust", copperDust, [[oreDustTinyCopper, oreDustTinyCopper, oreDustTinyCopper], [oreDustTinyCopper, oreDustTinyCopper, oreDustTinyCopper], [oreDustTinyCopper, oreDustTinyCopper, oreDustTinyCopper]]);
+furnace.addRecipe(copperIngot, <contenttweaker:copper_ore>, experienceSmelting);
 
 //---> Remap Tin Ore recipes
 recipes.remove(oreDustTin);
 recipes.addShaped("TinyPileOfSnToSnDust", tinDust, [[oreDustTinyTin, oreDustTinyTin, oreDustTinyTin], [oreDustTinyTin, oreDustTinyTin, oreDustTinyTin], [oreDustTinyTin, oreDustTinyTin, oreDustTinyTin]]);
+furnace.addRecipe(tinIngot, <contenttweaker:tin_ore>, experienceSmelting);
 
 //---> Remap Lead Ore recipes
 recipes.remove(oreDustLead);
 recipes.addShaped("TinyPileOfPbToPbDust", leadDust, [[oreDustTinyLead, oreDustTinyLead, oreDustTinyLead], [oreDustTinyLead, oreDustTinyLead, oreDustTinyLead], [oreDustTinyLead, oreDustTinyLead, oreDustTinyLead]]);
+furnace.addRecipe(leadIngot, <contenttweaker:lead_ore>, experienceSmelting);
 
 //---> Remap Aluminum Ore recipes
 recipes.remove(oreDustAluminum);
 recipes.addShaped("TinyPileOfAlToAlDust", aluminumDust, [[oreDustTinyAluminum, oreDustTinyAluminum, oreDustTinyAluminum], [oreDustTinyAluminum, oreDustTinyAluminum, oreDustTinyAluminum], [oreDustTinyAluminum, oreDustTinyAluminum, oreDustTinyAluminum]]);
-furnace.addRecipe(aluminumIngot, divergentUndergroundAluminumOre, experienceSmelting);
+furnace.addRecipe(aluminumIngot, <contenttweaker:aluminum_ore>, experienceSmelting);
 furnace.addRecipe(aluminumIngot, oreCrushedAluminum, experienceSmelting);
 furnace.addRecipe(aluminumIngot, oreCrushedPurifiedAluminum, experienceSmelting);
 
 //---> Remap Nickel Ore recipes
 recipes.remove(oreDustNickel);
 recipes.addShaped("TinyPileOfNiToNiDust", nickelDust, [[oreDustTinyNickel, oreDustTinyNickel, oreDustTinyNickel], [oreDustTinyNickel, oreDustTinyNickel, oreDustTinyNickel], [oreDustTinyNickel, oreDustTinyNickel, oreDustTinyNickel]]);
-furnace.addRecipe(nickelIngot, divergentUndergroundNickelOre, experienceSmelting);
+furnace.addRecipe(nickelIngot, <contenttweaker:nickel_ore>, experienceSmelting);
 furnace.addRecipe(nickelIngot, oreCrushedNickel, experienceSmelting);
 furnace.addRecipe(nickelIngot, oreCrushedPurifiedNickel, experienceSmelting);
 
@@ -162,7 +163,6 @@ recipes.addShaped("TinyPileOfTiToTiDust", titaniumDust, [[oreDustTinyTitanium, o
 //---> Remap Silver Ore recipes
 recipes.remove(oreDustSilver);
 furnace.addRecipe(silverIngot, <contenttweaker:silver_ore>, experienceSmelting);
-furnace.addRecipe(silverIngot, divergentUndergroundSilverOre, experienceSmelting);
 
 //---> Add Magnetite Smelting
 furnace.addRecipe(ironIngot, oreMagnetite, experienceSmelting);

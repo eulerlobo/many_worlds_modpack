@@ -20,13 +20,18 @@ tile.contenttweaker.rutile_ore.name=Rutile Ore
 tile.contenttweaker.ilmenite_ore.name=Ilmenite Ore
 tile.contenttweaker.brucite_ore.name=Brucite Ore
 tile.contenttweaker.magnesite_ore.name=Magnesite Ore
-tile.contenttweaker.carnotite_ore.name=Carnotite Oretile.contenttweaker.kernite_ore.name=Kernite Ore
+tile.contenttweaker.carnotite_ore.name=Carnotite Ore
 tile.contenttweaker.uraninite_ore.name=Uraninite Ore
 tile.contenttweaker.thorite_ore.name=Thorite Ore
 tile.contenttweaker.monazite_ore.name=Monazite Ore
 tile.contenttweaker.colemanite_ore.name=Colemanite Ore
 tile.contenttweaker.kernite_ore.name=Kernite Ore
 tile.contenttweaker.silver_ore.name=Silver Ore
+tile.contenttweaker.copper_ore.name=Copper Ore
+tile.contenttweaker.tin_ore.name=Tin Ore
+tile.contenttweaker.lead_ore.name=Lead Ore
+tile.contenttweaker.aluminum_ore.name=Aluminum Ore
+tile.contenttweaker.nickel_ore.name=Nickel Ore
 
 #Cobblestone
 tile.contenttweaker.limestone_cobblestone.name=Limestone Cobblestone

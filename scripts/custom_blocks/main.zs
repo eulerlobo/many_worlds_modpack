@@ -204,6 +204,31 @@ aluminumCrushed.register();
 var purifiedAluminumCrushed = VanillaFactory.createItem("purified_crushed_aluminum");
 purifiedAluminumCrushed.register();
 
+//---> Aluminum Ore
+var aluminumOre = VanillaFactory.createBlock("aluminum_ore", <blockmaterial:rock>);
+aluminumOre.setBlockHardness(3.0);
+aluminumOre.setBlockResistance(3.0);
+aluminumOre.setToolClass("pickaxe");
+aluminumOre.setToolLevel(1);
+aluminumOre.setBlockSoundType(<soundtype:stone>);
+aluminumOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_ie_aluminum> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+aluminumOre.register();
+
 //--- Nickel ---//
 
 //---> Tiny Pile of Nickel Dust
@@ -218,7 +243,32 @@ nickelCrushed.register();
 var purifiedNickelCrushed = VanillaFactory.createItem("purified_crushed_nickel");
 purifiedNickelCrushed.register();
 
-//--- Native Copper ---//
+//---> Nickel Ore
+var nickelOre = VanillaFactory.createBlock("nickel_ore", <blockmaterial:rock>);
+nickelOre.setBlockHardness(3.0);
+nickelOre.setBlockResistance(3.0);
+nickelOre.setToolClass("pickaxe");
+nickelOre.setToolLevel(1);
+nickelOre.setBlockSoundType(<soundtype:stone>);
+nickelOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_ie_nickel> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+nickelOre.register();
+
+//--- Copper ---//
 
 //---> Rock Native Copper Ore
 var rockNativeCopperOre = VanillaFactory.createItem("rock_native_copper_ore");
@@ -248,6 +298,85 @@ nativeCopperOre.setDropHandler(function(drops, world, position, state, fortune) 
     return;
 });
 nativeCopperOre.register();
+
+//---> Copper Ore
+var copperOre = VanillaFactory.createBlock("copper_ore", <blockmaterial:rock>);
+copperOre.setBlockHardness(3.0);
+copperOre.setBlockResistance(3.0);
+copperOre.setToolClass("pickaxe");
+copperOre.setToolLevel(1);
+copperOre.setBlockSoundType(<soundtype:stone>);
+copperOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_ie_copper> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+copperOre.register();
+
+//--- Tin ---//
+
+//---> Tin Ore
+var tinOre = VanillaFactory.createBlock("tin_ore", <blockmaterial:rock>);
+tinOre.setBlockHardness(3.0);
+tinOre.setBlockResistance(3.0);
+tinOre.setToolClass("pickaxe");
+tinOre.setToolLevel(1);
+tinOre.setBlockSoundType(<soundtype:stone>);
+tinOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_ic2_tin> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+tinOre.register();
+
+//--- Lead ---//
+
+//---> Lead Ore
+var leadOre = VanillaFactory.createBlock("lead_ore", <blockmaterial:rock>);
+leadOre.setBlockHardness(3.0);
+leadOre.setBlockResistance(3.0);
+leadOre.setToolClass("pickaxe");
+leadOre.setToolLevel(1);
+leadOre.setBlockSoundType(<soundtype:stone>);
+leadOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_ie_lead> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+leadOre.register();
 
 //--- Chalcopyrite ---//
 
