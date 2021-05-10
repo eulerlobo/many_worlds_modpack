@@ -8,3 +8,6 @@ mods.jei.JEI.removeAndHide(<libvulpes:ore0:5>);
 
 //---> Hide Aluminum Ore
 mods.jei.JEI.removeAndHide(<libvulpes:ore0:9>);
+
+//---> Hide Small Plate Presser
+mods.jei.JEI.removeAndHide(<advancedrocketry:platepress>);
