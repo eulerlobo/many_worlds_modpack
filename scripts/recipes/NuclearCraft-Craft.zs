@@ -103,6 +103,17 @@ val oreNativeSilver = <ore:oreNativeSilver>;
 
 val liquidSilver = <liquid:silver>;
 
+val oreMagnesium = <ore:oreMagnesium>;
+val liquidMagnesium = <liquid:magnesium>;
+val magnesiumChunks = <contenttweaker:magnesium_chunks>;
+val oreMagnesiumCrystal = <ore:magnesiumCrystal>;
+
+val oreMagnesite = <ore:oreMagnesite>;
+val oreCrushedPurifiedMagnesite = <ore:crushedPurifiedMagnesite>;
+
+val oreBrucite = <ore:oreBrucite>;
+val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
+
 //--- Add Recipes ---//
 
 //---> Add Iron Crystal Smelting
@@ -125,6 +136,9 @@ melter.addRecipe([oreNickelCrystal, liquidNickel * mbCrystalOre, timeBaseMultipl
 
 //---> Add Titanium Crystal Smelting
 melter.addRecipe([oreTitaniumCrystal, liquidTitanium * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Magnesium Crystal Smelting
+melter.addRecipe([oreMagnesiumCrystal, liquidMagnesium * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
 //---> Remap Iron Ore recipes
 melter.addRecipe([<divergentunderground:hard_iron_ore>, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
@@ -234,3 +248,15 @@ infuser.addRecipe([oreCrushedPurifiedIlmenite, liquidMineralizedAcidWater * mbCh
 
 //---> Add Native Silver Smelting
 melter.addRecipe([oreNativeSilver, liquidSilver * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Remap Magnesium Ore recipes
+melter.addRecipe([<ore:oreMagnesium>, liquidMagnesium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+//infuser.addRecipe([oreCrushedPurifiedNickel, liquidMineralizedAcidWater * mbChunks, nickelChunks]);
+
+//---> Add Magnesite Recipes
+melter.addRecipe([oreMagnesite, liquidMagnesium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedMagnesite, liquidMineralizedAcidWater * mbChunks, magnesiumChunks]);
+
+//---> Add Brucite Recipes
+melter.addRecipe([oreBrucite, liquidMagnesium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+infuser.addRecipe([oreCrushedPurifiedBrucite, liquidMineralizedAcidWater * mbChunks, magnesiumChunks]);

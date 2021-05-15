@@ -32,6 +32,7 @@ tile.contenttweaker.tin_ore.name=Tin Ore
 tile.contenttweaker.lead_ore.name=Lead Ore
 tile.contenttweaker.aluminum_ore.name=Aluminum Ore
 tile.contenttweaker.nickel_ore.name=Nickel Ore
+tile.contenttweaker.magnesium_ore.name=Magnesium Ore
 
 #Cobblestone
 tile.contenttweaker.limestone_cobblestone.name=Limestone Cobblestone
@@ -67,6 +68,7 @@ item.contenttweaker.rock_kernite_ore.name=Kernite Ore
 item.contenttweaker.limestone_rock.name=Limestone Rock
 item.contenttweaker.marble_rock.name=Marble Rock
 item.contenttweaker.rock_native_silver_ore.name=Native Silver Ore
+item.contenttweaker.rock_magnesium_ore.name=Magnesium Ore
 
 #Crushed
 item.contenttweaker.crushed_magnetite.name=Crushed Magnetite
@@ -124,6 +126,7 @@ item.contenttweaker.purified_crushed_nickel.name=Purified Crushed Nickel
 item.contenttweaker.tiny_pile_of_aluminum_dust.name=Tiny Pile of Aluminum Dust
 item.contenttweaker.tiny_pile_of_nickel_dust.name=Tiny Pile of Nickel Dust
 item.contenttweaker.tiny_pile_of_titanium_dust.name=Tiny Pile of Titanium Dust
+item.contenttweaker.tiny_pile_of_magnesium_dust.name=Tiny Pile of Magnesium Dust
 
 #Dust
 item.contenttweaker.pulverized_titanium.name=Pulverized Titanium

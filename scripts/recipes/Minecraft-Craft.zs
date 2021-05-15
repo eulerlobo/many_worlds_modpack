@@ -117,6 +117,19 @@ val silverIngot = <thermalfoundation:material:130>;
 val oreNativeSilver = <ore:oreNativeSilver>;
 val silverDust = <thermalfoundation:material:66>;
 
+val magnesiumIngot = <nuclearcraft:ingot:7>;
+val oreMagnesium = <ore:oreMagnesium>;
+val magnesiumDust = <nuclearcraft:dust:7>;
+val oreDustTinyMagnesium = <ore:dustTinyMagnesium>;
+
+val oreMagnesite = <ore:oreMagnesite>;
+val oreCrushedMagnesite = <ore:crushedMagnesite>;
+val oreCrushedPurifiedMagnesite = <ore:crushedPurifiedMagnesite>;
+
+val oreBrucite = <ore:oreBrucite>;
+val oreCrushedBrucite = <ore:crushedBrucite>;
+val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
+
 //--- Add Recipes ---//
 
 //---> Remap Iron Ore recipes
@@ -162,6 +175,7 @@ recipes.addShaped("TinyPileOfTiToTiDust", titaniumDust, [[oreDustTinyTitanium, o
 
 //---> Remap Silver Ore recipes
 recipes.remove(oreDustSilver);
+recipes.addShaped("TinyPileOfAgToAgDust", silverDust, [[oreDustTinySilver, oreDustTinySilver, oreDustTinySilver], [oreDustTinySilver, oreDustTinySilver, oreDustTinySilver], [oreDustTinySilver, oreDustTinySilver, oreDustTinySilver]]);
 furnace.addRecipe(silverIngot, <contenttweaker:silver_ore>, experienceSmelting);
 
 //---> Add Magnetite Smelting
@@ -241,3 +255,19 @@ furnace.addRecipe(titaniumIngot, oreCrushedPurifiedIlmenite, experienceSmelting)
 
 //---> Add Native Silver Smelting
 furnace.addRecipe(silverDust, oreNativeSilver, experienceSmelting);
+
+//---> Remap Magnesium Ore recipes
+furnace.remove(magnesiumIngot);
+furnace.addRecipe(magnesiumDust, oreMagnesium, experienceSmelting);
+furnace.addRecipe(magnesiumIngot, magnesiumDust, experienceSmelting);
+recipes.addShaped("TinyPileOfMgToMgDust", magnesiumDust, [[oreDustTinyMagnesium, oreDustTinyMagnesium, oreDustTinyMagnesium], [oreDustTinyMagnesium, oreDustTinyMagnesium, oreDustTinyMagnesium], [oreDustTinyMagnesium, oreDustTinyMagnesium, oreDustTinyMagnesium]]);
+
+//---> Add Magnesite Smelting
+furnace.addRecipe(magnesiumIngot, oreMagnesite, experienceSmelting);
+furnace.addRecipe(magnesiumIngot, oreCrushedMagnesite, experienceSmelting);
+furnace.addRecipe(magnesiumIngot, oreCrushedPurifiedMagnesite, experienceSmelting);
+
+//---> Add Brucite Smelting
+furnace.addRecipe(magnesiumIngot, oreBrucite, experienceSmelting);
+furnace.addRecipe(magnesiumIngot, oreCrushedBrucite, experienceSmelting);
+furnace.addRecipe(magnesiumIngot, oreCrushedPurifiedBrucite, experienceSmelting);

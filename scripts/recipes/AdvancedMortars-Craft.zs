@@ -82,6 +82,15 @@ val crushedOreSilver = <ic2:crushed:4>;
 val oreNativeSilver = <ore:oreNativeSilver>;
 val pulverizedSilver = <thermalfoundation:material:66>;
 
+val oreMagnesium = <ore:oreMagnesium>;
+val dustMagnesium = <nuclearcraft:dust:7>;
+
+val oreMagnesite = <ore:oreMagnesite>;
+val crushedOreMagnesite = <contenttweaker:crushed_magnesite>;
+
+val oreBrucite = <ore:oreBrucite>;
+val crushedOreBrucite = <contenttweaker:crushed_brucite>;
+
 //--- Add Recipes ---//
 
 //---> Add Magnetite
@@ -331,3 +340,27 @@ Mortar.addRecipe(["diamond"], pulverizedSilver, 5, [oreNativeSilver]);
 Mortar.addRecipe(["obsidian"], pulverizedSilver, 3, [oreNativeSilver]);
 Mortar.addRecipe(["emerald"], pulverizedSilver, 3, [oreNativeSilver]);
 Mortar.addRecipe(["gold"], pulverizedSilver, 1, [oreNativeSilver]);
+
+//---> Remap Magnesium Ore recipes
+Mortar.addRecipe(["stone"], dustMagnesium, 9, [oreMagnesium]);
+Mortar.addRecipe(["iron"], dustMagnesium, 7, [oreMagnesium]);
+Mortar.addRecipe(["diamond"], dustMagnesium, 5, [oreMagnesium]);
+Mortar.addRecipe(["obsidian"], dustMagnesium, 3, [oreMagnesium]);
+Mortar.addRecipe(["emerald"], dustMagnesium, 3, [oreMagnesium]);
+Mortar.addRecipe(["gold"], dustMagnesium, 1, [oreMagnesium]);
+
+//---> Add Magnesite
+Mortar.addRecipe(["stone"], crushedOreMagnesite * 2, 9, [oreMagnesite]);
+Mortar.addRecipe(["iron"], crushedOreMagnesite * 2, 7, [oreMagnesite]);
+Mortar.addRecipe(["diamond"], crushedOreMagnesite * 2, 5, [oreMagnesite]);
+Mortar.addRecipe(["obsidian"], crushedOreMagnesite * 2, 3, [oreMagnesite]);
+Mortar.addRecipe(["emerald"], crushedOreMagnesite * 2, 3, [oreMagnesite]);
+Mortar.addRecipe(["gold"], crushedOreMagnesite * 2, 1, [oreMagnesite]);
+
+//---> Add Brucite
+Mortar.addRecipe(["stone"], crushedOreBrucite * 2, 9, [oreBrucite]);
+Mortar.addRecipe(["iron"], crushedOreBrucite * 2, 7, [oreBrucite]);
+Mortar.addRecipe(["diamond"], crushedOreBrucite * 2, 5, [oreBrucite]);
+Mortar.addRecipe(["obsidian"], crushedOreBrucite * 2, 3, [oreBrucite]);
+Mortar.addRecipe(["emerald"], crushedOreBrucite * 2, 3, [oreBrucite]);
+Mortar.addRecipe(["gold"], crushedOreBrucite * 2, 1, [oreBrucite]);

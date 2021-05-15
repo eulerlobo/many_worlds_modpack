@@ -378,6 +378,41 @@ leadOre.setDropHandler(function(drops, world, position, state, fortune) {
 });
 leadOre.register();
 
+//--- Magnesium ---//
+
+//---> Tiny Pile of Magnesium Dust
+var tinyPileMagnesiumDust = VanillaFactory.createItem("tiny_pile_of_magnesium_dust");
+tinyPileMagnesiumDust.register();
+
+//---> Rock Magnesium Ore
+var rockMagnesiumOre = VanillaFactory.createItem("rock_magnesium_ore");
+rockMagnesiumOre.register();
+
+//---> Magnesium Ore
+var magnesiumOre = VanillaFactory.createBlock("magnesium_ore", <blockmaterial:rock>);
+magnesiumOre.setBlockHardness(3.0);
+magnesiumOre.setBlockResistance(3.0);
+magnesiumOre.setToolClass("pickaxe");
+magnesiumOre.setToolLevel(1);
+magnesiumOre.setBlockSoundType(<soundtype:stone>);
+magnesiumOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:contenttweaker:rock_magnesium_ore> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+magnesiumOre.register();
+
 //--- Chalcopyrite ---//
 
 //---> Rock Chalcopyrite Ore

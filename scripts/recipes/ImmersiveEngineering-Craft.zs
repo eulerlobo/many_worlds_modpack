@@ -168,6 +168,21 @@ val orePurifiedCrushedSilver = <ore:crushedPurifiedSilver>;
 val oreNativeSilver = <ore:oreNativeSilver>;
 val pulverizedSilver = <thermalfoundation:material:66>;
 
+val magnesiumIngot = <nuclearcraft:ingot:7>;
+val oreMagnesiumCrystal = <ore:magnesiumCrystal>;
+val dustMagnesium = <nuclearcraft:dust:7>;
+val oreMagnesium = <ore:oreMagnesium>;
+
+val oreMagnesite = <ore:oreMagnesite>;
+val crushedMagnesite = <contenttweaker:crushed_magnesite>;
+val oreCrushedMagnesite = <ore:crushedMagnesite>;
+val oreCrushedPurifiedMagnesite = <ore:crushedPurifiedMagnesite>;
+
+val oreBrucite = <ore:oreBrucite>;
+val crushedBrucite = <contenttweaker:crushed_brucite>;
+val oreCrushedBrucite = <ore:crushedBrucite>;
+val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
+
 //--- Add Recipes ---//
 
 //---> Hide Copper Ore
@@ -209,6 +224,9 @@ ArcFurnace.removeRecipe(titaniumIngot);
 ArcFurnace.removeRecipe(<thermalfoundation:material:130>);
 ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
 
+//Mangesium Ingot
+ArcFurnace.removeRecipe(<nuclearcraft:ingot:7>);
+
 //---> Add slag from furnace
 furnace.addRecipe(slag, oreGravel);
 
@@ -220,6 +238,7 @@ ArcFurnace.addRecipe(leadIngot * 3, oreLeadCrystal, null, ticksArcFurnace, rfTic
 ArcFurnace.addRecipe(aluminumIngot * 3, oreAluminumCrystal, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(nickelIngot * 3, oreNickelCrystal, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(titaniumIngot * 3, oreTitaniumCrystal, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(magnesiumIngot * 3, oreMagnesiumCrystal, null, ticksArcFurnace, rfTickArcFurnace);
 
 //---> Add Magnetite Crusher, Hammer Crusher and Iron Recipes
 Crusher.addRecipe(crushedMagnetite * 3, oreMagnetite, crusherBaseEnergy, dustAluminum, dropRateSecondaryOutput);
@@ -394,13 +413,13 @@ recipes.addShapeless("GarnieriteIEHammer", crushedGarnierite * 2, [oreGarnierite
 ArcFurnace.addRecipe(nickelIngot, oreCrushedGarnierite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(nickelIngot * 2, oreCrushedPurifiedGarnierite, null, ticksArcFurnace, rfTickArcFurnace);
 
-//---> Add Rutile Crusher, Hammer Crusher and Nickel Recipes
+//---> Add Rutile Crusher, Hammer Crusher and Titanium Recipes
 Crusher.addRecipe(crushedRutile * 3, oreRutile, crusherBaseEnergy);
 recipes.addShapeless("RutileIEHammer", crushedRutile * 2, [oreRutile, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(titaniumIngot, oreCrushedRutile, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(titaniumIngot * 2, oreCrushedPurifiedRutile, null, ticksArcFurnace, rfTickArcFurnace);
 
-//---> Add Ilmenite Crusher, Hammer Crusher and Nickel Recipes
+//---> Add Ilmenite Crusher, Hammer Crusher and Titanium Recipes
 Crusher.addRecipe(crushedIlmenite * 3, oreIlmenite, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
 recipes.addShapeless("IlmeniteIEHammer", crushedIlmenite * 2, [oreIlmenite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(titaniumIngot, oreCrushedIlmenite, slag, ticksArcFurnace, rfTickArcFurnace);
@@ -410,3 +429,22 @@ ArcFurnace.addRecipe(titaniumIngot * 2, oreCrushedPurifiedIlmenite, null, ticksA
 Crusher.addRecipe(pulverizedSilver * 2, oreNativeSilver, crusherBaseEnergy);
 recipes.addShapeless("NativeSilverIEHammer", pulverizedSilver, [oreNativeSilver, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(pulverizedSilver * 3, oreNativeSilver, slag, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Magnesium ore recipes
+Crusher.removeRecipe(<nuclearcraft:dust:7>);
+Crusher.addRecipe(<nuclearcraft:dust:7> * 2, oreMagnesium, crusherBaseEnergy);
+Crusher.addRecipe(<nuclearcraft:dust:7>, magnesiumIngot, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustMagnesium * 3, oreMagnesium, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(magnesiumIngot, dustMagnesium, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Magnesite Crusher, Hammer Crusher and Magnesium Recipes
+Crusher.addRecipe(crushedMagnesite * 3, oreMagnesite, crusherBaseEnergy);
+recipes.addShapeless("MagnesiteIEHammer", crushedMagnesite * 2, [oreMagnesite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(magnesiumIngot, oreCrushedMagnesite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(magnesiumIngot * 2, oreCrushedPurifiedMagnesite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Brucite Crusher, Hammer Crusher and Magnesium Recipes
+Crusher.addRecipe(crushedBrucite * 3, oreBrucite, crusherBaseEnergy);
+recipes.addShapeless("BruciteIEHammer", crushedBrucite * 2, [oreBrucite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(magnesiumIngot, oreCrushedBrucite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(magnesiumIngot * 2, oreCrushedPurifiedBrucite, null, ticksArcFurnace, rfTickArcFurnace);

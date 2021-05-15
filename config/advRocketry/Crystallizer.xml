@@ -105,4 +105,12 @@
 			<itemStack>contenttweaker:titanium_crystal</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="400" power ="280">
+		<input>
+			<oreDict>magnesiumChunks</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:magnesium_crystal</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

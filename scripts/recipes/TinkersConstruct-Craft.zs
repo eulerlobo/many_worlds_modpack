@@ -12,6 +12,7 @@ val aluminumSmeltingTemperature = 320; //20 Celsius
 val nickelSmeltingTemperature = 585; //285 Celsius
 val titaniumSmeltingTemperature = 545; //245 Celsius
 val silverSmeltingTemperature = 427; //127 Celsius
+val magnesiumSmeltingTemperature = 900; //600 Celsius
 
 val rockOreIron = <ore:rockOreIron>;
 val liquidIron = <liquid:iron>;
@@ -70,9 +71,16 @@ val oreRutile = <ore:oreRutile>;
 
 val oreIlmenite = <ore:oreIlmenite>;
 
-val rockOreSilver = <ore:rockOreSilver>;
 val oreNativeSilver = <ore:oreNativeSilver>;
 val liquidSilver = <liquid:silver>;
+
+val oreMagnesium = <ore:oreMagnesium>;
+val liquidMagnesium = <liquid:magnesium>;
+val oreMagnesiumCrystal = <ore:magnesiumCrystal>;
+
+val oreMagnesite = <ore:oreMagnesite>;
+
+val oreBrucite = <ore:oreBrucite>;
 
 //--- Add Recipes ---/
 
@@ -108,6 +116,9 @@ mods.tconstruct.Melting.addRecipe(liquidNickel * mbCrystalOre, oreNickelCrystal,
 
 //---> Add Titanium Crystal Smelting
 mods.tconstruct.Melting.addRecipe(liquidTitanium * mbCrystalOre, oreTitaniumCrystal, titaniumSmeltingTemperature);
+
+//---> Add Magnesium Crystal Smelting
+mods.tconstruct.Melting.addRecipe(liquidMagnesium * mbCrystalOre, oreMagnesiumCrystal, magnesiumSmeltingTemperature);
 
 //---> Add Magnetite Smelting
 mods.tconstruct.Melting.addRecipe(liquidIron * mbIngotOre, oreMagnetite, ironSmeltingTemperature);
@@ -160,5 +171,15 @@ mods.tconstruct.Melting.addRecipe(liquidTitanium * mbIngotOre, oreRutile, titani
 mods.tconstruct.Melting.addRecipe(liquidTitanium * mbIngotOre, oreIlmenite, titaniumSmeltingTemperature);
 
 //---> Add Silver and Native Silver Ore Smelting
-mods.tconstruct.Melting.addRecipe(liquidSilver * mbIngotOre, rockOreSilver, silverSmeltingTemperature);
 mods.tconstruct.Melting.addRecipe(liquidSilver * mbCrystalOre, oreNativeSilver, silverSmeltingTemperature);
+
+//---> Remap Magnesium Ore Smelting
+mods.tconstruct.Melting.removeRecipe(liquidMagnesium, <contenttweaker:magnesium_ore>);
+mods.tconstruct.Melting.removeRecipe(liquidMagnesium, <contenttweaker:rock_magnesium_ore>);
+mods.tconstruct.Melting.addRecipe(liquidMagnesium * mbCrystalOre, oreMagnesium, magnesiumSmeltingTemperature);
+
+//---> Add Magnesite Smelting
+mods.tconstruct.Melting.addRecipe(liquidMagnesium * mbIngotOre, oreMagnesite, magnesiumSmeltingTemperature);
+
+//---> Add Brucite Smelting
+mods.tconstruct.Melting.addRecipe(liquidMagnesium * mbIngotOre, oreBrucite, magnesiumSmeltingTemperature);

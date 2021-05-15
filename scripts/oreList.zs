@@ -506,3 +506,14 @@ tinyDustLeadList.add(ic2TinyDustLead);
 
 //tinyDustLeadList.remove(nuclearCraftTintyDustLead);
 //dustTinyLeadList.add(nuclearCraftTintyDustLead);
+
+//--- Magnesium ---//
+val magensiumOreList = <ore:oreMagnesium>;
+magensiumOreList.add(<contenttweaker:magnesium_ore>);
+
+val rockMagnesiumOreList = <ore:rockMagnesiumOre>;
+magensiumOreList.add(<contenttweaker:rock_magnesium_ore>);
+rockMagnesiumOreList.add(<contenttweaker:rock_magnesium_ore>);
+
+val dustTinyMagnesiumList = <ore:dustTinyMagnesium>;
+dustTinyMagnesiumList.add(<contenttweaker:tiny_pile_of_magnesium_dust>);
