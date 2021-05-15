@@ -330,6 +330,7 @@ ArcFurnace.addRecipe(nickelIngot, oreDustNickel, null, ticksArcFurnace, rfTickAr
 
 //---> Remap Titanium ore recipes
 Crusher.removeRecipe(<libvulpes:productdust:7>);
+Crusher.addRecipe(<contenttweaker:pulverized_titanium>, titaniumIngot, crusherBaseEnergy);
 ArcFurnace.addRecipe(titaniumIngot, oreDustTitanium, null, ticksArcFurnace, rfTickArcFurnace);
 
 //---> Remap Silver ore recipes

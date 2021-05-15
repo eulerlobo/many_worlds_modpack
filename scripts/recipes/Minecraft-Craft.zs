@@ -172,6 +172,7 @@ furnace.addRecipe(nickelIngot, oreCrushedPurifiedNickel, experienceSmelting);
 
 //---> Remap Titanium Ore recipes
 recipes.addShaped("TinyPileOfTiToTiDust", titaniumDust, [[oreDustTinyTitanium, oreDustTinyTitanium, oreDustTinyTitanium], [oreDustTinyTitanium, oreDustTinyTitanium, oreDustTinyTitanium], [oreDustTinyTitanium, oreDustTinyTitanium, oreDustTinyTitanium]]);
+furnace.addRecipe(titaniumIngot, oreDustTitanium, experienceSmelting);
 
 //---> Remap Silver Ore recipes
 recipes.remove(oreDustSilver);

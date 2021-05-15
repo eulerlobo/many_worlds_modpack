@@ -92,6 +92,7 @@ val oreCrushedPurifiedGarnierite = <ore:crushedPurifiedGarnierite>;
 val liquidTitanium = <liquid:titanium>;
 val titaniumChunks = <contenttweaker:titanium_chunks>;
 val oreTitaniumCrystal = <ore:titaniumCrystal>;
+val oreDustTitanium = <ore:dustTitanium>;
 
 val oreRutile = <ore:oreRutile>;
 val oreCrushedPurifiedRutile = <ore:crushedPurifiedRutile>;
@@ -136,6 +137,7 @@ melter.addRecipe([oreNickelCrystal, liquidNickel * mbCrystalOre, timeBaseMultipl
 
 //---> Add Titanium Crystal Smelting
 melter.addRecipe([oreTitaniumCrystal, liquidTitanium * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([oreDustTitanium, liquidTitanium * 180, timeBaseMultiplier, powerBaseMultiplier]);
 
 //---> Add Magnesium Crystal Smelting
 melter.addRecipe([oreMagnesiumCrystal, liquidMagnesium * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
