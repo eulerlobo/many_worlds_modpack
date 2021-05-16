@@ -97,6 +97,9 @@ val dustLithium = <ic2:dust:11>;
 val oreSpodumene = <ore:oreSpodumene>;
 val crushedOreSpodumene = <contenttweaker:crushed_spodumene>;
 
+val oreSulfur = <ore:oreSulfur>;
+val dustSulfur = <thermalfoundation:material:771>;
+
 //--- Add Recipes ---//
 
 //---> Add Magnetite
@@ -386,3 +389,11 @@ Mortar.addRecipe(["diamond"], crushedOreSpodumene, 5, [oreSpodumene]);
 Mortar.addRecipe(["obsidian"], crushedOreSpodumene, 3, [oreSpodumene]);
 Mortar.addRecipe(["emerald"], crushedOreSpodumene, 3, [oreSpodumene]);
 Mortar.addRecipe(["gold"], crushedOreSpodumene, 1, [oreSpodumene]);
+
+//---> Remap Sulfur Ore recipes
+Mortar.addRecipe(["stone"], dustSulfur, 9, [oreSulfur]);
+Mortar.addRecipe(["iron"], dustSulfur, 7, [oreSulfur]);
+Mortar.addRecipe(["diamond"], dustSulfur, 5, [oreSulfur]);
+Mortar.addRecipe(["obsidian"], dustSulfur, 3, [oreSulfur]);
+Mortar.addRecipe(["emerald"], dustSulfur, 3, [oreSulfur]);
+Mortar.addRecipe(["gold"], dustSulfur, 1, [oreSulfur]);

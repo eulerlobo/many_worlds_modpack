@@ -3,7 +3,7 @@
 import mods.nuclearcraft.melter;
 import mods.nuclearcraft.chemical_reactor;
 import mods.nuclearcraft.infuser;
-
+import mods.nuclearcraft.ingot_former;
 
 val timeBaseMultiplier = 50 * 20;
 val powerBaseMultiplier = 60;
@@ -119,6 +119,12 @@ val oreLithium = <ore:oreLithium>;
 val liquidLithium = <liquid:lithium>;
 
 val oreSpodumene = <ore:oreSpodumene>;
+
+val liquidSulfur = <liquid:sulfur>;
+val oreSulfur = <ore:oreSulfur>;
+val oreDustSulfur = <ore:dustSulfur>;
+val dustSulfur = <thermalfoundation:material:771>;
+val betweenlandsSulfur = <thebetweenlands:items_misc:18>;
 
 //--- Add Recipes ---//
 
@@ -279,3 +285,10 @@ melter.addRecipe([oreLithium, liquidLithium * mbIngotOre, timeBaseMultiplier, po
 
 //---> Add Brucite Recipes
 melter.addRecipe([oreSpodumene, liquidLithium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Remap Sulfur Ore recipes
+melter.removeRecipeWithOutput(<liquid:sulfur>);
+melter.addRecipe([oreSulfur, liquidSulfur * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([oreDustSulfur, liquidSulfur * 180, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([betweenlandsSulfur, liquidSulfur * 120, timeBaseMultiplier, powerBaseMultiplier]);
+ingot_former.addRecipe([liquidSulfur * 180, dustSulfur]);

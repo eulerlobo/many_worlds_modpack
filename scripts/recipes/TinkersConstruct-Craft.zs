@@ -14,6 +14,7 @@ val titaniumSmeltingTemperature = 545; //245 Celsius
 val silverSmeltingTemperature = 427; //127 Celsius
 val magnesiumSmeltingTemperature = 900; //600 Celsius
 val lithiumSmeltingTemperature = 900; //600 Celsius
+val sulfurSmeltingTemperature = 400; //100 Celsius
 
 val rockOreIron = <ore:rockOreIron>;
 val liquidIron = <liquid:iron>;
@@ -86,6 +87,11 @@ val oreBrucite = <ore:oreBrucite>;
 val liquidLithium = <liquid:lithium>;
 
 val oreSpodumene = <ore:oreSpodumene>;
+
+val liquidSulfur = <liquid:sulfur>;
+val oreSulfur = <ore:oreSulfur>;
+val oreDustSulfur = <ore:dustSulfur>;
+val betweenlandsSulfur = <thebetweenlands:items_misc:18>;
 
 //--- Add Recipes ---/
 
@@ -191,3 +197,8 @@ mods.tconstruct.Melting.addRecipe(liquidMagnesium * mbIngotOre, oreBrucite, magn
 
 //---> Add Spodumene Smelting
 mods.tconstruct.Melting.addRecipe(liquidLithium * mbIngotOre, oreSpodumene, lithiumSmeltingTemperature);
+
+//---> Remap Sulfur Ore Smelting
+mods.tconstruct.Melting.addRecipe(liquidSulfur * mbCrystalOre, oreSulfur, sulfurSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidSulfur * 180, oreDustSulfur, sulfurSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidSulfur * 120, betweenlandsSulfur, sulfurSmeltingTemperature);

@@ -134,6 +134,9 @@ val oreLithium = <ore:oreLithium>;
 val dustLithium = <ic2:dust:11>;
 val oreDustTinyLithium = <ore:dustTinyLithium>;
 
+val dustSulfur = <thermalfoundation:material:771>;
+val oreDustTinySulfur = <ore:dustTinySulfur>;
+
 //--- Add Recipes ---//
 
 //---> Remap Iron Ore recipes
@@ -280,3 +283,7 @@ furnace.addRecipe(magnesiumIngot, oreCrushedPurifiedBrucite, experienceSmelting)
 //---> Remap Lithium Ore recipes
 recipes.remove(dustLithium);
 recipes.addShaped("TinyPileOfLiToLiDust", dustLithium, [[oreDustTinyLithium, oreDustTinyLithium, oreDustTinyLithium], [oreDustTinyLithium, oreDustTinyLithium, oreDustTinyLithium], [oreDustTinyLithium, oreDustTinyLithium, oreDustTinyLithium]]);
+
+//---> Remap Sulfur Ore recipes
+recipes.remove(dustSulfur);
+//recipes.addShaped("TinyPileOfSToSDust", dustSulfur, [[oreDustTinySulfur, oreDustTinySulfur, oreDustTinySulfur], [oreDustTinySulfur, oreDustTinySulfur, oreDustTinySulfur], [oreDustTinySulfur, oreDustTinySulfur, oreDustTinySulfur]]);

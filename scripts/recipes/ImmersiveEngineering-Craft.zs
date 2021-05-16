@@ -60,7 +60,6 @@ val oreChalcopyrite = <ore:oreChalcopyrite>;
 val oreCrushedChalcopyrite = <ore:crushedChalcopyrite>;
 val oreCrushedPurifiedChalcopyrite = <ore:crushedPurifiedChalcopyrite>;
 val crushedChalcopyrite = <contenttweaker:crushed_chalcopyrite>;
-val dustSulfur = <thermalfoundation:material:771>;
 val oreCopperCrystal = <ore:copperCrystal>;
 
 val oreStone = <ore:stone>;
@@ -191,6 +190,9 @@ val oreSpodumene = <ore:oreSpodumene>;
 val crushedSpodumene = <contenttweaker:crushed_spodumene>;
 val oreCrushedSpodumene = <ore:crushedSpodumene>;
 val oreCrushedPurifiedSpodumene = <ore:crushedPurifiedSpodumene>;
+
+val oreSulfur = <ore:oreSulfur>;
+val dustSulfur = <thermalfoundation:material:771>;
 
 //--- Add Recipes ---//
 
@@ -473,3 +475,7 @@ Crusher.addRecipe(crushedSpodumene * 2, oreSpodumene, crusherBaseEnergy);
 recipes.addShapeless("SpodumeneIEHammer", crushedSpodumene, [oreSpodumene, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(dustLithium, oreCrushedSpodumene, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(dustLithium * 2, oreCrushedPurifiedSpodumene, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Lithium ore recipes
+Crusher.removeRecipe(<thermalfoundation:material:771>);
+Crusher.addRecipe(dustSulfur * 2, oreSulfur, crusherBaseEnergy);
