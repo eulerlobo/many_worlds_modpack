@@ -183,6 +183,15 @@ val crushedBrucite = <contenttweaker:crushed_brucite>;
 val oreCrushedBrucite = <ore:crushedBrucite>;
 val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
 
+val oreLithium = <ore:oreLithium>;
+val dustLithium = <ic2:dust:11>;
+val lithiumIngot = <nuclearcraft:ingot:6>;
+
+val oreSpodumene = <ore:oreSpodumene>;
+val crushedSpodumene = <contenttweaker:crushed_spodumene>;
+val oreCrushedSpodumene = <ore:crushedSpodumene>;
+val oreCrushedPurifiedSpodumene = <ore:crushedPurifiedSpodumene>;
+
 //--- Add Recipes ---//
 
 //---> Hide Copper Ore
@@ -226,6 +235,9 @@ ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
 
 //Mangesium Ingot
 ArcFurnace.removeRecipe(<nuclearcraft:ingot:7>);
+
+//Lithium Ingot
+ArcFurnace.removeRecipe(<nuclearcraft:ingot:6>);
 
 //---> Add slag from furnace
 furnace.addRecipe(slag, oreGravel);
@@ -449,3 +461,15 @@ Crusher.addRecipe(crushedBrucite * 3, oreBrucite, crusherBaseEnergy);
 recipes.addShapeless("BruciteIEHammer", crushedBrucite * 2, [oreBrucite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(magnesiumIngot, oreCrushedBrucite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(magnesiumIngot * 2, oreCrushedPurifiedBrucite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Lithium ore recipes
+Crusher.removeRecipe(<ic2:dust:11>);
+Crusher.addRecipe(dustLithium * 2, oreLithium, crusherBaseEnergy);
+Crusher.addRecipe(dustLithium, lithiumIngot, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustLithium, oreLithium, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Spodumene Crusher, Hammer Crusher and Lithium Recipes
+Crusher.addRecipe(crushedSpodumene * 2, oreSpodumene, crusherBaseEnergy);
+recipes.addShapeless("SpodumeneIEHammer", crushedSpodumene, [oreSpodumene, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(dustLithium, oreCrushedSpodumene, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustLithium * 2, oreCrushedPurifiedSpodumene, null, ticksArcFurnace, rfTickArcFurnace);

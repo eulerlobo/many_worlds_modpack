@@ -16,12 +16,6 @@ recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
 //Immersive Engineering should create Rocket Fuel
 mods.immersiveengineering.Refinery.addRecipe(<liquid:rocketfuel> * 10, <liquid:oxygen> * 10, <liquid:hydrogen> * 20, 1400);
 
-//Lithium should be created by water processing
-mods.immersivepetroleum.Distillation.addRecipe([], [<harvestcraft:saltitem>, <nuclearcraft:dust:6>], <liquid:water> * 1000, 4096, 100, [0.7, 0.07]);
-
-//Nitrogen should be produced by distillation
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:nitrogen> * 100], [<thermalfoundation:material:816>, <thermalfoundation:material:817>], <liquid:refined_biofuel> * 500, 2048, 100, [0.6, 0.09]);
-
 //More ways to make purified water
 mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:water> * 500, [<ore:charcoal>], 1024);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:dist_water> * 500, [<ore:itemSalt>, <ore:sugar>], 512);

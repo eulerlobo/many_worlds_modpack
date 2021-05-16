@@ -91,6 +91,12 @@ val crushedOreMagnesite = <contenttweaker:crushed_magnesite>;
 val oreBrucite = <ore:oreBrucite>;
 val crushedOreBrucite = <contenttweaker:crushed_brucite>;
 
+val oreLithium = <ore:oreLithium>;
+val dustLithium = <ic2:dust:11>;
+
+val oreSpodumene = <ore:oreSpodumene>;
+val crushedOreSpodumene = <contenttweaker:crushed_spodumene>;
+
 //--- Add Recipes ---//
 
 //---> Add Magnetite
@@ -364,3 +370,19 @@ Mortar.addRecipe(["diamond"], crushedOreBrucite * 2, 5, [oreBrucite]);
 Mortar.addRecipe(["obsidian"], crushedOreBrucite * 2, 3, [oreBrucite]);
 Mortar.addRecipe(["emerald"], crushedOreBrucite * 2, 3, [oreBrucite]);
 Mortar.addRecipe(["gold"], crushedOreBrucite * 2, 1, [oreBrucite]);
+
+//---> Remap Lithium Ore recipes
+Mortar.addRecipe(["stone"], dustLithium, 9, [oreLithium]);
+Mortar.addRecipe(["iron"], dustLithium, 7, [oreLithium]);
+Mortar.addRecipe(["diamond"], dustLithium, 5, [oreLithium]);
+Mortar.addRecipe(["obsidian"], dustLithium, 3, [oreLithium]);
+Mortar.addRecipe(["emerald"], dustLithium, 3, [oreLithium]);
+Mortar.addRecipe(["gold"], dustLithium, 1, [oreLithium]);
+
+//---> Add Spodumene
+Mortar.addRecipe(["stone"], crushedOreSpodumene, 9, [oreSpodumene]);
+Mortar.addRecipe(["iron"], crushedOreSpodumene, 7, [oreSpodumene]);
+Mortar.addRecipe(["diamond"], crushedOreSpodumene, 5, [oreSpodumene]);
+Mortar.addRecipe(["obsidian"], crushedOreSpodumene, 3, [oreSpodumene]);
+Mortar.addRecipe(["emerald"], crushedOreSpodumene, 3, [oreSpodumene]);
+Mortar.addRecipe(["gold"], crushedOreSpodumene, 1, [oreSpodumene]);

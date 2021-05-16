@@ -13,6 +13,7 @@ val nickelSmeltingTemperature = 585; //285 Celsius
 val titaniumSmeltingTemperature = 545; //245 Celsius
 val silverSmeltingTemperature = 427; //127 Celsius
 val magnesiumSmeltingTemperature = 900; //600 Celsius
+val lithiumSmeltingTemperature = 900; //600 Celsius
 
 val rockOreIron = <ore:rockOreIron>;
 val liquidIron = <liquid:iron>;
@@ -81,6 +82,10 @@ val oreMagnesiumCrystal = <ore:magnesiumCrystal>;
 val oreMagnesite = <ore:oreMagnesite>;
 
 val oreBrucite = <ore:oreBrucite>;
+
+val liquidLithium = <liquid:lithium>;
+
+val oreSpodumene = <ore:oreSpodumene>;
 
 //--- Add Recipes ---/
 
@@ -183,3 +188,6 @@ mods.tconstruct.Melting.addRecipe(liquidMagnesium * mbIngotOre, oreMagnesite, ma
 
 //---> Add Brucite Smelting
 mods.tconstruct.Melting.addRecipe(liquidMagnesium * mbIngotOre, oreBrucite, magnesiumSmeltingTemperature);
+
+//---> Add Spodumene Smelting
+mods.tconstruct.Melting.addRecipe(liquidLithium * mbIngotOre, oreSpodumene, lithiumSmeltingTemperature);

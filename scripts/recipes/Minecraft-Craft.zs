@@ -130,6 +130,10 @@ val oreBrucite = <ore:oreBrucite>;
 val oreCrushedBrucite = <ore:crushedBrucite>;
 val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
 
+val oreLithium = <ore:oreLithium>;
+val dustLithium = <ic2:dust:11>;
+val oreDustTinyLithium = <ore:dustTinyLithium>;
+
 //--- Add Recipes ---//
 
 //---> Remap Iron Ore recipes
@@ -272,3 +276,7 @@ furnace.addRecipe(magnesiumIngot, oreCrushedPurifiedMagnesite, experienceSmeltin
 furnace.addRecipe(magnesiumIngot, oreBrucite, experienceSmelting);
 furnace.addRecipe(magnesiumIngot, oreCrushedBrucite, experienceSmelting);
 furnace.addRecipe(magnesiumIngot, oreCrushedPurifiedBrucite, experienceSmelting);
+
+//---> Remap Lithium Ore recipes
+recipes.remove(dustLithium);
+recipes.addShaped("TinyPileOfLiToLiDust", dustLithium, [[oreDustTinyLithium, oreDustTinyLithium, oreDustTinyLithium], [oreDustTinyLithium, oreDustTinyLithium, oreDustTinyLithium], [oreDustTinyLithium, oreDustTinyLithium, oreDustTinyLithium]]);

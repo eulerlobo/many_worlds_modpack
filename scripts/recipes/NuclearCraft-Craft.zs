@@ -115,6 +115,11 @@ val oreCrushedPurifiedMagnesite = <ore:crushedPurifiedMagnesite>;
 val oreBrucite = <ore:oreBrucite>;
 val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
 
+val oreLithium = <ore:oreLithium>;
+val liquidLithium = <liquid:lithium>;
+
+val oreSpodumene = <ore:oreSpodumene>;
+
 //--- Add Recipes ---//
 
 //---> Add Iron Crystal Smelting
@@ -262,3 +267,15 @@ infuser.addRecipe([oreCrushedPurifiedMagnesite, liquidMineralizedAcidWater * mbC
 //---> Add Brucite Recipes
 melter.addRecipe([oreBrucite, liquidMagnesium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedBrucite, liquidMineralizedAcidWater * mbChunks, magnesiumChunks]);
+
+//--> Hide NuclearCraft Lithium Dust and Lithium Ore
+mods.jei.JEI.removeAndHide(<nuclearcraft:dust:6>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:ore:6>);
+
+//---> Remap Lithium Ore recipes
+melter.removeRecipeWithInput(<contenttweaker:lithium_ore>);
+melter.removeRecipeWithInput(<contenttweaker:rock_lithium_ore>);
+melter.addRecipe([oreLithium, liquidLithium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Brucite Recipes
+melter.addRecipe([oreSpodumene, liquidLithium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
