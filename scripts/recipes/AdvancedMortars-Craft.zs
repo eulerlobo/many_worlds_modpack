@@ -100,6 +100,36 @@ val crushedOreSpodumene = <contenttweaker:crushed_spodumene>;
 val oreSulfur = <ore:oreSulfur>;
 val dustSulfur = <thermalfoundation:material:771>;
 
+val oreUranium = <ore:oreUranium>;
+val rockOreUranium = <ore:rockOreUranium>;
+val crushedOreUranium = <ic2:crushed:6>;
+
+val oreCarnotite = <ore:oreCarnotite>;
+val crushedOreCarnotite = <contenttweaker:crushed_carnotite>;
+
+val oreUraninite = <ore:oreUraninite>;
+val crushedOreUraninite = <contenttweaker:crushed_uraninite>;
+
+val oreThorium = <ore:oreThorium>;
+val rockOreThorium = <ore:rockThoriumOre>;
+val crushedThorium = <contenttweaker:crushed_thorium>;
+
+val oreThorite = <ore:oreThorite>;
+val crushedThorite = <contenttweaker:crushed_thorite>;
+
+val oreMonazite = <ore:oreMonazite>;
+val crushedMonazite = <contenttweaker:crushed_monazite>;
+
+val oreBoron = <ore:oreBoron>;
+val rockOreBoron = <ore:rockBoronOre>;
+val crushedBoron = <contenttweaker:crushed_boron>;
+
+val oreKernite = <ore:oreKernite>;
+val crushedKernite = <contenttweaker:crushed_kernite>;
+
+val oreColemanite = <ore:oreColemanite>;
+val crushedColemanite = <contenttweaker:crushed_colemanite>;
+
 //--- Add Recipes ---//
 
 //---> Add Magnetite
@@ -397,3 +427,102 @@ Mortar.addRecipe(["diamond"], dustSulfur, 5, [oreSulfur]);
 Mortar.addRecipe(["obsidian"], dustSulfur, 3, [oreSulfur]);
 Mortar.addRecipe(["emerald"], dustSulfur, 3, [oreSulfur]);
 Mortar.addRecipe(["gold"], dustSulfur, 1, [oreSulfur]);
+
+//---> Remap Uranium Ore recipes
+Mortar.addRecipe(["stone"], crushedOreUranium * 2, 9, [oreUranium]);
+Mortar.addRecipe(["iron"], crushedOreUranium * 2, 7, [oreUranium]);
+Mortar.addRecipe(["diamond"], crushedOreUranium * 2, 5, [oreUranium]);
+Mortar.addRecipe(["obsidian"], crushedOreUranium * 2, 3, [oreUranium]);
+Mortar.addRecipe(["emerald"], crushedOreUranium * 2, 3, [oreUranium]);
+Mortar.addRecipe(["gold"], crushedOreUranium * 2, 1, [oreUranium]);
+
+Mortar.addRecipe(["stone"], crushedOreUranium * 2, 9, [rockOreUranium]);
+Mortar.addRecipe(["iron"], crushedOreUranium * 2, 7, [rockOreUranium]);
+Mortar.addRecipe(["diamond"], crushedOreUranium * 2, 5, [rockOreUranium]);
+Mortar.addRecipe(["obsidian"], crushedOreUranium * 2, 3, [rockOreUranium]);
+Mortar.addRecipe(["emerald"], crushedOreUranium * 2, 3, [rockOreUranium]);
+Mortar.addRecipe(["gold"], crushedOreUranium * 2, 1, [rockOreUranium]);
+
+//---> Add Carnotite
+Mortar.addRecipe(["stone"], crushedOreCarnotite * 2, 9, [oreCarnotite]);
+Mortar.addRecipe(["iron"], crushedOreCarnotite * 2, 7, [oreCarnotite]);
+Mortar.addRecipe(["diamond"], crushedOreCarnotite * 2, 5, [oreCarnotite]);
+Mortar.addRecipe(["obsidian"], crushedOreCarnotite * 2, 3, [oreCarnotite]);
+Mortar.addRecipe(["emerald"], crushedOreCarnotite * 2, 3, [oreCarnotite]);
+Mortar.addRecipe(["gold"], crushedOreCarnotite * 2, 1, [oreCarnotite]);
+
+//---> Add Uraninite
+Mortar.addRecipe(["stone"], crushedOreUraninite * 2, 9, [oreUraninite]);
+Mortar.addRecipe(["iron"], crushedOreUraninite * 2, 7, [oreUraninite]);
+Mortar.addRecipe(["diamond"], crushedOreUraninite * 2, 5, [oreUraninite]);
+Mortar.addRecipe(["obsidian"], crushedOreUraninite * 2, 3, [oreUraninite]);
+Mortar.addRecipe(["emerald"], crushedOreUraninite * 2, 3, [oreUraninite]);
+Mortar.addRecipe(["gold"], crushedOreUraninite * 2, 1, [oreUraninite]);
+
+//---> Remap Thorium Ore recipes
+Mortar.addRecipe(["stone"], crushedThorium * 2, 9, [oreThorium]);
+Mortar.addRecipe(["iron"], crushedThorium * 2, 7, [oreThorium]);
+Mortar.addRecipe(["diamond"], crushedThorium * 2, 5, [oreThorium]);
+Mortar.addRecipe(["obsidian"], crushedThorium * 2, 3, [oreThorium]);
+Mortar.addRecipe(["emerald"], crushedThorium * 2, 3, [oreThorium]);
+Mortar.addRecipe(["gold"], crushedThorium * 2, 1, [oreThorium]);
+
+Mortar.addRecipe(["stone"], crushedThorium * 2, 9, [rockOreThorium]);
+Mortar.addRecipe(["iron"], crushedThorium * 2, 7, [rockOreThorium]);
+Mortar.addRecipe(["diamond"], crushedThorium * 2, 5, [rockOreThorium]);
+Mortar.addRecipe(["obsidian"], crushedThorium * 2, 3, [rockOreThorium]);
+Mortar.addRecipe(["emerald"], crushedThorium * 2, 3, [rockOreThorium]);
+Mortar.addRecipe(["gold"], crushedThorium * 2, 1, [rockOreThorium]);
+
+//---> Add Thorite
+Mortar.addRecipe(["stone"], crushedThorite * 2, 9, [oreThorite]);
+Mortar.addRecipe(["iron"], crushedThorite * 2, 7, [oreThorite]);
+Mortar.addRecipe(["diamond"], crushedThorite * 2, 5, [oreThorite]);
+Mortar.addRecipe(["obsidian"], crushedThorite * 2, 3, [oreThorite]);
+Mortar.addRecipe(["emerald"], crushedThorite * 2, 3, [oreThorite]);
+Mortar.addRecipe(["gold"], crushedThorite * 2, 1, [oreThorite]);
+
+//---> Add Monazite
+Mortar.addRecipe(["stone"], crushedMonazite * 2, 9, [oreMonazite]);
+Mortar.addRecipe(["iron"], crushedMonazite * 2, 7, [oreMonazite]);
+Mortar.addRecipe(["diamond"], crushedMonazite * 2, 5, [oreMonazite]);
+Mortar.addRecipe(["obsidian"], crushedMonazite * 2, 3, [oreMonazite]);
+Mortar.addRecipe(["emerald"], crushedMonazite * 2, 3, [oreMonazite]);
+Mortar.addRecipe(["gold"], crushedMonazite * 2, 1, [oreMonazite]);
+
+//---> Remap Boron Ore recipes
+Mortar.addRecipe(["stone"], crushedBoron * 2, 9, [oreBoron]);
+Mortar.addRecipe(["iron"], crushedBoron * 2, 7, [oreBoron]);
+Mortar.addRecipe(["diamond"], crushedBoron * 2, 5, [oreBoron]);
+Mortar.addRecipe(["obsidian"], crushedBoron * 2, 3, [oreBoron]);
+Mortar.addRecipe(["emerald"], crushedBoron * 2, 3, [oreBoron]);
+Mortar.addRecipe(["gold"], crushedBoron * 2, 1, [oreBoron]);
+
+Mortar.addRecipe(["stone"], crushedBoron * 2, 9, [rockOreBoron]);
+Mortar.addRecipe(["iron"], crushedBoron * 2, 7, [rockOreBoron]);
+Mortar.addRecipe(["diamond"], crushedBoron * 2, 5, [rockOreBoron]);
+Mortar.addRecipe(["obsidian"], crushedBoron * 2, 3, [rockOreBoron]);
+Mortar.addRecipe(["emerald"], crushedBoron * 2, 3, [rockOreBoron]);
+Mortar.addRecipe(["gold"], crushedBoron * 2, 1, [rockOreBoron]);
+
+//---> Add Kernite
+Mortar.addRecipe(["stone"], crushedKernite * 2, 9, [oreKernite]);
+Mortar.addRecipe(["iron"], crushedKernite * 2, 7, [oreKernite]);
+Mortar.addRecipe(["diamond"], crushedKernite * 2, 5, [oreKernite]);
+Mortar.addRecipe(["obsidian"], crushedKernite * 2, 3, [oreKernite]);
+Mortar.addRecipe(["emerald"], crushedKernite * 2, 3, [oreKernite]);
+Mortar.addRecipe(["gold"], crushedKernite * 2, 1, [oreKernite]);
+
+//---> Add Colemanite
+Mortar.addRecipe(["stone"], crushedColemanite * 2, 9, [oreColemanite]);
+Mortar.addRecipe(["iron"], crushedColemanite * 2, 7, [oreColemanite]);
+Mortar.addRecipe(["diamond"], crushedColemanite * 2, 5, [oreColemanite]);
+Mortar.addRecipe(["obsidian"], crushedColemanite * 2, 3, [oreColemanite]);
+Mortar.addRecipe(["emerald"], crushedColemanite * 2, 3, [oreColemanite]);
+Mortar.addRecipe(["gold"], crushedColemanite * 2, 1, [oreColemanite]);
+
+//---> Remap Copper Block
+recipes.remove(<libvulpes:metal0:4>);
+
+//---> Remap Aluminum Block
+recipes.remove(<libvulpes:metal0:9>);

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/uranium_crystal"
+    "layer0": "contenttweaker:items/crushed_thorium"
   }
 }

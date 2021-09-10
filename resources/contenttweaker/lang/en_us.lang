@@ -33,6 +33,19 @@ tile.contenttweaker.lead_ore.name=Lead Ore
 tile.contenttweaker.aluminum_ore.name=Aluminum Ore
 tile.contenttweaker.nickel_ore.name=Nickel Ore
 tile.contenttweaker.magnesium_ore.name=Magnesium Ore
+tile.contenttweaker.uranium_ore.name=Uranium Ore
+tile.contenttweaker.thorium_ore.name=Thorium Ore
+tile.contenttweaker.boron_ore.name=Boron Ore
+tile.contenttweaker.ardite_ore.name=Ardite Ore
+tile.contenttweaker.cobalt_ore.name=Cobalt Ore
+tile.contenttweaker.amethyst_ore.name=Amethyst Ore
+tile.contenttweaker.topaz_ore.name=Topaz Ore
+tile.contenttweaker.peridot_ore.name=Peridot Ore
+tile.contenttweaker.amber_ore.name=Amber Ore
+tile.contenttweaker.ruby_ore.name=Ruby Ore
+tile.contenttweaker.tanzanite_ore.name=Tanzanite Ore
+tile.contenttweaker.malachite_ore.name=Malachite Ore
+tile.contenttweaker.sapphire_ore.name=Sapphire Ore
 
 #Cobblestone
 tile.contenttweaker.limestone_cobblestone.name=Limestone Cobblestone
@@ -69,6 +82,8 @@ item.contenttweaker.limestone_rock.name=Limestone Rock
 item.contenttweaker.marble_rock.name=Marble Rock
 item.contenttweaker.rock_native_silver_ore.name=Native Silver Ore
 item.contenttweaker.rock_magnesium_ore.name=Magnesium Ore
+item.contenttweaker.rock_thorium_ore.name=Thorium Ore
+item.contenttweaker.rock_boron_ore.name=Boron Ore
 
 #Crushed
 item.contenttweaker.crushed_magnetite.name=Crushed Magnetite
@@ -95,6 +110,8 @@ item.contenttweaker.crushed_colemanite.name=Crushed Colemanite
 item.contenttweaker.crushed_kernite.name=Crushed Kernite
 item.contenttweaker.crushed_aluminum.name=Crushed Aluminum
 item.contenttweaker.crushed_nickel.name=Crushed Nickel
+item.contenttweaker.crushed_thorium.name=Crushed Thorium
+item.contenttweaker.crushed_boron.name=Crushed Boron
 
 #Purified
 item.contenttweaker.purified_crushed_magnetite.name=Purified Crushed Magnetite
@@ -121,12 +138,16 @@ item.contenttweaker.purified_crushed_colemanite.name=Purified Crushed Colemanite
 item.contenttweaker.purified_crushed_kernite.name=Purified Crushed Kernite
 item.contenttweaker.purified_crushed_aluminum.name=Purified Crushed Aluminum
 item.contenttweaker.purified_crushed_nickel.name=Purified Crushed Nickel
+item.contenttweaker.purified_crushed_thorium.name=Purified Crushed Thorium
+item.contenttweaker.purified_crushed_boron.name=Purified Crushed Boron
 
 #Tiny Dust
 item.contenttweaker.tiny_pile_of_aluminum_dust.name=Tiny Pile of Aluminum Dust
 item.contenttweaker.tiny_pile_of_nickel_dust.name=Tiny Pile of Nickel Dust
 item.contenttweaker.tiny_pile_of_titanium_dust.name=Tiny Pile of Titanium Dust
 item.contenttweaker.tiny_pile_of_magnesium_dust.name=Tiny Pile of Magnesium Dust
+item.contenttweaker.tiny_pile_of_thorium_dust.name=Tiny Pile of Thorium Dust
+item.contenttweaker.tiny_pile_of_boron_dust.name=Tiny Pile of Boron Dust
 
 #Dust
 item.contenttweaker.pulverized_titanium.name=Pulverized Titanium
@@ -140,9 +161,6 @@ item.contenttweaker.aluminum_chunks.name=Aluminum Chunks
 item.contenttweaker.nickel_chunks.name=Nickel Chunks
 item.contenttweaker.titanium_chunks.name=Titanium Chunks
 item.contenttweaker.magnesium_chunks.name=Magnesium Chunks
-item.contenttweaker.uranium_chunks.name=Uranium Chunks
-item.contenttweaker.thorium_chunks.name=Thorium Chunks
-item.contenttweaker.boron_chunks.name=Boron Chunks
 item.contenttweaker.dirt_chunk.name=Dirt Chunk
 item.contenttweaker.sand_chunk.name=Sand Chunk
 item.contenttweaker.red_sand_chunk.name=Red Sand Chunk
@@ -151,7 +169,6 @@ item.contenttweaker.silty_chunk.name=Silty Chunk
 item.contenttweaker.sandy_chunk.name=Sandy Chunk
 item.contenttweaker.dried_sand_chunk.name=Dried Sand Chunk
 item.contenttweaker.white_sand_chunk.name=White Sand Chunk
-
 
 #Crystal
 item.contenttweaker.iron_crystal.name=Iron Crystal
@@ -162,10 +179,10 @@ item.contenttweaker.aluminum_crystal.name=Aluminum Crystal
 item.contenttweaker.nickel_crystal.name=Nickel Crystal
 item.contenttweaker.titanium_crystal.name=Titanium Crystal
 item.contenttweaker.magnesium_crystal.name=Magnesium Crystal
-item.contenttweaker.uranium_crystal.name=Uranium Crystal
-item.contenttweaker.thorium_crystal.name=Thorium Crystal
-item.contenttweaker.boron_crystal.name=Boron Crystal
 
 #Fluid
 fluid.slag_slurry=Slag Slurry
 fluid.mineralized_acid_water=Mineralized Acid Water
+
+#Ingot
+item.contenttweaker.uranium_ingot.name=Uranium Ingot

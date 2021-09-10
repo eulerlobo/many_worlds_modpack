@@ -54,18 +54,6 @@ titaniumChunks.register();
 var magnesiumChunks = VanillaFactory.createItem("magnesium_chunks");
 magnesiumChunks.register();
 
-//---> Uranium Chunks
-var uraniumChunks = VanillaFactory.createItem("uranium_chunks");
-uraniumChunks.register();
-
-//---> Thorium Chunks
-var thoriumChunks = VanillaFactory.createItem("thorium_chunks");
-thoriumChunks.register();
-
-//---> Boron Chunks
-var boronChunks = VanillaFactory.createItem("boron_chunks");
-boronChunks.register();
-
 //--- Crystals ---//
 
 //---> Iron Crystal
@@ -99,18 +87,6 @@ titaniumCrystal.register();
 //---> Magnesium Crystal
 var magnesiumCrystal = VanillaFactory.createItem("magnesium_crystal");
 magnesiumCrystal.register();
-
-//---> Uranium Crystal
-var uraniumCrystal = VanillaFactory.createItem("uranium_crystal");
-uraniumCrystal.register();
-
-//---> Thorium Crystal
-var thoriumCrystal = VanillaFactory.createItem("thorium_crystal");
-thoriumCrystal.register();
-
-//---> Boron Crystal
-var boronCrystal = VanillaFactory.createItem("boron_crystal");
-boronCrystal.register();
 
 //--- Magnetite ---//
 
@@ -1354,6 +1330,393 @@ pulverizedTitanium.register();
 var tinyPileTitaniumDust = VanillaFactory.createItem("tiny_pile_of_titanium_dust");
 tinyPileTitaniumDust.register();
 
+//--- Uranium ---//
+
+//---> Uranium Ingot
+var uraniumIngot = VanillaFactory.createItem("uranium_ingot");
+uraniumIngot.register();
+
+//---> Uranium Ore
+var uraniumOre = VanillaFactory.createBlock("uranium_ore", <blockmaterial:rock>);
+uraniumOre.setBlockHardness(3.0);
+uraniumOre.setBlockResistance(3.0);
+uraniumOre.setToolClass("pickaxe");
+uraniumOre.setToolLevel(1);
+uraniumOre.setBlockSoundType(<soundtype:stone>);
+uraniumOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_ie_uranium> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+uraniumOre.register();
+
+//--- Boron ---//
+
+//---> Tiny Pile of Boron Dust
+var tinyPileBoronDust = VanillaFactory.createItem("tiny_pile_of_boron_dust");
+tinyPileBoronDust.register();
+
+//---> Rock Boron Ore
+var rockBoronOre = VanillaFactory.createItem("rock_boron_ore");
+rockBoronOre.register();
+
+//---> Crushed Boron
+var boronCrushed = VanillaFactory.createItem("crushed_boron");
+boronCrushed.register();
+
+//---> Purified Crushed Boron
+var purifiedBoronCrushed = VanillaFactory.createItem("purified_crushed_boron");
+purifiedBoronCrushed.register();
+
+//---> Boron Ore
+var boronOre = VanillaFactory.createBlock("boron_ore", <blockmaterial:rock>);
+boronOre.setBlockHardness(3.0);
+boronOre.setBlockResistance(3.0);
+boronOre.setToolClass("pickaxe");
+boronOre.setToolLevel(1);
+boronOre.setBlockSoundType(<soundtype:stone>);
+boronOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:contenttweaker:rock_boron_ore> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+boronOre.register();
+
+//--- Thorium ---//
+
+//---> Tiny Pile of Thorium Dust
+var tinyPileThoriumDust = VanillaFactory.createItem("tiny_pile_of_thorium_dust");
+tinyPileThoriumDust.register();
+
+//---> Rock Thorium Ore
+var rockThoriumOre = VanillaFactory.createItem("rock_thorium_ore");
+rockThoriumOre.register();
+
+//---> Crushed Thorium
+var thoriumCrushed = VanillaFactory.createItem("crushed_thorium");
+thoriumCrushed.register();
+
+//---> Purified Crushed Thorium
+var purifiedThoriumCrushed = VanillaFactory.createItem("purified_crushed_thorium");
+purifiedThoriumCrushed.register();
+
+//---> Thorium Ore
+var thoriumOre = VanillaFactory.createBlock("thorium_ore", <blockmaterial:rock>);
+thoriumOre.setBlockHardness(3.0);
+thoriumOre.setBlockResistance(3.0);
+thoriumOre.setToolClass("pickaxe");
+thoriumOre.setToolLevel(1);
+thoriumOre.setBlockSoundType(<soundtype:stone>);
+thoriumOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:contenttweaker:rock_thorium_ore> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+thoriumOre.register();
+
+//--- Ardite ---//
+
+//---> Ardite Ore
+var arditeOre = VanillaFactory.createBlock("ardite_ore", <blockmaterial:rock>);
+arditeOre.setBlockHardness(3.0);
+arditeOre.setBlockResistance(3.0);
+arditeOre.setToolClass("pickaxe");
+arditeOre.setToolLevel(1);
+arditeOre.setBlockSoundType(<soundtype:stone>);
+arditeOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_tconstruct_ardite> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_netherrack> * 2);
+
+    return;
+});
+arditeOre.register();
+
+//--- Cobalt ---//
+
+//---> Cobalt Ore
+var cobaltOre = VanillaFactory.createBlock("cobalt_ore", <blockmaterial:rock>);
+cobaltOre.setBlockHardness(3.0);
+cobaltOre.setBlockResistance(3.0);
+cobaltOre.setToolClass("pickaxe");
+cobaltOre.setToolLevel(1);
+cobaltOre.setBlockSoundType(<soundtype:stone>);
+cobaltOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:ore_tconstruct_cobalt> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_netherrack> * 2);
+
+    return;
+});
+cobaltOre.register();
+
+//--- Amethyst ---//
+
+//---> Amethyst Ore
+var amethystOre = VanillaFactory.createBlock("amethyst_ore", <blockmaterial:rock>);
+amethystOre.setBlockHardness(3.0);
+amethystOre.setBlockResistance(3.0);
+amethystOre.setToolClass("pickaxe");
+amethystOre.setToolLevel(1);
+amethystOre.setBlockSoundType(<soundtype:stone>);
+amethystOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_amethyst> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_endstone> * 2);
+
+    return;
+});
+amethystOre.register();
+
+//--- Topaz ---//
+
+//---> Topaz Ore
+var topazOre = VanillaFactory.createBlock("topaz_ore", <blockmaterial:rock>);
+topazOre.setBlockHardness(3.0);
+topazOre.setBlockResistance(3.0);
+topazOre.setToolClass("pickaxe");
+topazOre.setToolLevel(1);
+topazOre.setBlockSoundType(<soundtype:stone>);
+topazOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_topaz> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+topazOre.register();
+
+//--- Peridot ---//
+
+//---> Peridot Ore
+var peridotOre = VanillaFactory.createBlock("peridot_ore", <blockmaterial:rock>);
+peridotOre.setBlockHardness(3.0);
+peridotOre.setBlockResistance(3.0);
+peridotOre.setToolClass("pickaxe");
+peridotOre.setToolLevel(1);
+peridotOre.setBlockSoundType(<soundtype:stone>);
+peridotOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_peridot> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+peridotOre.register();
+
+//--- Amber ---//
+
+//---> Amber Ore
+var amberOre = VanillaFactory.createBlock("amber_ore", <blockmaterial:rock>);
+amberOre.setBlockHardness(3.0);
+amberOre.setBlockResistance(3.0);
+amberOre.setToolClass("pickaxe");
+amberOre.setToolLevel(1);
+amberOre.setBlockSoundType(<soundtype:stone>);
+amberOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_amber> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+amberOre.register();
+
+//--- Ruby ---//
+
+//---> Ruby Ore
+var rubyOre = VanillaFactory.createBlock("ruby_ore", <blockmaterial:rock>);
+rubyOre.setBlockHardness(3.0);
+rubyOre.setBlockResistance(3.0);
+rubyOre.setToolClass("pickaxe");
+rubyOre.setToolLevel(1);
+rubyOre.setBlockSoundType(<soundtype:stone>);
+rubyOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_ruby> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+rubyOre.register();
+
+//--- Tanzanite ---//
+
+//---> Tanzanite Ore
+var tanzaniteOre = VanillaFactory.createBlock("tanzanite_ore", <blockmaterial:rock>);
+tanzaniteOre.setBlockHardness(3.0);
+tanzaniteOre.setBlockResistance(3.0);
+tanzaniteOre.setToolClass("pickaxe");
+tanzaniteOre.setToolLevel(1);
+tanzaniteOre.setBlockSoundType(<soundtype:stone>);
+tanzaniteOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_tanzanite> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+tanzaniteOre.register();
+
+//--- Malachite ---//
+
+//---> Malachite Ore
+var malachiteOre = VanillaFactory.createBlock("malachite_ore", <blockmaterial:rock>);
+malachiteOre.setBlockHardness(3.0);
+malachiteOre.setBlockResistance(3.0);
+malachiteOre.setToolClass("pickaxe");
+malachiteOre.setToolLevel(1);
+malachiteOre.setBlockSoundType(<soundtype:stone>);
+malachiteOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_malachite> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+malachiteOre.register();
+
+//--- Sapphire ---//
+
+//---> Sapphire Ore
+var sapphireOre = VanillaFactory.createBlock("sapphire_ore", <blockmaterial:rock>);
+sapphireOre.setBlockHardness(3.0);
+sapphireOre.setBlockResistance(3.0);
+sapphireOre.setToolClass("pickaxe");
+sapphireOre.setToolLevel(1);
+sapphireOre.setBlockSoundType(<soundtype:stone>);
+sapphireOre.setDropHandler(function(drops, world, position, state, fortune) {
+    var fortuneMultiplier = 1;
+
+    drops.clear();
+    //Fortune Multiplier only applied when the world is truly a instance of IWorld
+    if (
+        world instanceof crafttweaker.world.IWorld &
+        fortune > 0
+    ) {
+        fortuneMultiplier = fortuneMultiplier + getFortuneValue(crafttweaker.world.IWorld.getFromID(0), fortune);
+    }
+    drops.add(<item:divergentunderground:gem_raw_bop_sapphire> * fortuneMultiplier);
+    drops.add(<item:divergentunderground:rock_stone> * 2);
+
+    return;
+});
+sapphireOre.register();
+
 //----------------//
 //     Fluids     //
 //----------------//
@@ -1379,7 +1742,7 @@ mineralizedAcidWater.register();
 var limestoneRock = VanillaFactory.createItem("limestone_rock");
 limestoneRock.register();
 
-//--> Rock Marble
+//---> Rock Marble
 var marbleRock = VanillaFactory.createItem("marble_rock");
 marbleRock.register();
 

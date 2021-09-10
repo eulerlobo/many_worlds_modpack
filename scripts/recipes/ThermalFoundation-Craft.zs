@@ -24,3 +24,10 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:ore:4>);
 
 //---> Hide Nickel Ore
 mods.jei.JEI.removeAndHide(<thermalfoundation:ore:5>);
+
+//--> Hide Iridium Ore
+mods.jei.JEI.removeAndHide(<thermalfoundation:ore:7>);
+
+//---> Remap Steel Gear recipe
+recipes.remove(<thermalfoundation:material:288>);
+recipes.addShaped("TFSteelGear", <thermalfoundation:material:288>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);

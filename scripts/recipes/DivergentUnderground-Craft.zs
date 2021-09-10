@@ -42,6 +42,36 @@ val whiteSand = <biomesoplenty:white_sand>;
 val whiteSandChunk = <contenttweaker:white_sand_chunk>;
 val oreWhiteSand = <ore:rockWhiteSand>;
 
+val oreUncutAmethyst = <ore:uncutAmethyst>;
+val amethyst = <biomesoplenty:gem>;
+
+val oreUncutTopaz = <ore:uncutTopaz>;
+val topaz = <biomesoplenty:gem:3>;
+
+val oreUncutPeridot = <ore:uncutPeridot>;
+val peridot = <biomesoplenty:gem:2>;
+
+val oreUncutRuby = <ore:uncutRuby>;
+val ruby = <biomesoplenty:gem:1>;
+
+val oreUncutAmber = <ore:uncutAmber>;
+val amber = <biomesoplenty:gem:7>;
+
+val oreUncutTanzanite = <ore:uncutTanzanite>;
+val tanzanite = <biomesoplenty:gem:4>;
+
+val oreUncutMalachite = <ore:uncutMalachite>;
+val malachite = <biomesoplenty:gem:5>;
+
+val oreUncutSapphire = <ore:uncutSapphire>;
+val sapphire = <iceandfire:sapphire_gem>;
+
+val oreUncutEmerald = <ore:uncutEmerald>;
+val emerald = <minecraft:emerald>;
+
+val oreUncutDiamond = <ore:uncutDiamond>;
+val diamond = <minecraft:diamond>;
+
 //---> Hide Copper Ore
 mods.jei.JEI.removeAndHide(<divergentunderground:ic2_hard_copper_ore>);
 mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_copper_ore>);
@@ -68,6 +98,19 @@ mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_nickel>);
 
 //---> Hide Basalt from Divergent Underground
 mods.jei.JEI.removeAndHide(<divergentunderground:quark_basalt_cobblestone>);
+
+//---> Hide Ardite from Divergent Underground
+mods.jei.JEI.hide(<divergentunderground:tconstruct_hard_ardite_ore>);
+
+//---> Hide Cobalt from Divergent Underground
+mods.jei.JEI.hide(<divergentunderground:tconstruct_hard_cobalt_ore>);
+
+//---> Hide Uranium Ore
+mods.jei.JEI.hide(<divergentunderground:ore_ic2_uranium>);
+
+//---> Hide Iridium from Divergent Underground
+mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_iridium_ore>);
+mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_iridium>);
 
 //---> Remap the Basalt recipe for give IC2 Basalt
 recipes.addShapeless("IC2BasaltDivergent", ic2Basalt, [oreRockBasalt, oreRockBasalt, oreRockBasalt, oreRockBasalt]);
@@ -98,3 +141,30 @@ furnace.addRecipe(driedSandChunk, oreRockSandy, experienceSmelting);
 
 //---> Sand can be dyed for make white sand
 recipes.addShapeless("WhiteSandFromSand", whiteSandChunk * 2, [oreRockSand, oreRockSand, dyeWhite]);
+
+//---> Remove and Hide Gems Ores
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_amethyst_ore>); //Amethyst Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_ruby_ore>); //Ruby Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_peridot_ore>); //Peridot Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_topaz_ore>); //Topaz Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_tanzanite_ore>); //Tanzanite Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_malachite_ore>); //Malachite Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_sapphire_ore>); //Sapphire Ore
+mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_amber_ore>); //Amber Ore
+
+//-->Remove Chisel
+mods.jei.JEI.removeAndHide(<divergentunderground:chisel>);
+
+//---> Remap Gems recipes
+furnace.addRecipe(amethyst, oreUncutAmethyst, experienceSmelting);
+furnace.addRecipe(topaz, oreUncutTopaz, experienceSmelting);
+furnace.addRecipe(peridot, oreUncutPeridot, experienceSmelting);
+furnace.addRecipe(ruby, oreUncutRuby, experienceSmelting);
+furnace.addRecipe(amber, oreUncutAmber, experienceSmelting);
+furnace.addRecipe(tanzanite, oreUncutTanzanite, experienceSmelting);
+furnace.addRecipe(malachite, oreUncutMalachite, experienceSmelting);
+furnace.addRecipe(sapphire, oreUncutSapphire, experienceSmelting);
+furnace.addRecipe(<minecraft:emerald>, <divergentunderground:gem_raw_emerald>, experienceSmelting);
+furnace.addRecipe(<minecraft:diamond>, <divergentunderground:gem_raw_diamond>, experienceSmelting);
+furnace.addRecipe(<minecraft:diamond>, <ore:uncutDiamond>, experienceSmelting);
+furnace.addRecipe(<minecraft:emerald>, <ore:uncutEmerald>, experienceSmelting);

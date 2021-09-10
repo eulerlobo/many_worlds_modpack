@@ -11,7 +11,7 @@ val allSeeds = <ore:listAllseed>;
 allSeeds.add(<immersiveengineering:seed>);
 
 //Craft sapphire of Ice and Fire with the sapphire from Biomes O Plenty
-recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
+//recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
 
 //Immersive Engineering should create Rocket Fuel
 mods.immersiveengineering.Refinery.addRecipe(<liquid:rocketfuel> * 10, <liquid:oxygen> * 10, <liquid:hydrogen> * 20, 1400);
@@ -67,13 +67,13 @@ recipes.addShaped(<nuclearcraft:glowing_mushroom>, [[null, null, null], [<ore:du
 //mods.thermalexpansion.Refinery.addRecipe(<liquid:refined_oil> * 150, <thermalfoundation:material:833> % 50, <liquid:coal> * 200, 12500);
 
 //Change the sticks recipes for compability
-recipes.remove(<immersiveengineering:material:1>);
-recipes.remove(<libvulpes:productrod:1>);
-recipes.addShaped(<libvulpes:productrod:1> * 4, [[<ore:ingotIron>, null, null], [null, <ore:ingotIron>, null], [null, null, <ore:ingotIron>]]);
-recipes.remove(<immersiveengineering:material:2>);
-recipes.addShaped(<immersiveengineering:material:2> * 4, [[<ore:ingotSteel>, null, null], [null, <ore:ingotSteel>, null], [null, null, <ore:ingotSteel>]]);
-recipes.remove(<immersiveengineering:material:3>);
-recipes.addShaped(<immersiveengineering:material:3> * 4, [[<ore:ingotAluminum>, null, null], [null, <ore:ingotAluminum>, null], [null, null, <ore:ingotAluminum>]]);
+//recipes.remove(<immersiveengineering:material:1>);
+//recipes.remove(<libvulpes:productrod:1>);
+//recipes.addShaped(<libvulpes:productrod:1> * 4, [[<ore:ingotIron>, null, null], [null, <ore:ingotIron>, null], [null, null, <ore:ingotIron>]]);
+//recipes.remove(<immersiveengineering:material:2>);
+//recipes.addShaped(<immersiveengineering:material:2> * 4, [[<ore:ingotSteel>, null, null], [null, <ore:ingotSteel>, null], [null, null, <ore:ingotSteel>]]);
+//recipes.remove(<immersiveengineering:material:3>);
+//recipes.addShaped(<immersiveengineering:material:3> * 4, [[<ore:ingotAluminum>, null, null], [null, <ore:ingotAluminum>, null], [null, null, <ore:ingotAluminum>]]);
 
 //Remove not need plate
 recipes.remove(<thermalfoundation:material:352>);

@@ -4,6 +4,7 @@ import mods.nuclearcraft.melter;
 import mods.nuclearcraft.chemical_reactor;
 import mods.nuclearcraft.infuser;
 import mods.nuclearcraft.ingot_former;
+import mods.nuclearcraft.pressurizer;
 
 val timeBaseMultiplier = 50 * 20;
 val powerBaseMultiplier = 60;
@@ -124,7 +125,26 @@ val liquidSulfur = <liquid:sulfur>;
 val oreSulfur = <ore:oreSulfur>;
 val oreDustSulfur = <ore:dustSulfur>;
 val dustSulfur = <thermalfoundation:material:771>;
+val betweenlandsSulfurOre = <thebetweenlands:sulfur_ore>;
 val betweenlandsSulfur = <thebetweenlands:items_misc:18>;
+
+val liquidUranium = <liquid:uranium>;
+
+val oreCarnotite = <ore:oreCarnotite>;
+
+val oreUraninite = <ore:oreUraninite>;
+
+val liquidThorium = <liquid:thorium>;
+
+val oreThorite = <ore:oreThorite>;
+
+val oreMonazite = <ore:oreMonazite>;
+
+val liquidBoron = <liquid:boron>;
+
+val oreKernite = <ore:oreKernite>;
+
+val oreColemanite = <ore:oreColemanite>;
 
 //--- Add Recipes ---//
 
@@ -198,6 +218,17 @@ infuser.addRecipe([oreCrushedPurifiedNickel, liquidMineralizedAcidWater * mbChun
 //---> Remap Silver Ore recipes
 melter.addRecipe([<contenttweaker:silver_ore>, liquidSilver * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 
+//---> Remap Uranium Ore recipes
+melter.addRecipe([<contenttweaker:uranium_ore>, liquidUranium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Remap Thorium Ore recipes
+melter.addRecipe([<contenttweaker:thorium_ore>, liquidThorium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([<contenttweaker:rock_thorium_ore>, liquidThorium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Remap Boron Ore recipes
+melter.addRecipe([<contenttweaker:boron_ore>, liquidBoron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([<contenttweaker:rock_boron_ore>, liquidBoron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
 //---> Add Magnetite Recipes
 melter.addRecipe([oreMagnetite, liquidIron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedHematite, liquidMineralizedAcidWater * mbChunks, ironChunks]);
@@ -262,7 +293,7 @@ infuser.addRecipe([oreCrushedPurifiedIlmenite, liquidMineralizedAcidWater * mbCh
 //---> Add Native Silver Smelting
 melter.addRecipe([oreNativeSilver, liquidSilver * mbCrystalOre, timeBaseMultiplier, powerBaseMultiplier]);
 
-//---> Remap Magnesium Ore recipes
+//---> Remap Magnesium Ore Recipes
 melter.addRecipe([<ore:oreMagnesium>, liquidMagnesium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 //infuser.addRecipe([oreCrushedPurifiedNickel, liquidMineralizedAcidWater * mbChunks, nickelChunks]);
 
@@ -274,11 +305,11 @@ infuser.addRecipe([oreCrushedPurifiedMagnesite, liquidMineralizedAcidWater * mbC
 melter.addRecipe([oreBrucite, liquidMagnesium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 infuser.addRecipe([oreCrushedPurifiedBrucite, liquidMineralizedAcidWater * mbChunks, magnesiumChunks]);
 
-//--> Hide NuclearCraft Lithium Dust and Lithium Ore
+//---> Hide NuclearCraft Lithium Dust and Lithium Ore
 mods.jei.JEI.removeAndHide(<nuclearcraft:dust:6>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:ore:6>);
 
-//---> Remap Lithium Ore recipes
+//---> Remap Lithium Ore Recipes
 melter.removeRecipeWithInput(<contenttweaker:lithium_ore>);
 melter.removeRecipeWithInput(<contenttweaker:rock_lithium_ore>);
 melter.addRecipe([oreLithium, liquidLithium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
@@ -286,9 +317,58 @@ melter.addRecipe([oreLithium, liquidLithium * mbIngotOre, timeBaseMultiplier, po
 //---> Add Brucite Recipes
 melter.addRecipe([oreSpodumene, liquidLithium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 
-//---> Remap Sulfur Ore recipes
+//---> Remap Sulfur Ore Recipes
 melter.removeRecipeWithOutput(<liquid:sulfur>);
+melter.removeRecipeWithInput(<thermalfoundation:material:771>);
 melter.addRecipe([oreSulfur, liquidSulfur * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
 melter.addRecipe([oreDustSulfur, liquidSulfur * 180, timeBaseMultiplier, powerBaseMultiplier]);
+melter.removeRecipeWithInput(<thebetweenlands:sulfur_ore>);
 melter.addRecipe([betweenlandsSulfur, liquidSulfur * 120, timeBaseMultiplier, powerBaseMultiplier]);
+melter.addRecipe([betweenlandsSulfurOre, liquidSulfur * 120, timeBaseMultiplier, powerBaseMultiplier]);
 ingot_former.addRecipe([liquidSulfur * 180, dustSulfur]);
+
+//---> Remap Lapis Lazuli Plate Recipes
+pressurizer.removeRecipeWithOutput([<ic2:plate:4>]);
+pressurizer.addRecipe([<ore:dustLapis>, <ic2:plate:4>]);
+
+//---> Remap Obsidian Plate Recipes
+pressurizer.addRecipe([<ore:dustObsidian>, <ic2:plate:6>]);
+
+//---> Remap Raw Carbon Mesh Recipes
+pressurizer.addRecipe([<ore:itemRawCarbonMesh>, <ic2:crafting:15>]);
+
+//---> Add Carnotite Recipes
+melter.addRecipe([oreCarnotite, liquidUranium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Uraninite Recipes
+melter.addRecipe([oreUraninite, liquidUranium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Hide NuclearCraft Ores
+mods.jei.JEI.hide(<nuclearcraft:ore:4>); //Uranium Ore
+mods.jei.JEI.hide(<nuclearcraft:ore:7>); //Magnesium Ore
+mods.jei.JEI.hide(<nuclearcraft:ore:3>); //Thorium Ore
+mods.jei.JEI.hide(<nuclearcraft:ore:5>); //Boron Ore
+
+//---> Add Thorite Recipes
+melter.addRecipe([oreThorite, liquidThorium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Monazite Recipes
+melter.addRecipe([oreMonazite, liquidThorium * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Kernite Recipes
+melter.addRecipe([oreKernite, liquidBoron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Add Colemanite Recipes
+melter.addRecipe([oreColemanite, liquidBoron * mbIngotOre, timeBaseMultiplier, powerBaseMultiplier]);
+
+//---> Remap Copper Block
+recipes.remove(<nuclearcraft:ingot_block>);
+
+//---> Remap Lead Block
+recipes.remove(<nuclearcraft:ingot_block:2>);
+
+//---> Remap Aluminum Block
+recipes.remove(<nuclearcraft:ingot_block:12>);
+
+//---> Remap Silver Block
+recipes.remove(<nuclearcraft:ingot_block:13>);

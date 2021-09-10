@@ -13,12 +13,12 @@ recipes.addShaped(<advancedrocketry:seat>, [[<minecraft:wool:*>, <minecraft:wool
 //recipes.addShaped(<abyssalcraft:dltpplate>, [[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]);
 
 //Fix Nether Amethyst Crystal and Ender Amyethyst Conflict
-val gemAmethyst = <ore:gemAmethyst>;
-gemAmethyst.remove(<biomesoplenty:gem>);
+//val gemAmethyst = <ore:gemAmethyst>;
+//gemAmethyst.remove(<biomesoplenty:gem>);
 
-mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem>);
+//mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem>);
 //mods.immersiveengineering.Crusher.removeRecipe(<netherex:amethyst_crystal>);
-mods.immersiveengineering.Crusher.addRecipe(<biomesoplenty:gem> * 2, <biomesoplenty:gem_ore>, 2048);
+//mods.immersiveengineering.Crusher.addRecipe(<biomesoplenty:gem> * 2, <biomesoplenty:gem_ore>, 2048);
 //mods.immersiveengineering.Crusher.addRecipe(<netherex:amethyst_crystal> * 2, <netherex:amethyst_ore>, 2048);
  
 //mods.thermalexpansion.RedstoneFurnace.removeRecipe(<ore:oreAmethyst>);
@@ -27,9 +27,9 @@ mods.immersiveengineering.Crusher.addRecipe(<biomesoplenty:gem> * 2, <biomesople
 //mods.thermalexpansion.Pulverizer.removeRecipe(<biomesoplenty:gem_ore>);
 
 //recipes.remove(<netherex:amethyst_crystal>);
-recipes.remove(<biomesoplenty:gem>);
+//recipes.remove(<biomesoplenty:gem>);
 //recipes.addShapeless(<netherex:amethyst_crystal> * 2, [<netherex:amethyst_ore>, <ore:dustPetrotheum>]); 
-recipes.addShapeless(<biomesoplenty:gem> * 2, [<biomesoplenty:gem_ore>, <ore:dustPetrotheum>]); 
+//recipes.addShapeless(<biomesoplenty:gem> * 2, [<biomesoplenty:gem_ore>, <ore:dustPetrotheum>]); 
 
 //furnace.remove(<netherex:amethyst_crystal>);
-furnace.remove(<biomesoplenty:gem>);
+//furnace.remove(<biomesoplenty:gem>);

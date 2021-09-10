@@ -20,3 +20,6 @@ recipes.remove(<ic2:dust:21>);
 //---> Remap Iron Ore recipes
 //Grinder.addRecipe(<ic2:crushed:2> * 2, <ore:oreIron>, 7, <ic2:crushed:2>, 0.1);
 //Grinder.addRecipe(<ic2:crushed:2> * 2, <ore:rockOreIron>, 7, <ic2:crushed:2>, 0.1);
+
+//---> Remove and Hide Vibration Chamber
+mods.jei.JEI.removeAndHide(<appliedenergistics2:vibration_chamber>);

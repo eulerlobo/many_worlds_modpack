@@ -3,6 +3,7 @@
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Mixer;
+import mods.immersiveengineering.MetalPress;
 
 val crusherBaseEnergy = 2048;
 val dropRateSecondaryOutput = 0.1;
@@ -194,6 +195,95 @@ val oreCrushedPurifiedSpodumene = <ore:crushedPurifiedSpodumene>;
 val oreSulfur = <ore:oreSulfur>;
 val dustSulfur = <thermalfoundation:material:771>;
 
+val oreIngotSteel = <ore:ingotSteel>;
+val oreString = <ore:string>;
+val oreStickWood = <ore:stickWood>;
+
+val uraniumIngot = <contenttweaker:uranium_ingot>;
+val oreUranium = <ore:oreUranium>;
+val rockOreUranium = <ore:rockOreUranium>;
+val oreDustUranium = <ore:dustUranium>;
+val plateUranium = <immersiveengineering:metal:35>;
+val oreCrushedUranium = <ore:crushedUranium>;
+val orePurifiedCrushedUranium = <ore:crushedPurifiedUranium>;
+val oreBlockSheetmetalUranium = <ore:blockSheetmetalUranium>;
+
+val oreCarnotite = <ore:oreCarnotite>;
+val crushedCarnotite = <contenttweaker:crushed_carnotite>;
+val oreCrushedCarnotite = <ore:crushedCarnotite>;
+val oreCrushedPurifiedCarnotite = <ore:crushedPurifiedCarnotite>;
+
+val oreUraninite = <ore:oreUraninite>;
+val crushedUraninite = <contenttweaker:crushed_uraninite>;
+val oreCrushedUraninite = <ore:crushedUraninite>;
+val oreCrushedPurifiedUraninite = <ore:crushedPurifiedUraninite>;
+
+val thoriumIngot = <nuclearcraft:ingot:3>;
+val oreThorium = <ore:oreThorium>;
+val rockOreThorium = <ore:rockThoriumOre>; 
+val oreCrushedThorium = <ore:crushedThorium>;
+val oreCrushedPurifiedThorium = <ore:crushedPurifiedThorium>;
+val oreDustThorium = <ore:dustThorium>;
+
+val oreThorite = <ore:oreThorite>;
+val crushedThorite = <contenttweaker:crushed_thorite>;
+val oreCrushedThorite = <ore:crushedThorite>;
+val oreCrushedPurifiedThorite = <ore:crushedPurifiedThorite>;
+
+val oreMonazite = <ore:oreMonazite>;
+val crushedMonazite = <contenttweaker:crushed_monazite>;
+val oreCrushedMonazite = <ore:crushedMonazite>;
+val oreCrushedPurifiedMonazite = <ore:crushedPurifiedMonazite>;
+
+val boronIngot = <nuclearcraft:ingot:5>;
+val oreBoron = <ore:oreBoron>;
+val rockOreBoron = <ore:rockBoronOre>;
+val oreCrushedBoron = <ore:crushedBoron>;
+val oreCrushedPurifiedBoron = <ore:crushedPurifiedBoron>;
+val oreDustBoron = <ore:dustBoron>;
+
+val oreKernite = <ore:oreKernite>;
+val crushedKernite = <contenttweaker:crushed_kernite>;
+val oreCrushedKernite = <ore:crushedKernite>;
+val oreCrushedPurifiedKernite = <ore:crushedPurifiedKernite>;
+
+val oreColemanite = <ore:oreColemanite>;
+val crushedColemanite = <contenttweaker:crushed_colemanite>;
+val oreCrushedColemanite = <ore:crushedColemanite>;
+val oreCrushedPurifiedColemanite = <ore:crushedPurifiedColemanite>;
+
+val oreAmethyst = <ore:oreAmethyst>;
+val uncutAmethyst = <divergentunderground:gem_raw_bop_amethyst>;
+
+val oreTopaz = <ore:oreTopaz>;
+val uncutTopaz = <divergentunderground:gem_raw_bop_topaz>;
+
+val orePeridot = <ore:orePeridot>;
+val uncutPeridot = <divergentunderground:gem_raw_bop_peridot>;
+
+val oreRuby = <ore:oreRuby>;
+val uncutRuby = <divergentunderground:gem_raw_bop_ruby>;
+
+val oreAmber = <ore:oreAmber>;
+val uncutAmber = <divergentunderground:gem_raw_bop_amber>;
+
+val oreTanzanite = <ore:oreTanzanite>;
+val uncutTanzanite = <divergentunderground:gem_raw_bop_tanzanite>;
+
+val oreMalachite = <ore:oreMalachite>;
+val uncutMalachite = <divergentunderground:gem_raw_bop_malachite>;
+
+val oreSapphire = <ore:oreSapphire>;
+val uncutSapphire = <divergentunderground:gem_raw_bop_sapphire>;
+
+val oreDiamond = <ore:oreDiamond>;
+val uncutEmerald = <divergentunderground:gem_raw_emerald>;
+
+val oreEmerald = <ore:oreEmerald>;
+val uncutDiamond = <divergentunderground:gem_raw_diamond>;
+
+val iridiumIngot = <thermalfoundation:material:135>;
+
 //--- Add Recipes ---//
 
 //---> Hide Copper Ore
@@ -205,9 +295,14 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:ore:2>);
 //---> Hide Nickel Ore
 mods.jei.JEI.removeAndHide(<immersiveengineering:ore:4>);
 
+//---> Hide Uranium Ore
+mods.jei.JEI.removeAndHide(<immersiveengineering:ore:5>);
+
 //---> Remove ingots recipes for remap
 ArcFurnace.removeRecipe(ironIngot);
 ArcFurnace.removeRecipe(goldIngot);
+ArcFurnace.removeRecipe(iridiumIngot);
+Crusher.removeRecipe(<ic2:misc_resource:1>);
 
 //Copper Ingot
 ArcFurnace.removeRecipe(<thermalfoundation:material:128>);
@@ -240,6 +335,18 @@ ArcFurnace.removeRecipe(<nuclearcraft:ingot:7>);
 
 //Lithium Ingot
 ArcFurnace.removeRecipe(<nuclearcraft:ingot:6>);
+
+//Uranium Ingot
+ArcFurnace.removeRecipe(<contenttweaker:uranium_ingot>);
+ArcFurnace.removeRecipe(<ic2:ingot:8>);
+ArcFurnace.removeRecipe(<immersiveengineering:metal:5>);
+ArcFurnace.removeRecipe(<nuclearcraft:ingot:4>);
+
+//Thorium Ingot
+ArcFurnace.removeRecipe(<nuclearcraft:ingot:3>);
+
+//Boron Ingot
+ArcFurnace.removeRecipe(<nuclearcraft:ingot:5>);
 
 //---> Add slag from furnace
 furnace.addRecipe(slag, oreGravel);
@@ -357,6 +464,39 @@ recipes.addShapeless("RockSilverOreIEHammer", <ic2:crushed:4> * 2, [rockOreSilve
 ArcFurnace.addRecipe(silverIngot, oreCrushedSilver, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(silverIngot * 2, orePurifiedCrushedSilver, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(silverIngot, oreDustSilver, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Uranium ore recipes
+Crusher.removeRecipe(<immersiveengineering:metal:14>);
+Crusher.addRecipe(<ic2:crushed:6> * 3, oreUranium, crusherBaseEnergy, dustLead, dropRateSecondaryOutput);
+Crusher.addRecipe(<ic2:crushed:6> * 3, rockOreUranium, crusherBaseEnergy, dustLead, dropRateSecondaryOutput);
+Crusher.addRecipe(<immersiveengineering:metal:14>, uraniumIngot, crusherBaseEnergy);
+recipes.addShapeless("UraniumOreIEHammer", <ic2:crushed:6> * 2, [oreUranium, <immersiveengineering:tool>]);
+recipes.addShapeless("RockUraniumOreIEHammer", <ic2:crushed:6> * 2, [rockOreUranium, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(uraniumIngot, oreCrushedUranium, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(uraniumIngot * 2, orePurifiedCrushedUranium, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(uraniumIngot, oreDustUranium, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Thorium ore recipes
+Crusher.removeRecipe(<nuclearcraft:dust:3>);
+Crusher.addRecipe(<contenttweaker:crushed_thorium> * 3, oreThorium, crusherBaseEnergy);
+Crusher.addRecipe(<contenttweaker:crushed_thorium> * 3, rockOreThorium, crusherBaseEnergy);
+Crusher.addRecipe(<nuclearcraft:dust:3>, thoriumIngot, crusherBaseEnergy);
+recipes.addShapeless("ThoriumOreIEHammer", <contenttweaker:crushed_thorium> * 2, [oreThorium, <immersiveengineering:tool>]);
+recipes.addShapeless("RockThoriumOreIEHammer", <contenttweaker:crushed_thorium> * 2, [rockOreThorium, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(thoriumIngot, oreCrushedThorium, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(thoriumIngot * 2, oreCrushedPurifiedThorium, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(thoriumIngot, oreDustThorium , null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Boron ore recipes
+Crusher.removeRecipe(<nuclearcraft:dust:5>);
+Crusher.addRecipe(<contenttweaker:crushed_boron> * 3, oreBoron, crusherBaseEnergy);
+Crusher.addRecipe(<contenttweaker:crushed_boron> * 3, rockOreBoron, crusherBaseEnergy);
+Crusher.addRecipe(<nuclearcraft:dust:5>, boronIngot, crusherBaseEnergy);
+recipes.addShapeless("BoronOreIEHammer", <contenttweaker:crushed_boron> * 2, [oreBoron, <immersiveengineering:tool>]);
+recipes.addShapeless("RockBoronOreIEHammer", <contenttweaker:crushed_boron> * 2, [rockOreBoron, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(boronIngot, oreCrushedBoron, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(boronIngot * 2, oreCrushedPurifiedBoron, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(boronIngot, oreDustBoron , null, ticksArcFurnace, rfTickArcFurnace);
 
 //---> Add Craft to Slag Slurry with Mixer
 Mixer.addRecipe(<liquid:slag_slurry> * 500, <liquid:sulfuric_acid> * 500, [<ore:itemSlag>], 1000);
@@ -479,3 +619,119 @@ ArcFurnace.addRecipe(dustLithium * 2, oreCrushedPurifiedSpodumene, null, ticksAr
 //---> Remap Lithium ore recipes
 Crusher.removeRecipe(<thermalfoundation:material:771>);
 Crusher.addRecipe(dustSulfur * 2, oreSulfur, crusherBaseEnergy);
+
+//---> Remap Engineer's Hammer
+recipes.remove(<immersiveengineering:tool>);
+recipes.addShaped("EngineersHammer", <immersiveengineering:tool>, [[null, oreIngotSteel, oreString], [null, oreStickWood, oreIngotSteel], [oreStickWood, null, null]]);
+
+//---> Remap Uranium Plate Recipes
+recipes.remove(plateUranium);
+recipes.addShapeless("UraniumPlateFromSheetmetal", plateUranium, [oreBlockSheetmetalUranium]);
+recipes.addShapeless("UraniumPlateFromHammer", plateUranium, [<ore:ingotUranium>, <ore:craftingToolForgeHammer>]);
+
+//---> Remove Hammers plate recipes
+recipes.remove(<immersiveengineering:metal:30>);
+recipes.remove(<immersiveengineering:metal:31>);
+recipes.remove(<immersiveengineering:metal:32>);
+recipes.remove(<immersiveengineering:metal:33>);
+recipes.remove(<immersiveengineering:metal:34>);
+recipes.remove(<immersiveengineering:metal:36>);
+recipes.remove(<immersiveengineering:metal:37>);
+recipes.remove(<immersiveengineering:metal:39>);
+recipes.remove(<immersiveengineering:metal:40>);
+
+//---> Add Carnotite Crusher, Hammer Crusher and Lead Recipes
+Crusher.addRecipe(crushedCarnotite * 3, oreCarnotite, crusherBaseEnergy, dustIron, dropRateSecondaryOutput);
+recipes.addShapeless("CarnotiteIEHammer", crushedCarnotite * 2, [oreCarnotite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(uraniumIngot, oreCrushedCarnotite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(uraniumIngot * 2, oreCrushedPurifiedCarnotite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Uraninite Crusher, Hammer Crusher and Lead Recipes
+Crusher.addRecipe(crushedUraninite * 3, oreUraninite, crusherBaseEnergy);
+recipes.addShapeless("UraniniteIEHammer", crushedUraninite * 2, [oreUraninite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(uraniumIngot, oreCrushedUraninite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(uraniumIngot * 2, oreCrushedPurifiedUraninite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Thorite Crusher, Hammer Crusher and Thorium Recipes
+Crusher.addRecipe(crushedThorite * 3, oreThorite, crusherBaseEnergy);
+recipes.addShapeless("ThoriteIEHammer", crushedThorite * 2, [oreThorite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(thoriumIngot, oreCrushedThorite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(thoriumIngot * 2, oreCrushedPurifiedThorite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Monazite Crusher, Hammer Crusher and Thorium Recipes
+Crusher.addRecipe(crushedMonazite * 3, oreMonazite, crusherBaseEnergy);
+recipes.addShapeless("MonaziteIEHammer", crushedMonazite * 2, [oreMonazite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(thoriumIngot, oreCrushedMonazite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(thoriumIngot * 2, oreCrushedPurifiedMonazite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Kernite Crusher, Hammer Crusher and Boron Recipes
+Crusher.addRecipe(crushedKernite * 3, oreKernite, crusherBaseEnergy);
+recipes.addShapeless("KerniteIEHammer", crushedKernite * 2, [oreKernite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(boronIngot, oreCrushedKernite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(boronIngot * 2, oreCrushedPurifiedKernite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Colemanite Crusher, Hammer Crusher and Boron Recipes
+Crusher.addRecipe(crushedColemanite * 3, oreColemanite, crusherBaseEnergy);
+recipes.addShapeless("ColemaniteIEHammer", crushedColemanite * 2, [oreColemanite, <immersiveengineering:tool>]);
+ArcFurnace.addRecipe(boronIngot, oreCrushedColemanite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(boronIngot * 2, oreCrushedPurifiedColemanite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Copper Block
+recipes.remove(<immersiveengineering:storage>);
+recipes.remove(<immersiveengineering:storage_slab>);
+recipes.addShaped("IEBlockOfCopperFromSlab", <immersiveengineering:storage>, [[<immersiveengineering:storage_slab>, null, null], [<immersiveengineering:storage_slab>, null, null], [null, null, null]]);
+recipes.addShaped("IESlabCopperFromBlockOfCopper", <immersiveengineering:storage_slab>*6, [[null, null, null], [<immersiveengineering:storage>, <immersiveengineering:storage>, <immersiveengineering:storage>], [null, null, null]]);
+
+//---> Remap Lead Block
+recipes.remove(<immersiveengineering:storage:2>);
+recipes.remove(<immersiveengineering:storage_slab:2>);
+recipes.addShaped("IEBlockOfLeadFromSlab", <immersiveengineering:storage:2>, [[<immersiveengineering:storage_slab:2>, null, null], [<immersiveengineering:storage_slab:2>, null, null], [null, null, null]]);
+recipes.addShaped("IESlabLeadFromBlockOfLead", <immersiveengineering:storage_slab:2>*6, [[null, null, null], [<immersiveengineering:storage:2>, <immersiveengineering:storage:2>, <immersiveengineering:storage:2>], [null, null, null]]);
+
+//---> Remap Aluminum Block
+recipes.remove(<immersiveengineering:storage:1>);
+recipes.remove(<immersiveengineering:storage_slab:1>);
+recipes.addShaped("IEBlockOfAluminumFromSlab", <immersiveengineering:storage:1>, [[<immersiveengineering:storage_slab:1>, null, null], [<immersiveengineering:storage_slab:1>, null, null], [null, null, null]]);
+recipes.addShaped("IESlabAluminumFromBlockOfAluminum", <immersiveengineering:storage_slab:1>*6, [[null, null, null], [<immersiveengineering:storage:1>, <immersiveengineering:storage:1>, <immersiveengineering:storage:1>], [null, null, null]]);
+
+//---> Remap Nickel Block
+recipes.remove(<immersiveengineering:storage:4>);
+recipes.remove(<immersiveengineering:storage_slab:4>);
+recipes.addShaped("IEBlockOfNickelFromSlab", <immersiveengineering:storage:4>, [[<immersiveengineering:storage_slab:4>, null, null], [<immersiveengineering:storage_slab:4>, null, null], [null, null, null]]);
+recipes.addShaped("IESlabNickelFromBlockOfNickel", <immersiveengineering:storage_slab:4>*6, [[null, null, null], [<immersiveengineering:storage:4>, <immersiveengineering:storage:4>, <immersiveengineering:storage:4>], [null, null, null]]);
+
+//---> Remap Silver Block
+recipes.remove(<immersiveengineering:storage:3>);
+recipes.remove(<immersiveengineering:storage_slab:3>);
+recipes.addShaped("IEBlockOfSilverFromSlab", <immersiveengineering:storage:3>, [[<immersiveengineering:storage_slab:3>, null, null], [<immersiveengineering:storage_slab:3>, null, null], [null, null, null]]);
+recipes.addShaped("IESlabSilverFromBlockOfSilver", <immersiveengineering:storage_slab:3>*6, [[null, null, null], [<immersiveengineering:storage:3>, <immersiveengineering:storage:3>, <immersiveengineering:storage:3>], [null, null, null]]);
+
+//---> Remap Uranium Block
+recipes.remove(<immersiveengineering:storage:5>);
+recipes.remove(<immersiveengineering:storage_slab:5>);
+recipes.addShaped("IEBlockOfUraniumFromSlab", <immersiveengineering:storage:5>, [[<immersiveengineering:storage_slab:5>, null, null], [<immersiveengineering:storage_slab:5>, null, null], [null, null, null]]);
+recipes.addShaped("IESlabUraniumFromBlockOfUranium", <immersiveengineering:storage_slab:5>*6, [[null, null, null], [<immersiveengineering:storage:5>, <immersiveengineering:storage:5>, <immersiveengineering:storage:5>], [null, null, null]]);
+
+//---> Remove Gems recipes
+Crusher.removeRecipe(<thermalfoundation:material:1>);
+
+//---> Remap Gems recipes
+Crusher.addRecipe(uncutAmethyst * 2, oreAmethyst, crusherBaseEnergy);
+Crusher.addRecipe(uncutTopaz * 2, oreTopaz, crusherBaseEnergy);
+Crusher.addRecipe(uncutPeridot * 2, orePeridot, crusherBaseEnergy);
+Crusher.addRecipe(uncutRuby * 2, oreRuby, crusherBaseEnergy);
+Crusher.addRecipe(uncutAmber * 2, oreAmber, crusherBaseEnergy);
+Crusher.addRecipe(<divergentunderground:gem_raw_bop_amber> * 2, <contenttweaker:amber_ore>, crusherBaseEnergy);
+Crusher.addRecipe(uncutTanzanite * 2, oreTanzanite, crusherBaseEnergy);
+Crusher.addRecipe(uncutMalachite * 2, oreMalachite, crusherBaseEnergy);
+Crusher.addRecipe(uncutSapphire * 2, oreSapphire, crusherBaseEnergy);
+Crusher.addRecipe(uncutEmerald * 2, oreEmerald, crusherBaseEnergy);
+Crusher.addRecipe(uncutDiamond * 2, oreDiamond, crusherBaseEnergy);
+
+//---> Remap Rods Recipes
+recipes.remove(<immersiveengineering:material:1>);
+recipes.remove(<immersiveengineering:material:2>);
+MetalPress.removeRecipe(<immersiveengineering:material:1>); //IE Iron Rod
+MetalPress.removeRecipe(<immersiveengineering:material:2>); //IE Iron Rod
+MetalPress.addRecipe(<libvulpes:productrod:1>*2, <ore:ingotIron>, <immersiveengineering:mold:2>, 2400);
+MetalPress.addRecipe(<libvulpes:productrod:6>*2, <ore:ingotSteel>, <immersiveengineering:mold:2>, 2400);

@@ -25,15 +25,6 @@ titaniumChunksList.add(<contenttweaker:titanium_chunks>);
 val magnesiumChunksList = <ore:magnesiumChunks>;
 magnesiumChunksList.add(<contenttweaker:magnesium_chunks>);
 
-val uraniumChunksList = <ore:uraniumChunks>;
-uraniumChunksList.add(<contenttweaker:uranium_chunks>);
-
-val thoriumChunksList = <ore:thoriumChunks>;
-thoriumChunksList.add(<contenttweaker:thorium_chunks>);
-
-val boronChunksList = <ore:boronChunks>;
-boronChunksList.add(<contenttweaker:boron_chunks>);
-
 //--- Crystal ---//
 val ironCrystalList = <ore:ironCrystal>;
 ironCrystalList.add(<contenttweaker:iron_crystal>);
@@ -58,15 +49,6 @@ titaniumCrystalList.add(<contenttweaker:titanium_crystal>);
 
 val magnesiumCrystalList = <ore:magnesiumCrystal>;
 magnesiumCrystalList.add(<contenttweaker:magnesium_crystal>);
-
-val uraniumCrystalList = <ore:uraniumCrystal>;
-uraniumCrystalList.add(<contenttweaker:uranium_crystal>);
-
-val thoriumCrystalList = <ore:thoriumCrystal>;
-thoriumCrystalList.add(<contenttweaker:thorium_crystal>);
-
-val boronCrystalList = <ore:boronCrystal>;
-boronCrystalList.add(<contenttweaker:boron_crystal>);
 
 //--- Magnetite ---//
 val magnetiteOreList = <ore:oreMagnetite>;
@@ -517,3 +499,93 @@ rockMagnesiumOreList.add(<contenttweaker:rock_magnesium_ore>);
 
 val dustTinyMagnesiumList = <ore:dustTinyMagnesium>;
 dustTinyMagnesiumList.add(<contenttweaker:tiny_pile_of_magnesium_dust>);
+
+//--- Add slimeball's in the item resine ---//
+val itemResin = <ore:itemResin>;
+val materialResin = <ore:materialResin>;
+
+itemResin.add(<minecraft:slime_ball>);
+itemResin.add(<tconstruct:edible:1>);
+itemResin.add(<tconstruct:edible:2>);
+itemResin.add(<tconstruct:edible:3>);
+itemResin.add(<tconstruct:edible:4>);
+itemResin.add(<tconstruct:edible:5>);
+
+materialResin.add(<minecraft:slime_ball>);
+materialResin.add(<tconstruct:edible:1>);
+materialResin.add(<tconstruct:edible:2>);
+materialResin.add(<tconstruct:edible:3>);
+materialResin.add(<tconstruct:edible:4>);
+materialResin.add(<tconstruct:edible:5>);
+
+//--- Thorium ---//
+val thoriumOreList = <ore:oreThorium>;
+thoriumOreList.add(<contenttweaker:thorium_ore>);
+
+val thoriumTinyDustList = <ore:dustTinyThorium>;
+thoriumTinyDustList.add(<contenttweaker:tiny_pile_of_thorium_dust>);
+
+val rockThoriumOreList = <ore:rockThoriumOre>;
+rockThoriumOreList.add(<contenttweaker:rock_thorium_ore>);
+
+val crushedThoriumList = <ore:crushedThorium>;
+crushedThoriumList.add(<contenttweaker:crushed_thorium>);
+
+val crushedPurifiedThoriumList = <ore:crushedPurifiedThorium>;
+crushedPurifiedThoriumList.add(<contenttweaker:purified_crushed_thorium>);
+
+//--- Boron ---//
+val boronOreList = <ore:oreBoron>;
+boronOreList.add(<contenttweaker:boron_ore>);
+
+val boronTinyDustList = <ore:dustTinyBoron>;
+boronTinyDustList.add(<contenttweaker:tiny_pile_of_boron_dust>);
+
+val rockBoronOreList = <ore:rockBoronOre>;
+rockBoronOreList.add(<contenttweaker:rock_boron_ore>);
+
+val crushedBoronList = <ore:crushedBoron>;
+crushedBoronList.add(<contenttweaker:crushed_boron>);
+
+val crushedPurifiedBoronList = <ore:crushedPurifiedBoron>;
+crushedPurifiedBoronList.add(<contenttweaker:purified_crushed_boron>);
+
+//--- Ardite ---//
+val arditeOreList = <ore:oreArdite>;
+arditeOreList.add(<contenttweaker:ardite_ore>);
+
+//--- Cobalt ---//
+val cobaltOreList = <ore:oreCobalt>;
+cobaltOreList.add(<contenttweaker:cobalt_ore>);
+
+//--- Amethyst ---//
+val amethystOreList = <ore:oreAmethyst>;
+amethystOreList.add(<contenttweaker:amethyst_ore>);
+
+//--- Topaz ---//
+val topazOreList = <ore:oreTopaz>;
+topazOreList.add(<contenttweaker:topaz_ore>);
+
+//--- Peridot ---//
+val peridotOreList = <ore:orePeridot>;
+peridotOreList.add(<contenttweaker:peridot_ore>);
+
+//--- Amber ---//
+val amberOreList = <ore:oreAmber>;
+amberOreList.add(<contenttweaker:amber_ore>);
+
+//--- Ruby ---//
+val rubyOreList = <ore:oreRuby>;
+rubyOreList.add(<contenttweaker:ruby_ore>);
+
+//--- Tanzanite ---//
+val tanzaniteOreList = <ore:oreTanzanite>;
+tanzaniteOreList.add(<contenttweaker:tanzanite_ore>);
+
+//--- Malachite ---//
+val malachiteOreList = <ore:oreMalachite>;
+malachiteOreList.add(<contenttweaker:malachite_ore>);
+
+//--- Sapphire ---//
+val sapphireOreList = <ore:oreSapphire>;
+sapphireOreList.add(<contenttweaker:sapphire_ore>);

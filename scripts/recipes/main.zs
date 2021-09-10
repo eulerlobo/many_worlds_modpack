@@ -16,7 +16,7 @@ mods.jei.JEI.removeAndHide(<minecraft:stone_hoe>);
 mods.jei.JEI.removeAndHide(<flintmod:knife_flint>);
 
 //Disable some Erebus Recipes
-mods.jei.JEI.removeAndHide(<erebus:bambucket>);
+//mods.jei.JEI.removeAndHide(<erebus:bambucket>);
 mods.jei.JEI.removeAndHide(<erebus:bamboo_torch>);
 
 //Update the ore:logWood

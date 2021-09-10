@@ -15,6 +15,9 @@ val silverSmeltingTemperature = 427; //127 Celsius
 val magnesiumSmeltingTemperature = 900; //600 Celsius
 val lithiumSmeltingTemperature = 900; //600 Celsius
 val sulfurSmeltingTemperature = 400; //100 Celsius
+val uraniumSmeltingTemperature = 500; //200 Celsius
+val thoriumSmeltingTemperature = 900; //600 Celsius
+val boronSmeltingTemperature = 900; //600 Celsius
 
 val rockOreIron = <ore:rockOreIron>;
 val liquidIron = <liquid:iron>;
@@ -91,7 +94,33 @@ val oreSpodumene = <ore:oreSpodumene>;
 val liquidSulfur = <liquid:sulfur>;
 val oreSulfur = <ore:oreSulfur>;
 val oreDustSulfur = <ore:dustSulfur>;
+val betweenlandsSulfurOre = <thebetweenlands:sulfur_ore>;
 val betweenlandsSulfur = <thebetweenlands:items_misc:18>;
+
+val liquidUranium = <liquid:uranium>;
+val oreRockOreUranium = <ore:rockOreUranium>;
+
+val oreCarnotite = <ore:oreCarnotite>;
+
+val oreUraninite = <ore:oreUraninite>;
+
+val liquidThorium = <liquid:thorium>;
+val oreRockOreThorium = <ore:rockThoriumOre>;
+
+val oreThorite = <ore:oreThorite>;
+
+val oreMonazite = <ore:oreMonazite>;
+
+val liquidBoron = <liquid:boron>;
+val oreRockOreBoron = <ore:rockBoronOre>;
+
+val oreKernite = <ore:oreKernite>;
+
+val oreColemanite = <ore:oreColemanite>;
+
+val liquidDiamond = <liquid:diamond>;
+
+val liquidEmerald = <liquid:emerald>;
 
 //--- Add Recipes ---/
 
@@ -106,6 +135,15 @@ mods.tconstruct.Melting.addRecipe(liquidAluminum * mbIngotOre, oreRockOreAluminu
 
 //---> Remap Nickel Ore Smelting
 mods.tconstruct.Melting.addRecipe(liquidNickel * mbIngotOre, oreRockOreNickel, nickelSmeltingTemperature);
+
+//---> Remap Uranium Ore Smelting
+mods.tconstruct.Melting.addRecipe(liquidUranium * mbIngotOre, oreRockOreUranium, uraniumSmeltingTemperature);
+
+//---> Remap Thorium Ore Smelting
+mods.tconstruct.Melting.addRecipe(liquidThorium * mbIngotOre, oreRockOreThorium, thoriumSmeltingTemperature);
+
+//---> Remap Boron Ore Smelting
+mods.tconstruct.Melting.addRecipe(liquidBoron * mbIngotOre, oreRockOreBoron, boronSmeltingTemperature);
 
 //---> Add Iron Crystal Smelting
 mods.tconstruct.Melting.addRecipe(liquidIron * mbCrystalOre, oreIronCrystal, ironSmeltingTemperature);
@@ -202,3 +240,38 @@ mods.tconstruct.Melting.addRecipe(liquidLithium * mbIngotOre, oreSpodumene, lith
 mods.tconstruct.Melting.addRecipe(liquidSulfur * mbCrystalOre, oreSulfur, sulfurSmeltingTemperature);
 mods.tconstruct.Melting.addRecipe(liquidSulfur * 180, oreDustSulfur, sulfurSmeltingTemperature);
 mods.tconstruct.Melting.addRecipe(liquidSulfur * 120, betweenlandsSulfur, sulfurSmeltingTemperature);
+mods.tconstruct.Melting.addRecipe(liquidSulfur * 120, betweenlandsSulfurOre, sulfurSmeltingTemperature);
+
+//---> Remove hammer casting
+mods.tconstruct.Melting.removeRecipe(liquidIron, <immersiveengineering:tool>);
+mods.tconstruct.Melting.removeRecipe(liquidIron, <ic2:forge_hammer>);
+
+//---> Add Carnotite Smelting
+mods.tconstruct.Melting.addRecipe(liquidUranium * mbIngotOre, oreCarnotite, uraniumSmeltingTemperature);
+
+//---> Add Uraninite Smelting
+mods.tconstruct.Melting.addRecipe(liquidUranium * mbIngotOre, oreUraninite, uraniumSmeltingTemperature);
+
+//---> Add Thorite Smelting
+mods.tconstruct.Melting.addRecipe(liquidThorium * mbIngotOre, oreThorite, thoriumSmeltingTemperature);
+
+//---> Add Monazite Smelting
+mods.tconstruct.Melting.addRecipe(liquidThorium * mbIngotOre, oreMonazite, thoriumSmeltingTemperature);
+
+//---> Add Kernite Smelting
+mods.tconstruct.Melting.addRecipe(liquidBoron * mbIngotOre, oreKernite, boronSmeltingTemperature);
+
+//---> Add Colemanite Smelting
+mods.tconstruct.Melting.addRecipe(liquidBoron * mbIngotOre, oreColemanite, boronSmeltingTemperature);
+
+//---> Hide Ardite Ore
+mods.jei.JEI.hide(<tconstruct:ore:1>);
+
+//---> Hide Cobalt Ore
+mods.jei.JEI.hide(<tconstruct:ore>);
+
+//--> Remap Gems Recieps
+mods.tconstruct.Melting.addRecipe(liquidDiamond * 1665, <ore:oreDiamond>, 1229);
+mods.tconstruct.Melting.addRecipe(liquidDiamond * 666, <ore:uncutDiamond>, 1029);
+
+mods.tconstruct.Melting.addRecipe(liquidEmerald * 666, <ore:uncutEmerald>, 866);

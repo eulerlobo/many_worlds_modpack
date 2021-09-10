@@ -81,7 +81,7 @@ recipes.addShaped(<advancedrocketry:blackholegenerator>, [[<libvulpes:advstructu
 
 //New Orbital Laser Drill recipe
 recipes.remove(<advancedrocketry:spacelaser>);
-recipes.addShaped(<advancedrocketry:spacelaser>, [[<biomesoplenty:gem:6>, <biomesoplenty:terrestrial_artifact>, <biomesoplenty:gem>], [<libvulpes:advstructuremachine>, <advancedrocketry:blocklens>, <libvulpes:advstructuremachine>], [<advancedrocketry:ic:1>, <ore:pearlFluix>, <advancedrocketry:ic:3>]]);
+recipes.addShaped(<advancedrocketry:spacelaser>, [[<ore:gemSapphire>, <biomesoplenty:terrestrial_artifact>, <ore:gemAmethyst>], [<libvulpes:advstructuremachine>, <advancedrocketry:blocklens>, <libvulpes:advstructuremachine>], [<advancedrocketry:ic:1>, <ore:pearlFluix>, <advancedrocketry:ic:3>]]);
 
 //Remap coil recipes
 recipes.remove(<libvulpes:coil0:4>);

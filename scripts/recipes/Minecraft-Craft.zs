@@ -3,6 +3,7 @@
 val experienceSmelting = 0.03125; //2 exp by one stack
 
 val ironIngot = <minecraft:iron_ingot>;
+val oreIngotIron = <ore:ingotIron>;
 val oreDustIron = <ore:dustIron>;
 val oreDustGold = <ore:dustGold>;
 val oreDustTinyIron = <ore:dustTinyIron>;
@@ -137,6 +138,72 @@ val oreDustTinyLithium = <ore:dustTinyLithium>;
 val dustSulfur = <thermalfoundation:material:771>;
 val oreDustTinySulfur = <ore:dustTinySulfur>;
 
+val plateIron = <thermalfoundation:material:32>;
+
+val oreIngotBrass = <ore:ingotBrass>;
+val plateBrass = <thaumcraft:plate>;
+
+val oreIngotThaumium = <ore:ingotThaumium>;
+val plateThaumium = <thaumcraft:plate:2>;
+
+val oreIngotVoid = <ore:ingotVoid>;
+val plateVoid = <thaumcraft:plate:3>;
+
+val plateSteel = <thermalfoundation:material:352>;
+val casingSteel = <ic2:casing:5>;
+val oreIngotSteel = <ore:ingotSteel>;
+
+val uraniumIngot = <contenttweaker:uranium_ingot>;
+val oreUranium = <ore:oreUranium>;
+val oreRockOreUranium = <ore:rockOreUranium>;
+val uraniumDust = <immersiveengineering:metal:14>;
+
+val oreCarnotite = <ore:oreCarnotite>;
+val oreCrushedCarnotite = <ore:crushedCarnotite>;
+val oreCrushedPurifiedCarnotite = <ore:crushedPurifiedCarnotite>;
+
+val oreUraninite = <ore:oreUraninite>;
+val oreCrushedUraninite = <ore:crushedUraninite>;
+val oreCrushedPurifiedUraninite = <ore:crushedPurifiedUraninite>;
+
+val thoriumIngot = <nuclearcraft:ingot:3>;
+val oreThorium = <ore:oreThorium>;
+val oreDustTinyThorium = <ore:dustTinyThorium>;
+val thoriumDust = <nuclearcraft:dust:3>;
+
+val oreThorite = <ore:oreThorite>;
+val oreCrushedThorite = <ore:crushedThorite>;
+val oreCrushedPurifiedThorite = <ore:crushedPurifiedThorite>;
+
+val oreMonazite = <ore:oreMonazite>;
+val oreCrushedMonazite = <ore:crushedMonazite>;
+val oreCrushedPurifiedMonazite = <ore:crushedPurifiedMonazite>;
+
+val boronIngot = <nuclearcraft:ingot:5>;
+val oreBoron = <ore:oreBoron>;
+val oreDustTinyBoron = <ore:dustTinyBoron>;
+val boronDust = <nuclearcraft:dust:5>;
+
+val oreKernite = <ore:oreKernite>;
+val oreCrushedKernite = <ore:crushedKernite>;
+val oreCrushedPurifiedKernite = <ore:crushedPurifiedKernite>;
+
+val oreColemanite = <ore:oreColemanite>;
+val oreCrushedColemanite = <ore:crushedColemanite>;
+val oreCrushedPurifiedColemanite = <ore:crushedPurifiedColemanite>;
+
+val arditeIngot = <tconstruct:ingots:1>;
+
+val cobaltIngot = <tconstruct:ingots>;
+
+val oreIngotSilicon = <ore:ingotSilicon>;
+val plateSilicon = <libvulpes:productplate:3>;
+
+val oreMithril = <ore:ingotMithril>;
+val plateMithril = <thermalfoundation:material:328>;
+
+val iridiumIngot = <thermalfoundation:material:135>;
+
 //--- Add Recipes ---//
 
 //---> Remap Iron Ore recipes
@@ -185,6 +252,28 @@ furnace.addRecipe(titaniumIngot, oreDustTitanium, experienceSmelting);
 recipes.remove(oreDustSilver);
 recipes.addShaped("TinyPileOfAgToAgDust", silverDust, [[oreDustTinySilver, oreDustTinySilver, oreDustTinySilver], [oreDustTinySilver, oreDustTinySilver, oreDustTinySilver], [oreDustTinySilver, oreDustTinySilver, oreDustTinySilver]]);
 furnace.addRecipe(silverIngot, <contenttweaker:silver_ore>, experienceSmelting);
+
+//---> Remap Thorium Ore recipes;
+recipes.remove(oreThorium);
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_thorium");
+recipes.addShaped("TinyPileOfThToThDust", thoriumDust, [[oreDustTinyThorium, oreDustTinyThorium, oreDustTinyThorium], [oreDustTinyThorium, oreDustTinyThorium, oreDustTinyThorium], [oreDustTinyThorium, oreDustTinyThorium, oreDustTinyThorium]]);
+furnace.addRecipe(thoriumIngot, <contenttweaker:thorium_ore>, experienceSmelting);
+
+//---> Remap Boron Ore recipes;
+recipes.remove(oreBoron);
+recipes.removeByRecipeName("immersiveengineering:hammercrushing_boron");
+recipes.addShaped("TinyPileOfBToBDust", boronDust, [[oreDustTinyBoron, oreDustTinyBoron, oreDustTinyBoron], [oreDustTinyBoron, oreDustTinyBoron, oreDustTinyBoron], [oreDustTinyBoron, oreDustTinyBoron, oreDustTinyBoron]]);
+furnace.addRecipe(boronIngot, <contenttweaker:boron_ore>, experienceSmelting);
+
+//---> Remap Ardite Ore recipes;
+furnace.addRecipe(arditeIngot, <contenttweaker:ardite_ore>, experienceSmelting);
+
+//---> Remap Cobalt Ore recipes;
+furnace.addRecipe(cobaltIngot, <contenttweaker:cobalt_ore>, experienceSmelting);
+
+//---> Remap Iridium Ore recipes;
+furnace.remove(iridiumIngot);
+furnace.remove(<libvulpes:productingot:10>);
 
 //---> Add Magnetite Smelting
 furnace.addRecipe(ironIngot, oreMagnetite, experienceSmelting);
@@ -287,3 +376,68 @@ recipes.addShaped("TinyPileOfLiToLiDust", dustLithium, [[oreDustTinyLithium, ore
 //---> Remap Sulfur Ore recipes
 recipes.remove(dustSulfur);
 //recipes.addShaped("TinyPileOfSToSDust", dustSulfur, [[oreDustTinySulfur, oreDustTinySulfur, oreDustTinySulfur], [oreDustTinySulfur, oreDustTinySulfur, oreDustTinySulfur], [oreDustTinySulfur, oreDustTinySulfur, oreDustTinySulfur]]);
+
+//---> Remap Uranium Ore Recipes
+recipes.remove(<ic2:nuclear:2>);
+recipes.remove(uraniumDust);
+furnace.remove(uraniumIngot);
+//furnace.addRecipe(uraniumIngot, oreRockOreUranium, experienceSmelting);
+
+//---> Remap Iron Plate Recipes
+//recipes.remove(plateIron);
+//recipes.addShapeless("PlateIronHammer", plateIron, [oreIngotIron, <ore:craftingToolForgeHammer>]);
+
+//---> Remap Brass Plate Recipes
+recipes.remove(plateBrass);
+recipes.addShapeless("PlateBrassHammer", plateBrass, [oreIngotBrass, <ore:craftingToolForgeHammer>]);
+
+//---> Remap Thaumium Plate Recipes
+recipes.remove(plateThaumium);
+recipes.addShapeless("PlateThaumiumHammer", plateThaumium, [oreIngotThaumium, <ore:craftingToolForgeHammer>]);
+
+//---> Remap Void Plate Recipes
+recipes.remove(plateVoid);
+recipes.addShapeless("PlateVoidHammer", plateVoid, [oreIngotVoid, <ore:craftingToolForgeHammer>]);
+
+//---> Remap Steel Plate Recipes
+recipes.addShapeless("SteelPlateFromIngot", plateSteel, [oreIngotSteel, <ore:craftingToolForgeHammer>]);
+recipes.addShapeless("SteelCasingFromPlate", casingSteel * 2, [plateSteel, <ore:craftingToolForgeHammer>]);
+
+//---> Remap Silicon Plate Recipes
+recipes.addShapeless("SiliconPlateFromIngot", plateSilicon, [oreIngotSilicon, <ore:craftingToolForgeHammer>]);
+
+//---> Remap Mithril Plate Recipes
+recipes.addShapeless("MithrilPlateFromIngot", plateMithril, [oreMithril, <ore:craftingToolForgeHammer>]);
+
+//---> Add Carnotite Smelting
+furnace.addRecipe(uraniumIngot, oreCarnotite, experienceSmelting);
+furnace.addRecipe(uraniumIngot, oreCrushedCarnotite, experienceSmelting);
+furnace.addRecipe(uraniumIngot, oreCrushedPurifiedCarnotite, experienceSmelting);
+
+//---> Add Uraninite Smelting
+furnace.addRecipe(uraniumIngot, oreUraninite, experienceSmelting);
+furnace.addRecipe(uraniumIngot, oreCrushedUraninite, experienceSmelting);
+furnace.addRecipe(uraniumIngot, oreCrushedPurifiedUraninite, experienceSmelting);
+
+//---> Remove all possible crafts to make Granite
+recipes.remove(<minecraft:stone:1>);
+
+//---> Add Thorite Smelting
+furnace.addRecipe(thoriumIngot, oreThorite, experienceSmelting);
+furnace.addRecipe(thoriumIngot, oreCrushedThorite, experienceSmelting);
+furnace.addRecipe(thoriumIngot, oreCrushedPurifiedThorite, experienceSmelting);
+
+//---> Add Monazite Smelting
+furnace.addRecipe(thoriumIngot, oreMonazite, experienceSmelting);
+furnace.addRecipe(thoriumIngot, oreCrushedMonazite, experienceSmelting);
+furnace.addRecipe(thoriumIngot, oreCrushedPurifiedMonazite, experienceSmelting);
+
+//---> Add Kernite Smelting
+furnace.addRecipe(boronIngot, oreKernite, experienceSmelting);
+furnace.addRecipe(boronIngot, oreCrushedKernite, experienceSmelting);
+furnace.addRecipe(boronIngot, oreCrushedPurifiedKernite, experienceSmelting);
+
+//---> Add Colemanite Smelting
+furnace.addRecipe(boronIngot, oreColemanite, experienceSmelting);
+furnace.addRecipe(boronIngot, oreCrushedColemanite, experienceSmelting);
+furnace.addRecipe(boronIngot, oreCrushedPurifiedColemanite, experienceSmelting);
