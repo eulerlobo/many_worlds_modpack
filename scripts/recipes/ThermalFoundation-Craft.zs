@@ -25,8 +25,17 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:ore:4>);
 //---> Hide Nickel Ore
 mods.jei.JEI.removeAndHide(<thermalfoundation:ore:5>);
 
-//--> Hide Iridium Ore
+//---> Hide Iridium Ore
 mods.jei.JEI.removeAndHide(<thermalfoundation:ore:7>);
+
+//---> Hide Plantium Ore
+mods.jei.JEI.removeAndHide(<thermalfoundation:ore:6>);
+
+//---> Hide Fuel Coke
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:802>);
+
+//---> Remove Block of Fuel Coke
+recipes.remove(<thermalfoundation:storage_resource:1>);
 
 //---> Remap Steel Gear recipe
 recipes.remove(<thermalfoundation:material:288>);

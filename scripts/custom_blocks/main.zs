@@ -1717,6 +1717,234 @@ sapphireOre.setDropHandler(function(drops, world, position, state, fortune) {
 });
 sapphireOre.register();
 
+//--- Kamacite ---//
+
+//---> Crushed Kamacite
+var kamaciteCrushed = VanillaFactory.createItem("crushed_kamacite");
+kamaciteCrushed.register();
+
+//---> Purified Crushed Kamacite
+var purifiedKamaciteCrushed = VanillaFactory.createItem("purified_crushed_kamacite");
+purifiedKamaciteCrushed.register();
+
+//---> Ore Kamacite
+var kamaciteOre = VanillaFactory.createBlock("kamacite_ore", <blockmaterial:rock>);
+kamaciteOre.setBlockHardness(3.0);
+kamaciteOre.setBlockResistance(3.0);
+kamaciteOre.setToolClass("pickaxe");
+kamaciteOre.setToolLevel(1);
+kamaciteOre.setBlockSoundType(<soundtype:stone>);
+kamaciteOre.register();
+
+//--- Carbonaceous I ---//
+
+//---> Crushed Carbonaceous I
+var carbonaceousICrushed = VanillaFactory.createItem("crushed_carbonaceous_i");
+carbonaceousICrushed.register();
+
+//---> Purified Crushed Carbonaceous I
+var purifiedCarbonaceousICrushed = VanillaFactory.createItem("purified_crushed_carbonaceous_i");
+purifiedCarbonaceousICrushed.register();
+
+//---> Ore Carbonaceous I
+var carbonaceousIOre = VanillaFactory.createBlock("carbonaceous_i_ore", <blockmaterial:rock>);
+carbonaceousIOre.setBlockHardness(3.0);
+carbonaceousIOre.setBlockResistance(3.0);
+carbonaceousIOre.setToolClass("pickaxe");
+carbonaceousIOre.setToolLevel(1);
+carbonaceousIOre.setBlockSoundType(<soundtype:stone>);
+carbonaceousIOre.register();
+
+//--- Olivine ---//
+
+//---> Crushed Olivine
+var olivineCrushed = VanillaFactory.createItem("crushed_olivine");
+olivineCrushed.register();
+
+//---> Purified Crushed Olivine
+var purifiedOlivineCrushed = VanillaFactory.createItem("purified_crushed_olivine");
+purifiedOlivineCrushed.register();
+
+//---> Ore Olivine
+var olivineOre = VanillaFactory.createBlock("olivine_ore", <blockmaterial:rock>);
+olivineOre.setBlockHardness(3.0);
+olivineOre.setBlockResistance(3.0);
+olivineOre.setToolClass("pickaxe");
+olivineOre.setToolLevel(1);
+olivineOre.setBlockSoundType(<soundtype:stone>);
+olivineOre.register();
+
+//--- Augite ---//
+
+//---> Crushed Augite
+var augiteCrushed = VanillaFactory.createItem("crushed_augite");
+augiteCrushed.register();
+
+//---> Purified Crushed Augite
+var purifiedAugiteCrushed = VanillaFactory.createItem("purified_crushed_augite");
+purifiedAugiteCrushed.register();
+
+//---> Ore Augite
+var augiteOre = VanillaFactory.createBlock("augite_ore", <blockmaterial:rock>);
+augiteOre.setBlockHardness(3.0);
+augiteOre.setBlockResistance(3.0);
+augiteOre.setToolClass("pickaxe");
+augiteOre.setToolLevel(1);
+augiteOre.setBlockSoundType(<soundtype:stone>);
+augiteOre.register();
+
+//--- Troilite ---//
+
+//---> Crushed Troilite
+var troiliteCrushed = VanillaFactory.createItem("crushed_troilite");
+troiliteCrushed.register();
+
+//---> Purified Crushed Troilite
+var purifiedTroiliteCrushed = VanillaFactory.createItem("purified_crushed_troilite");
+purifiedTroiliteCrushed.register();
+
+//---> Ore Troilite
+var troiliteOre = VanillaFactory.createBlock("troilite_ore", <blockmaterial:rock>);
+troiliteOre.setBlockHardness(3.0);
+troiliteOre.setBlockResistance(3.0);
+troiliteOre.setToolClass("pickaxe");
+troiliteOre.setToolLevel(1);
+troiliteOre.setBlockSoundType(<soundtype:stone>);
+troiliteOre.register();
+
+//--- Abramovite ---//
+
+//---> Crushed Abramovite
+var abramoviteCrushed = VanillaFactory.createItem("crushed_abramovite");
+abramoviteCrushed.register();
+
+//---> Purified Crushed Abramovite
+var purifiedAbramoviteCrushed = VanillaFactory.createItem("purified_crushed_abramovite");
+purifiedAbramoviteCrushed.register();
+
+//---> Ore Abramovite
+var abramoviteOre = VanillaFactory.createBlock("abramovite_ore", <blockmaterial:rock>);
+abramoviteOre.setBlockHardness(3.0);
+abramoviteOre.setBlockResistance(3.0);
+abramoviteOre.setToolClass("pickaxe");
+abramoviteOre.setToolLevel(1);
+abramoviteOre.setBlockSoundType(<soundtype:stone>);
+abramoviteOre.register();
+
+//--- Davidite ---//
+
+//---> Crushed Davidite
+var daviditeCrushed = VanillaFactory.createItem("crushed_davidite");
+daviditeCrushed.register();
+
+//---> Purified Crushed Davidite
+var purifiedDaviditeCrushed = VanillaFactory.createItem("purified_crushed_davidite");
+purifiedDaviditeCrushed.register();
+
+//---> Ore Davidite
+var daviditeOre = VanillaFactory.createBlock("davidite_ore", <blockmaterial:rock>);
+daviditeOre.setBlockHardness(3.0);
+daviditeOre.setBlockResistance(3.0);
+daviditeOre.setToolClass("pickaxe");
+daviditeOre.setToolLevel(1);
+daviditeOre.setBlockSoundType(<soundtype:stone>);
+daviditeOre.register();
+
+//--- Titanite ---//
+
+//---> Crushed Titanite
+var titaniteCrushed = VanillaFactory.createItem("crushed_titanite");
+titaniteCrushed.register();
+
+//---> Purified Crushed Titanite
+var purifiedTitaniteCrushed = VanillaFactory.createItem("purified_crushed_titanite");
+purifiedTitaniteCrushed.register();
+
+//---> Ore Titanite
+var titaniteOre = VanillaFactory.createBlock("titanite_ore", <blockmaterial:rock>);
+titaniteOre.setBlockHardness(3.0);
+titaniteOre.setBlockResistance(3.0);
+titaniteOre.setToolClass("pickaxe");
+titaniteOre.setToolLevel(1);
+titaniteOre.setBlockSoundType(<soundtype:stone>);
+titaniteOre.register();
+
+//--- Polycrase ---//
+
+//---> Crushed Polycrase
+var polycraseCrushed = VanillaFactory.createItem("crushed_polycrase");
+polycraseCrushed.register();
+
+//---> Purified Crushed Polycrase
+var purifiedPolycraseCrushed = VanillaFactory.createItem("purified_crushed_polycrase");
+purifiedPolycraseCrushed.register();
+
+//---> Ore Polycrase
+var polycraseOre = VanillaFactory.createBlock("polycrase_ore", <blockmaterial:rock>);
+polycraseOre.setBlockHardness(3.0);
+polycraseOre.setBlockResistance(3.0);
+polycraseOre.setToolClass("pickaxe");
+polycraseOre.setToolLevel(1);
+polycraseOre.setBlockSoundType(<soundtype:stone>);
+polycraseOre.register();
+
+//--- Feldspar ---//
+
+//---> Crushed Feldspar
+var feldsparCrushed = VanillaFactory.createItem("crushed_feldspar");
+feldsparCrushed.register();
+
+//---> Purified Crushed Feldspar
+var purifiedFeldsparCrushed = VanillaFactory.createItem("purified_crushed_feldspar");
+purifiedFeldsparCrushed.register();
+
+//---> Ore Feldspar
+var feldsparOre = VanillaFactory.createBlock("feldspar_ore", <blockmaterial:rock>);
+feldsparOre.setBlockHardness(3.0);
+feldsparOre.setBlockResistance(3.0);
+feldsparOre.setToolClass("pickaxe");
+feldsparOre.setToolLevel(1);
+feldsparOre.setBlockSoundType(<soundtype:stone>);
+feldsparOre.register();
+
+//--- Osmiridium ---//
+
+//---> Crushed Osmiridium
+var osmiridiumCrushed = VanillaFactory.createItem("crushed_osmiridium");
+osmiridiumCrushed.register();
+
+//---> Purified Crushed Osmiridium
+var purifiedOsmiridiumCrushed = VanillaFactory.createItem("purified_crushed_osmiridium");
+purifiedOsmiridiumCrushed.register();
+
+//---> Ore Osmiridium
+var osmiridiumOre = VanillaFactory.createBlock("osmiridium_ore", <blockmaterial:rock>);
+osmiridiumOre.setBlockHardness(3.0);
+osmiridiumOre.setBlockResistance(3.0);
+osmiridiumOre.setToolClass("pickaxe");
+osmiridiumOre.setToolLevel(1);
+osmiridiumOre.setBlockSoundType(<soundtype:stone>);
+osmiridiumOre.register();
+
+//--- Sperrylite ---//
+
+//---> Crushed Sperrylite
+var sperryliteCrushed = VanillaFactory.createItem("crushed_sperrylite");
+sperryliteCrushed.register();
+
+//---> Purified Crushed Sperrylite
+var purifiedSperryliteCrushed = VanillaFactory.createItem("purified_crushed_sperrylite");
+purifiedSperryliteCrushed.register();
+
+//---> Ore Sperrylite
+var sperryliteOre = VanillaFactory.createBlock("sperrylite_ore", <blockmaterial:rock>);
+sperryliteOre.setBlockHardness(3.0);
+sperryliteOre.setBlockResistance(3.0);
+sperryliteOre.setToolClass("pickaxe");
+sperryliteOre.setToolLevel(1);
+sperryliteOre.setBlockSoundType(<soundtype:stone>);
+sperryliteOre.register();
+
 //----------------//
 //     Fluids     //
 //----------------//

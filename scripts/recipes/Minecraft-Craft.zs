@@ -203,6 +203,56 @@ val oreMithril = <ore:ingotMithril>;
 val plateMithril = <thermalfoundation:material:328>;
 
 val iridiumIngot = <thermalfoundation:material:135>;
+val oreIridiumDust = <ore:dustIridium>;
+
+val platinumIngot = <thermalfoundation:material:134>;
+val orePlatinumDust = <ore:dustPlatinum>;
+val platinumDust = <thermalfoundation:material:70>;
+
+val oreKamacite = <ore:oreKamacite>;
+val oreCrushedKamacite = <ore:crushedKamacite>;
+val orePurifiedCrushedKamacite = <ore:crushedPurifiedKamacite>;
+
+val oreOlivine = <ore:oreOlivine>;
+val oreCrushedOlivine = <ore:crushedOlivine>;
+val orePurifiedCrushedOlivine = <ore:crushedPurifiedOlivine>;
+
+val oreAugite = <ore:oreAugite>;
+val oreCrushedAugite = <ore:crushedAugite>;
+val orePurifiedCrushedAugite = <ore:crushedPurifiedAugite>;
+
+val oreTroilite = <ore:oreTroilite>;
+val oreCrushedTroilite = <ore:crushedTroilite>;
+val orePurifiedCrushedTroilite = <ore:crushedPurifiedTroilite>;
+
+val oreAbramovite = <ore:oreAbramovite>;
+val oreCrushedAbramovite = <ore:crushedAbramovite>;
+val orePurifiedCrushedAbramovite = <ore:crushedPurifiedAbramovite>;
+
+val oreDavidite = <ore:oreDavidite>;
+val oreCrushedDavidite = <ore:crushedDavidite>;
+val orePurifiedCrushedDavidite = <ore:crushedPurifiedDavidite>;
+
+val oreTitanite = <ore:oreTitanite>;
+val oreCrushedTitanite = <ore:crushedTitanite>;
+val orePurifiedCrushedTitanite = <ore:crushedPurifiedTitanite>;
+
+val orePolycrase = <ore:orePolycrase>;
+val oreCrushedPolycrase = <ore:crushedPolycrase>;
+val orePurifiedCrushedPolycrase = <ore:crushedPurifiedPolycrase>;
+
+val oreFeldspar = <ore:oreFeldspar>;
+val oreCrushedFeldspar = <ore:crushedFeldspar>;
+val orePurifiedCrushedFeldspar = <ore:crushedPurifiedFeldspar>;
+
+val oreOsmiridium = <ore:oreOsmiridium>;
+val oreCrushedOsmiridium = <ore:crushedOsmiridium>;
+val orePurifiedCrushedOsmiridium = <ore:crushedPurifiedOsmiridium>;
+val iridiumDust = <thermalfoundation:material:71>;
+
+val oreSperrylite = <ore:oreSperrylite>;
+val oreCrushedSperrylite = <ore:crushedSperrylite>;
+val orePurifiedCrushedSperrylite = <ore:crushedPurifiedSperrylite>;
 
 //--- Add Recipes ---//
 
@@ -274,6 +324,12 @@ furnace.addRecipe(cobaltIngot, <contenttweaker:cobalt_ore>, experienceSmelting);
 //---> Remap Iridium Ore recipes;
 furnace.remove(iridiumIngot);
 furnace.remove(<libvulpes:productingot:10>);
+furnace.addRecipe(iridiumIngot, oreIridiumDust, experienceSmelting);
+
+//--> Remap Platinum Ore recipes;
+recipes.remove(platinumDust);
+furnace.remove(platinumIngot);
+furnace.addRecipe(platinumIngot, orePlatinumDust, experienceSmelting);
 
 //---> Add Magnetite Smelting
 furnace.addRecipe(ironIngot, oreMagnetite, experienceSmelting);
@@ -419,8 +475,10 @@ furnace.addRecipe(uraniumIngot, oreUraninite, experienceSmelting);
 furnace.addRecipe(uraniumIngot, oreCrushedUraninite, experienceSmelting);
 furnace.addRecipe(uraniumIngot, oreCrushedPurifiedUraninite, experienceSmelting);
 
-//---> Remove all possible crafts to make Granite
+//---> Remove all possible crafts to make Granite, Diorite and Andesite
 recipes.remove(<minecraft:stone:1>);
+recipes.remove(<minecraft:stone:3>);
+recipes.remove(<minecraft:stone:5>);
 
 //---> Add Thorite Smelting
 furnace.addRecipe(thoriumIngot, oreThorite, experienceSmelting);
@@ -441,3 +499,58 @@ furnace.addRecipe(boronIngot, oreCrushedPurifiedKernite, experienceSmelting);
 furnace.addRecipe(boronIngot, oreColemanite, experienceSmelting);
 furnace.addRecipe(boronIngot, oreCrushedColemanite, experienceSmelting);
 furnace.addRecipe(boronIngot, oreCrushedPurifiedColemanite, experienceSmelting);
+
+//---> Add Kamacite Smelting
+furnace.addRecipe(ironDust, oreKamacite, experienceSmelting);
+furnace.addRecipe(ironDust, oreCrushedKamacite, experienceSmelting);
+furnace.addRecipe(ironDust, orePurifiedCrushedKamacite, experienceSmelting);
+
+//---> Add Olivine Smelting
+furnace.addRecipe(ironDust, oreOlivine, experienceSmelting);
+furnace.addRecipe(ironDust, oreCrushedOlivine, experienceSmelting);
+furnace.addRecipe(ironDust, orePurifiedCrushedOlivine, experienceSmelting);
+
+//---> Add Augite Smelting
+furnace.addRecipe(aluminumDust, oreAugite, experienceSmelting);
+furnace.addRecipe(aluminumDust, oreCrushedAugite, experienceSmelting);
+furnace.addRecipe(aluminumDust, orePurifiedCrushedAugite, experienceSmelting);
+
+//---> Add Troilite Smelting
+furnace.addRecipe(ironDust, oreTroilite, experienceSmelting);
+furnace.addRecipe(ironDust, oreCrushedTroilite, experienceSmelting);
+furnace.addRecipe(ironDust, orePurifiedCrushedTroilite, experienceSmelting);
+
+//---> Add Abramovite Smelting
+furnace.addRecipe(leadDust, oreAbramovite, experienceSmelting);
+furnace.addRecipe(leadDust, oreCrushedAbramovite, experienceSmelting);
+furnace.addRecipe(leadDust, orePurifiedCrushedAbramovite, experienceSmelting);
+
+//---> Add Davidite Smelting
+furnace.addRecipe(uraniumDust, oreDavidite, experienceSmelting);
+furnace.addRecipe(uraniumDust, oreCrushedDavidite, experienceSmelting);
+furnace.addRecipe(uraniumDust, orePurifiedCrushedDavidite, experienceSmelting);
+
+//---> Add Titanite Smelting
+furnace.addRecipe(titaniumDust, oreTitanite, experienceSmelting);
+furnace.addRecipe(titaniumDust, oreCrushedTitanite, experienceSmelting);
+furnace.addRecipe(titaniumDust, orePurifiedCrushedTitanite, experienceSmelting);
+
+//---> Add Polycrase Smelting
+furnace.addRecipe(thoriumDust, orePolycrase, experienceSmelting);
+furnace.addRecipe(thoriumDust, oreCrushedPolycrase, experienceSmelting);
+furnace.addRecipe(thoriumDust, orePurifiedCrushedPolycrase, experienceSmelting);
+
+//---> Add Feldspar Smelting
+furnace.addRecipe(aluminumDust, oreFeldspar, experienceSmelting);
+furnace.addRecipe(aluminumDust, oreCrushedFeldspar, experienceSmelting);
+furnace.addRecipe(aluminumDust, orePurifiedCrushedFeldspar, experienceSmelting);
+
+//---> Add Osmiridium Smelting
+furnace.addRecipe(iridiumDust, oreOsmiridium, experienceSmelting);
+furnace.addRecipe(iridiumDust, oreCrushedOsmiridium, experienceSmelting);
+furnace.addRecipe(iridiumDust, orePurifiedCrushedOsmiridium, experienceSmelting);
+
+//---> Add Sperrylite Smelting
+furnace.addRecipe(platinumDust, oreSperrylite, experienceSmelting);
+furnace.addRecipe(platinumDust, oreCrushedSperrylite, experienceSmelting);
+furnace.addRecipe(platinumDust, orePurifiedCrushedSperrylite, experienceSmelting);

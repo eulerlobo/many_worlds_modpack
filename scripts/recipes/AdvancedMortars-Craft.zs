@@ -132,6 +132,9 @@ val crushedColemanite = <contenttweaker:crushed_colemanite>;
 
 //--- Add Recipes ---//
 
+//---> Disable Wood Mortar
+mods.jei.JEI.hide(<advancedmortars:mortar>);
+
 //---> Add Magnetite
 Mortar.addRecipe(["stone"], crushedMagnetite * 2, 9, [oreMagnetite]);
 Mortar.addRecipe(["iron"], crushedMagnetite * 2, 7, [oreMagnetite]);

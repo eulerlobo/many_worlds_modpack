@@ -34,6 +34,9 @@ mods.jei.JEI.removeAndHide(<ic2:lithium_fuel_rod>);
 //---> Remove Nuke
 mods.jei.JEI.removeAndHide(<ic2:te:2>);
 
+//---> Hide Coal Coke
+mods.jei.JEI.removeAndHide(<ic2:coke>);
+
 //---> Remove Pellets of MOX Nuclear Fuel and Pellets of Enriched Uranium Nuclear Fuel
 mods.jei.JEI.removeAndHide(<ic2:nuclear:8>);
 mods.jei.JEI.removeAndHide(<ic2:nuclear:9>);
@@ -95,3 +98,9 @@ mods.jei.JEI.removeAndHide(<ic2:te:17>);
 mods.jei.JEI.removeAndHide(<ic2:te:1>);
 recipes.remove(<tconstruct:throwball:1>);
 recipes.addShaped("EFLN_IC2", <tconstruct:throwball:1> * 4, [[<ore:itemRawFlint>, <minecraft:tnt>, <ore:itemRawFlint>], [<ore:itemRawFlint>, <minecraft:tnt>, <ore:itemRawFlint>], [<ore:itemRawFlint>, <minecraft:tnt>, <ore:itemRawFlint>]]);
+
+//---> Remove Coke Klin
+mods.jei.JEI.removeAndHide(<ic2:refractory_bricks>);
+mods.jei.JEI.removeAndHide(<ic2:te:100>);
+mods.jei.JEI.removeAndHide(<ic2:te:101>);
+mods.jei.JEI.removeAndHide(<ic2:te:102>);

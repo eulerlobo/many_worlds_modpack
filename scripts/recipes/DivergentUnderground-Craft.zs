@@ -112,6 +112,10 @@ mods.jei.JEI.hide(<divergentunderground:ore_ic2_uranium>);
 mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_iridium_ore>);
 mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_iridium>);
 
+//---> Hide Platinum from Divergent Underground
+mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_platinum_ore>);
+mods.jei.JEI.removeAndHide(<divergentunderground:ore_thermal_platinum>);
+
 //---> Remap the Basalt recipe for give IC2 Basalt
 recipes.addShapeless("IC2BasaltDivergent", ic2Basalt, [oreRockBasalt, oreRockBasalt, oreRockBasalt, oreRockBasalt]);
 
@@ -141,6 +145,7 @@ furnace.addRecipe(driedSandChunk, oreRockSandy, experienceSmelting);
 
 //---> Sand can be dyed for make white sand
 recipes.addShapeless("WhiteSandFromSand", whiteSandChunk * 2, [oreRockSand, oreRockSand, dyeWhite]);
+recipes.addShaped("WhiteSandFromSand2", whiteSand, [[null, dyeWhite, null], [null, sand, null], [null, dyeWhite, null]]);
 
 //---> Remove and Hide Gems Ores
 mods.jei.JEI.removeAndHide(<divergentunderground:bop_hard_amethyst_ore>); //Amethyst Ore

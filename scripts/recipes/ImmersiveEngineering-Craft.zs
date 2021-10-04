@@ -4,6 +4,7 @@ import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.Squeezer;
 
 val crusherBaseEnergy = 2048;
 val dropRateSecondaryOutput = 0.1;
@@ -38,6 +39,7 @@ val oreIronCrystal = <ore:ironCrystal>;
 val oreGold = <ore:oreGold>;
 val oreRockOreGold = <ore:rockOreGold>;
 val goldIngot = <minecraft:gold_ingot>;
+val oreGoldIngot = <ore:ingotGold>;
 val cinnabar = <thermalfoundation:material:866>;
 val oreDustSilver = <ore:dustSilver>;
 val oreDustGold = <ore:dustGold>;
@@ -185,6 +187,7 @@ val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
 
 val oreLithium = <ore:oreLithium>;
 val dustLithium = <ic2:dust:11>;
+val oreDustLithium = <ore:dustLithium>;
 val lithiumIngot = <nuclearcraft:ingot:6>;
 
 val oreSpodumene = <ore:oreSpodumene>;
@@ -283,6 +286,64 @@ val oreEmerald = <ore:oreEmerald>;
 val uncutDiamond = <divergentunderground:gem_raw_diamond>;
 
 val iridiumIngot = <thermalfoundation:material:135>;
+val oreIridiumIngot = <ore:ingotIridium>;
+val iridiumDust = <thermalfoundation:material:71>;
+val oreIridiumDust = <ore:dustIridium>;
+
+val platinumIngot = <thermalfoundation:material:134>;
+val orePlatinumIngot = <ore:ingotPlatinum>;
+val platinumDust = <thermalfoundation:material:70>;
+val orePlatinumDust = <ore:dustPlatinum>;
+
+val oreKamacite = <ore:oreKamacite>;
+val crushedKamacite = <contenttweaker:crushed_kamacite>;
+val purifiedCrushedKamacite = <contenttweaker:purified_crushed_kamacite>;
+
+val oreCarbonaceousI = <ore:oreCarbonaceousI>;
+val crushedCarbonaceousI = <contenttweaker:crushed_carbonaceous_i>;
+val purifiedCrushedCarbonaceousI = <contenttweaker:purified_crushed_carbonaceous_i>;
+val dustGraphite = <nuclearcraft:dust:8>;
+
+val oreOlivine = <ore:oreOlivine>;
+val crushedOlivine = <contenttweaker:crushed_olivine>;
+val purifiedCrushedOlivine = <contenttweaker:purified_crushed_olivine>;
+
+val oreAugite = <ore:oreAugite>;
+val crushedAugite = <contenttweaker:crushed_augite>;
+val purifiedCrushedAugite = <contenttweaker:purified_crushed_augite>;
+val dustTitanium = <contenttweaker:pulverized_titanium>;
+
+val oreTroilite = <ore:oreTroilite>;
+val crushedTroilite = <contenttweaker:crushed_troilite>;
+val purifiedCrushedTroilite = <contenttweaker:purified_crushed_troilite>;
+
+val oreAbramovite = <ore:oreAbramovite>;
+val crushedAbramovite = <contenttweaker:crushed_abramovite>;
+val purifiedCrushedAbramovite = <contenttweaker:purified_crushed_abramovite>;
+
+val oreDavidite = <ore:oreDavidite>;
+val crushedDavidite = <contenttweaker:crushed_davidite>;
+val purifiedCrushedDavidite = <contenttweaker:purified_crushed_davidite>;
+
+val oreTitanite = <ore:oreTitanite>;
+val crushedTitanite = <contenttweaker:crushed_titanite>;
+val purifiedCrushedTitanite = <contenttweaker:purified_crushed_titanite>;
+
+val orePolycrase = <ore:orePolycrase>;
+val crushedPolycrase = <contenttweaker:crushed_polycrase>;
+val purifiedCrushedPolycrase = <contenttweaker:purified_crushed_polycrase>;
+
+val oreFeldspar = <ore:oreFeldspar>;
+val crushedFeldspar = <contenttweaker:crushed_feldspar>;
+val purifiedCrushedFeldspar = <contenttweaker:purified_crushed_feldspar>;
+
+val oreOsmiridium = <ore:oreOsmiridium>;
+val crushedOsmiridium = <contenttweaker:crushed_osmiridium>;
+val purifiedCrushedOsmiridium = <contenttweaker:purified_crushed_osmiridium>;
+
+val oreSperrylite = <ore:oreSperrylite>;
+val crushedSperrylite = <contenttweaker:crushed_sperrylite>;
+val purifiedCrushedSperrylite = <contenttweaker:purified_crushed_sperrylite>;
 
 //--- Add Recipes ---//
 
@@ -302,6 +363,7 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:ore:5>);
 ArcFurnace.removeRecipe(ironIngot);
 ArcFurnace.removeRecipe(goldIngot);
 ArcFurnace.removeRecipe(iridiumIngot);
+ArcFurnace.removeRecipe(platinumIngot);
 Crusher.removeRecipe(<ic2:misc_resource:1>);
 
 //Copper Ingot
@@ -387,7 +449,7 @@ ArcFurnace.addRecipe(ironIngot, oreDustIron, null, ticksArcFurnace, rfTickArcFur
 //---> Remap Gold Ore recipes
 Crusher.removeRecipe(<thermalfoundation:material:1>);
 Crusher.addRecipe(<ic2:crushed:1> * 3, oreGold, crusherBaseEnergy, cinnabar, dropRateSecondaryOutput);
-Crusher.addRecipe(<thermalfoundation:material:1>, goldIngot, crusherBaseEnergy);
+Crusher.addRecipe(<thermalfoundation:material:1>, <minecraft:gold_ingot>, crusherBaseEnergy);
 recipes.addShapeless("GoldOreIEHammer", <ic2:crushed:1> * 2, [oreGold, <immersiveengineering:tool>]);
 recipes.addShapeless("RockOreGoldIEHammer", <ic2:crushed:1> * 2, [oreRockOreGold, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(goldIngot, oreCrushedGold, slag, ticksArcFurnace, rfTickArcFurnace);
@@ -496,7 +558,16 @@ recipes.addShapeless("BoronOreIEHammer", <contenttweaker:crushed_boron> * 2, [or
 recipes.addShapeless("RockBoronOreIEHammer", <contenttweaker:crushed_boron> * 2, [rockOreBoron, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(boronIngot, oreCrushedBoron, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(boronIngot * 2, oreCrushedPurifiedBoron, null, ticksArcFurnace, rfTickArcFurnace);
-ArcFurnace.addRecipe(boronIngot, oreDustBoron , null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(boronIngot, oreDustBoron, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Iridium ore recipes
+//Crusher.addRecipe(iridiumDust, iridiumIngot, crusherBaseEnergy);
+ArcFurnace.addRecipe(iridiumIngot, oreIridiumDust, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Platinum ore recipes
+Crusher.removeRecipe(platinumDust);
+Crusher.addRecipe(platinumDust, orePlatinumIngot, crusherBaseEnergy);
+ArcFurnace.addRecipe(platinumIngot, orePlatinumDust, null, ticksArcFurnace, rfTickArcFurnace);
 
 //---> Add Craft to Slag Slurry with Mixer
 Mixer.addRecipe(<liquid:slag_slurry> * 500, <liquid:sulfuric_acid> * 500, [<ore:itemSlag>], 1000);
@@ -604,11 +675,72 @@ recipes.addShapeless("BruciteIEHammer", crushedBrucite * 2, [oreBrucite, <immers
 ArcFurnace.addRecipe(magnesiumIngot, oreCrushedBrucite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(magnesiumIngot * 2, oreCrushedPurifiedBrucite, null, ticksArcFurnace, rfTickArcFurnace);
 
+//---> Add Kamacite Crusher and Kamacite Recipes
+Crusher.addRecipe(crushedKamacite, oreKamacite, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustIron * 3, crushedKamacite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustIron * 4, purifiedCrushedKamacite, dustNickel * 2, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Carbonaceous I Crusher and Carbonaceous I Recipes
+Crusher.addRecipe(crushedCarbonaceousI, oreCarbonaceousI, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustGraphite * 3, crushedCarbonaceousI, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustGraphite * 6, purifiedCrushedCarbonaceousI, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Olivine Crusher and Olivine Recipes
+Crusher.addRecipe(crushedOlivine, oreOlivine, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustIron * 3, crushedOlivine, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustIron * 3, purifiedCrushedOlivine, dustMagnesium * 3, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Augite Crusher and Augite Recipes
+Crusher.addRecipe(crushedAugite, oreAugite, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustAluminum * 3, crushedAugite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustAluminum * 3, purifiedCrushedAugite, dustTitanium * 3, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Troilite Crusher and Troilite Recipes
+Crusher.addRecipe(crushedTroilite, oreTroilite, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustIron * 3, crushedTroilite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustIron * 3, purifiedCrushedTroilite, dustSulfur * 3, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Abramovite Crusher and Abramovite Recipes
+Crusher.addRecipe(crushedAbramovite, oreAbramovite, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustLead * 3, crushedAbramovite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustLead * 3, purifiedCrushedAbramovite, dustTin * 3, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Davidite Crusher and Davidite Recipes
+Crusher.addRecipe(crushedDavidite, oreDavidite, crusherBaseEnergy);
+ArcFurnace.addRecipe(<immersiveengineering:metal:14> * 3, crushedDavidite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(<immersiveengineering:metal:14> * 3, purifiedCrushedDavidite, dustTitanium * 3, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Titanite Crusher and Titanite Recipes
+Crusher.addRecipe(crushedTitanite, oreTitanite, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustTitanium * 3, crushedTitanite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustTitanium * 6, purifiedCrushedTitanite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Polycrase Crusher and Polycrase Recipes
+Crusher.addRecipe(crushedPolycrase, orePolycrase, crusherBaseEnergy);
+ArcFurnace.addRecipe(<nuclearcraft:dust:3> * 3, crushedPolycrase, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(<nuclearcraft:dust:3> * 3, purifiedCrushedPolycrase, <immersiveengineering:metal:14> * 3, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Feldspar Crusher and Feldspar Recipes
+Crusher.addRecipe(crushedFeldspar, oreFeldspar, crusherBaseEnergy);
+ArcFurnace.addRecipe(dustAluminum * 3, crushedFeldspar, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(dustAluminum * 6, purifiedCrushedFeldspar, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Osmiridium Crusher and Osmiridium Recipes
+Crusher.addRecipe(crushedOsmiridium, oreOsmiridium, crusherBaseEnergy);
+ArcFurnace.addRecipe(iridiumDust * 3, crushedOsmiridium, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(iridiumDust * 6, purifiedCrushedOsmiridium, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Add Sperrylite Crusher and Sperrylite Recipes
+Crusher.addRecipe(crushedSperrylite, oreSperrylite, crusherBaseEnergy);
+ArcFurnace.addRecipe(platinumDust * 3, crushedSperrylite, slag, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(platinumDust * 6, purifiedCrushedSperrylite, null, ticksArcFurnace, rfTickArcFurnace);
+
 //---> Remap Lithium ore recipes
 Crusher.removeRecipe(<ic2:dust:11>);
 Crusher.addRecipe(dustLithium * 2, oreLithium, crusherBaseEnergy);
 Crusher.addRecipe(dustLithium, lithiumIngot, crusherBaseEnergy);
 ArcFurnace.addRecipe(dustLithium, oreLithium, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(lithiumIngot, oreDustLithium, null, ticksArcFurnace, rfTickArcFurnace);
 
 //---> Add Spodumene Crusher, Hammer Crusher and Lithium Recipes
 Crusher.addRecipe(crushedSpodumene * 2, oreSpodumene, crusherBaseEnergy);
@@ -735,3 +867,8 @@ MetalPress.removeRecipe(<immersiveengineering:material:1>); //IE Iron Rod
 MetalPress.removeRecipe(<immersiveengineering:material:2>); //IE Iron Rod
 MetalPress.addRecipe(<libvulpes:productrod:1>*2, <ore:ingotIron>, <immersiveengineering:mold:2>, 2400);
 MetalPress.addRecipe(<libvulpes:productrod:6>*2, <ore:ingotSteel>, <immersiveengineering:mold:2>, 2400);
+
+//---> Remap Coal Coke Recipes.
+recipes.remove(<immersiveengineering:material:6>);
+recipes.addShapeless(<immersiveengineering:material:6> * 9, [<ore:blockCoalCoke>]);
+Crusher.addRecipe(<thermalfoundation:material:768> * 9, <ore:blockCoal>, crusherBaseEnergy);

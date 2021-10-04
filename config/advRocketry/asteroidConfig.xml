@@ -1,117 +1,147 @@
 <Asteroids>
-	<asteroid name="Type-S S" distance="15" mass="4000" massVariability="0.7" minLevel="0" probability="15" richness="0.4" richnessVariability="0.5" timeMultiplier="4">
+	<asteroid name="Type-S A" distance="20" mass="17280" massVariability="0.9" minLevel="0" probability="15" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
 		<ore itemStack="minecraft:gravel" chance="30" />
 		<ore itemStack="minecraft:dirt" chance="30" />
 		<ore itemStack="minecraft:sand" chance="15" />
 	</asteroid>
-	<asteroid name="Type-S D" distance="45" mass="4000" massVariability="0.7" minLevel="0" probability="10" richness="0.4" richnessVariability="0.5" timeMultiplier="5.5">
-		<ore itemStack="chisel:limestone2 7" chance="40" />
-		<ore itemStack="minecraft:stone 1" chance="30" />
-		<ore itemStack="minecraft:stone 3" chance="15" />
+	<asteroid name="Type-S B" distance="25" mass="13824" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="divergentunderground:granite_cobblestone" chance="30" />
+		<ore itemStack="divergentunderground:diorite_cobblestone" chance="15" />
+		<ore itemStack="contenttweaker:limestone_cobblestone" chance="15" />
 	</asteroid>
-	<asteroid name="Type-S K" distance="60" mass="2000" massVariability="0.7" minLevel="0" probability="10" richness="0.4" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="chisel:basalt2 7" chance="30" />
-		<ore itemStack="chisel:marble2 7" chance="20" />
+	<asteroid name="Type-C A" distance="40" mass="13824" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="divergentunderground:andesite_cobblestone" chance="15" />
+		<ore itemStack="contenttweaker:marble_cobblestone" chance="15" />
+	</asteroid>
+	<asteroid name="Type-S C" distance="45" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:sand" chance="30" />
+		<ore itemStack="minecraft:dirt" chance="30" />
+		<ore itemStack="contenttweaker:native_copper_ore" chance="15" />
+	</asteroid>
+	<asteroid name="Type-M A" distance="50" mass="17280" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="2">
+		<ore itemStack="biomesoplenty:dirt 1" chance="30" />
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:kamacite_ore" chance="15" />
+	</asteroid>
+	<asteroid name="Type-C B" distance="55" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:carbonaceous_i_ore" chance="15" />
+		<ore itemStack="minecraft:ice" chance="15" />
+	</asteroid>
+	<asteroid name="Type-M B" distance="60" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="2">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="contenttweaker:kamacite_ore" chance="15" />
+		<ore itemStack="contenttweaker:troilite_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S D" distance="65" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:native_silver_ore" chance="15" />
+		<ore itemStack="divergentunderground:hard_redstone_ore" chance="15" />
+	</asteroid>
+	<asteroid name="Type-S E" distance="70" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="contenttweaker:olivine_ore" chance="15" />
+		<ore itemStack="contenttweaker:peridot_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-M C" distance="75" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="3">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:kamacite_ore" chance="15" />
+		<ore itemStack="contenttweaker:abramovite_ore" chance="15" />
+	</asteroid>
+	<asteroid name="Type-C C" distance="80" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="2">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="minecraft:end_stone" chance="15" />
 		<ore itemStack="appliedenergistics2:sky_stone_block" chance="10" />
 	</asteroid>
-	<asteroid name="Type-S O" distance="100" mass="2000" massVariability="0.7" minLevel="0" probability="10" richness="0.4" richnessVariability="0.5" timeMultiplier="10">
-		<ore itemStack="minecraft:redstone_ore" chance="30" />
-		<ore itemStack="minecraft:lapis_ore" chance="20" />
-		<ore itemStack="minecraft:obsidian" chance="15" />
+	<asteroid name="Type-S F" distance="90" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:kamacite_ore" chance="15" />
+		<ore itemStack="contenttweaker:titanite_ore" chance="15" />
 	</asteroid>
-	<asteroid name="Type-X A" distance="15" mass="4000" massVariability="0.7" minLevel="0" probability="15" richness="0.4" richnessVariability="0.5" timeMultiplier="5.5">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="thermalfoundation:ore 4" chance="30" />
-		<ore itemStack="biomesoplenty:ash_block_block" chance="15" />
+	<asteroid name="Type-S G" distance="100" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="2">
+		<ore itemStack="biomesoplenty:dirt 1" chance="30" />
+		<ore itemStack="contenttweaker:feldspar_ore" chance="15" />
+		<ore itemStack="contenttweaker:topaz_ore" chance="10" />
 	</asteroid>
-	<asteroid name="Type-X C" distance="45" mass="2000" massVariability="0.7" minLevel="0" probability="15" richness="0.4" richnessVariability="0.5" timeMultiplier="6.5">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="thermalfoundation:ore 4" chance="30" />
-		<ore itemStack="thermalfoundation:ore" chance="15" />
+	<asteroid name="Type-C D" distance="110" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="3">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="ic2:resource" chance="15" />
+		<ore itemStack="minecraft:obsidian" chance="10" />
 	</asteroid>
-	<asteroid name="Type-X M" distance="45" mass="2000" massVariability="0.7" minLevel="0" probability="15" richness="0.4" richnessVariability="0.5" timeMultiplier="6.5">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="thermalfoundation:ore 4" chance="30" />
-		<ore itemStack="nuclearcraft:ore 7" chance="15" />
-	</asteroid>
-	<asteroid name="Type-X G" distance="45" mass="2000" massVariability="0.7" minLevel="0" probability="10" richness="0.4" richnessVariability="0.5" timeMultiplier="6.5">
-		<ore itemStack="thermalfoundation:ore 1" chance="30" />
-		<ore itemStack="thermalfoundation:ore 3" chance="20" />
-		<ore itemStack="minecraft:gold_ore" chance="10" />
-	</asteroid>
-	<asteroid name="Type-X U" distance="60" mass="2000" massVariability="0.7" minLevel="0" probability="10" richness="0.4" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="libvulpes:ore0 8" chance="20" />
-		<ore itemStack="immersiveengineering:ore 5" chance="10" />
-	</asteroid>
-	<asteroid name="Type-X T" distance="60" mass="2000" massVariability="0.7" minLevel="0" probability="10" richness="0.4" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="libvulpes:ore0 8" chance="20" />
-		<ore itemStack="nuclearcraft:ore 3" chance="10" />
-	</asteroid>
-	<asteroid name="Type-X B" distance="60" mass="2000" massVariability="0.7" minLevel="0" probability="10" richness="0.4" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="libvulpes:ore0 8" chance="20" />
-		<ore itemStack="nuclearcraft:ore 7" chance="10" />
-		<ore itemStack="nuclearcraft:ore 5" chance="10" />
-	</asteroid>
-	<asteroid name="Type-X P" distance="60" mass="1000" massVariability="0.7" minLevel="0" probability="5" richness="0.4" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="thermalfoundation:ore 2" chance="20" />
-		<ore itemStack="thermalfoundation:ore 6" chance="10" />
-	</asteroid>
-	<asteroid name="Type-X R" distance="120" mass="1000" massVariability="0.7" minLevel="0" probability="5" richness="0.4" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="thermalfoundation:ore 5" chance="30" />
-		<ore itemStack="biomesoplenty:ash_block" chance="20" />
-		<ore itemStack="libvulpes:ore0 8" chance="10" />
-	</asteroid>
-	<asteroid name="Type-X I" distance="150" mass="500" massVariability="0.5" minLevel="0" probability="5" richness="0.4" richnessVariability="0.3" timeMultiplier="10">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="libvulpes:ore0 8" chance="10" />
-		<ore itemStack="thermalfoundation:ore 7" chance="5" />
-	</asteroid>
-	<asteroid name="Type-X L" distance="150" mass="500" massVariability="0.5" minLevel="0" probability="5" richness="0.4" richnessVariability="0.3" timeMultiplier="7.5">
-		<ore itemStack="minecraft:iron_ore" chance="30" />
-		<ore itemStack="libvulpes:ore0 8" chance="10" />
-		<ore itemStack="nuclearcraft:ore 6" chance="5" />
-	</asteroid>
-	<asteroid name="Type-O H" distance="15" mass="4000" massVariability="0.7" minLevel="0" probability="15" richness="0.4" richnessVariability="0.5" timeMultiplier="4">
+	<asteroid name="Type-C E" distance="115" mass="17280" massVariability="0.9" minLevel="0" probability="15" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
 		<ore itemStack="minecraft:ice" chance="30" />
 		<ore itemStack="minecraft:packed_ice" chance="15" />
-		<ore itemStack="biomesoplenty:hard_ice" chance="5" />
+		<ore itemStack="biomesoplenty:hard_ice" chance="10" />
 	</asteroid>
-	<asteroid name="Type-O D" distance="45" mass="1000" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5" timeMultiplier="10">
-		<ore itemStack="biomesoplenty:ash_block" chance="30" />
-		<ore itemStack="minecraft:obsidian" chance="20" />
-		<ore itemStack="minecraft:diamond_ore" chance="5" />
+	<asteroid name="Type-S H" distance="115" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:native_copper_ore" chance="15" />
+		<ore itemStack="contenttweaker:malachite_ore" chance="10" />
 	</asteroid>
-	<asteroid name="Type-O S" distance="45" mass="1000" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="biomesoplenty:ash_block" chance="30" />
-		<ore itemStack="biomesoplenty:gem_ore 1" chance="10" />
-		<ore itemStack="biomesoplenty:gem_ore 6" chance="5" />
+	<asteroid name="Type-S I" distance="120" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:dirt" chance="30" />
+		<ore itemStack="contenttweaker:augite_ore" chance="15" />
+		<ore itemStack="contenttweaker:ruby_ore" chance="10" />
 	</asteroid>
-	<asteroid name="Type-O P" distance="60" mass="1000" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5" timeMultiplier="6">
-		<ore itemStack="minecraft:sand" chance="30" />
-		<ore itemStack="minecraft:sand 1" chance="20" />
-		<ore itemStack="biomesoplenty:gem_ore 2" chance="5" />
-	</asteroid>
-	<asteroid name="Type-O T" distance="60" mass="500" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="minecraft:end_stone" chance="30" />
-		<ore itemStack="thermalfoundation:ore 4" chance="30" />
-		<ore itemStack="biomesoplenty:gem_ore 3" chance="5" />
-	</asteroid>
-	<asteroid name="Type-O A" distance="120" mass="500" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5" timeMultiplier="7.5">
-		<ore itemStack="minecraft:end_stone" chance="30" />
-		<ore itemStack="immersiveengineering:ore 5" chance="20" />
-		<ore itemStack="biomesoplenty:gem_ore 4" chance="5" />
-	</asteroid>
-	<asteroid name="Type-O M" distance="120" mass="500" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5" timeMultiplier="10">
-		<ore itemStack="minecraft:obsidian" chance="30" />
-		<ore itemStack="biomesoplenty:ash_block" chance="30" />
-		<ore itemStack="biomesoplenty:gem_ore 7" chance="5" />
-	</asteroid>
-	<asteroid name="Type-O E" distance="150" mass="500" massVariability="0.5" minLevel="0" probability="5" richness="0.2" richnessVariability="0.5" timeMultiplier="6">
-		<ore itemStack="minecraft:ice" chance="30" />
+	<asteroid name="Type-S J" distance="120" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
 		<ore itemStack="minecraft:end_stone" chance="15" />
-		<ore itemStack="biomesoplenty:gem_ore" chance="5" />
+		<ore itemStack="contenttweaker:amethyst_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-M D" distance="125" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="2">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:sperrylite_ore" chance="15" />
+		<ore itemStack="contenttweaker:osmiridium_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S K" distance="135" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="thaumcraft:ore_quartz" chance="15" />
+		<ore itemStack="appliedenergistics2:quartz_ore" chance="15" />
+		<ore itemStack="appliedenergistics2:charged_quartz_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S L" distance="145" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="contenttweaker:monazite_ore" chance="15" />
+		<ore itemStack="contenttweaker:kernite_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-M E" distance="155" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="2">
+		<ore itemStack="minecraft:dirt" chance="30" />
+		<ore itemStack="contenttweaker:kamacite_ore" chance="15" />
+		<ore itemStack="contenttweaker:magnetite_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S M" distance="165" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="contenttweaker:feldspar_ore" chance="15" />
+		<ore itemStack="contenttweaker:tanzanite_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S N" distance="175" mass="10368" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:dirt" chance="30" />
+		<ore itemStack="contenttweaker:davidite_ore" chance="15" />
+		<ore itemStack="contenttweaker:polycrase_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S O" distance="185" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:troilite_ore" chance="15" />
+		<ore itemStack="divergentunderground:hard_lapis_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-C F" distance="190" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:dirt" chance="30" />
+		<ore itemStack="contenttweaker:carbonaceous_i_ore" chance="15" />
+		<ore itemStack="divergentunderground:hard_diamond_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-C G" distance="190" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="minecraft:gravel" chance="30" />
+		<ore itemStack="contenttweaker:magnetite_ore" chance="15" />
+		<ore itemStack="contenttweaker:native_gold_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S P" distance="195" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="biomesoplenty:dried_sand" chance="30" />
+		<ore itemStack="contenttweaker:feldspar_ore" chance="15" />
+		<ore itemStack="contenttweaker:sapphire_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Type-S Q" distance="200" mass="6912" massVariability="0.9" minLevel="0" probability="10" richness="0.4" richnessVariability="0.6" timeMultiplier="1">
+		<ore itemStack="biomesoplenty:dirt 1" chance="30" />
+		<ore itemStack="contenttweaker:feldspar_ore" chance="15" />
+		<ore itemStack="divergentunderground:hard_emerald_ore" chance="10" />
 	</asteroid>
 </Asteroids>

@@ -26,3 +26,7 @@ Carving.addVariation("Constantan", <thermalfoundation:storage_alloy:4>);
 Carving.addGroup("Sapphire");
 Carving.addVariation("Sapphire", <iceandfire:sapphire_block>);
 Carving.addVariation("Sapphire", <biomesoplenty:gem_block:6>);
+
+//---> Add Coal Coke blocks
+//Carving.addVariation("block_coal_coke", <thermalfoundation:storage_resource:1>);
+//Carving.addVariation("block_coal_coke", <immersiveengineering:stone_decoration:3>);

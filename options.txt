@@ -5,13 +5,13 @@ fov:0.0
 gamma:0.0
 saturation:0.0
 renderDistance:12
-guiScale:0
+guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:0
+difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -103,6 +103,7 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
+key_quark.keybind.changeHotbar:44
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -121,7 +122,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.changeHotbar:44
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
@@ -154,7 +154,6 @@ key_schematica.key.printerToggle:0
 key_schematica.key.moveHere:0
 key_schematica.key.pickBlock:-98:SHIFT
 key_key.toastcontrol.clear:36
-key_key.wearablebackpacks.open:48
 key_Strip World:211
 key_Dress World:210
 key_Inspect Block:199
@@ -256,9 +255,7 @@ key_key.dragon_strike:34
 key_key.dragon_down:45
 key_key.dragon_change_view:65
 key_invtweaks.key.sort:0
-key_key.menu:50
-key_key.villages:47
-key_key.escorts:34
+key_key.nutrition:49
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
@@ -283,7 +280,7 @@ key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
 key_Move Vehicle Down:45
 key_key.control:29
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

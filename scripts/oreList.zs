@@ -589,3 +589,150 @@ malachiteOreList.add(<contenttweaker:malachite_ore>);
 //--- Sapphire ---//
 val sapphireOreList = <ore:oreSapphire>;
 sapphireOreList.add(<contenttweaker:sapphire_ore>);
+
+//---> Unify Scaling Health and Rough Tweaks
+val bandageOreList = <ore:bandage>;
+bandageOreList.add(<roughtweaks:bandage>);
+bandageOreList.add(<scalinghealth:healingitem>);
+
+val medKitOreList = <ore:medKit>;
+medKitOreList.add(<roughtweaks:medikit>);
+medKitOreList.add(<scalinghealth:healingitem:1>);
+
+//---> Create special Cobblestone ore list
+val marbleCobblestoneOreList = <ore:marbleCobblestone>;
+val limestoneCobblestoneOreList = <ore:limestoneCobblestone>;
+val andesiteCobblestoneOreList = <ore:andesiteCobblestone>;
+val dioriteCobblestoneOreList = <ore:dioriteCobblestone>;
+val graniteCobblestoneOreList = <ore:graniteCobblestone>;
+
+marbleCobblestoneOreList.add(<contenttweaker:marble_cobblestone>);
+limestoneCobblestoneOreList.add(<contenttweaker:limestone_cobblestone>);
+andesiteCobblestoneOreList.add(<divergentunderground:andesite_cobblestone>);
+dioriteCobblestoneOreList.add(<divergentunderground:diorite_cobblestone>);
+graniteCobblestoneOreList.add(<divergentunderground:granite_cobblestone>);
+
+//--- Kamacite ---//
+val kamaciteOreList = <ore:oreKamacite>;
+kamaciteOreList.add(<contenttweaker:kamacite_ore>);
+
+val crushedKamaciteList = <ore:crushedKamacite>;
+crushedKamaciteList.add(<contenttweaker:crushed_kamacite>);
+
+val crushedPurifiedKamaciteList = <ore:crushedPurifiedKamacite>;
+crushedPurifiedKamaciteList.add(<contenttweaker:purified_crushed_kamacite>);
+
+//--- Carbonaceous I ---//
+val carbonaceousIOreList = <ore:oreCarbonaceousI>;
+carbonaceousIOreList.add(<contenttweaker:carbonaceous_i_ore>);
+
+val crushedCarbonaceousIList = <ore:crushedCarbonaceousI>;
+crushedCarbonaceousIList.add(<contenttweaker:crushed_carbonaceous_i>);
+
+val crushedPurifiedCarbonaceousIList = <ore:crushedPurifiedCarbonaceousI>;
+crushedPurifiedCarbonaceousIList.add(<contenttweaker:purified_crushed_carbonaceous_i>);
+
+//--- Olivine ---//
+val olivineOreList = <ore:oreOlivine>;
+olivineOreList.add(<contenttweaker:olivine_ore>);
+
+val crushedOlivineList = <ore:crushedOlivine>;
+crushedOlivineList.add(<contenttweaker:crushed_olivine>);
+
+val crushedPurifiedOlivineList = <ore:crushedPurifiedOlivine>;
+crushedPurifiedOlivineList.add(<contenttweaker:purified_crushed_olivine>);
+
+//--- Augite ---//
+val augiteOreList = <ore:oreAugite>;
+augiteOreList.add(<contenttweaker:augite_ore>);
+
+val crushedAugiteList = <ore:crushedAugite>;
+crushedAugiteList.add(<contenttweaker:crushed_augite>);
+
+val crushedPurifiedAugiteList = <ore:crushedPurifiedAugite>;
+crushedPurifiedAugiteList.add(<contenttweaker:purified_crushed_augite>);
+
+//--- Troilite ---//
+val troiliteOreList = <ore:oreTroilite>;
+troiliteOreList.add(<contenttweaker:troilite_ore>);
+
+val crushedTroiliteList = <ore:crushedTroilite>;
+crushedTroiliteList.add(<contenttweaker:crushed_troilite>);
+
+val crushedPurifiedTroiliteList = <ore:crushedPurifiedTroilite>;
+crushedPurifiedTroiliteList.add(<contenttweaker:purified_crushed_troilite>);
+
+//--- Abramovite ---//
+val abramoviteOreList = <ore:oreAbramovite>;
+abramoviteOreList.add(<contenttweaker:abramovite_ore>);
+
+val crushedAbramoviteList = <ore:crushedAbramovite>;
+crushedAbramoviteList.add(<contenttweaker:crushed_abramovite>);
+
+val crushedPurifiedAbramoviteList = <ore:crushedPurifiedAbramovite>;
+crushedPurifiedAbramoviteList.add(<contenttweaker:purified_crushed_abramovite>);
+
+//--- Davidite ---//
+val daviditeOreList = <ore:oreDavidite>;
+daviditeOreList.add(<contenttweaker:davidite_ore>);
+
+val crushedDaviditeList = <ore:crushedDavidite>;
+crushedDaviditeList.add(<contenttweaker:crushed_davidite>);
+
+val crushedPurifiedDaviditeList = <ore:crushedPurifiedDavidite>;
+crushedPurifiedDaviditeList.add(<contenttweaker:purified_crushed_davidite>);
+
+//--- Titanite ---//
+val titaniteOreList = <ore:oreTitanite>;
+titaniteOreList.add(<contenttweaker:titanite_ore>);
+
+val crushedTitaniteList = <ore:crushedTitanite>;
+crushedTitaniteList.add(<contenttweaker:crushed_titanite>);
+
+val crushedPurifiedTitaniteList = <ore:crushedPurifiedTitanite>;
+crushedPurifiedTitaniteList.add(<contenttweaker:purified_crushed_titanite>);
+
+//--- Polycrase ---//
+val polycraseOreList = <ore:orePolycrase>;
+polycraseOreList.add(<contenttweaker:polycrase_ore>);
+
+val crushedPolycraseList = <ore:crushedPolycrase>;
+crushedPolycraseList.add(<contenttweaker:crushed_polycrase>);
+
+val crushedPurifiedPolycraseList = <ore:crushedPurifiedPolycrase>;
+crushedPurifiedPolycraseList.add(<contenttweaker:purified_crushed_polycrase>);
+
+//--- Feldspar ---//
+val feldsparOreList = <ore:oreFeldspar>;
+feldsparOreList.add(<contenttweaker:feldspar_ore>);
+
+val crushedFeldsparList = <ore:crushedFeldspar>;
+crushedFeldsparList.add(<contenttweaker:crushed_feldspar>);
+
+val crushedPurifiedFeldsparList = <ore:crushedPurifiedFeldspar>;
+crushedPurifiedFeldsparList.add(<contenttweaker:purified_crushed_feldspar>);
+
+//--- Osmiridium ---//
+val osmiridiumOreList = <ore:oreOsmiridium>;
+osmiridiumOreList.add(<contenttweaker:osmiridium_ore>);
+
+val crushedOsmiridiumList = <ore:crushedOsmiridium>;
+crushedOsmiridiumList.add(<contenttweaker:crushed_osmiridium>);
+
+val crushedPurifiedOsmiridiumList = <ore:crushedPurifiedOsmiridium>;
+crushedPurifiedOsmiridiumList.add(<contenttweaker:purified_crushed_osmiridium>);
+
+//--- Sperrylite ---//
+val sperryliteOreList = <ore:oreSperrylite>;
+sperryliteOreList.add(<contenttweaker:sperrylite_ore>);
+
+val crushedSperryliteList = <ore:crushedSperrylite>;
+crushedSperryliteList.add(<contenttweaker:crushed_sperrylite>);
+
+val crushedPurifiedSperryliteList = <ore:crushedPurifiedSperrylite>;
+crushedPurifiedSperryliteList.add(<contenttweaker:purified_crushed_sperrylite>);
+
+//---> Unify Block of Coal Coke
+val blockCoalCokeOreList = <ore:blockCoalCoke>;
+blockCoalCokeOreList.add(<thermalfoundation:storage_resource:1>);
+blockCoalCokeOreList.add(<immersiveengineering:stone_decoration:3>);

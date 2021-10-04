@@ -46,6 +46,18 @@ tile.contenttweaker.ruby_ore.name=Ruby Ore
 tile.contenttweaker.tanzanite_ore.name=Tanzanite Ore
 tile.contenttweaker.malachite_ore.name=Malachite Ore
 tile.contenttweaker.sapphire_ore.name=Sapphire Ore
+tile.contenttweaker.kamacite_ore.name=Kamacite Ore
+tile.contenttweaker.carbonaceous_i_ore.name=Carbonaceous I Ore
+tile.contenttweaker.olivine_ore.name=Olivine Ore
+tile.contenttweaker.augite_ore.name=Augite Ore
+tile.contenttweaker.troilite_ore.name=Troilite Ore
+tile.contenttweaker.abramovite_ore.name=Abramovite Ore
+tile.contenttweaker.davidite_ore.name=Davidite Ore
+tile.contenttweaker.titanite_ore.name=Titanite Ore
+tile.contenttweaker.polycrase_ore.name=Polycrase Ore
+tile.contenttweaker.feldspar_ore.name=Feldspar Ore
+tile.contenttweaker.osmiridium_ore.name=Osmiridium Ore
+tile.contenttweaker.sperrylite_ore.name=Sperrylite Ore
 
 #Cobblestone
 tile.contenttweaker.limestone_cobblestone.name=Limestone Cobblestone
@@ -112,6 +124,18 @@ item.contenttweaker.crushed_aluminum.name=Crushed Aluminum
 item.contenttweaker.crushed_nickel.name=Crushed Nickel
 item.contenttweaker.crushed_thorium.name=Crushed Thorium
 item.contenttweaker.crushed_boron.name=Crushed Boron
+item.contenttweaker.crushed_kamacite.name=Crushed Kamacite
+item.contenttweaker.crushed_carbonaceous_i.name=Crushed Carbonaceous I
+item.contenttweaker.crushed_olivine.name=Crushed Olivine
+item.contenttweaker.crushed_augite.name=Crushed Augite
+item.contenttweaker.crushed_troilite.name=Crushed Troilite
+item.contenttweaker.crushed_abramovite.name=Crushed Abramovite
+item.contenttweaker.crushed_davidite.name=Crushed Davidite
+item.contenttweaker.crushed_titanite.name=Crushed Titanite
+item.contenttweaker.crushed_polycrase.name=Crushed Polycrase
+item.contenttweaker.crushed_feldspar.name=Crushed Feldspar
+item.contenttweaker.crushed_osmiridium.name=Crushed Osmiridium
+item.contenttweaker.crushed_sperrylite.name=Crushed Sperrylite
 
 #Purified
 item.contenttweaker.purified_crushed_magnetite.name=Purified Crushed Magnetite
@@ -140,6 +164,18 @@ item.contenttweaker.purified_crushed_aluminum.name=Purified Crushed Aluminum
 item.contenttweaker.purified_crushed_nickel.name=Purified Crushed Nickel
 item.contenttweaker.purified_crushed_thorium.name=Purified Crushed Thorium
 item.contenttweaker.purified_crushed_boron.name=Purified Crushed Boron
+item.contenttweaker.purified_crushed_kamacite.name=Purified Crushed Kamacite
+item.contenttweaker.purified_crushed_carbonaceous_i.name=Purified Crushed Carbonaceous
+item.contenttweaker.purified_crushed_olivine.name=Purified Crushed Olivine
+item.contenttweaker.purified_crushed_augite.name=Purified Crushed Augite
+item.contenttweaker.purified_crushed_troilite.name=Purified Crushed Troilite
+item.contenttweaker.purified_crushed_abramovite.name=Purified Crushed Abramovite
+item.contenttweaker.purified_crushed_davidite.name=Purified Crushed Davidite
+item.contenttweaker.purified_crushed_titanite.name=Purified Crushed Titanite
+item.contenttweaker.purified_crushed_polycrase.name=Purified Crushed Polycrase
+item.contenttweaker.purified_crushed_feldspar.name=Purified Crushed Feldspar
+item.contenttweaker.purified_crushed_osmiridium.name=Purified Crushed Osmiridium
+item.contenttweaker.purified_crushed_sperrylite.name=Purified Crushed Sperrylite
 
 #Tiny Dust
 item.contenttweaker.tiny_pile_of_aluminum_dust.name=Tiny Pile of Aluminum Dust
