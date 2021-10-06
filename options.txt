@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -103,7 +103,6 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_quark.keybind.changeHotbar:44
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,7 +121,8 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_keybind.baublesinventory:48
+key_quark.keybind.changeHotbar:44
+key_keybind.baublesinventory:0
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -132,9 +132,13 @@ key_key.erebus.glide:34
 key_key.erebus.poweredglide:35
 key_key.erebus.beetleram:19
 key_key.erebus.beetlemine:56
-key_key.exchanger_range_switch:51
-key_key.exchanger_mode_switch:39
-key_key.exchanger_force_drop_items:52
+key_key.exchangers.open_gui:51
+key_key.exchangers.range_switch:0
+key_key.exchangers.mode_switch:0
+key_key.exchangers.force_drop_items_mode_toggle:0
+key_key.exchangers.directional_placement_mode_toggle:0
+key_key.exchangers.fuzzy_placement_mode_toggle:0
+key_key.exchangers.void_items_mode_toggle:0
 key_Toggle Magnetism Suppressor:49
 key_key.mts.config:25
 key_openblocks.keybind.vario_switch:47
@@ -166,6 +170,7 @@ key_key.openglasses.opensecurity:24
 key_key.narrator:48:CONTROL
 key_key.unhook:45
 key_key.cofh.multimode:47
+key_key.aether.accessory_menu:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -235,7 +240,6 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-key_Options Gui:0
 key_key.toggleCleanView:0
 key_key.clipboardPaste:210
 key_cyberware.keybinds.menu:19
@@ -280,8 +284,8 @@ key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
 key_Move Vehicle Down:45
 key_key.control:29
-soundCategory_master:0.0
-soundCategory_music:0.0
+soundCategory_master:1.0
+soundCategory_music:0.20422535
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
