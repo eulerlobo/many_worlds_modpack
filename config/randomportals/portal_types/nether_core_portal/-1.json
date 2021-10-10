@@ -56,11 +56,13 @@
 		"initialLocation": {
 			"x": 0,
 			"y": 0,
-			"z": 0
+			"z": 0,
+			"useTopSolidY": false
 		},
 		"coordinateMultiplier": 1.0,
 		"teleportToPortal": true,
 		"oneWay": false,
+		"ensureReturnToSameDimension": false,
 		"generatePortalIfNotFound": true,
 		"portalGenerationBehavior": "CLONE",
 		"generatedFrameType": "SAME",

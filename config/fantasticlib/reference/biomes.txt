@@ -133,7 +133,6 @@ biomesoplenty:fungi_forest
 biomesoplenty:phantasmagoric_inferno
 biomesoplenty:undergarden
 biomesoplenty:visceral_heap
-appliedenergistics2:storage_biome
 thaumcraft:magical_forest
 thaumcraft:eerie
 thaumcraft:eldritch
@@ -157,6 +156,7 @@ twilightforest:dark_forest_center
 twilightforest:highlands_center
 twilightforest:thornlands
 twilightforest:spooky_forest
+appliedenergistics2:storage_biome
 erebus:underground_jungle
 erebus:volcanic_desert
 erebus:subterranean_savannah

@@ -36,12 +36,6 @@ toughasnails:heat_resistance
 toughasnails:hydration
 cyberware:neuropozyne
 cyberware:rejection
-quark:blue
-quark:black
-quark:white
-quark:resilience
-quark:curse
-quark:danger_sight
 thaumcraft:fluxtaint
 thaumcraft:visexhaust
 thaumcraft:infectiousvisexhaust
@@ -66,6 +60,12 @@ immersiveengineering:sticky
 immersiveengineering:stunned
 immersiveengineering:concretefeet
 immersiveengineering:flashed
+quark:blue
+quark:black
+quark:white
+quark:resilience
+quark:curse
+quark:danger_sight
 conarm:superhotpotion
 extraalchemy:effect.fuse
 extraalchemy:effect.recall
