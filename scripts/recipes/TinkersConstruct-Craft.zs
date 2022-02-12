@@ -275,3 +275,6 @@ mods.tconstruct.Melting.addRecipe(liquidDiamond * 1665, <ore:oreDiamond>, 1229);
 mods.tconstruct.Melting.addRecipe(liquidDiamond * 666, <ore:uncutDiamond>, 1029);
 
 mods.tconstruct.Melting.addRecipe(liquidEmerald * 666, <ore:uncutEmerald>, 866);
+
+//---> Hide Stone Torche
+mods.jei.JEI.hide(<tconstruct:stone_torch>);

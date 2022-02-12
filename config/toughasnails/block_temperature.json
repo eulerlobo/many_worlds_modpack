@@ -67,6 +67,7 @@
   {"state": {"block": "minecraft:magma","properties": {}},"temperature": 12.5},
   {"state": {"block": "minecraft:flowing_lava","properties": {}},"temperature": 15.0},
   {"state": {"block": "minecraft:lava","properties": {}},"temperature": 15.0},
+  {"state": {"block": "advancedrocketry:enrichedlavafluid","properties": {}},"temperature": 15.0},
   {"state": {"block": "ic2:superheated_steam","properties": {}},"temperature": 16.1},
   {"state": {"block": "nuclearcraft:fluid_alugentum","properties": {}},"temperature": 16.1},
   {"state": {"block": "nuclearcraft:fluid_alumina","properties": {}},"temperature": 16.1},

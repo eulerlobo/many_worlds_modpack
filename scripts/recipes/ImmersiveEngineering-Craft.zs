@@ -345,6 +345,10 @@ val oreSperrylite = <ore:oreSperrylite>;
 val crushedSperrylite = <contenttweaker:crushed_sperrylite>;
 val purifiedCrushedSperrylite = <contenttweaker:purified_crushed_sperrylite>;
 
+val oreCharcoalBlock = <ore:blockCharcoal>;
+val oreCharcoal = <ore:charcoal>;
+val pulverizedCharcoal = <thermalfoundation:material:769>;
+
 //--- Add Recipes ---//
 
 //---> Hide Copper Ore
@@ -872,3 +876,8 @@ MetalPress.addRecipe(<libvulpes:productrod:6>*2, <ore:ingotSteel>, <immersiveeng
 recipes.remove(<immersiveengineering:material:6>);
 recipes.addShapeless(<immersiveengineering:material:6> * 9, [<ore:blockCoalCoke>]);
 Crusher.addRecipe(<thermalfoundation:material:768> * 9, <ore:blockCoal>, crusherBaseEnergy);
+
+
+//---> Remap Charcoal Recipes.
+Crusher.addRecipe(pulverizedCharcoal * 9, oreCharcoalBlock, crusherBaseEnergy);
+Crusher.addRecipe(pulverizedCharcoal, oreCharcoal, crusherBaseEnergy);

@@ -736,3 +736,7 @@ crushedPurifiedSperryliteList.add(<contenttweaker:purified_crushed_sperrylite>);
 val blockCoalCokeOreList = <ore:blockCoalCoke>;
 blockCoalCokeOreList.add(<thermalfoundation:storage_resource:1>);
 blockCoalCokeOreList.add(<immersiveengineering:stone_decoration:3>);
+
+//---> Unify Aether Plank
+val plankWood = <ore:plankWood>;
+plankWood.add(<aether_legacy:skyroot_plank>);

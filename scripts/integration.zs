@@ -131,8 +131,9 @@ recipes.remove(combustFishRod);
 recipes.addShaped(combustFishRod, [[null, null, <ore:rodBlaze>], [null, <ore:rodBlaze>, <ore:stringFire>], [<ore:rodBlaze>, <minecraft:magma_cream>, <ore:stringFire>]]);
 
 //Change the MTS book recipe
-var mtsManual = <mts:manual>;
-mtsManual.displayName = "MTS Handbook";
+var mtsManual = <mts:handbook_en>;
+//mtsManual.displayName = "MTS Handbook";
+mods.jei.JEI.removeAndHide(<mts:handbook_ru>);
 recipes.remove(mtsManual);
 recipes.addShaped(mtsManual, [[<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:book>, null], [<ore:ingotIron>, null, <ore:ingotIron>]]);
 

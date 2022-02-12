@@ -130,10 +130,16 @@ val crushedKernite = <contenttweaker:crushed_kernite>;
 val oreColemanite = <ore:oreColemanite>;
 val crushedColemanite = <contenttweaker:crushed_colemanite>;
 
+val oreCharcoal = <ore:charcoal>;
+val pulverizedCharcoal = <thermalfoundation:material:769>;
+
+val oreCoal = <ore:coal>;
+val pulverizedCoal = <thermalfoundation:material:768>;
+
 //--- Add Recipes ---//
 
 //---> Disable Wood Mortar
-mods.jei.JEI.hide(<advancedmortars:mortar>);
+mods.jei.JEI.removeAndHide(<advancedmortars:mortar>);
 
 //---> Add Magnetite
 Mortar.addRecipe(["stone"], crushedMagnetite * 2, 9, [oreMagnetite]);
@@ -529,3 +535,19 @@ recipes.remove(<libvulpes:metal0:4>);
 
 //---> Remap Aluminum Block
 recipes.remove(<libvulpes:metal0:9>);
+
+//---> Add Charcoal
+Mortar.addRecipe(["stone"], pulverizedCharcoal, 9, [oreCharcoal]);
+Mortar.addRecipe(["iron"], pulverizedCharcoal, 7, [oreCharcoal]);
+Mortar.addRecipe(["diamond"], pulverizedCharcoal, 5, [oreCharcoal]);
+Mortar.addRecipe(["obsidian"], pulverizedCharcoal, 3, [oreCharcoal]);
+Mortar.addRecipe(["emerald"], pulverizedCharcoal, 3, [oreCharcoal]);
+Mortar.addRecipe(["gold"], pulverizedCharcoal, 1, [oreCharcoal]);
+
+//---> Add Coal
+Mortar.addRecipe(["stone"], pulverizedCoal, 9, [oreCoal]);
+Mortar.addRecipe(["iron"], pulverizedCoal, 7, [oreCoal]);
+Mortar.addRecipe(["diamond"], pulverizedCoal, 5, [oreCoal]);
+Mortar.addRecipe(["obsidian"], pulverizedCoal, 3, [oreCoal]);
+Mortar.addRecipe(["emerald"], pulverizedCoal, 3, [oreCoal]);
+Mortar.addRecipe(["gold"], pulverizedCoal, 1, [oreCoal]);

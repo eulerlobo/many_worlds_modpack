@@ -1,0 +1,101 @@
+{
+  dimensions: [ 9, 16 ]
+  enabled: true
+  caverns: [
+    {
+      height: [
+        35
+        83
+      ]
+      generators: {
+        threshold: -0.5
+      }
+    }
+    {
+      height: [
+        9
+        44
+      ]
+      generators: [
+        {
+          threshold: [ -1, -0.8 ]
+          frequency: 0.01
+          stretch: 0.4
+        }
+      ]
+      shell: {
+        radius: 2
+        decorators: {
+          states: magma
+          matchers: air
+        }
+      }
+      caveBlocks: {
+        states: lava
+        height: [
+          9
+          65
+        ]
+      }
+    }
+  ]
+  caveBlocks: [
+    {
+      states: lava
+      height: [ 0, 5 ]
+    }
+  ]
+  ravines: {
+    replaceableBlocks: [ "stone", "advancedrocketry:moonturf", "advancedrocketry:moonturf_dark" ]
+    chance: 0.003
+    height: [
+      8
+      128
+    ]
+    originHeight: [
+      67
+      69
+    ]
+    scale: [ 5, 3 ]
+    stretch: [ 30, 20 ]
+    cutoffStrength: 0
+  }
+  stalactites: [
+    {
+      type: stalactite
+      state: stone
+      length: [ 4, 7 ]
+      height: [
+        35
+        83
+      ]
+      space: 3
+      size: large
+      chance: 0.024
+    }
+    {
+      type: speleothem
+      state: stone
+      length: [ 8, 14 ]
+      height: [
+        35
+        83
+      ]
+      space: 8
+      size: giant
+      chance: 0.016
+    }
+    {
+      type: speleothem
+      state: stone
+      length: [ 6, 8 ]
+      height: [
+        35
+        83
+      ]
+      space: 5
+      size: giant
+      chance: 0.004
+    }
+  ]
+}

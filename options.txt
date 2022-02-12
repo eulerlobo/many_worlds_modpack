@@ -9,13 +9,13 @@ guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:120
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:[]
+resourcePacks:["ManyWorldsAmbientSounds"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -140,13 +140,12 @@ key_key.exchangers.directional_placement_mode_toggle:0
 key_key.exchangers.fuzzy_placement_mode_toggle:0
 key_key.exchangers.void_items_mode_toggle:0
 key_Toggle Magnetism Suppressor:49
-key_key.mts.config:25
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
 key_key.toggle_shaders:0
 key_Difficulty Meter - Show:49
-key_Difficulty Meter - Show Always:49:SHIFT
+key_Difficulty Meter - Show Always:0
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -170,7 +169,6 @@ key_key.openglasses.opensecurity:24
 key_key.narrator:48:CONTROL
 key_key.unhook:45
 key_key.cofh.multimode:47
-key_key.aether.accessory_menu:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -182,14 +180,19 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
+key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.chemthrowerSwitch:0
+key_key.aether.accessory_menu:0
 key_key.toggle_focus.desc:15
 key_key.astikorcarts.desc:19
-key_gui.xaero_better_pvp_settings:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:0
 key_gui.xaero_toggle_slime:0
 key_gui.xaero_toggle_grid:0
 key_gui.xaero_toggle_waypoints:0
+key_gui.xaero_toggle_map_waypoints:0
 key_gui.xaero_toggle_map:0
 key_gui.xaero_enlarge_map:0
 key_gui.xaero_waypoints_key:0
@@ -197,6 +200,8 @@ key_gui.xaero_zoom_in:0
 key_gui.xaero_zoom_out:0
 key_gui.xaero_new_waypoint:0
 key_gui.xaero_display_all_sets:0
+key_gui.xaero_toggle_light_overlay:0
+key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_quick_eat:0
 key_gui.xaero_toggle_sneak:0
 key_gui.xaero_quick_use_1:79
@@ -208,10 +213,7 @@ key_gui.xaero_quick_use_6:77
 key_gui.xaero_quick_use_7:71
 key_gui.xaero_quick_use_8:72
 key_gui.xaero_quick_use_9:73
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
+key_gui.xaero_better_pvp_settings:0
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -259,6 +261,9 @@ key_key.dragon_strike:34
 key_key.dragon_down:45
 key_key.dragon_change_view:65
 key_invtweaks.key.sort:0
+key_key.menu:50
+key_key.villages:47
+key_key.escorts:34
 key_key.nutrition:49
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
@@ -272,10 +277,8 @@ key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_dsurround.cfg.keybind.SelectionBox:48
-key_dsurround.cfg.keybind.Volume:47
-key_dsurround.cfg.keybind.LightLevel:38
-key_dsurround.cfg.keybind.ChunkBorders:67
-key_presets.cfg.keybind.Presets:25
+key_dsurround.cfg.keybind.Volume:0
+key_presets.cfg.keybind.Presets:0
 key_key.radial_menu:46
 key_key.use_ring:19
 key_key.use_secondary_ring:0
@@ -289,8 +292,9 @@ key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
 key_Move Vehicle Down:45
 key_key.control:29
+key_key.mts.config:25
 soundCategory_master:1.0
-soundCategory_music:0.20422535
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -1,0 +1,102 @@
+{
+  "biomes": [
+    {
+      "conditions": "biome.id == 'biometweaker:cold_dry_rock'",
+      "fog":true,
+      "fogDensity": 0.04,
+      "fogColor": "154,66,37"
+    }
+  ],
+  "dimensions":[
+    {
+      "dimId": 3,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 5,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 6,
+      "skyHeight": 255,
+      "haze": true,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 9,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 10,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 13,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 14,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 16,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": true,
+      "weather": false,
+      "fog": true,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 18,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 226,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": true,
+      "weather": false,
+      "fog": true,
+      "seaLevel": 0
+    }
+  ]
+}

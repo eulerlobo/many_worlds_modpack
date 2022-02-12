@@ -73,10 +73,5 @@
     "underworldbiomes": 1,
     "surface": 1
   },
-  "silent-dimensions": [
-    "-2",
-    "2",
-    "20",
-    "66"
-  ]
+  "silent-dimensions": []
 }

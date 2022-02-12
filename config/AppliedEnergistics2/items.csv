@@ -3690,6 +3690,7 @@ nuclearcraft:fluid_boron11, Molten Boron-11
 nuclearcraft:fluid_lithium, Molten Lithium
 nuclearcraft:fluid_lithium6, Molten Lithium-6
 nuclearcraft:fluid_lithium7, Molten Lithium-7
+nuclearcraft:fluid_steel, Molten Steel
 nuclearcraft:fluid_ferroboron, Molten Ferroboron
 nuclearcraft:fluid_tough, Molten Tough Alloy
 nuclearcraft:fluid_hard_carbon, Molten Hard Carbon
@@ -4196,8 +4197,6 @@ rewired:cranium:0, Ender-Convergence Device
 rewired:cranium:1, Neural Interlink
 rewired:powerbar, Charge Power Bar
 rewired:energydrink, Silver Gorgon Energy Drink
-rewired:meat_raw, Raw Meat
-rewired:meat_cooked, Cooked Meat
 rewired:charger_eu, EU Charger
 sereneseasons:greenhouse_glass:0, Greenhouse Glass
 sereneseasons:season_sensor_spring:0, Season Sensor
@@ -9361,44 +9360,44 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
 tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Laser Medium Pattern
-tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Pan Pattern
 tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
 tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Laser Medium Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Battery Cell Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Polishing Kit Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Pipe Piece Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Helmet Core Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Scythe Head Pattern
 tconstruct:shard:0, Naga Scale Shard
 tconstruct:shard:0, Steeleaf Shard
 tconstruct:shard:0, Fiery Shard
@@ -9437,6 +9436,7 @@ tconstruct:shard:0, Desert Myrmex Chitin Shard
 tconstruct:shard:0, Jungle Myrmex Chitin Shard
 tconstruct:shard:0, Fire Dragonsteel Shard
 tconstruct:shard:0, Ice Dragonsteel Shard
+tconstruct:shard:0, Weezer Shard
 tconstruct:shard:0, Boron Shard
 tconstruct:shard:0, Tough Alloy Shard
 tconstruct:shard:0, Hard Carbon Shard
@@ -9505,6 +9505,7 @@ tconstruct:sharpening_kit:0, Desert Myrmex Chitin Sharpening Kit
 tconstruct:sharpening_kit:0, Jungle Myrmex Chitin Sharpening Kit
 tconstruct:sharpening_kit:0, Fire Dragonsteel Sharpening Kit
 tconstruct:sharpening_kit:0, Ice Dragonsteel Sharpening Kit
+tconstruct:sharpening_kit:0, Weezer Sharpening Kit
 tconstruct:sharpening_kit:0, Boron Sharpening Kit
 tconstruct:sharpening_kit:0, Tough Alloy Sharpening Kit
 tconstruct:sharpening_kit:0, Hard Carbon Sharpening Kit
@@ -9573,6 +9574,7 @@ tconstruct:pick_head:0, Desert Myrmex Chitin Pickaxe Head
 tconstruct:pick_head:0, Jungle Myrmex Chitin Pickaxe Head
 tconstruct:pick_head:0, Fire Dragonsteel Pickaxe Head
 tconstruct:pick_head:0, Ice Dragonsteel Pickaxe Head
+tconstruct:pick_head:0, Weezer Pickaxe Head
 tconstruct:pick_head:0, Boron Pickaxe Head
 tconstruct:pick_head:0, Tough Alloy Pickaxe Head
 tconstruct:pick_head:0, Hard Carbon Pickaxe Head
@@ -9641,6 +9643,7 @@ tconstruct:shovel_head:0, Desert Myrmex Chitin Shovel Head
 tconstruct:shovel_head:0, Jungle Myrmex Chitin Shovel Head
 tconstruct:shovel_head:0, Fire Dragonsteel Shovel Head
 tconstruct:shovel_head:0, Ice Dragonsteel Shovel Head
+tconstruct:shovel_head:0, Weezer Shovel Head
 tconstruct:shovel_head:0, Boron Shovel Head
 tconstruct:shovel_head:0, Tough Alloy Shovel Head
 tconstruct:shovel_head:0, Hard Carbon Shovel Head
@@ -9709,6 +9712,7 @@ tconstruct:axe_head:0, Desert Myrmex Chitin Axe Head
 tconstruct:axe_head:0, Jungle Myrmex Chitin Axe Head
 tconstruct:axe_head:0, Fire Dragonsteel Axe Head
 tconstruct:axe_head:0, Ice Dragonsteel Axe Head
+tconstruct:axe_head:0, Weezer Axe Head
 tconstruct:axe_head:0, Boron Axe Head
 tconstruct:axe_head:0, Tough Alloy Axe Head
 tconstruct:axe_head:0, Hard Carbon Axe Head
@@ -9777,6 +9781,7 @@ tconstruct:broad_axe_head:0, Desert Myrmex Chitin Broad Axe Head
 tconstruct:broad_axe_head:0, Jungle Myrmex Chitin Broad Axe Head
 tconstruct:broad_axe_head:0, Fire Dragonsteel Broad Axe Head
 tconstruct:broad_axe_head:0, Ice Dragonsteel Broad Axe Head
+tconstruct:broad_axe_head:0, Weezer Broad Axe Head
 tconstruct:broad_axe_head:0, Boron Broad Axe Head
 tconstruct:broad_axe_head:0, Tough Alloy Broad Axe Head
 tconstruct:broad_axe_head:0, Hard Carbon Broad Axe Head
@@ -9845,6 +9850,7 @@ tconstruct:sword_blade:0, Desert Myrmex Chitin Sword Blade
 tconstruct:sword_blade:0, Jungle Myrmex Chitin Sword Blade
 tconstruct:sword_blade:0, Fire Dragonsteel Sword Blade
 tconstruct:sword_blade:0, Ice Dragonsteel Sword Blade
+tconstruct:sword_blade:0, Weezer Sword Blade
 tconstruct:sword_blade:0, Boron Sword Blade
 tconstruct:sword_blade:0, Tough Alloy Sword Blade
 tconstruct:sword_blade:0, Hard Carbon Sword Blade
@@ -9913,6 +9919,7 @@ tconstruct:large_sword_blade:0, Desert Myrmex Chitin Large Sword Blade
 tconstruct:large_sword_blade:0, Jungle Myrmex Chitin Large Sword Blade
 tconstruct:large_sword_blade:0, Fire Dragonsteel Large Sword Blade
 tconstruct:large_sword_blade:0, Ice Dragonsteel Large Sword Blade
+tconstruct:large_sword_blade:0, Weezer Large Sword Blade
 tconstruct:large_sword_blade:0, Boron Large Sword Blade
 tconstruct:large_sword_blade:0, Tough Alloy Large Sword Blade
 tconstruct:large_sword_blade:0, Hard Carbon Large Sword Blade
@@ -9981,6 +9988,7 @@ tconstruct:hammer_head:0, Desert Myrmex Chitin Hammer Head
 tconstruct:hammer_head:0, Jungle Myrmex Chitin Hammer Head
 tconstruct:hammer_head:0, Fire Dragonsteel Hammer Head
 tconstruct:hammer_head:0, Ice Dragonsteel Hammer Head
+tconstruct:hammer_head:0, Weezer Hammer Head
 tconstruct:hammer_head:0, Boron Hammer Head
 tconstruct:hammer_head:0, Tough Alloy Hammer Head
 tconstruct:hammer_head:0, Hard Carbon Hammer Head
@@ -10049,6 +10057,7 @@ tconstruct:excavator_head:0, Desert Myrmex Chitin Excavator Head
 tconstruct:excavator_head:0, Jungle Myrmex Chitin Excavator Head
 tconstruct:excavator_head:0, Fire Dragonsteel Excavator Head
 tconstruct:excavator_head:0, Ice Dragonsteel Excavator Head
+tconstruct:excavator_head:0, Weezer Excavator Head
 tconstruct:excavator_head:0, Boron Excavator Head
 tconstruct:excavator_head:0, Tough Alloy Excavator Head
 tconstruct:excavator_head:0, Hard Carbon Excavator Head
@@ -10117,6 +10126,7 @@ tconstruct:kama_head:0, Desert Myrmex Chitin Kama Head
 tconstruct:kama_head:0, Jungle Myrmex Chitin Kama Head
 tconstruct:kama_head:0, Fire Dragonsteel Kama Head
 tconstruct:kama_head:0, Ice Dragonsteel Kama Head
+tconstruct:kama_head:0, Weezer Kama Head
 tconstruct:kama_head:0, Boron Kama Head
 tconstruct:kama_head:0, Tough Alloy Kama Head
 tconstruct:kama_head:0, Hard Carbon Kama Head
@@ -10185,6 +10195,7 @@ tconstruct:scythe_head:0, Desert Myrmex Chitin Scythe Head
 tconstruct:scythe_head:0, Jungle Myrmex Chitin Scythe Head
 tconstruct:scythe_head:0, Fire Dragonsteel Scythe Head
 tconstruct:scythe_head:0, Ice Dragonsteel Scythe Head
+tconstruct:scythe_head:0, Weezer Scythe Head
 tconstruct:scythe_head:0, Boron Scythe Head
 tconstruct:scythe_head:0, Tough Alloy Scythe Head
 tconstruct:scythe_head:0, Hard Carbon Scythe Head
@@ -10253,6 +10264,7 @@ tconstruct:pan_head:0, Desert Myrmex Chitin Pan
 tconstruct:pan_head:0, Jungle Myrmex Chitin Pan
 tconstruct:pan_head:0, Fire Dragonsteel Pan
 tconstruct:pan_head:0, Ice Dragonsteel Pan
+tconstruct:pan_head:0, Weezer Pan
 tconstruct:pan_head:0, Boron Pan
 tconstruct:pan_head:0, Tough Alloy Pan
 tconstruct:pan_head:0, Hard Carbon Pan
@@ -10321,6 +10333,7 @@ tconstruct:sign_head:0, Desert Myrmex Chitin Sign Plate
 tconstruct:sign_head:0, Jungle Myrmex Chitin Sign Plate
 tconstruct:sign_head:0, Fire Dragonsteel Sign Plate
 tconstruct:sign_head:0, Ice Dragonsteel Sign Plate
+tconstruct:sign_head:0, Weezer Sign Plate
 tconstruct:sign_head:0, Boron Sign Plate
 tconstruct:sign_head:0, Tough Alloy Sign Plate
 tconstruct:sign_head:0, Hard Carbon Sign Plate
@@ -10388,6 +10401,7 @@ tconstruct:tool_rod:0, Desert Myrmex Chitin Tool Rod
 tconstruct:tool_rod:0, Jungle Myrmex Chitin Tool Rod
 tconstruct:tool_rod:0, Fire Dragonsteel Tool Rod
 tconstruct:tool_rod:0, Ice Dragonsteel Tool Rod
+tconstruct:tool_rod:0, Weezer Tool Rod
 tconstruct:tool_rod:0, Boron Tool Rod
 tconstruct:tool_rod:0, Tough Alloy Tool Rod
 tconstruct:tool_rod:0, Hard Carbon Tool Rod
@@ -10455,6 +10469,7 @@ tconstruct:tough_tool_rod:0, Desert Myrmex Chitin Tough Tool Rod
 tconstruct:tough_tool_rod:0, Jungle Myrmex Chitin Tough Tool Rod
 tconstruct:tough_tool_rod:0, Fire Dragonsteel Tough Tool Rod
 tconstruct:tough_tool_rod:0, Ice Dragonsteel Tough Tool Rod
+tconstruct:tough_tool_rod:0, Weezer Tough Tool Rod
 tconstruct:tough_tool_rod:0, Boron Tough Tool Rod
 tconstruct:tough_tool_rod:0, Tough Alloy Tough Tool Rod
 tconstruct:tough_tool_rod:0, Hard Carbon Tough Tool Rod
@@ -10522,6 +10537,7 @@ tconstruct:binding:0, Desert Myrmex Chitin Binding
 tconstruct:binding:0, Jungle Myrmex Chitin Binding
 tconstruct:binding:0, Fire Dragonsteel Binding
 tconstruct:binding:0, Ice Dragonsteel Binding
+tconstruct:binding:0, Weezer Binding
 tconstruct:binding:0, Boron Binding
 tconstruct:binding:0, Tough Alloy Binding
 tconstruct:binding:0, Hard Carbon Binding
@@ -10589,6 +10605,7 @@ tconstruct:tough_binding:0, Desert Myrmex Chitin Tough Binding
 tconstruct:tough_binding:0, Jungle Myrmex Chitin Tough Binding
 tconstruct:tough_binding:0, Fire Dragonsteel Tough Binding
 tconstruct:tough_binding:0, Ice Dragonsteel Tough Binding
+tconstruct:tough_binding:0, Weezer Tough Binding
 tconstruct:tough_binding:0, Boron Tough Binding
 tconstruct:tough_binding:0, Tough Alloy Tough Binding
 tconstruct:tough_binding:0, Hard Carbon Tough Binding
@@ -10656,6 +10673,7 @@ tconstruct:wide_guard:0, Desert Myrmex Chitin Wide Guard
 tconstruct:wide_guard:0, Jungle Myrmex Chitin Wide Guard
 tconstruct:wide_guard:0, Fire Dragonsteel Wide Guard
 tconstruct:wide_guard:0, Ice Dragonsteel Wide Guard
+tconstruct:wide_guard:0, Weezer Wide Guard
 tconstruct:wide_guard:0, Boron Wide Guard
 tconstruct:wide_guard:0, Tough Alloy Wide Guard
 tconstruct:wide_guard:0, Hard Carbon Wide Guard
@@ -10723,6 +10741,7 @@ tconstruct:hand_guard:0, Desert Myrmex Chitin Hand Guard
 tconstruct:hand_guard:0, Jungle Myrmex Chitin Hand Guard
 tconstruct:hand_guard:0, Fire Dragonsteel Hand Guard
 tconstruct:hand_guard:0, Ice Dragonsteel Hand Guard
+tconstruct:hand_guard:0, Weezer Hand Guard
 tconstruct:hand_guard:0, Boron Hand Guard
 tconstruct:hand_guard:0, Tough Alloy Hand Guard
 tconstruct:hand_guard:0, Hard Carbon Hand Guard
@@ -10790,6 +10809,7 @@ tconstruct:cross_guard:0, Desert Myrmex Chitin Cross Guard
 tconstruct:cross_guard:0, Jungle Myrmex Chitin Cross Guard
 tconstruct:cross_guard:0, Fire Dragonsteel Cross Guard
 tconstruct:cross_guard:0, Ice Dragonsteel Cross Guard
+tconstruct:cross_guard:0, Weezer Cross Guard
 tconstruct:cross_guard:0, Boron Cross Guard
 tconstruct:cross_guard:0, Tough Alloy Cross Guard
 tconstruct:cross_guard:0, Hard Carbon Cross Guard
@@ -10858,6 +10878,7 @@ tconstruct:large_plate:0, Desert Myrmex Chitin Large Plate
 tconstruct:large_plate:0, Jungle Myrmex Chitin Large Plate
 tconstruct:large_plate:0, Fire Dragonsteel Large Plate
 tconstruct:large_plate:0, Ice Dragonsteel Large Plate
+tconstruct:large_plate:0, Weezer Large Plate
 tconstruct:large_plate:0, Boron Large Plate
 tconstruct:large_plate:0, Tough Alloy Large Plate
 tconstruct:large_plate:0, Hard Carbon Large Plate
@@ -10925,6 +10946,7 @@ tconstruct:knife_blade:0, Desert Myrmex Chitin Knife Blade
 tconstruct:knife_blade:0, Jungle Myrmex Chitin Knife Blade
 tconstruct:knife_blade:0, Fire Dragonsteel Knife Blade
 tconstruct:knife_blade:0, Ice Dragonsteel Knife Blade
+tconstruct:knife_blade:0, Weezer Knife Blade
 tconstruct:knife_blade:0, Boron Knife Blade
 tconstruct:knife_blade:0, Tough Alloy Knife Blade
 tconstruct:knife_blade:0, Hard Carbon Knife Blade
@@ -10992,6 +11014,7 @@ tconstruct:bow_limb:0, Desert Myrmex Chitin Bowlimb
 tconstruct:bow_limb:0, Jungle Myrmex Chitin Bowlimb
 tconstruct:bow_limb:0, Fire Dragonsteel Bowlimb
 tconstruct:bow_limb:0, Ice Dragonsteel Bowlimb
+tconstruct:bow_limb:0, Weezer Bowlimb
 tconstruct:bow_limb:0, Boron Bowlimb
 tconstruct:bow_limb:0, Tough Alloy Bowlimb
 tconstruct:bow_limb:0, Hard Carbon Bowlimb
@@ -11065,6 +11088,7 @@ tconstruct:arrow_head:0, Desert Myrmex Chitin Arrow Head
 tconstruct:arrow_head:0, Jungle Myrmex Chitin Arrow Head
 tconstruct:arrow_head:0, Fire Dragonsteel Arrow Head
 tconstruct:arrow_head:0, Ice Dragonsteel Arrow Head
+tconstruct:arrow_head:0, Weezer Arrow Head
 tconstruct:arrow_head:0, Boron Arrow Head
 tconstruct:arrow_head:0, Tough Alloy Arrow Head
 tconstruct:arrow_head:0, Hard Carbon Arrow Head
@@ -11136,6 +11160,7 @@ tconstruct:bolt_core:0, TNT-Iron Bolt Core
 tconstruct:bolt_core:0, Amber-Iron Bolt Core
 tconstruct:bolt_core:0, Enderium-Iron Bolt Core
 tconstruct:tooltables:0, Crafting Station
+tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
@@ -11464,80 +11489,80 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
+tconstruct:cast:0, Arrow Shaft Cast
 tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Pan Cast
 tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Sword Blade Cast
 tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Polishing Kit Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Fletching Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Large Plate Cast
 tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Polishing Kit Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Helmet Core Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Chestplate Core Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Scythe Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
+tconstruct:clay_cast:0, Arrow Shaft Clay Cast
 tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Pan Clay Cast
 tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
 tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
 tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Polishing Kit Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -11864,6 +11889,7 @@ immersiveengineering:tool:3, Engineer's Manual
 immersiveengineering:pickaxe_steel, Steel Pickaxe
 immersiveengineering:shovel_steel, Steel Shovel
 immersiveengineering:axe_steel, Steel Axe
+immersiveengineering:hoe_steel, Steel Hoe
 immersiveengineering:sword_steel, Steel Sword
 immersiveengineering:toolbox, Engineer's Toolbox
 immersiveengineering:wirecoil:0, LV Wire Coil
@@ -12260,67 +12286,32 @@ astikorcarts:wheel, Wheel
 astikorcarts:cargocart, Cart
 astikorcarts:plowcart, Plow
 astikorcarts:mobcart, Transportation Cart
-quark:paper_wall, tile.paper_wall.name
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, Paper Lamp
-quark:paper_lantern:1, Decorated Paper Lamp
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:leaf_carpet:6, Swamp Oak Leaf Carpet
-quark:leaf_carpet:7, Blossoming Leaf Carpet
-quark:grate, tile.grate.name
-quark:glass_item_frame, item.glass_item_frame.name
+quark:pickarang, item.pickarang.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:black_ash, tile.black_ash.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -12508,17 +12499,6 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:pickarang, item.pickarang.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:black_ash, tile.black_ash.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -12605,21 +12585,67 @@ quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, Smoker
 quark:witch_hat, item.witch_hat.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
+quark:paper_wall, tile.paper_wall.name
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, Paper Lamp
+quark:paper_lantern:1, Decorated Paper Lamp
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:leaf_carpet:6, Swamp Oak Leaf Carpet
+quark:leaf_carpet:7, Blossoming Leaf Carpet
+quark:grate, tile.grate.name
+quark:glass_item_frame, item.glass_item_frame.name
 bibliocraft:shelf:0, Oak Shelf
 bibliocraft:shelf:1, Spruce Shelf
 bibliocraft:shelf:2, Birch Shelf
@@ -13774,8 +13800,6 @@ divergentunderground:diorite_cobblestone, Diorite Cobblestone
 divergentunderground:granite_cobblestone, Granite Cobblestone
 divergentunderground:fossil, Fossil
 divergentunderground:boulder, tile.divergentunderground.boulder.name
-doggytalents:dog_bath, Dog Bath
-doggytalents:food_bowl, Food Bowl
 doggytalents:throw_bone, Throw Bone
 doggytalents:throw_bone_wet, Drool Throw Bone
 doggytalents:throw_stick, Throw Stick
@@ -13804,6 +13828,8 @@ doggytalents:leather_jacket, Leather Jacket
 doggytalents:tiny_bone, Tiny Bone
 doggytalents:big_bone, Big Bone
 doggytalents:owner_change, Change Dog Owner
+doggytalents:dog_bath, Dog Bath
+doggytalents:food_bowl, Food Bowl
 eplus:advanced_table, Advanced Enchantment Table
 eplus:decorative_book:0, Enchanting Plus Book
 eplus:decorative_book:1, Enchanting Book
@@ -13827,139 +13853,6 @@ engineersdoors:fencegate_steel, Steel Fence Gate
 engineersdoors:fencegate_treated, Treated Wood Fence Gate
 engineersdoors:trapdoor_steel, Steel Trapdoor
 engineersdoors:trapdoor_treated, Treated Wood Trapdoor
-erebus:erebus_food:0, Beetle Larva
-erebus:erebus_food:1, Cooked Beetle Larva
-erebus:erebus_food:2, Grasshopper Leg
-erebus:erebus_food:3, Cooked Grasshopper Leg
-erebus:erebus_food:4, Tarantula Leg
-erebus:erebus_food:5, Crispy Tarantula Leg
-erebus:erebus_food:6, Bamboo Soup
-erebus:erebus_food:7, Melonade
-erebus:erebus_food:8, Sparkly Melonade
-erebus:erebus_food:9, Larvae-on-a-Stick
-erebus:erebus_food:10, Honey Sandwich
-erebus:erebus_food:11, Dark Fruit
-erebus:erebus_food:12, Raw Titan Chop
-erebus:erebus_food:13, Cooked Titan Chop
-erebus:erebus_food:14, Swampberries
-erebus:erebus_food:15, Cabbage
-erebus:erebus_food:16, Cooked Titan Stew
-erebus:erebus_food:17, Raw Prickly Pear
-erebus:erebus_food:18, Cooked Prickly Pear
-erebus:erebus_food:19, Dark Fruit Pie
-erebus:heart_berries, Heartberries
-erebus:life_blood, Life Blood
-erebus:turnip, Turnips
-erebus:cabbage_seeds, Cabbage Seeds
-erebus:mandrake_root, Mandrake Root
-erebus:stag_heart_raw, Heart of the Stag
-erebus:stag_heart_cooked, Roasted Heart of the Stag
-erebus:smoothie:0, Green Tea Grasshopper Smoothie
-erebus:smoothie:1, Money Honey Smoothie
-erebus:smoothie:2, Nothing In The Middle Smoothie
-erebus:smoothie:3, Green Giant Smoothie
-erebus:smoothie:4, Seedy Goodness Smoothie
-erebus:smoothie:5, Givin' Me The Blues Smoothie
-erebus:smoothie:6, Hot Hot Baby Smoothie
-erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
-erebus:smoothie:8, Liquid Gold Smoothie
-erebus:smoothie:9, Bryuf's Brew Smoothie
-erebus:idols:0, Mud Scarab
-erebus:idols:1, Iron Scarab
-erebus:idols:2, Gold Scarab
-erebus:idols:3, Jade Scarab
-erebus:idols:4, Spawn Mud Umbergolem
-erebus:idols:5, Spawn Iron Umbergolem
-erebus:idols:6, Spawn Gold Umbergolem
-erebus:idols:7, Spawn Jade Umbergolem
-erebus:jade_helmet, Jade Helmet
-erebus:jade_chestplate, Jade Chestplate
-erebus:jade_leggings, Jade Leggings
-erebus:jade_boots, Jade Boots
-erebus:jade_sword, Jade Sword
-erebus:jade_pickaxe, Jade Pickaxe
-erebus:jade_axe, Jade Axe
-erebus:jade_shovel, Jade Shovel
-erebus:jade_paxel, Jade Paxel
-erebus:jade_hoe, Jade Hoe
-erebus:exoskeleton_helmet, Exoskeleton Helmet
-erebus:exoskeleton_chestplate, Exoskeleton Chestplate
-erebus:exoskeleton_leggings, Exoskeleton Leggings
-erebus:exoskeleton_boots, Exoskeleton Boots
-erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
-erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
-erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
-erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
-erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
-erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
-erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
-erebus:rhino_exoskeleton_boots, Rhino Plate Boots
-erebus:bamboo_helmet, Bamboo Helmet
-erebus:bamboo_chestplate, Bamboo Chestplate
-erebus:bamboo_leggings, Bamboo Leggings
-erebus:bamboo_boots, Bamboo Boots
-erebus:bambucket, Bambucket
-erebus:rein_compound_goggles, Reinforced Compound Goggles
-erebus:compound_goggles, Compound Goggles
-erebus:sprint_leggings, Sprint Leggings
-erebus:jump_boots, Jump Boots
-erebus:glider_chestplate, Glider Chestplate
-erebus:glider_chestplate_powered, Powered Glider Chestplate
-erebus:mushroom_helmet, Mush Helm
-erebus:spider_t_shirt, Tarantula Boss Trophy
-erebus:water_striders, Water Striders
-erebus:bamboo_shield, Bamboo Shield
-erebus:exoskeleton_shield, Exoskeleton Shield
-erebus:jade_shield, Jade Shield
-erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
-erebus:rhino_exoskeleton_shield, Rhino Plate Shield
-erebus:rolled_newspaper, Rolled-up Newspaper
-erebus:wasp_sword, Wasp Sword
-erebus:wasp_dagger, Wasp Dagger
-erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
-erebus:war_hammer, Quake Hammer
-erebus:web_slinger, Web Slinger
-erebus:web_slinger_wither, Wither Web Slinger
-erebus:max_speed_bow, Maximum Speed Bow
-erebus:nectar_collector, Nectar Collector
-erebus:ant_taming_amulet, Ant Taming Amulet
-erebus:bee_taming_amulet, Bee Taming Amulet
-erebus:woodlouse_ball, Woodlouse Ball
-erebus:wand_of_animation, Wand of Animation
-erebus:anti_venom_bottle, Bottle of Anti-Venom
-erebus:flower_seed:0, Black Flower Seeds
-erebus:flower_seed:1, Red Flower Seeds
-erebus:flower_seed:2, Brown Flower Seeds
-erebus:flower_seed:3, Blue Flower Seeds
-erebus:flower_seed:4, Purple Flower Seeds
-erebus:flower_seed:5, Cyan Flower Seeds
-erebus:flower_seed:6, Light Gray Flower Seeds
-erebus:flower_seed:7, Gray Flower Seeds
-erebus:flower_seed:8, Pink Flower Seeds
-erebus:flower_seed:9, Yellow Flower Seeds
-erebus:flower_seed:10, Light Blue Flower Seeds
-erebus:flower_seed:11, Magenta Flower Seeds
-erebus:flower_seed:12, Orange Flower Seeds
-erebus:flower_seed:13, White Flower Seeds
-erebus:flower_seed:14, Rainbow Flower Seeds
-erebus:death_compass, Death Compass
-erebus:spray_can, Insect Repellent
-erebus:whetstone:0, Whetstone
-erebus:whetstone:1, Whetstone
-erebus:whetstone:2, Whetstone
-erebus:whetstone:3, Whetstone
-erebus:whetstone:4, Whetstone
-erebus:whetstone:5, Whetstone
-erebus:portal_activator, Staff of Gaea
-erebus:homing_beecon, Homing Beecon
-erebus:homing_beecon_advanced, Advanced Homing Beecon
-erebus:wand_of_preservation, Wand of Preservation
-erebus:compost, Compost
-erebus:planticide, Planticide
-erebus:smoothie_book, Smoothie-matic 2000
-erebus:horn_of_summoning, Horn of Bee Summoning
-erebus:erebus_map, Empty Papyrus Map (N.Y.I)
-erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 erebus:umberstone:0, Umberstone
 erebus:umberstone:1, Umbercobble
 erebus:umberstone:2, Mossy Umbercobble
@@ -14340,6 +14233,139 @@ erebus:stairs_varnished, Varnished Stairs
 erebus:slab_planks_varnished, Varnished Slab
 erebus:fence_varnished, Varnished Fence
 erebus:fence_gate_varnished, Varnished Fence Gate
+erebus:erebus_food:0, Beetle Larva
+erebus:erebus_food:1, Cooked Beetle Larva
+erebus:erebus_food:2, Grasshopper Leg
+erebus:erebus_food:3, Cooked Grasshopper Leg
+erebus:erebus_food:4, Tarantula Leg
+erebus:erebus_food:5, Crispy Tarantula Leg
+erebus:erebus_food:6, Bamboo Soup
+erebus:erebus_food:7, Melonade
+erebus:erebus_food:8, Sparkly Melonade
+erebus:erebus_food:9, Larvae-on-a-Stick
+erebus:erebus_food:10, Honey Sandwich
+erebus:erebus_food:11, Dark Fruit
+erebus:erebus_food:12, Raw Titan Chop
+erebus:erebus_food:13, Cooked Titan Chop
+erebus:erebus_food:14, Swampberries
+erebus:erebus_food:15, Cabbage
+erebus:erebus_food:16, Cooked Titan Stew
+erebus:erebus_food:17, Raw Prickly Pear
+erebus:erebus_food:18, Cooked Prickly Pear
+erebus:erebus_food:19, Dark Fruit Pie
+erebus:heart_berries, Heartberries
+erebus:life_blood, Life Blood
+erebus:turnip, Turnips
+erebus:cabbage_seeds, Cabbage Seeds
+erebus:mandrake_root, Mandrake Root
+erebus:stag_heart_raw, Heart of the Stag
+erebus:stag_heart_cooked, Roasted Heart of the Stag
+erebus:smoothie:0, Green Tea Grasshopper Smoothie
+erebus:smoothie:1, Money Honey Smoothie
+erebus:smoothie:2, Nothing In The Middle Smoothie
+erebus:smoothie:3, Green Giant Smoothie
+erebus:smoothie:4, Seedy Goodness Smoothie
+erebus:smoothie:5, Givin' Me The Blues Smoothie
+erebus:smoothie:6, Hot Hot Baby Smoothie
+erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
+erebus:smoothie:8, Liquid Gold Smoothie
+erebus:smoothie:9, Bryuf's Brew Smoothie
+erebus:idols:0, Mud Scarab
+erebus:idols:1, Iron Scarab
+erebus:idols:2, Gold Scarab
+erebus:idols:3, Jade Scarab
+erebus:idols:4, Spawn Mud Umbergolem
+erebus:idols:5, Spawn Iron Umbergolem
+erebus:idols:6, Spawn Gold Umbergolem
+erebus:idols:7, Spawn Jade Umbergolem
+erebus:jade_helmet, Jade Helmet
+erebus:jade_chestplate, Jade Chestplate
+erebus:jade_leggings, Jade Leggings
+erebus:jade_boots, Jade Boots
+erebus:jade_sword, Jade Sword
+erebus:jade_pickaxe, Jade Pickaxe
+erebus:jade_axe, Jade Axe
+erebus:jade_shovel, Jade Shovel
+erebus:jade_paxel, Jade Paxel
+erebus:jade_hoe, Jade Hoe
+erebus:exoskeleton_helmet, Exoskeleton Helmet
+erebus:exoskeleton_chestplate, Exoskeleton Chestplate
+erebus:exoskeleton_leggings, Exoskeleton Leggings
+erebus:exoskeleton_boots, Exoskeleton Boots
+erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
+erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
+erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
+erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
+erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
+erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
+erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
+erebus:rhino_exoskeleton_boots, Rhino Plate Boots
+erebus:bamboo_helmet, Bamboo Helmet
+erebus:bamboo_chestplate, Bamboo Chestplate
+erebus:bamboo_leggings, Bamboo Leggings
+erebus:bamboo_boots, Bamboo Boots
+erebus:bambucket, Bambucket
+erebus:rein_compound_goggles, Reinforced Compound Goggles
+erebus:compound_goggles, Compound Goggles
+erebus:sprint_leggings, Sprint Leggings
+erebus:jump_boots, Jump Boots
+erebus:glider_chestplate, Glider Chestplate
+erebus:glider_chestplate_powered, Powered Glider Chestplate
+erebus:mushroom_helmet, Mush Helm
+erebus:spider_t_shirt, Tarantula Boss Trophy
+erebus:water_striders, Water Striders
+erebus:bamboo_shield, Bamboo Shield
+erebus:exoskeleton_shield, Exoskeleton Shield
+erebus:jade_shield, Jade Shield
+erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
+erebus:rhino_exoskeleton_shield, Rhino Plate Shield
+erebus:rolled_newspaper, Rolled-up Newspaper
+erebus:wasp_sword, Wasp Sword
+erebus:wasp_dagger, Wasp Dagger
+erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
+erebus:war_hammer, Quake Hammer
+erebus:web_slinger, Web Slinger
+erebus:web_slinger_wither, Wither Web Slinger
+erebus:max_speed_bow, Maximum Speed Bow
+erebus:nectar_collector, Nectar Collector
+erebus:ant_taming_amulet, Ant Taming Amulet
+erebus:bee_taming_amulet, Bee Taming Amulet
+erebus:woodlouse_ball, Woodlouse Ball
+erebus:wand_of_animation, Wand of Animation
+erebus:anti_venom_bottle, Bottle of Anti-Venom
+erebus:flower_seed:0, Black Flower Seeds
+erebus:flower_seed:1, Red Flower Seeds
+erebus:flower_seed:2, Brown Flower Seeds
+erebus:flower_seed:3, Blue Flower Seeds
+erebus:flower_seed:4, Purple Flower Seeds
+erebus:flower_seed:5, Cyan Flower Seeds
+erebus:flower_seed:6, Light Gray Flower Seeds
+erebus:flower_seed:7, Gray Flower Seeds
+erebus:flower_seed:8, Pink Flower Seeds
+erebus:flower_seed:9, Yellow Flower Seeds
+erebus:flower_seed:10, Light Blue Flower Seeds
+erebus:flower_seed:11, Magenta Flower Seeds
+erebus:flower_seed:12, Orange Flower Seeds
+erebus:flower_seed:13, White Flower Seeds
+erebus:flower_seed:14, Rainbow Flower Seeds
+erebus:death_compass, Death Compass
+erebus:spray_can, Insect Repellent
+erebus:whetstone:0, Whetstone
+erebus:whetstone:1, Whetstone
+erebus:whetstone:2, Whetstone
+erebus:whetstone:3, Whetstone
+erebus:whetstone:4, Whetstone
+erebus:whetstone:5, Whetstone
+erebus:portal_activator, Staff of Gaea
+erebus:homing_beecon, Homing Beecon
+erebus:homing_beecon_advanced, Advanced Homing Beecon
+erebus:wand_of_preservation, Wand of Preservation
+erebus:compost, Compost
+erebus:planticide, Planticide
+erebus:smoothie_book, Smoothie-matic 2000
+erebus:horn_of_summoning, Horn of Bee Summoning
+erebus:erebus_map, Empty Papyrus Map (N.Y.I)
+erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 extraalchemy:breakable_potion, item.null.name
 extraalchemy:vial_break, item.null.name
 extraalchemy:potion_bag, item.null.name
@@ -14902,6 +14928,23 @@ iceandfire:myrmex_desert_resin_glass, Desert Myrmex Resin Glass
 iceandfire:myrmex_jungle_resin_glass, Jungle Myrmex Resin Glass
 iceandfire:dragonsteel_fire_block, Block of Fire Dragonsteel
 iceandfire:dragonsteel_ice_block, Block of Ice Dragonsteel
+iceandfire:dread_stone, Dreadstone
+iceandfire:dread_stone_bricks, Dreadstone Bricks
+iceandfire:dread_stone_bricks_chiseled, Chiseled Dreadstone Bricks
+iceandfire:dread_stone_bricks_cracked, Cracked Dreadstone Bricks
+iceandfire:dread_stone_bricks_mossy, Mossy Dreadstone Bricks
+iceandfire:dread_stone_tile, Dreadstone Tile
+iceandfire:dread_stone_face, Dreadstone Chiseled Skull
+iceandfire:dread_torch, Dreadstone Torch
+iceandfire:dread_stone_stairs, Dreadstone Bricks Stairs
+iceandfire:dread_stone_slab_double:0, Dreadstone Bricks Slab
+iceandfire:dread_stone_slab:0, Dreadstone Bricks Slab
+iceandfire:dreadwood_log, Dreadwood Log
+iceandfire:dreadwood_planks, Dreadwood Planks
+iceandfire:dreadwood_planks_lock, Dreadwood Keyhole
+iceandfire:dread_portal, Dread Lands Portal
+iceandfire:dread_spawner, Dreadstone Mob Spawner
+iceandfire:burnt_torch, Burnt Out Torch
 iceandfire:sea_serpent_scale_block_blue, Block of Sea Serpent Scales
 iceandfire:sea_serpent_scale_block_bronze, Block of Sea Serpent Scales
 iceandfire:sea_serpent_scale_block_deepblue, Block of Sea Serpent Scales
@@ -14994,6 +15037,8 @@ iceandfire:dragon_horn, Dragon Horn
 iceandfire:dragon_horn_fire, Dragon Horn
 iceandfire:dragon_horn_ice, Dragon Horn
 iceandfire:dragon_flute, Dragon Bone Flute
+iceandfire:summoning_crystal_fire, Fire Dragon Summoning Crystal
+iceandfire:summoning_crystal_ice, Ice Dragon Summoning Crystal
 iceandfire:hippogryph_egg:0, Hippogryph Egg
 iceandfire:hippogryph_egg:1, Hippogryph Egg
 iceandfire:hippogryph_egg:2, Hippogryph Egg
@@ -15121,6 +15166,18 @@ iceandfire:dragonsteel_ice_helmet, Ice Dragonsteel Helmet
 iceandfire:dragonsteel_ice_chestplate, Ice Dragonsteel Chestplate
 iceandfire:dragonsteel_ice_leggings, Ice Dragonsteel Leggings
 iceandfire:dragonsteel_ice_boots, Ice Dragonsteel Boots
+iceandfire:weezer_blue_album, Weezer
+iceandfire:dragon_debug_stick, Dragon Debug Stick
+iceandfire:dread_sword, Dread Thrall's Sword
+iceandfire:dread_knight_sword, Dread Knight's Sword
+iceandfire:lich_staff, Dread Lich Staff
+iceandfire:dread_queen_sword, Blade of the Dreaded Queen
+iceandfire:dread_queen_staff, Staff of the Dreaded Queen
+iceandfire:dread_shard, Dread Shard
+iceandfire:dread_key, §bGravemaster's Key§r
+iceandfire:hydra_fang, Hydra Fang
+iceandfire:hydra_heart, Hydra Heart
+iceandfire:hydra_arrow, Hydra Arrow
 iceandfire:armor_red_helmet, Dragon Scale Helmet
 iceandfire:armor_red_chestplate, Dragon Scale Chestplate
 iceandfire:armor_red_leggings, Dragon Scale Leggings
@@ -15217,28 +15274,166 @@ iceandfire:stymphalian_skull, Stymphalian Bird Skull
 iceandfire:troll_skull, Troll Skull
 iceandfire:amphithere_skull, Amphithere Skull
 iceandfire:seaserpent_skull, Sea Serpent Skull
+iceandfire:hydra_skull, Hydra Skull
 iguanatweaks:weightless_ring, Weightless Ring
-mts:manual, MTS Handbook
-mts:wrench, Wrench
-mts:key, Key
-mts:jumpercable, Jumper Cables
-mts:jerrycan, Jerrycan
-mts:vehiclebench, Drafting Table (Vehicles)
-mts:propellerbench, Propeller Bench
-mts:enginebench, Engine Hoist
-mts:wheelbench, Wheel Workbench
-mts:seatbench, Table Saw (Seats & Cargo)
-mts:gunbench, Rifling Machine (Guns & Ammo)
-mts:custombench, Tool Bench (Custom Parts)
-mts:instrumentbench, Instrument Bench
-mts:componentbench, Component Bench (Custom Items)
-mts:fuelpump, Fuel Pump
-mts:trafficsignalcontroller, Traffic Signal Controller
-mts:pole, Pole
-mts:polebase, Pole Base
-mts:trafficsignal, Traffic Signal
-mts:streetlight, Street Light
-mts:trafficsign, Traffic Sign
+mts:custombench, item.custombench.name
+mts:decorbench, item.decorbench.name
+mts:enginebench, item.enginebench.name
+mts:fuelpump, item.fuelpump.name
+mts:gunbench, item.gunbench.name
+mts:instrumentbench, item.instrumentbench.name
+mts:itembench, item.itembench.name
+mts:propellerbench, item.propellerbench.name
+mts:seatbench, item.seatbench.name
+mts:vehiclebench, item.vehiclebench.name
+mts:wheelbench, item.wheelbench.name
+mts:fuelhose, item.fuelhose.name
+mts:handbook_en, item.handbook_en.name
+mts:handbook_ru, item.handbook_ru.name
+mts:jumpercable, item.jumpercable.name
+mts:jumperpack, item.jumperpack.name
+mts:key, item.key.name
+mts:paintgun, item.paintgun.name
+mts:partscanner, item.partscanner.name
+mts:ticket, item.ticket.name
+mts:wrench, item.wrench.name
+mts:y2kbutton, item.y2kbutton.name
+mts:jerrycan, item.jerrycan.name
+mts:mtsofficialpack.beacon_top, item.mtsofficialpack.beacon_top.name
+mts:mtsofficialpack.beacon_tower_inverted, item.mtsofficialpack.beacon_tower_inverted.name
+mts:mtsofficialpack.beacon_tower_standard, item.mtsofficialpack.beacon_tower_standard.name
+mts:mtsofficialpack.crashbarrier, item.mtsofficialpack.crashbarrier.name
+mts:mtsofficialpack.fluidloader, item.mtsofficialpack.fluidloader.name
+mts:mtsofficialpack.fuelpump, item.mtsofficialpack.fuelpump.name
+mts:mtsofficialpack.signalcontroller, item.mtsofficialpack.signalcontroller.name
+mts:mtsofficialpack.telephonebooth, item.mtsofficialpack.telephonebooth.name
+mts:mtsofficialpack.trafficcone, item.mtsofficialpack.trafficcone.name
+mts:mtsofficialpack.instrument_aircraft_adf, item.mtsofficialpack.instrument_aircraft_adf.name
+mts:mtsofficialpack.instrument_aircraft_airspeed, item.mtsofficialpack.instrument_aircraft_airspeed.name
+mts:mtsofficialpack.instrument_aircraft_altimeter, item.mtsofficialpack.instrument_aircraft_altimeter.name
+mts:mtsofficialpack.instrument_aircraft_attitude, item.mtsofficialpack.instrument_aircraft_attitude.name
+mts:mtsofficialpack.instrument_aircraft_electric, item.mtsofficialpack.instrument_aircraft_electric.name
+mts:mtsofficialpack.instrument_aircraft_enginetemp, item.mtsofficialpack.instrument_aircraft_enginetemp.name
+mts:mtsofficialpack.instrument_aircraft_flaps, item.mtsofficialpack.instrument_aircraft_flaps.name
+mts:mtsofficialpack.instrument_aircraft_fuelflow, item.mtsofficialpack.instrument_aircraft_fuelflow.name
+mts:mtsofficialpack.instrument_aircraft_fuelqty, item.mtsofficialpack.instrument_aircraft_fuelqty.name
+mts:mtsofficialpack.instrument_aircraft_heading, item.mtsofficialpack.instrument_aircraft_heading.name
+mts:mtsofficialpack.instrument_aircraft_ils, item.mtsofficialpack.instrument_aircraft_ils.name
+mts:mtsofficialpack.instrument_aircraft_liftreserve, item.mtsofficialpack.instrument_aircraft_liftreserve.name
+mts:mtsofficialpack.instrument_aircraft_oilpressure, item.mtsofficialpack.instrument_aircraft_oilpressure.name
+mts:mtsofficialpack.instrument_aircraft_tachometer, item.mtsofficialpack.instrument_aircraft_tachometer.name
+mts:mtsofficialpack.instrument_aircraft_trim, item.mtsofficialpack.instrument_aircraft_trim.name
+mts:mtsofficialpack.instrument_aircraft_turncoord, item.mtsofficialpack.instrument_aircraft_turncoord.name
+mts:mtsofficialpack.instrument_aircraft_turnslip, item.mtsofficialpack.instrument_aircraft_turnslip.name
+mts:mtsofficialpack.instrument_aircraft_verticalspeed, item.mtsofficialpack.instrument_aircraft_verticalspeed.name
+mts:mtsofficialpack.instrument_car_electric, item.mtsofficialpack.instrument_car_electric.name
+mts:mtsofficialpack.instrument_car_enginetemp_c, item.mtsofficialpack.instrument_car_enginetemp_c.name
+mts:mtsofficialpack.instrument_car_enginetemp_f, item.mtsofficialpack.instrument_car_enginetemp_f.name
+mts:mtsofficialpack.instrument_car_fuelqty, item.mtsofficialpack.instrument_car_fuelqty.name
+mts:mtsofficialpack.instrument_car_gear, item.mtsofficialpack.instrument_car_gear.name
+mts:mtsofficialpack.instrument_car_oilpressure_b, item.mtsofficialpack.instrument_car_oilpressure_b.name
+mts:mtsofficialpack.instrument_car_oilpressure_p, item.mtsofficialpack.instrument_car_oilpressure_p.name
+mts:mtsofficialpack.instrument_car_spedometer_blk, item.mtsofficialpack.instrument_car_spedometer_blk.name
+mts:mtsofficialpack.instrument_car_spedometer_kph, item.mtsofficialpack.instrument_car_spedometer_kph.name
+mts:mtsofficialpack.instrument_car_spedometer_mph, item.mtsofficialpack.instrument_car_spedometer_mph.name
+mts:mtsofficialpack.instrument_car_tachometer_amc, item.mtsofficialpack.instrument_car_tachometer_amc.name
+mts:mtsofficialpack.instrument_car_tachometer_det, item.mtsofficialpack.instrument_car_tachometer_det.name
+mts:mtsofficialpack.nuts, item.mtsofficialpack.nuts.name
+mts:mtsofficialpack.rods, item.mtsofficialpack.rods.name
+mts:mtsofficialpack.barrel, item.mtsofficialpack.barrel.name
+mts:mtsofficialpack.brigbedbox, item.mtsofficialpack.brigbedbox.name
+mts:mtsofficialpack.brigbeddump, item.mtsofficialpack.brigbeddump.name
+mts:mtsofficialpack.brigbedflat, item.mtsofficialpack.brigbedflat.name
+mts:mtsofficialpack.brigbedlogs, item.mtsofficialpack.brigbedlogs.name
+mts:mtsofficialpack.brigbedstake, item.mtsofficialpack.brigbedstake.name
+mts:mtsofficialpack.bullet3700he, item.mtsofficialpack.bullet3700he.name
+mts:mtsofficialpack.bullet3700solid, item.mtsofficialpack.bullet3700solid.name
+mts:mtsofficialpack.bullet762, item.mtsofficialpack.bullet762.name
+mts:mtsofficialpack.bumpersticker_roostair, item.mtsofficialpack.bumpersticker_roostair.name
+mts:mtsofficialpack.crate, item.mtsofficialpack.crate.name
+mts:mtsofficialpack.engineamci4, item.mtsofficialpack.engineamci4.name
+mts:mtsofficialpack.enginebristolmercury, item.mtsofficialpack.enginebristolmercury.name
+mts:mtsofficialpack.enginedetroitdiesel, item.mtsofficialpack.enginedetroitdiesel.name
+mts:mtsofficialpack.enginelycomingo360, item.mtsofficialpack.enginelycomingo360.name
+mts:mtsofficialpack.enginepw610f, item.mtsofficialpack.enginepw610f.name
+mts:mtsofficialpack.ft17track, item.mtsofficialpack.ft17track.name
+mts:mtsofficialpack.gunft17turret, item.mtsofficialpack.gunft17turret.name
+mts:mtsofficialpack.gunm1919, item.mtsofficialpack.gunm1919.name
+mts:mtsofficialpack.pontoon, item.mtsofficialpack.pontoon.name
+mts:mtsofficialpack.propellerlarge2blade, item.mtsofficialpack.propellerlarge2blade.name
+mts:mtsofficialpack.propellersmall2blade, item.mtsofficialpack.propellersmall2blade.name
+mts:mtsofficialpack.propellersmall3blade, item.mtsofficialpack.propellersmall3blade.name
+mts:mtsofficialpack.scouthardtop, item.mtsofficialpack.scouthardtop.name
+mts:mtsofficialpack.scoutvinyltop, item.mtsofficialpack.scoutvinyltop.name
+mts:mtsofficialpack.seatblack, item.mtsofficialpack.seatblack.name
+mts:mtsofficialpack.seatblue, item.mtsofficialpack.seatblue.name
+mts:mtsofficialpack.seatbrown, item.mtsofficialpack.seatbrown.name
+mts:mtsofficialpack.seatgrey, item.mtsofficialpack.seatgrey.name
+mts:mtsofficialpack.seatpink, item.mtsofficialpack.seatpink.name
+mts:mtsofficialpack.seatred, item.mtsofficialpack.seatred.name
+mts:mtsofficialpack.seatwhite, item.mtsofficialpack.seatwhite.name
+mts:mtsofficialpack.skid, item.mtsofficialpack.skid.name
+mts:mtsofficialpack.wheellarge, item.mtsofficialpack.wheellarge.name
+mts:mtsofficialpack.wheelmedium, item.mtsofficialpack.wheelmedium.name
+mts:mtsofficialpack.wheelsmall, item.mtsofficialpack.wheelsmall.name
+mts:mtsofficialpack.pole_core, item.mtsofficialpack.pole_core.name
+mts:mtsofficialpack.pole_crossingsignal, item.mtsofficialpack.pole_crossingsignal.name
+mts:mtsofficialpack.pole_flashingsignal_red, item.mtsofficialpack.pole_flashingsignal_red.name
+mts:mtsofficialpack.pole_flashingsignal_yellow, item.mtsofficialpack.pole_flashingsignal_yellow.name
+mts:mtsofficialpack.pole_streetlight, item.mtsofficialpack.pole_streetlight.name
+mts:mtsofficialpack.pole_trafficsignal, item.mtsofficialpack.pole_trafficsignal.name
+mts:mtsofficialpack.sign_donotenter, item.mtsofficialpack.sign_donotenter.name
+mts:mtsofficialpack.sign_mts, item.mtsofficialpack.sign_mts.name
+mts:mtsofficialpack.sign_noparking, item.mtsofficialpack.sign_noparking.name
+mts:mtsofficialpack.sign_oneway_left, item.mtsofficialpack.sign_oneway_left.name
+mts:mtsofficialpack.sign_oneway_right, item.mtsofficialpack.sign_oneway_right.name
+mts:mtsofficialpack.sign_route, item.mtsofficialpack.sign_route.name
+mts:mtsofficialpack.sign_speedlimit, item.mtsofficialpack.sign_speedlimit.name
+mts:mtsofficialpack.sign_stop, item.mtsofficialpack.sign_stop.name
+mts:mtsofficialpack.sign_wrongway, item.mtsofficialpack.sign_wrongway.name
+mts:mtsofficialpack.sign_yield, item.mtsofficialpack.sign_yield.name
+mts:mtsofficialpack.comanche_blue, item.mtsofficialpack.comanche_blue.name
+mts:mtsofficialpack.comanche_grey, item.mtsofficialpack.comanche_grey.name
+mts:mtsofficialpack.comanche_red, item.mtsofficialpack.comanche_red.name
+mts:mtsofficialpack.comanche_yellow, item.mtsofficialpack.comanche_yellow.name
+mts:mtsofficialpack.e500_blue, item.mtsofficialpack.e500_blue.name
+mts:mtsofficialpack.e500_green, item.mtsofficialpack.e500_green.name
+mts:mtsofficialpack.e500_red, item.mtsofficialpack.e500_red.name
+mts:mtsofficialpack.e500_yellow, item.mtsofficialpack.e500_yellow.name
+mts:mtsofficialpack.firetruck, item.mtsofficialpack.firetruck.name
+mts:mtsofficialpack.ft17_blue, item.mtsofficialpack.ft17_blue.name
+mts:mtsofficialpack.ft17_olive, item.mtsofficialpack.ft17_olive.name
+mts:mtsofficialpack.gmcbrig_black, item.mtsofficialpack.gmcbrig_black.name
+mts:mtsofficialpack.gmcbrig_blue, item.mtsofficialpack.gmcbrig_blue.name
+mts:mtsofficialpack.gmcbrig_green, item.mtsofficialpack.gmcbrig_green.name
+mts:mtsofficialpack.gmcbrig_red, item.mtsofficialpack.gmcbrig_red.name
+mts:mtsofficialpack.gmcbrig_white, item.mtsofficialpack.gmcbrig_white.name
+mts:mtsofficialpack.gmcbrig_yellow, item.mtsofficialpack.gmcbrig_yellow.name
+mts:mtsofficialpack.mc172_acacia, item.mtsofficialpack.mc172_acacia.name
+mts:mtsofficialpack.mc172_birch, item.mtsofficialpack.mc172_birch.name
+mts:mtsofficialpack.mc172_darkoak, item.mtsofficialpack.mc172_darkoak.name
+mts:mtsofficialpack.mc172_jungle, item.mtsofficialpack.mc172_jungle.name
+mts:mtsofficialpack.mc172_oak, item.mtsofficialpack.mc172_oak.name
+mts:mtsofficialpack.mc172_spruce, item.mtsofficialpack.mc172_spruce.name
+mts:mtsofficialpack.pzlp11, item.mtsofficialpack.pzlp11.name
+mts:mtsofficialpack.scout_army, item.mtsofficialpack.scout_army.name
+mts:mtsofficialpack.scout_blue, item.mtsofficialpack.scout_blue.name
+mts:mtsofficialpack.scout_orange, item.mtsofficialpack.scout_orange.name
+mts:mtsofficialpack.scout_patriot, item.mtsofficialpack.scout_patriot.name
+mts:mtsofficialpack.scout_red, item.mtsofficialpack.scout_red.name
+mts:mtsofficialpack.scout_yellow, item.mtsofficialpack.scout_yellow.name
+mts:mtsofficialpack.trimotor_black, item.mtsofficialpack.trimotor_black.name
+mts:mtsofficialpack.trimotor_blue, item.mtsofficialpack.trimotor_blue.name
+mts:mtsofficialpack.trimotor_mai, item.mtsofficialpack.trimotor_mai.name
+mts:mtsofficialpack.trimotor_red, item.mtsofficialpack.trimotor_red.name
+mts:mtsofficialpack.trimotor_white, item.mtsofficialpack.trimotor_white.name
+mts:mtsofficialpack.vulcanair_black, item.mtsofficialpack.vulcanair_black.name
+mts:mtsofficialpack.vulcanair_blue, item.mtsofficialpack.vulcanair_blue.name
+mts:mtsofficialpack.vulcanair_dark_red, item.mtsofficialpack.vulcanair_dark_red.name
+mts:mtsofficialpack.vulcanair_green, item.mtsofficialpack.vulcanair_green.name
+mts:mtsofficialpack.vulcanair_red, item.mtsofficialpack.vulcanair_red.name
+mts:mtsofficialpack.vulcanair_white, item.mtsofficialpack.vulcanair_white.name
+mts:mtsofficialpack.vulcanair_white_orange, item.mtsofficialpack.vulcanair_white_orange.name
 immersivepetroleum:metal_device:0, Automatic Lubricator
 immersivepetroleum:metal_device:1, Portable Generator
 immersivepetroleum:stone_decoration, tile.immersivepetroleum.stone_decoration.name
@@ -16075,7 +16270,6 @@ inspirations:glass_door, Glass Door
 inspirations:glass_trapdoor:0, Glass Trapdoor
 inspirations:torch_lever:0, Torch Lever
 inspirations:redstone_barrel:0, Redstone Barrel
-inspirations:redstone_torch_lever:0, Redstone Torch Lever
 inspirations:carpeted_trapdoor_white:0, White Carpeted Trapdoor
 inspirations:carpeted_trapdoor_orange:0, Orange Carpeted Trapdoor
 inspirations:carpeted_trapdoor_magenta:0, Magenta Carpeted Trapdoor
@@ -16137,6 +16331,908 @@ immersivetech:stone_decoration, tile.immersivetech.stone_decoration.name
 immersivetech:stone_decoration_slab, tile.immersivetech.stone_decoration_slab.name
 immersivetech:wooden_crate, tile.immersivetech.wooden_crate.name
 immersivetech:material:0, Salt
+melvinssignpack:circle01, item.melvinssignpack.circle01.name
+melvinssignpack:circle02, item.melvinssignpack.circle02.name
+melvinssignpack:circle03, item.melvinssignpack.circle03.name
+melvinssignpack:circle04, item.melvinssignpack.circle04.name
+melvinssignpack:circle05, item.melvinssignpack.circle05.name
+melvinssignpack:circle06, item.melvinssignpack.circle06.name
+melvinssignpack:circle07, item.melvinssignpack.circle07.name
+melvinssignpack:circle08, item.melvinssignpack.circle08.name
+melvinssignpack:circle09, item.melvinssignpack.circle09.name
+melvinssignpack:circle10, item.melvinssignpack.circle10.name
+melvinssignpack:circle11, item.melvinssignpack.circle11.name
+melvinssignpack:circle12, item.melvinssignpack.circle12.name
+melvinssignpack:circle13, item.melvinssignpack.circle13.name
+melvinssignpack:circle14, item.melvinssignpack.circle14.name
+melvinssignpack:circle15, item.melvinssignpack.circle15.name
+melvinssignpack:circle16, item.melvinssignpack.circle16.name
+melvinssignpack:circle17, item.melvinssignpack.circle17.name
+melvinssignpack:circle18, item.melvinssignpack.circle18.name
+melvinssignpack:circle19, item.melvinssignpack.circle19.name
+melvinssignpack:circle20, item.melvinssignpack.circle20.name
+melvinssignpack:circle21, item.melvinssignpack.circle21.name
+melvinssignpack:circle22, item.melvinssignpack.circle22.name
+melvinssignpack:circle23, item.melvinssignpack.circle23.name
+melvinssignpack:circle24, item.melvinssignpack.circle24.name
+melvinssignpack:circle25, item.melvinssignpack.circle25.name
+melvinssignpack:circle26, item.melvinssignpack.circle26.name
+melvinssignpack:circle27, item.melvinssignpack.circle27.name
+melvinssignpack:circle28, item.melvinssignpack.circle28.name
+melvinssignpack:circle29, item.melvinssignpack.circle29.name
+melvinssignpack:circle30, item.melvinssignpack.circle30.name
+melvinssignpack:circle31, item.melvinssignpack.circle31.name
+melvinssignpack:circle32, item.melvinssignpack.circle32.name
+melvinssignpack:circle33, item.melvinssignpack.circle33.name
+melvinssignpack:circle34, item.melvinssignpack.circle34.name
+melvinssignpack:circle35, item.melvinssignpack.circle35.name
+melvinssignpack:circle36, item.melvinssignpack.circle36.name
+melvinssignpack:circle37, item.melvinssignpack.circle37.name
+melvinssignpack:circle38, item.melvinssignpack.circle38.name
+melvinssignpack:circle39, item.melvinssignpack.circle39.name
+melvinssignpack:circle40, item.melvinssignpack.circle40.name
+melvinssignpack:circle41, item.melvinssignpack.circle41.name
+melvinssignpack:circle42, item.melvinssignpack.circle42.name
+melvinssignpack:circle43, item.melvinssignpack.circle43.name
+melvinssignpack:circle44, item.melvinssignpack.circle44.name
+melvinssignpack:circle45, item.melvinssignpack.circle45.name
+melvinssignpack:circle46, item.melvinssignpack.circle46.name
+melvinssignpack:circle47, item.melvinssignpack.circle47.name
+melvinssignpack:circle48, item.melvinssignpack.circle48.name
+melvinssignpack:circle49, item.melvinssignpack.circle49.name
+melvinssignpack:circle50, item.melvinssignpack.circle50.name
+melvinssignpack:circle51, item.melvinssignpack.circle51.name
+melvinssignpack:circle52, item.melvinssignpack.circle52.name
+melvinssignpack:circle53, item.melvinssignpack.circle53.name
+melvinssignpack:circle54, item.melvinssignpack.circle54.name
+melvinssignpack:circle55, item.melvinssignpack.circle55.name
+melvinssignpack:circle56, item.melvinssignpack.circle56.name
+melvinssignpack:circle57, item.melvinssignpack.circle57.name
+melvinssignpack:circle58, item.melvinssignpack.circle58.name
+melvinssignpack:circle59, item.melvinssignpack.circle59.name
+melvinssignpack:circle60, item.melvinssignpack.circle60.name
+melvinssignpack:circle61, item.melvinssignpack.circle61.name
+melvinssignpack:circle62, item.melvinssignpack.circle62.name
+melvinssignpack:circle63, item.melvinssignpack.circle63.name
+melvinssignpack:circle64, item.melvinssignpack.circle64.name
+melvinssignpack:circle65, item.melvinssignpack.circle65.name
+melvinssignpack:circle66, item.melvinssignpack.circle66.name
+melvinssignpack:circle67, item.melvinssignpack.circle67.name
+melvinssignpack:circle68, item.melvinssignpack.circle68.name
+melvinssignpack:circle69, item.melvinssignpack.circle69.name
+melvinssignpack:circle70, item.melvinssignpack.circle70.name
+melvinssignpack:circle71, item.melvinssignpack.circle71.name
+melvinssignpack:circle72, item.melvinssignpack.circle72.name
+melvinssignpack:circle73, item.melvinssignpack.circle73.name
+melvinssignpack:circle74, item.melvinssignpack.circle74.name
+melvinssignpack:circle75, item.melvinssignpack.circle75.name
+melvinssignpack:circle76, item.melvinssignpack.circle76.name
+melvinssignpack:circle77, item.melvinssignpack.circle77.name
+melvinssignpack:circle78, item.melvinssignpack.circle78.name
+melvinssignpack:circle79, item.melvinssignpack.circle79.name
+melvinssignpack:circle80, item.melvinssignpack.circle80.name
+melvinssignpack:circle81, item.melvinssignpack.circle81.name
+melvinssignpack:circle82, item.melvinssignpack.circle82.name
+melvinssignpack:circle83, item.melvinssignpack.circle83.name
+melvinssignpack:circle84, item.melvinssignpack.circle84.name
+melvinssignpack:circle85, item.melvinssignpack.circle85.name
+melvinssignpack:circle86, item.melvinssignpack.circle86.name
+melvinssignpack:circle87, item.melvinssignpack.circle87.name
+melvinssignpack:circle88, item.melvinssignpack.circle88.name
+melvinssignpack:circle89, item.melvinssignpack.circle89.name
+melvinssignpack:circle90, item.melvinssignpack.circle90.name
+melvinssignpack:circle91, item.melvinssignpack.circle91.name
+melvinssignpack:circle92, item.melvinssignpack.circle92.name
+melvinssignpack:circle93, item.melvinssignpack.circle93.name
+melvinssignpack:circle94, item.melvinssignpack.circle94.name
+melvinssignpack:circle95, item.melvinssignpack.circle95.name
+melvinssignpack:circle96, item.melvinssignpack.circle96.name
+melvinssignpack:diamond01, item.melvinssignpack.diamond01.name
+melvinssignpack:diamond02, item.melvinssignpack.diamond02.name
+melvinssignpack:diamond03, item.melvinssignpack.diamond03.name
+melvinssignpack:diamond04, item.melvinssignpack.diamond04.name
+melvinssignpack:diamond05, item.melvinssignpack.diamond05.name
+melvinssignpack:diamond06, item.melvinssignpack.diamond06.name
+melvinssignpack:diamond07, item.melvinssignpack.diamond07.name
+melvinssignpack:diamond08, item.melvinssignpack.diamond08.name
+melvinssignpack:diamond09, item.melvinssignpack.diamond09.name
+melvinssignpack:diamond10, item.melvinssignpack.diamond10.name
+melvinssignpack:diamond100, item.melvinssignpack.diamond100.name
+melvinssignpack:diamond101, item.melvinssignpack.diamond101.name
+melvinssignpack:diamond102, item.melvinssignpack.diamond102.name
+melvinssignpack:diamond103, item.melvinssignpack.diamond103.name
+melvinssignpack:diamond104, item.melvinssignpack.diamond104.name
+melvinssignpack:diamond105, item.melvinssignpack.diamond105.name
+melvinssignpack:diamond106, item.melvinssignpack.diamond106.name
+melvinssignpack:diamond107, item.melvinssignpack.diamond107.name
+melvinssignpack:diamond108, item.melvinssignpack.diamond108.name
+melvinssignpack:diamond109, item.melvinssignpack.diamond109.name
+melvinssignpack:diamond11, item.melvinssignpack.diamond11.name
+melvinssignpack:diamond110, item.melvinssignpack.diamond110.name
+melvinssignpack:diamond111, item.melvinssignpack.diamond111.name
+melvinssignpack:diamond112, item.melvinssignpack.diamond112.name
+melvinssignpack:diamond113, item.melvinssignpack.diamond113.name
+melvinssignpack:diamond114, item.melvinssignpack.diamond114.name
+melvinssignpack:diamond115, item.melvinssignpack.diamond115.name
+melvinssignpack:diamond12, item.melvinssignpack.diamond12.name
+melvinssignpack:diamond13, item.melvinssignpack.diamond13.name
+melvinssignpack:diamond14, item.melvinssignpack.diamond14.name
+melvinssignpack:diamond15, item.melvinssignpack.diamond15.name
+melvinssignpack:diamond16, item.melvinssignpack.diamond16.name
+melvinssignpack:diamond17, item.melvinssignpack.diamond17.name
+melvinssignpack:diamond18, item.melvinssignpack.diamond18.name
+melvinssignpack:diamond19, item.melvinssignpack.diamond19.name
+melvinssignpack:diamond20, item.melvinssignpack.diamond20.name
+melvinssignpack:diamond21, item.melvinssignpack.diamond21.name
+melvinssignpack:diamond22, item.melvinssignpack.diamond22.name
+melvinssignpack:diamond23, item.melvinssignpack.diamond23.name
+melvinssignpack:diamond24, item.melvinssignpack.diamond24.name
+melvinssignpack:diamond25, item.melvinssignpack.diamond25.name
+melvinssignpack:diamond26, item.melvinssignpack.diamond26.name
+melvinssignpack:diamond27, item.melvinssignpack.diamond27.name
+melvinssignpack:diamond28, item.melvinssignpack.diamond28.name
+melvinssignpack:diamond29, item.melvinssignpack.diamond29.name
+melvinssignpack:diamond30, item.melvinssignpack.diamond30.name
+melvinssignpack:diamond31, item.melvinssignpack.diamond31.name
+melvinssignpack:diamond32, item.melvinssignpack.diamond32.name
+melvinssignpack:diamond33, item.melvinssignpack.diamond33.name
+melvinssignpack:diamond34, item.melvinssignpack.diamond34.name
+melvinssignpack:diamond35, item.melvinssignpack.diamond35.name
+melvinssignpack:diamond36, item.melvinssignpack.diamond36.name
+melvinssignpack:diamond37, item.melvinssignpack.diamond37.name
+melvinssignpack:diamond38, item.melvinssignpack.diamond38.name
+melvinssignpack:diamond39, item.melvinssignpack.diamond39.name
+melvinssignpack:diamond40, item.melvinssignpack.diamond40.name
+melvinssignpack:diamond41, item.melvinssignpack.diamond41.name
+melvinssignpack:diamond42, item.melvinssignpack.diamond42.name
+melvinssignpack:diamond43, item.melvinssignpack.diamond43.name
+melvinssignpack:diamond44, item.melvinssignpack.diamond44.name
+melvinssignpack:diamond45, item.melvinssignpack.diamond45.name
+melvinssignpack:diamond46, item.melvinssignpack.diamond46.name
+melvinssignpack:diamond47, item.melvinssignpack.diamond47.name
+melvinssignpack:diamond48, item.melvinssignpack.diamond48.name
+melvinssignpack:diamond49, item.melvinssignpack.diamond49.name
+melvinssignpack:diamond50, item.melvinssignpack.diamond50.name
+melvinssignpack:diamond51, item.melvinssignpack.diamond51.name
+melvinssignpack:diamond52, item.melvinssignpack.diamond52.name
+melvinssignpack:diamond53, item.melvinssignpack.diamond53.name
+melvinssignpack:diamond54, item.melvinssignpack.diamond54.name
+melvinssignpack:diamond55, item.melvinssignpack.diamond55.name
+melvinssignpack:diamond56, item.melvinssignpack.diamond56.name
+melvinssignpack:diamond57, item.melvinssignpack.diamond57.name
+melvinssignpack:diamond58, item.melvinssignpack.diamond58.name
+melvinssignpack:diamond59, item.melvinssignpack.diamond59.name
+melvinssignpack:diamond60, item.melvinssignpack.diamond60.name
+melvinssignpack:diamond61, item.melvinssignpack.diamond61.name
+melvinssignpack:diamond62, item.melvinssignpack.diamond62.name
+melvinssignpack:diamond63, item.melvinssignpack.diamond63.name
+melvinssignpack:diamond64, item.melvinssignpack.diamond64.name
+melvinssignpack:diamond65, item.melvinssignpack.diamond65.name
+melvinssignpack:diamond66, item.melvinssignpack.diamond66.name
+melvinssignpack:diamond67, item.melvinssignpack.diamond67.name
+melvinssignpack:diamond68, item.melvinssignpack.diamond68.name
+melvinssignpack:diamond69, item.melvinssignpack.diamond69.name
+melvinssignpack:diamond70, item.melvinssignpack.diamond70.name
+melvinssignpack:diamond71, item.melvinssignpack.diamond71.name
+melvinssignpack:diamond72, item.melvinssignpack.diamond72.name
+melvinssignpack:diamond73, item.melvinssignpack.diamond73.name
+melvinssignpack:diamond74, item.melvinssignpack.diamond74.name
+melvinssignpack:diamond75, item.melvinssignpack.diamond75.name
+melvinssignpack:diamond76, item.melvinssignpack.diamond76.name
+melvinssignpack:diamond77, item.melvinssignpack.diamond77.name
+melvinssignpack:diamond78, item.melvinssignpack.diamond78.name
+melvinssignpack:diamond79, item.melvinssignpack.diamond79.name
+melvinssignpack:diamond80, item.melvinssignpack.diamond80.name
+melvinssignpack:diamond81, item.melvinssignpack.diamond81.name
+melvinssignpack:diamond82, item.melvinssignpack.diamond82.name
+melvinssignpack:diamond83, item.melvinssignpack.diamond83.name
+melvinssignpack:diamond84, item.melvinssignpack.diamond84.name
+melvinssignpack:diamond85, item.melvinssignpack.diamond85.name
+melvinssignpack:diamond86, item.melvinssignpack.diamond86.name
+melvinssignpack:diamond87, item.melvinssignpack.diamond87.name
+melvinssignpack:diamond88, item.melvinssignpack.diamond88.name
+melvinssignpack:diamond89, item.melvinssignpack.diamond89.name
+melvinssignpack:diamond90, item.melvinssignpack.diamond90.name
+melvinssignpack:diamond91, item.melvinssignpack.diamond91.name
+melvinssignpack:diamond92, item.melvinssignpack.diamond92.name
+melvinssignpack:diamond93, item.melvinssignpack.diamond93.name
+melvinssignpack:diamond94, item.melvinssignpack.diamond94.name
+melvinssignpack:diamond95, item.melvinssignpack.diamond95.name
+melvinssignpack:diamond96, item.melvinssignpack.diamond96.name
+melvinssignpack:diamond97, item.melvinssignpack.diamond97.name
+melvinssignpack:diamond98, item.melvinssignpack.diamond98.name
+melvinssignpack:diamond99, item.melvinssignpack.diamond99.name
+melvinssignpack:misc01, item.melvinssignpack.misc01.name
+melvinssignpack:misc02, item.melvinssignpack.misc02.name
+melvinssignpack:misc03, item.melvinssignpack.misc03.name
+melvinssignpack:misc04, item.melvinssignpack.misc04.name
+melvinssignpack:misc05, item.melvinssignpack.misc05.name
+melvinssignpack:misc06, item.melvinssignpack.misc06.name
+melvinssignpack:misc07, item.melvinssignpack.misc07.name
+melvinssignpack:misc08, item.melvinssignpack.misc08.name
+melvinssignpack:misc09, item.melvinssignpack.misc09.name
+melvinssignpack:misc10, item.melvinssignpack.misc10.name
+melvinssignpack:misc11, item.melvinssignpack.misc11.name
+melvinssignpack:misc12, item.melvinssignpack.misc12.name
+melvinssignpack:misc13, item.melvinssignpack.misc13.name
+melvinssignpack:misc14, item.melvinssignpack.misc14.name
+melvinssignpack:misc15, item.melvinssignpack.misc15.name
+melvinssignpack:misc16, item.melvinssignpack.misc16.name
+melvinssignpack:misc17, item.melvinssignpack.misc17.name
+melvinssignpack:misc18, item.melvinssignpack.misc18.name
+melvinssignpack:misc19, item.melvinssignpack.misc19.name
+melvinssignpack:misc20, item.melvinssignpack.misc20.name
+melvinssignpack:misc21, item.melvinssignpack.misc21.name
+melvinssignpack:misc22, item.melvinssignpack.misc22.name
+melvinssignpack:misc23, item.melvinssignpack.misc23.name
+melvinssignpack:misc24, item.melvinssignpack.misc24.name
+melvinssignpack:misc25, item.melvinssignpack.misc25.name
+melvinssignpack:rectangle01, item.melvinssignpack.rectangle01.name
+melvinssignpack:rectangle02, item.melvinssignpack.rectangle02.name
+melvinssignpack:rectangle03, item.melvinssignpack.rectangle03.name
+melvinssignpack:rectangle04, item.melvinssignpack.rectangle04.name
+melvinssignpack:rectangle05, item.melvinssignpack.rectangle05.name
+melvinssignpack:rectangle06, item.melvinssignpack.rectangle06.name
+melvinssignpack:rectangle07, item.melvinssignpack.rectangle07.name
+melvinssignpack:rectangle08, item.melvinssignpack.rectangle08.name
+melvinssignpack:rectangle09, item.melvinssignpack.rectangle09.name
+melvinssignpack:rectangle10, item.melvinssignpack.rectangle10.name
+melvinssignpack:rectangle11, item.melvinssignpack.rectangle11.name
+melvinssignpack:rectangle12, item.melvinssignpack.rectangle12.name
+melvinssignpack:rectangle13, item.melvinssignpack.rectangle13.name
+melvinssignpack:rectangle14, item.melvinssignpack.rectangle14.name
+melvinssignpack:rectangle15, item.melvinssignpack.rectangle15.name
+melvinssignpack:rectangle16, item.melvinssignpack.rectangle16.name
+melvinssignpack:rectangle17, item.melvinssignpack.rectangle17.name
+melvinssignpack:rectangle18, item.melvinssignpack.rectangle18.name
+melvinssignpack:rectangle19, item.melvinssignpack.rectangle19.name
+melvinssignpack:rectangle20, item.melvinssignpack.rectangle20.name
+melvinssignpack:rectangle21, item.melvinssignpack.rectangle21.name
+melvinssignpack:rectangle22, item.melvinssignpack.rectangle22.name
+melvinssignpack:rectangle23, item.melvinssignpack.rectangle23.name
+melvinssignpack:rectangle24, item.melvinssignpack.rectangle24.name
+melvinssignpack:rectangle25, item.melvinssignpack.rectangle25.name
+melvinssignpack:rectangle26, item.melvinssignpack.rectangle26.name
+melvinssignpack:rectangle27, item.melvinssignpack.rectangle27.name
+melvinssignpack:rectangle28, item.melvinssignpack.rectangle28.name
+melvinssignpack:rectangle29, item.melvinssignpack.rectangle29.name
+melvinssignpack:rectangle30, item.melvinssignpack.rectangle30.name
+melvinssignpack:rectangle31, item.melvinssignpack.rectangle31.name
+melvinssignpack:rectangle32, item.melvinssignpack.rectangle32.name
+melvinssignpack:rectangle33, item.melvinssignpack.rectangle33.name
+melvinssignpack:rectangle34, item.melvinssignpack.rectangle34.name
+melvinssignpack:rectangle35, item.melvinssignpack.rectangle35.name
+melvinssignpack:rectangle36, item.melvinssignpack.rectangle36.name
+melvinssignpack:rectangle37, item.melvinssignpack.rectangle37.name
+melvinssignpack:rectangle38, item.melvinssignpack.rectangle38.name
+melvinssignpack:rectangle39, item.melvinssignpack.rectangle39.name
+melvinssignpack:rectangle40, item.melvinssignpack.rectangle40.name
+melvinssignpack:rectangle41, item.melvinssignpack.rectangle41.name
+melvinssignpack:rectangle42, item.melvinssignpack.rectangle42.name
+melvinssignpack:rectangle43, item.melvinssignpack.rectangle43.name
+melvinssignpack:rectangle44, item.melvinssignpack.rectangle44.name
+melvinssignpack:rectangle45, item.melvinssignpack.rectangle45.name
+melvinssignpack:rectangle46, item.melvinssignpack.rectangle46.name
+melvinssignpack:rectangle47, item.melvinssignpack.rectangle47.name
+melvinssignpack:rectangle48, item.melvinssignpack.rectangle48.name
+melvinssignpack:rectangle49, item.melvinssignpack.rectangle49.name
+melvinssignpack:rectangle50, item.melvinssignpack.rectangle50.name
+melvinssignpack:rectangle51, item.melvinssignpack.rectangle51.name
+melvinssignpack:rectangle52, item.melvinssignpack.rectangle52.name
+melvinssignpack:rectangle53, item.melvinssignpack.rectangle53.name
+melvinssignpack:rectangle54, item.melvinssignpack.rectangle54.name
+melvinssignpack:rectangle55, item.melvinssignpack.rectangle55.name
+melvinssignpack:rectangle56, item.melvinssignpack.rectangle56.name
+melvinssignpack:rectangle57, item.melvinssignpack.rectangle57.name
+melvinssignpack:rectangle58, item.melvinssignpack.rectangle58.name
+melvinssignpack:rectangle59, item.melvinssignpack.rectangle59.name
+melvinssignpack:rectangle60, item.melvinssignpack.rectangle60.name
+melvinssignpack:rectangle61, item.melvinssignpack.rectangle61.name
+melvinssignpack:rectangle62, item.melvinssignpack.rectangle62.name
+melvinssignpack:rectangle63, item.melvinssignpack.rectangle63.name
+melvinssignpack:rectangle64, item.melvinssignpack.rectangle64.name
+melvinssignpack:rectangle65, item.melvinssignpack.rectangle65.name
+melvinssignpack:rectangle66, item.melvinssignpack.rectangle66.name
+melvinssignpack:rectangle67, item.melvinssignpack.rectangle67.name
+melvinssignpack:rectangle68, item.melvinssignpack.rectangle68.name
+melvinssignpack:rectangle69, item.melvinssignpack.rectangle69.name
+melvinssignpack:rectangle70, item.melvinssignpack.rectangle70.name
+melvinssignpack:square01, item.melvinssignpack.square01.name
+melvinssignpack:square02, item.melvinssignpack.square02.name
+melvinssignpack:square03, item.melvinssignpack.square03.name
+melvinssignpack:square04, item.melvinssignpack.square04.name
+melvinssignpack:square05, item.melvinssignpack.square05.name
+melvinssignpack:square06, item.melvinssignpack.square06.name
+melvinssignpack:square07, item.melvinssignpack.square07.name
+melvinssignpack:square08, item.melvinssignpack.square08.name
+melvinssignpack:square09, item.melvinssignpack.square09.name
+melvinssignpack:square10, item.melvinssignpack.square10.name
+melvinssignpack:square11, item.melvinssignpack.square11.name
+melvinssignpack:square12, item.melvinssignpack.square12.name
+melvinssignpack:square13, item.melvinssignpack.square13.name
+melvinssignpack:square14, item.melvinssignpack.square14.name
+melvinssignpack:square15, item.melvinssignpack.square15.name
+melvinssignpack:square16, item.melvinssignpack.square16.name
+melvinssignpack:square17, item.melvinssignpack.square17.name
+melvinssignpack:square18, item.melvinssignpack.square18.name
+melvinssignpack:square19, item.melvinssignpack.square19.name
+melvinssignpack:square20, item.melvinssignpack.square20.name
+melvinssignpack:square21, item.melvinssignpack.square21.name
+melvinssignpack:square22, item.melvinssignpack.square22.name
+melvinssignpack:square23, item.melvinssignpack.square23.name
+melvinssignpack:square24, item.melvinssignpack.square24.name
+melvinssignpack:square25, item.melvinssignpack.square25.name
+melvinssignpack:square26, item.melvinssignpack.square26.name
+melvinssignpack:square27, item.melvinssignpack.square27.name
+melvinssignpack:square28, item.melvinssignpack.square28.name
+melvinssignpack:square29, item.melvinssignpack.square29.name
+melvinssignpack:square30, item.melvinssignpack.square30.name
+melvinssignpack:square31, item.melvinssignpack.square31.name
+melvinssignpack:square32, item.melvinssignpack.square32.name
+melvinssignpack:square33, item.melvinssignpack.square33.name
+melvinssignpack:square34, item.melvinssignpack.square34.name
+melvinssignpack:square35, item.melvinssignpack.square35.name
+melvinssignpack:square36, item.melvinssignpack.square36.name
+melvinssignpack:square37, item.melvinssignpack.square37.name
+melvinssignpack:square38, item.melvinssignpack.square38.name
+melvinssignpack:square39, item.melvinssignpack.square39.name
+melvinssignpack:square40, item.melvinssignpack.square40.name
+melvinssignpack:square41, item.melvinssignpack.square41.name
+melvinssignpack:square42, item.melvinssignpack.square42.name
+melvinssignpack:square43, item.melvinssignpack.square43.name
+melvinssignpack:square44, item.melvinssignpack.square44.name
+melvinssignpack:square45, item.melvinssignpack.square45.name
+melvinssignpack:square46, item.melvinssignpack.square46.name
+melvinssignpack:square47, item.melvinssignpack.square47.name
+melvinssignpack:square48, item.melvinssignpack.square48.name
+melvinssignpack:square49, item.melvinssignpack.square49.name
+melvinssignpack:square50, item.melvinssignpack.square50.name
+melvinssignpack:square51, item.melvinssignpack.square51.name
+melvinssignpack:square52, item.melvinssignpack.square52.name
+melvinssignpack:square53, item.melvinssignpack.square53.name
+melvinssignpack:square54, item.melvinssignpack.square54.name
+melvinssignpack:square55, item.melvinssignpack.square55.name
+melvinssignpack:square56, item.melvinssignpack.square56.name
+melvinssignpack:square57, item.melvinssignpack.square57.name
+melvinssignpack:square58, item.melvinssignpack.square58.name
+melvinssignpack:square59, item.melvinssignpack.square59.name
+melvinssignpack:square60, item.melvinssignpack.square60.name
+melvinssignpack:square61, item.melvinssignpack.square61.name
+melvinssignpack:square62, item.melvinssignpack.square62.name
+melvinssignpack:square63, item.melvinssignpack.square63.name
+melvinssignpack:square64, item.melvinssignpack.square64.name
+melvinssignpack:square65, item.melvinssignpack.square65.name
+melvinssignpack:square66, item.melvinssignpack.square66.name
+melvinssignpack:square67, item.melvinssignpack.square67.name
+melvinssignpack:square68, item.melvinssignpack.square68.name
+melvinssignpack:square69, item.melvinssignpack.square69.name
+melvinssignpack:square70, item.melvinssignpack.square70.name
+melvinssignpack:square71, item.melvinssignpack.square71.name
+melvinssignpack:square72, item.melvinssignpack.square72.name
+melvinssignpack:square73, item.melvinssignpack.square73.name
+melvinssignpack:square74, item.melvinssignpack.square74.name
+melvinssignpack:square75, item.melvinssignpack.square75.name
+melvinssignpack:square76, item.melvinssignpack.square76.name
+melvinssignpack:square77, item.melvinssignpack.square77.name
+melvinssignpack:square78, item.melvinssignpack.square78.name
+melvinssignpack:square79, item.melvinssignpack.square79.name
+melvinssignpack:square80, item.melvinssignpack.square80.name
+melvinssignpack:square81, item.melvinssignpack.square81.name
+melvinssignpack:square82, item.melvinssignpack.square82.name
+melvinssignpack:square83, item.melvinssignpack.square83.name
+melvinssignpack:square84, item.melvinssignpack.square84.name
+melvinssignpack:square85, item.melvinssignpack.square85.name
+melvinssignpack:square86, item.melvinssignpack.square86.name
+melvinssignpack:square87, item.melvinssignpack.square87.name
+melvinssignpack:square88, item.melvinssignpack.square88.name
+melvinssignpack:square89, item.melvinssignpack.square89.name
+melvinssignpack:square90, item.melvinssignpack.square90.name
+melvinssignpack:square91, item.melvinssignpack.square91.name
+melvinssignpack:square92, item.melvinssignpack.square92.name
+melvinssignpack:square93, item.melvinssignpack.square93.name
+melvinssignpack:square94, item.melvinssignpack.square94.name
+melvinssignpack:square95, item.melvinssignpack.square95.name
+melvinssignpack:triangle01, item.melvinssignpack.triangle01.name
+melvinssignpack:triangle02, item.melvinssignpack.triangle02.name
+melvinssignpack:triangle03, item.melvinssignpack.triangle03.name
+melvinssignpack:triangle04, item.melvinssignpack.triangle04.name
+melvinssignpack:triangle05, item.melvinssignpack.triangle05.name
+melvinssignpack:triangle06, item.melvinssignpack.triangle06.name
+melvinssignpack:triangle07, item.melvinssignpack.triangle07.name
+melvinssignpack:triangle08, item.melvinssignpack.triangle08.name
+melvinssignpack:triangle09, item.melvinssignpack.triangle09.name
+melvinssignpack:triangle10, item.melvinssignpack.triangle10.name
+melvinssignpack:triangle11, item.melvinssignpack.triangle11.name
+melvinssignpack:triangle12, item.melvinssignpack.triangle12.name
+melvinssignpack:triangle13, item.melvinssignpack.triangle13.name
+melvinssignpack:triangle14, item.melvinssignpack.triangle14.name
+melvinssignpack:triangle15, item.melvinssignpack.triangle15.name
+melvinssignpack:triangle16, item.melvinssignpack.triangle16.name
+melvinssignpack:triangle17, item.melvinssignpack.triangle17.name
+melvinssignpack:triangle18, item.melvinssignpack.triangle18.name
+melvinssignpack:triangle19, item.melvinssignpack.triangle19.name
+melvinssignpack:triangle20, item.melvinssignpack.triangle20.name
+melvinssignpack:triangle21, item.melvinssignpack.triangle21.name
+melvinssignpack:triangle22, item.melvinssignpack.triangle22.name
+melvinssignpack:triangle23, item.melvinssignpack.triangle23.name
+melvinssignpack:triangle24, item.melvinssignpack.triangle24.name
+melvinssignpack:triangle25, item.melvinssignpack.triangle25.name
+melvinssignpack:triangle26, item.melvinssignpack.triangle26.name
+melvinssignpack:triangle27, item.melvinssignpack.triangle27.name
+melvinssignpack:triangle28, item.melvinssignpack.triangle28.name
+melvinssignpack:triangle29, item.melvinssignpack.triangle29.name
+melvinssignpack:triangle30, item.melvinssignpack.triangle30.name
+melvinssignpack:triangle31, item.melvinssignpack.triangle31.name
+melvinssignpack:triangle32, item.melvinssignpack.triangle32.name
+melvinssignpack:triangle33, item.melvinssignpack.triangle33.name
+melvinssignpack:triangle34, item.melvinssignpack.triangle34.name
+melvinssignpack:triangle35, item.melvinssignpack.triangle35.name
+melvinssignpack:triangle36, item.melvinssignpack.triangle36.name
+melvinssignpack:triangle37, item.melvinssignpack.triangle37.name
+melvinssignpack:triangle38, item.melvinssignpack.triangle38.name
+melvinssignpack:triangle39, item.melvinssignpack.triangle39.name
+melvinssignpack:triangle40, item.melvinssignpack.triangle40.name
+melvinssignpack:triangle41, item.melvinssignpack.triangle41.name
+melvinssignpack:triangle42, item.melvinssignpack.triangle42.name
+melvinssignpack:triangle43, item.melvinssignpack.triangle43.name
+melvinssignpack:triangle44, item.melvinssignpack.triangle44.name
+melvinssignpack:triangle45, item.melvinssignpack.triangle45.name
+melvinssignpack:triangle46, item.melvinssignpack.triangle46.name
+melvinssignpack:triangle47, item.melvinssignpack.triangle47.name
+melvinssignpack:triangle48, item.melvinssignpack.triangle48.name
+millenaire:wood_deco:0, Plain Timber Frame
+millenaire:wood_deco:1, Cross Timber Frame
+millenaire:wood_deco:2, Thatch
+millenaire:wood_deco:3, Beehive
+millenaire:stone_deco:0, Mud Brick
+millenaire:stone_deco:2, Gold Ornament
+millenaire:stone_deco:3, Byzantine Mosaic
+millenaire:stone_deco:4, Byzantine Fresco
+millenaire:stone_deco:5, Light Blue Concrete Brick
+millenaire:stone_deco:6, Light Blue Chiseled Concrete
+millenaire:earth_deco:0, Dirt Wall
+millenaire:wall_mud_brick, Mud Brick Wall
+millenaire:stairs_painted_brick_magenta, Magenta Painted Stairs
+millenaire:stairs_painted_brick_blue, Blue Painted Stairs
+millenaire:stairs_painted_brick_gray, Gray Painted Stairs
+millenaire:stairs_painted_brick_black, Black Painted Stairs
+millenaire:stairs_painted_brick_red, Red Painted Stairs
+millenaire:stairs_painted_brick_silver, Silver Painted Stairs
+millenaire:stairs_painted_brick_lime, Lime Painted Stairs
+millenaire:stairs_painted_brick_cyan, Cyan Painted Stairs
+millenaire:stairs_painted_brick_orange, Orange Painted Stairs
+millenaire:stairs_painted_brick_brown, Brown Painted Stairs
+millenaire:stairs_painted_brick_white, White Painted Stairs
+millenaire:stairs_painted_brick_yellow, Yellow Painted Stairs
+millenaire:stairs_painted_brick_green, Green Painted Stairs
+millenaire:stairs_painted_brick_purple, Purple Painted Stairs
+millenaire:stairs_painted_brick_light_blue, Light Blue Painted Stairs
+millenaire:stairs_painted_brick_pink, Pink Painted Stairs
+millenaire:painted_brick_magenta, Magenta Painted Brick
+millenaire:painted_brick_blue, Blue Painted Brick
+millenaire:painted_brick_gray, Gray Painted Brick
+millenaire:painted_brick_black, Black Painted Brick
+millenaire:painted_brick_red, Red Painted Brick
+millenaire:painted_brick_silver, Silver Painted Brick
+millenaire:painted_brick_lime, Lime Painted Brick
+millenaire:painted_brick_cyan, Cyan Painted Brick
+millenaire:painted_brick_orange, Orange Painted Brick
+millenaire:painted_brick_brown, Brown Painted Brick
+millenaire:painted_brick_white, White Painted Brick
+millenaire:painted_brick_yellow, Yellow Painted Brick
+millenaire:painted_brick_green, Green Painted Brick
+millenaire:painted_brick_purple, Purple Painted Brick
+millenaire:painted_brick_light_blue, Light Blue Painted Brick
+millenaire:painted_brick_pink, Pink Painted Brick
+millenaire:wall_painted_brick_magenta, Magenta Painted Wall
+millenaire:wall_painted_brick_blue, Blue Painted Wall
+millenaire:wall_painted_brick_gray, Gray Painted Wall
+millenaire:wall_painted_brick_black, Black Painted Wall
+millenaire:wall_painted_brick_red, Red Painted Wall
+millenaire:wall_painted_brick_silver, Silver Painted Wall
+millenaire:wall_painted_brick_lime, Lime Painted Wall
+millenaire:wall_painted_brick_cyan, Cyan Painted Wall
+millenaire:wall_painted_brick_orange, Orange Painted Wall
+millenaire:wall_painted_brick_brown, Brown Painted Wall
+millenaire:wall_painted_brick_white, White Painted Wall
+millenaire:wall_painted_brick_yellow, Yellow Painted Wall
+millenaire:wall_painted_brick_green, Green Painted Wall
+millenaire:wall_painted_brick_purple, Purple Painted Wall
+millenaire:wall_painted_brick_light_blue, Light Blue Painted Wall
+millenaire:wall_painted_brick_pink, Pink Painted Wall
+millenaire:slab_painted_brick_magenta, Magenta Painted Slab
+millenaire:slab_painted_brick_blue, Blue Painted Slab
+millenaire:slab_painted_brick_gray, Gray Painted Slab
+millenaire:slab_painted_brick_black, Black Painted Slab
+millenaire:slab_painted_brick_red, Red Painted Slab
+millenaire:slab_painted_brick_silver, Silver Painted Slab
+millenaire:slab_painted_brick_lime, Lime Painted Slab
+millenaire:slab_painted_brick_cyan, Cyan Painted Slab
+millenaire:slab_painted_brick_orange, Orange Painted Slab
+millenaire:slab_painted_brick_brown, Brown Painted Slab
+millenaire:slab_painted_brick_white, White Painted Slab
+millenaire:slab_painted_brick_yellow, Yellow Painted Slab
+millenaire:slab_painted_brick_green, Green Painted Slab
+millenaire:slab_painted_brick_purple, Purple Painted Slab
+millenaire:slab_painted_brick_light_blue, Light Blue Painted Slab
+millenaire:slab_painted_brick_pink, Pink Painted Slab
+millenaire:painted_brick_decorated_magenta, Magenta Decorated Brick
+millenaire:painted_brick_decorated_blue, Blue Decorated Brick
+millenaire:painted_brick_decorated_gray, Gray Decorated Brick
+millenaire:painted_brick_decorated_black, Black Decorated Brick
+millenaire:painted_brick_decorated_red, Red Decorated Brick
+millenaire:painted_brick_decorated_silver, Silver Decorated Brick
+millenaire:painted_brick_decorated_lime, Lime Decorated Brick
+millenaire:painted_brick_decorated_cyan, Cyan Decorated Brick
+millenaire:painted_brick_decorated_orange, Orange Decorated Brick
+millenaire:painted_brick_decorated_brown, Brown Decorated Brick
+millenaire:painted_brick_decorated_white, White Decorated Brick
+millenaire:painted_brick_decorated_yellow, Yellow Decorated Brick
+millenaire:painted_brick_decorated_green, Green Decorated Brick
+millenaire:painted_brick_decorated_purple, Purple Decorated Brick
+millenaire:painted_brick_decorated_light_blue, Light Blue Decorated Brick
+millenaire:painted_brick_decorated_pink, Pink Decorated Brick
+millenaire:extended_mud_brick:0, Smooth Mud Brick
+millenaire:extended_mud_brick:1, Decorated Mud Brick
+millenaire:extended_mud_brick:2, Ornamented Mud Brick
+millenaire:slab_wood_deco:0, Timber Frame Slab
+millenaire:slab_wood_deco:2, Thatch Slab
+millenaire:slab_stone_deco:0, Mud Brick Slab
+millenaire:slab_stone_deco:1, Cooked Brick Slab
+millenaire:stained_glass:0, White Stained Glass Windows
+millenaire:stained_glass:1, Yellow Stained Glass Windows
+millenaire:stained_glass:2, Yellow & Red Stained Glass Windows
+millenaire:stained_glass:3, Red & Blue Stained Glass Windows
+millenaire:stained_glass:4, Green & Blue Stained Glass Windows
+millenaire:rosette, Rosette Stained Glass Windows
+millenaire:stairs_mudbrick, Mud Brick Stairs
+millenaire:stairs_timberframe, Timber Frame Stairs
+millenaire:stairs_thatch, Thatch Stairs
+millenaire:stairs_byzantine_tiles, Byzantine Tiles Stairs
+millenaire:wet_brick:0, Wet Brick
+millenaire:silk_worm:0, Empty Sericulture Block
+millenaire:silk_worm:3, Sericulture Block
+millenaire:snail_soil:0, Empty Snail Soil
+millenaire:snail_soil:3, Full Snail Soil
+millenaire:sandstone_carved, Carved Sandstone
+millenaire:sandstone_red_carved, Carved Red Sandstone
+millenaire:sandstone_ochre_carved, Carved Ochre Sandstone
+millenaire:stairs_sandstone_carved, Carved Sandstone Stairs
+millenaire:stairs_sandstone_red_carved, Carved Red Sandstone Stairs
+millenaire:stairs_sandstone_ochre_carved, Carved Ochre Sandstone Stairs
+millenaire:slab_sandstone_carved, Carved Sandstone Slab
+millenaire:slab_sandstone_red_carved, Carved Red Sandstone Slab
+millenaire:slab_sandstone_ochre_carved, Carved Ochre Sandstone Slab
+millenaire:wall_sandstone_carved, Carved Sandstone Wall
+millenaire:wall_sandstone_red_carved, Carved Red Sandstone Wall
+millenaire:wall_sandstone_ochre_carved, Carved Ochre Sandstone Wall
+millenaire:pathdirt, Dirt path
+millenaire:pathgravel, Gravel path
+millenaire:pathsandstone, Sandstone slabs path
+millenaire:pathslabs, Slabs path
+millenaire:pathgravelslabs, Slabs and gravel path
+millenaire:pathochretiles, Ochre slabs path
+millenaire:pathsnow, Snow path
+millenaire:pathdirt_slab, Dirt path
+millenaire:pathgravel_slab, Gravel path
+millenaire:pathsandstone_slab, Sandstone slabs path
+millenaire:pathslabs_slab, Slabs path
+millenaire:pathgravelslabs_slab, Slabs and gravel path
+millenaire:pathochretiles_slab, Ochre slabs path
+millenaire:pathsnow_slab, Snow path
+millenaire:paper_wall, Paper Wall
+millenaire:wooden_bars, Wooden Bars
+millenaire:wooden_bars_indian, Carved Indian Window
+millenaire:wooden_bars_rosette, Carved Indian Frame
+millenaire:locked_chest, Locked Chest
+millenaire:byzantine_stone_tiles, Byzantine Stone Tile
+millenaire:byzantine_sandstone_tiles, Byzantine Sandstone Tile
+millenaire:byzantine_stone_ornament, Byzantine Stone Tile Ornament
+millenaire:byzantine_sandstone_ornament, Byzantine Sandstone Tile Ornament
+millenaire:byzantine_tiles, Byzantine Tiles
+millenaire:byzantine_tiles_slab:0, Byzantine Tile Slab
+millenaire:alchemistexplosive, Alchemist's Explosive
+millenaire:sod:0, Sod Oak Planks
+millenaire:sod:1, Sod Spruce Planks
+millenaire:sod:2, Sod Birch Planks
+millenaire:sod:3, Sod Jungle Planks
+millenaire:sod:4, Sod Acacia Planks
+millenaire:sod:5, Sod Dark Oak Planks
+millenaire:icebrick, Ice Brick
+millenaire:snowbrick, Snow Brick
+millenaire:inuitcarving, Inuit Carving
+millenaire:snowwall, Snow Wall
+millenaire:bed_straw, Straw Bed
+millenaire:bed_charpoy, Charpoy Bed
+millenaire:import_table, Import Table
+millenaire:sapling_appletree, Apple Tree Sapling
+millenaire:leaves_appletree, Apple Tree Leaves
+millenaire:sapling_olivetree, Olive Tree Sapling
+millenaire:leaves_olivetree, Olive Tree Leaves
+millenaire:sapling_pistachio, Pistachio Sapling
+millenaire:leaves_pistachio, Pistachio Leaves
+millenaire:markerblock:0, Preserve Ground
+millenaire:markerblock:1, Sleeping Pos
+millenaire:markerblock:2, Selling Pos
+millenaire:markerblock:3, Crafting Pos
+millenaire:markerblock:4, Defending Pos
+millenaire:markerblock:5, Shelter Pos
+millenaire:markerblock:6, Path Start Pos
+millenaire:markerblock:7, Leisure Pos
+millenaire:markerblock:8, Stall Pos
+millenaire:markerblock:9, Brick Drying Pos
+millenaire:markerblock:10, Healing Pos
+millenaire:markerblock:11, Fishing Pos
+millenaire:mainchest, Main Chest
+millenaire:animalspawn:0, Cow Spawn Point
+millenaire:animalspawn:1, Pig Spawn Point
+millenaire:animalspawn:2, Sheep Spawn Point
+millenaire:animalspawn:3, Chicken Spawn Point
+millenaire:animalspawn:4, Squid Spawn Point
+millenaire:animalspawn:5, Wolf Spawn Point
+millenaire:animalspawn:6, Polar Bear Spawn Point
+millenaire:source:0, Stone Source Block
+millenaire:source:1, Sand Source Block
+millenaire:source:2, Sandstone Source Block
+millenaire:source:3, Clay Source Block
+millenaire:source:4, Gravel Source Block
+millenaire:source:5, Granite Source Block
+millenaire:source:6, Diorite Source Block
+millenaire:source:7, Andesite Source Block
+millenaire:source:8, Snow Source Block
+millenaire:source:9, Ice Source Block
+millenaire:source:10, Red Sandstone Source Block
+millenaire:source:11, Quartz Source Block
+millenaire:freeblock:0, Free Stone
+millenaire:freeblock:1, Free Sand
+millenaire:freeblock:2, Free Gravel
+millenaire:freeblock:3, Free Sandstone
+millenaire:freeblock:4, Free Wool
+millenaire:freeblock:5, Free Cobblestone
+millenaire:freeblock:6, Free Stone Brick
+millenaire:freeblock:7, tile.millenaire.freeblock.paintedbrick.name
+millenaire:freeblock:8, Free Grass Block
+millenaire:treespawn:0, Oak Spawn Point
+millenaire:treespawn:1, Pine Spawn Point
+millenaire:treespawn:2, Birch Spawn Point
+millenaire:treespawn:3, Jungle Spawn Point
+millenaire:treespawn:4, Acacia Spawn Point
+millenaire:treespawn:5, Dark Oak Spawn Point
+millenaire:treespawn:6, Apple Tree Spawn Point
+millenaire:treespawn:7, Pistachio Tree Spawn Point
+millenaire:treespawn:8, Olive Tree Spawn Point
+millenaire:treespawn:9, Cherry Tree Spawn Point
+millenaire:treespawn:10, Sakura Tree Spawn Point
+millenaire:soil:0, Wheat Soil
+millenaire:soil:1, Rice Soil
+millenaire:soil:2, Turmeric Soil
+millenaire:soil:3, Sugar Cane Soil
+millenaire:soil:4, Potato Soil
+millenaire:soil:5, Nether Wart Soil
+millenaire:soil:6, Vine Soil
+millenaire:soil:7, Maize Soil
+millenaire:soil:8, Cacao Soil
+millenaire:soil:9, Carrot Soil
+millenaire:soil:10, Flower Soil
+millenaire:soil:11, Cotton Soil
+millenaire:decorblock:0, Norman Tapestry
+millenaire:decorblock:1, Indian Statue
+millenaire:decorblock:2, Byzantine Icon Small
+millenaire:decorblock:3, Byzantine Icon Medium
+millenaire:decorblock:4, Byzantine Icon Large
+millenaire:decorblock:5, Maya Statue
+millenaire:decorblock:6, Hanging Hide
+millenaire:decorblock:7, Wallcarpet Small
+millenaire:decorblock:8, Wallcarpet Medium
+millenaire:decorblock:9, Wallcarpet Large
+millenaire:villagebanner, Village Banner
+millenaire:culturebanner, Culture Banner
+millenaire:fire_pit, Fire Pit
+millenaire:stairs_gray_tiles, Gray Tiles Stairs
+millenaire:stairs_green_tiles, Green Tiles Stairs
+millenaire:stairs_red_tiles, Red Tiles Stairs
+millenaire:gray_tiles, Gray Tiles
+millenaire:green_tiles, Green Tiles
+millenaire:red_tiles, Red Tiles
+millenaire:gray_tiles_slab:0, Gray Tile Slab
+millenaire:green_tiles_slab:0, Green Tile Slab
+millenaire:red_tiles_slab:0, Red Tile Slab
+millenaire:wooden_bars_dark, Carved Dark Window
+millenaire:sapling_cherry, Cherry Tree Sapling
+millenaire:cherry_leaves, Cherry Tree Leaves
+millenaire:sapling_sakura, Sakura Tree Sapling
+millenaire:sakura_leaves, Sakura Tree Leaves
+millenaire:feathered_serpent, Feathered Serpent
+millenaire:mayan_carpet, Fancy Rug
+millenaire:mayan_carpet_thatch, Thatch Rug
+millenaire:mayan_calendar, Mayan Calendar
+millenaire:summoningwand, Wand of Summoning
+millenaire:negationwand, Wand of Negation
+millenaire:denier, Denier
+millenaire:denierargent, Denier Argent
+millenaire:denieror, Denier Or
+millenaire:purse, Deniers Pouch
+millenaire:rice, Rice
+millenaire:turmeric, Turmeric
+millenaire:maize, Maize
+millenaire:grapes, Grapes
+millenaire:cotton, Cotton
+millenaire:normanpickaxe, Norman Pickaxe
+millenaire:normanaxe, Norman Axe
+millenaire:normanshovel, Norman Shovel
+millenaire:normanhoe, Norman Hoe
+millenaire:mayanpickaxe, Obsidian Pickaxe
+millenaire:mayanaxe, Obsidian Axe
+millenaire:mayanshovel, Obsidian Shovel
+millenaire:mayanhoe, Obsidian Hoe
+millenaire:byzantinepickaxe, Byzantine Pickaxe
+millenaire:byzantineaxe, Byzantine Axe
+millenaire:byzantineshovel, Byzantine Shovel
+millenaire:byzantinehoe, Byzantine Hoe
+millenaire:normanbroadsword, Norman Broadsword
+millenaire:mayanmace, Obsidian Mace
+millenaire:tachisword, Tachi
+millenaire:byzantinemace, Byzantine Mace
+millenaire:inuittrident, Kakivak
+millenaire:seljukscimitar, Seljuk Scimitar
+millenaire:yumibow, Yumi Bow
+millenaire:inuitbow, Pitiksi Bow
+millenaire:seljukbow, Seljuk Bow
+millenaire:normanhelmet, Norman Helmet
+millenaire:normanplate, Norman Chestplate
+millenaire:normanlegs, Norman Leggings
+millenaire:normanboots, Norman Boots
+millenaire:japanesebluehelmet, Blue ō-yoroi helmet
+millenaire:japaneseblueplate, Blue ō-yoroi chestplate
+millenaire:japanesebluelegs, Blue ō-yoroi leggings
+millenaire:japaneseblueboots, Blue ō-yoroi boots
+millenaire:japaneseredhelmet, Red ō-yoroi helmet
+millenaire:japaneseredplate, Red ō-yoroi chestplate
+millenaire:japaneseredlegs, Red ō-yoroi leggings
+millenaire:japaneseredboots, Red ō-yoroi boots
+millenaire:japaneseguardhelmet, Keiko helmet
+millenaire:japaneseguardplate, Keiko chestplate
+millenaire:japaneseguardlegs, Keiko leggings
+millenaire:japaneseguardboots, Keiko boots
+millenaire:byzantinehelmet, Byzantine Helmet
+millenaire:byzantineplate, Byzantine Chestplate
+millenaire:byzantinelegs, Byzantine Leggings
+millenaire:byzantineboots, Byzantine Boots
+millenaire:furhelmet, Fur Hood
+millenaire:furplate, Fur Coat
+millenaire:furlegs, Fur Leggings
+millenaire:furboots, Fur Boots
+millenaire:seljukhelmet, Seljuk Helmet
+millenaire:seljukturban, Seljuk Turban
+millenaire:seljukplate, Seljuk Chestplate
+millenaire:seljuklegs, Seljuk Leggings
+millenaire:seljukboots, Seljuk Boots
+millenaire:ciderapple, Cider Apple
+millenaire:olives, Olives
+millenaire:oliveoil, Olive Oil
+millenaire:cider, Cider
+millenaire:calva, Calva
+millenaire:boudin, Boudin Noir
+millenaire:tripes, Tripes
+millenaire:vegcurry, Vegetarian Curry
+millenaire:chickencurry, Murgh Curry
+millenaire:rasgulla, Rasgulla
+millenaire:masa, Masa
+millenaire:wah, Wah
+millenaire:balche, Balché
+millenaire:sikilpah, Sikil Pah
+millenaire:cacauhaa, Cacauhaa
+millenaire:udon, Udon
+millenaire:sake, Sake
+millenaire:ikayaki, Ikayaki
+millenaire:feta, Feta
+millenaire:souvlaki, Souvlaki
+millenaire:winebasic, Wine
+millenaire:winefancy, Malvasia Wine
+millenaire:bearmeat_raw, Raw Bear Meat
+millenaire:bearmeat_cooked, Bear Steak
+millenaire:wolfmeat_raw, Raw Wolf Meat
+millenaire:wolfmeat_cooked, Wolf Steak
+millenaire:seafood_raw, Raw Sea Meat
+millenaire:seafood_cooked, Sea Meat
+millenaire:inuitpotatostew, Inuit Potato Stew
+millenaire:inuitmeatystew, Inuit Meat Stew
+millenaire:inuitbearstew, Inuit Bear Stew
+millenaire:ayran, Ayran
+millenaire:yogurt, Yogurt
+millenaire:pide, Pide
+millenaire:lokum, Lokum
+millenaire:helva, Helva
+millenaire:pistachios, Pistachios
+millenaire:cherries, Cherries
+millenaire:cherry_blossom, Cherry Blossom
+millenaire:tapestry, Norman Tapestry
+millenaire:indianstatue, Hindu Statue
+millenaire:mayanstatue, Maya Carving
+millenaire:byzantineiconsmall, Small Byzantine Icon
+millenaire:byzantineiconmedium, Medium Byzantine Icon
+millenaire:byzantineiconlarge, Large Byzantine Icon
+millenaire:hidehanging, Hanging Hide
+millenaire:wallcarpetsmall, Wall Carpet Small
+millenaire:wallcarpetmedium, Wall Carpet Medium
+millenaire:wallcarpetlarge, Wall Carpet Large
+millenaire:paint_bucket_white, Whitewash Bucket
+millenaire:paint_bucket_orange, Orangewash Bucket
+millenaire:paint_bucket_magenta, Magentawash Bucket
+millenaire:paint_bucket_light_blue, Light Bluewash Bucket
+millenaire:paint_bucket_yellow, Yellowwash Bucket
+millenaire:paint_bucket_lime, Limewash Bucket
+millenaire:paint_bucket_pink, Pinkwash Bucket
+millenaire:paint_bucket_gray, Graywash Bucket
+millenaire:paint_bucket_silver, Silverwash Bucket
+millenaire:paint_bucket_cyan, Cyanwash Bucket
+millenaire:paint_bucket_purple, Purplewash Bucket
+millenaire:paint_bucket_blue, Bluewash Bucket
+millenaire:paint_bucket_brown, Brownwash Bucket
+millenaire:paint_bucket_green, Greenwash Bucket
+millenaire:paint_bucket_red, Redwash Bucket
+millenaire:paint_bucket_black, Blackwash Bucket
+millenaire:parchment_normanvillagers, Norman Villagers
+millenaire:parchment_normanbuildings, Norman Buildings
+millenaire:parchment_normanitems, Norman Objects
+millenaire:parchment_normanfull, Complete Normandy Scroll
+millenaire:parchment_indianvillagers, Indian Villagers
+millenaire:parchment_indianbuildings, Indian Buildings
+millenaire:parchment_indianitems, Indian Objects
+millenaire:parchment_indianfull, Complete Indian Scroll
+millenaire:parchment_mayanvillagers, Maya Villagers
+millenaire:parchment_mayanbuildings, Maya Buildings
+millenaire:parchment_mayanitems, Maya Objects
+millenaire:parchment_mayanfull, Complete Maya Scroll
+millenaire:parchment_japanesevillagers, Japanese Villagers
+millenaire:parchment_japanesebuildings, Japanese Buildings
+millenaire:parchment_japaneseitems, Japanese Objects
+millenaire:parchment_japanesefull, Complete Japanese Scroll
+millenaire:parchment_villagescroll, Village Scroll
+millenaire:brickmould, Brick Mould
+millenaire:obsidianflake, Obsidian Flake
+millenaire:silk, Silk
+millenaire:clothes_byz_wool, Wool Byzantine clothes
+millenaire:clothes_byz_silk, Silk Byzantine clothes
+millenaire:clothes_seljuk_wool, Wool Seljuk clothes
+millenaire:clothes_seljuk_cotton, Cotton Seljuk clothes
+millenaire:vishnu_amulet, Amulet of Vishnu
+millenaire:alchemist_amulet, Amulet of the Alchemist
+millenaire:yggdrasil_amulet, Amulet of Yggdrasil
+millenaire:skoll_hati_amulet, Amulet of Sköll and Hati
+millenaire:ulu, Ulu
+millenaire:tannedhide, Treated Hide
+millenaire:bannerpattern:0, Byzantine Eagle Pattern
+millenaire:bannerpattern:1, Byzantine Dexter Meander Pattern
+millenaire:bannerpattern:2, Byzantine Sinister Meander Pattern
+millenaire:bannerpattern:3, Seljuk Eagle Pattern
+millenaire:bannerpattern:4, Maya Face Pattern
+millenaire:bannerpattern:5, Inuit Inuksuk Pattern
+millenaire:bannerpattern:6, Indian Sun Pattern
+millenaire:bannerpattern:7, Indian Scimitar Pattern
+millenaire:bannerpattern:8, Indian Elephant Pattern
+millenaire:bannerpattern:9, Indian Conch Pattern
+millenaire:bannerpattern:10, Indian Cow Pattern
+millenaire:bannerpattern:11, Indian Lotus Pattern
+millenaire:bannerpattern:12, Norman Lion Pattern
+millenaire:bannerpattern:13, Maya Lines Pattern
+millenaire:bannerpattern:14, Maya Hex Pattern
+millenaire:bannerpattern:15, Maya Heads Pattern
+millenaire:bannerpattern:16, Maya Spaceship Pattern
+millenaire:bannerpattern:17, Inuit Curve Pattern
+millenaire:bannerpattern:18, Inuit Lines Pattern
+millenaire:bannerpattern:19, Inuit Mermaid Pattern
+millenaire:bannerpattern:20, Inuit Rectangle Pattern
+millenaire:bannerpattern:21, Japanese Sun Pattern
+millenaire:bannerpattern:22, Japanese Agricultural Ideogram
+millenaire:bannerpattern:23, Japanese Military Ideogram
+millenaire:bannerpattern:24, Japanese Religious Ideogram
+millenaire:bannerpattern:25, Japanese Trade Ideogram
+millenaire:bannerpattern:26, Seljuk Religious Pattern
+millenaire:bannerpattern:27, Seljuk Military Pattern
+millenaire:parchment_sadhu, Book of the Sadhu
+millenaire:unknownpowder, Unknown Powder
+millenaire:mayanquestcrown, Maya Crown
 morebeautifulbuttons:button_press, Button Press
 morebeautifulbuttons:acacia_button, Acacia Button
 morebeautifulbuttons:birch_button, Birch Button
@@ -16562,6 +17658,8 @@ mowziesmobs:earth_talisman, Earth Talisman
 mowziesmobs:captured_grottol, Captured Grottol
 mowziesmobs:glowing_jelly, Luminous Jelly
 mowziesmobs:naga_fang, Naga Fang
+mowziesmobs:naga_fang_dagger, Naga Fang Dagger
+mowziesmobs:logo, item.logo.name
 mowziesmobs:painted_acacia, Painted Acacia Wood
 mowziesmobs:painted_acacia_slab, Painted Acacia Wood Slab
 mowziesmobs:barakoa_mask_fury, Mask of Fury
@@ -16569,140 +17667,36 @@ mowziesmobs:barakoa_mask_fear, Mask of Fear
 mowziesmobs:barakoa_mask_rage, Mask of Rage
 mowziesmobs:barakoa_mask_bliss, Mask of Bliss
 mowziesmobs:barakoa_mask_misery, Mask of Misery
-mtsofficialpack:comanche_blue, Blue Comanche
-mtsofficialpack:comanche_grey, Grey Comanche
-mtsofficialpack:comanche_red, Red Comanche
-mtsofficialpack:comanche_yellow, Yellow Comanche
-mtsofficialpack:e500_blue, Blue Eclipse 500
-mtsofficialpack:e500_green, Green Eclipse 500
-mtsofficialpack:e500_red, Red Eclipse 500
-mtsofficialpack:e500_yellow, Yellow Eclipse 500
-mtsofficialpack:firetruck, Fire Truck
-mtsofficialpack:gmcbrig_black, Black GMC Brigadier
-mtsofficialpack:gmcbrig_blue, Blue GMC Brigadier
-mtsofficialpack:gmcbrig_green, Green GMC Brigadier
-mtsofficialpack:gmcbrig_red, Red GMC Brigadier
-mtsofficialpack:gmcbrig_white, White GMC Brigadier
-mtsofficialpack:gmcbrig_yellow, Yellow GMC Brigadier
-mtsofficialpack:mc172_oak, Oak MC-172
-mtsofficialpack:mc172_spruce, Spruce MC-172
-mtsofficialpack:mc172_birch, Birch MC-172
-mtsofficialpack:mc172_jungle, Jungle MC-172
-mtsofficialpack:mc172_acacia, Acacia MC-172
-mtsofficialpack:mc172_darkoak, Dark Oak MC-172
-mtsofficialpack:pzlp11, PZL P11.c
-mtsofficialpack:scout_blue, Blue Scout
-mtsofficialpack:scout_orange, Orange Scout
-mtsofficialpack:scout_patriot, Patriotic Scout
-mtsofficialpack:scout_red, Red Scout
-mtsofficialpack:scout_yellow, Yellow Scout
-mtsofficialpack:trimotor_black, Black Ford Trimotor
-mtsofficialpack:trimotor_blue, Blue Ford Trimotor
-mtsofficialpack:trimotor_red, Red Ford Trimotor
-mtsofficialpack:trimotor_white, White Ford Trimotor
-mtsofficialpack:vulcanair_white, White Vulcanair
-mtsofficialpack:vulcanair_green, Green Vulcanair
-mtsofficialpack:vulcanair_blue, Blue Vulcanair
-mtsofficialpack:vulcanair_black, Black Vulcanair
-mtsofficialpack:vulcanair_red, Red Vulcanair
-mtsofficialpack:vulcanair_dark_red, Dark Red Vulcanair
-mtsofficialpack:vulcanair_white_orange, White-Orange Vulcanair
-mtsofficialpack:barrel, Barrel
-mtsofficialpack:brigbedbox, Brigadier Box Rear-End
-mtsofficialpack:brigbedflat, Brigadier Flatbed
-mtsofficialpack:brigbedlogs, Brigadier Logging Bed
-mtsofficialpack:brigbedstake, Brigadier Stakebed
-mtsofficialpack:bullet762, 7.62mm Bullet
-mtsofficialpack:crate, Crate
-mtsofficialpack:engineamci4:0, AMC I4 Car Engine
-mtsofficialpack:engineamci4:0, AMC I4 Car Engine
-mtsofficialpack:enginebristolmercury:0, Bristol Mercury Plane Engine
-mtsofficialpack:enginebristolmercury:0, Bristol Mercury Plane Engine
-mtsofficialpack:enginedetroitdiesel:0, Detroit Diesel Truck Engine
-mtsofficialpack:enginedetroitdiesel:0, Detroit Diesel Truck Engine
-mtsofficialpack:enginelycomingo360:0, Lycoming O-360 Plane Engine
-mtsofficialpack:enginelycomingo360:0, Lycoming O-360 Plane Engine
-mtsofficialpack:enginepw610f:0, Pratt & Whitney 610F Jet Engine
-mtsofficialpack:enginepw610f:0, Pratt & Whitney 610F Jet Engine
-mtsofficialpack:gunm1919, M1919 Browning Machine Gun
-mtsofficialpack:pontoon, Pontoon
-mtsofficialpack:propellerlarge2blade, Large 2-Bladed Propeller
-mtsofficialpack:propellersmall2blade, Small 2-Bladed Propeller
-mtsofficialpack:propellersmall3blade, Small 3-Bladed Propeller (Dynamic Pitch)
-mtsofficialpack:scouthardtop, Scout Hard-Top
-mtsofficialpack:scoutvinyltop, Scout Vinyl-Top
-mtsofficialpack:seatblue, Blue Seat
-mtsofficialpack:seatbrown, Brown Seat
-mtsofficialpack:seatgrey, Grey Seat
-mtsofficialpack:seatpink, Pink Seat
-mtsofficialpack:seatred, Red Seat
-mtsofficialpack:seatwhite, White Seat
-mtsofficialpack:skid, Landing Skid
-mtsofficialpack:wheellarge, Large Wheel
-mtsofficialpack:wheelmedium, Medium Wheel
-mtsofficialpack:wheelsmall, Small Wheel
-mtsofficialpack:instrument_aircraft_airspeed, Airspeed Indicator
-mtsofficialpack:instrument_aircraft_altimeter, Altimeter
-mtsofficialpack:instrument_aircraft_attitude, Attitude Indicator
-mtsofficialpack:instrument_aircraft_electric, Electrical Gauge
-mtsofficialpack:instrument_aircraft_enginetemp, Engine Temperature Gauge
-mtsofficialpack:instrument_aircraft_fuelflow, Fuel Flow Gauge
-mtsofficialpack:instrument_aircraft_fuelqty, Fuel Gauge
-mtsofficialpack:instrument_aircraft_heading, Heading Indicator
-mtsofficialpack:instrument_aircraft_liftreserve, Lift Reserve Indicator
-mtsofficialpack:instrument_aircraft_oilpressure, Oil Pressure Gauge
-mtsofficialpack:instrument_aircraft_tachometer, Tachometer
-mtsofficialpack:instrument_aircraft_trim, Trim Indicator
-mtsofficialpack:instrument_aircraft_turncoord, Turn Coordinator
-mtsofficialpack:instrument_aircraft_turnslip, Turn and Slip Indicator
-mtsofficialpack:instrument_aircraft_verticalspeed, Vertical Speed Indicator
-mtsofficialpack:instrument_car_electric, Electrical Gauge
-mtsofficialpack:instrument_car_enginetemp_c, Engine Temperature Gauge (C)
-mtsofficialpack:instrument_car_enginetemp_f, Engine Temperature Gauge (F)
-mtsofficialpack:instrument_car_fuelqty, Fuel Gauge
-mtsofficialpack:instrument_car_gear, Gear Indicator
-mtsofficialpack:instrument_car_oilpressure_b, Oil Presure Gauge (BAR)
-mtsofficialpack:instrument_car_oilpressure_p, Oil Presure Gauge (PSI)
-mtsofficialpack:instrument_car_spedometer_blk, Spedometer (BLK/S)
-mtsofficialpack:instrument_car_spedometer_kph, Spedometer (KPH)
-mtsofficialpack:instrument_car_spedometer_mph, Spedometer (MPH)
-mtsofficialpack:instrument_car_tachometer_amc, AMC I4 Tachometer
-mtsofficialpack:instrument_car_tachometer_det, Detroit Diesel Tachometer
-mtsofficialpack:crashbarrier, Crash Barrier
-mtsofficialpack:telephonebooth, Telephone Booth
-mtsofficialpack:trafficcone, Traffic Cone
-mtsofficialpack:nuts, Nuts
-mtsofficialpack:rods, Rods
 openlights:prismaticpaste, Prismatic Paste
 openlights:openlight, OpenLight
-opensecurity:energy_turret, Energy Turret
+opensecurity:card_writer, Card Writer
+opensecurity:entity_detector, Entity Detector
+opensecurity:nanofog_terminal, NanoFog Terminal
 opensecurity:alarm, Alarm
-opensecurity:biometric_reader, Biometric Reader
+opensecurity:energy_turret, Energy Turret
+opensecurity:rolldoor_element, Rolldoor Element
+opensecurity:keypad, Keypad
+opensecurity:rfid_reader, RFID Reader
+opensecurity:security_terminal, Security Terminal
 opensecurity:mag_reader, Magnetic Card Reader
 opensecurity:data_block, Data Block
-opensecurity:security_terminal, Security Terminal
-opensecurity:card_writer, Card Writer
-opensecurity:rolldoor_element, Rolldoor Element
-opensecurity:nanofog_terminal, NanoFog Terminal
-opensecurity:keypad, Keypad
-opensecurity:entity_detector, Entity Detector
-opensecurity:rfid_reader, RFID Reader
+opensecurity:biometric_reader, Biometric Reader
 opensecurity:mag_secure_door, MagReader Security Door
-opensecurity:private_secure_door, Private Security Door
 opensecurity:secure_door, Security Door
+opensecurity:private_secure_door, Private Security Door
+opensecurity:rolldoor_controller, Rolldoor Controller
 opensecurity:rolldoor, Rolldoor
+opensecurity:mag_reader_camo, Camo Magnetic Card Reader
 opensecurity:nanofog, NanoFog
 opensecurity:door_controller, Door Controller
-opensecurity:rolldoor_controller, Rolldoor Controller
-opensecurity:mag_reader_camo, Camo Magnetic Card Reader
-opensecurity:rfid_card, RFID Card
-opensecurity:mag_card, Magnetic Strip Card
-opensecurity:cooldown_upgrade, Cooldown Upgrade
-opensecurity:energy_upgrade, Energy Upgrade
-opensecurity:nanodna, NanoDNA
 opensecurity:damage_upgrade, Damage Upgrade
+opensecurity:cooldown_upgrade, Cooldown Upgrade
+opensecurity:nanodna, NanoDNA
+opensecurity:energy_upgrade, Energy Upgrade
 opensecurity:movement_upgrade, Movement Upgrade
 opensecurity:rfid_reader_card, RFID Reader Card
+opensecurity:rfid_card, RFID Card
+opensecurity:mag_card, Magnetic Strip Card
 plustic:pipe_piece:0, Stone Pipe Piece
 plustic:laser_medium:0, Stone Laser Medium
 plustic:battery_cell:0, Stone Battery Cell
@@ -16960,31 +17954,31 @@ rftoolsdim:structure_essence:8, Structure Swamp Hut Essence
 rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
-rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
-rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
-rftoolsdim:known_dimlet:9, Digit Dimlet (7)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
+rftoolsdim:known_dimlet:7, Feature Dimlet (None)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
 rftoolsdim:known_dimlet:5, Structure Dimlet (None)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
 rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
-rftoolsdim:known_dimlet:9, Digit Dimlet (6)
-rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (5)
-rftoolsdim:known_dimlet:10, Effect Dimlet (None)
-rftoolsdim:known_dimlet:9, Digit Dimlet (4)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
-rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
 rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
 rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:9, Digit Dimlet (5)
+rftoolsdim:known_dimlet:9, Digit Dimlet (6)
 rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
-rftoolsdim:known_dimlet:7, Feature Dimlet (None)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
-rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (3)
-rftoolsdim:known_dimlet:9, Digit Dimlet (2)
-rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:9, Digit Dimlet (7)
 rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
+rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:9, Digit Dimlet (2)
+rftoolsdim:known_dimlet:9, Digit Dimlet (3)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
+rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
+rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
 rftoolsdim:empty_dimension_tab, Empty Dimension Tab
@@ -17137,27 +18131,6 @@ spartanshields:shield_flux_ra, Flux-Infused Shield
 spiceoflife:bookfoodjournal, Food Journal
 spiceoflife:lunchbox, Lunch Box
 spiceoflife:lunchbag, Lunch Bag
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -17208,6 +18181,27 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 tanspit:spit, Campfire Spit
 torchmaster:frozen_pearl, Frozen Pearl
 torchmaster:mega_torch:0, Mega Torch
@@ -17391,6 +18385,38 @@ industrialwires:panel_component:10, RGB Indicator
 industrialwires:key:0, Blank Key
 industrialwires:key:2, Key Ring
 ocsensors:sensor, tile.ocsensors.sensor.name
+primal_tech:flint_block, Flint Block
+primal_tech:charcoal_block, Low Grade Charcoal
+primal_tech:clay_kiln, Clay Kiln
+primal_tech:stick_bundle, Stick Bundle
+primal_tech:fibre_torch, Un-Lit Fibre Torch
+primal_tech:wooden_hopper, Wopper Mk2 :P
+primal_tech:charcoal_hopper, Flame Grilled Wopper
+primal_tech:fibre_torch_lit, Lit Fibre Torch
+primal_tech:work_stump, Work Stump
+primal_tech:stone_grill, Stone Grill
+primal_tech:work_stump_upgraded, Work Stump Mk2
+primal_tech:water_saw, Water Powered Saw
+primal_tech:stone_anvil, Stone Anvil
+primal_tech:wooden_basin, Wooden Basin
+primal_tech:fire_sticks, Whittled Fire Sticks
+primal_tech:bone_pickaxe, Bone Pickaxe
+primal_tech:bone_axe, Bone Axe
+primal_tech:bone_shovel, Bone Shovel
+primal_tech:bone_shears, Bone Shears
+primal_tech:fluid_bladder:0, Fluid Bladder
+primal_tech:bone_shard, Bone Shard
+primal_tech:plant_fibres, Plant Fibres
+primal_tech:twine, Twine
+primal_tech:rock, Crafting Rock
+primal_tech:wood_club, Wood Club
+primal_tech:bone_club, Bone Club
+primal_tech:stone_club, Stone Club
+primal_tech:flint_edged_disc, Water Powered Saw Blade
+primal_tech:bone_sword, Bone Sword
+primal_tech:bone_knife, Bone Knife
+primal_tech:stone_mallet, Stone Mallet
+primal_tech:leaf_bed, Bed of Straw and Leaves
 theoneprobe:probe, The One Probe
 theoneprobe:creativeprobe, The Creative Probe
 theoneprobe:probenote, The One Probe Read Me
@@ -20584,8 +21610,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Block
 chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Small Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Tiny TNT
-chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
-chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
+chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
+chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Sandstone Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Red Sandstone
@@ -20665,8 +21691,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Elder Prismarine
 chiselsandbits:block_bit:0, Chiseled Bit - Elder Prismarine Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Elder Prismarine
 chiselsandbits:block_bit:0, Chiseled Bit - Elder Sea Lantern
-chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
-chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
+chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
+chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Porcelain Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Marine Bricks
@@ -20873,6 +21899,16 @@ chiselsandbits:block_bit:0, Chiseled Bit - Sticky Desert Myrmex Resin
 chiselsandbits:block_bit:0, Chiseled Bit - Sticky Jungle Myrmex Resin
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Fire Dragonsteel
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Ice Dragonsteel
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Cracked Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Tile
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Chiseled Skull South
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadwood Log Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadwood Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadwood Keyhole
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
@@ -20890,6 +21926,70 @@ chiselsandbits:block_bit:0, Chiseled Bit - Red Mulch
 chiselsandbits:block_bit:0, Chiseled Bit - Black Mulch
 chiselsandbits:block_bit:0, Chiseled Bit - Blue Mulch
 chiselsandbits:block_bit:0, Chiseled Bit - Reinforced Coke Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Plain Timber Frame
+chiselsandbits:block_bit:0, Chiseled Bit - Cross Timber Frame
+chiselsandbits:block_bit:0, Chiseled Bit - Thatch
+chiselsandbits:block_bit:0, Chiseled Bit - Beehive
+chiselsandbits:block_bit:0, Chiseled Bit - Mud Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Gold Ornament
+chiselsandbits:block_bit:0, Chiseled Bit - Byzantine Mosaic
+chiselsandbits:block_bit:0, Chiseled Bit - Byzantine Fresco
+chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Concrete Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Chiseled Concrete
+chiselsandbits:block_bit:0, Chiseled Bit - Dirt Wall
+chiselsandbits:block_bit:0, Chiseled Bit - Magenta Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Blue Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Gray Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Black Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Red Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Silver Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Lime Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Cyan Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Orange Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Brown Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - White Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Yellow Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Green Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Purple Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Pink Painted Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Magenta Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Blue Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Gray Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Black Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Red Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Silver Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Lime Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Cyan Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Orange Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Brown Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - White Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Yellow Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Green Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Purple Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Light Blue Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Pink Decorated Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Smooth Mud Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Decorated Mud Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Ornamented Mud Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Carved Sandstone
+chiselsandbits:block_bit:0, Chiseled Bit - Carved Red Sandstone
+chiselsandbits:block_bit:0, Chiseled Bit - Carved Ochre Sandstone
+chiselsandbits:block_bit:0, Chiseled Bit - Byzantine Stone Tile Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Byzantine Sandstone Tile Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Byzantine Stone Tile Ornament
+chiselsandbits:block_bit:0, Chiseled Bit - Byzantine Sandstone Tile Ornament
+chiselsandbits:block_bit:0, Chiseled Bit - Byzantine Tiles Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Alchemist's Explosive
+chiselsandbits:block_bit:0, Chiseled Bit - Sod Oak Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Sod Spruce Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Sod Birch Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Sod Jungle Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Sod Acacia Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Sod Dark Oak Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Gray Tiles Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Green Tiles Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Red Tiles Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Painted Acacia Wood
 chiselsandbits:block_bit:0, Chiseled Bit - Machine Frame
 chiselsandbits:block_bit:0, Chiseled Bit - Machine Base
@@ -20924,6 +22024,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Crag Rock
 chiselsandbits:block_bit:0, Chiseled Bit - Crag Rock Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Crag Rock Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Crag Rock Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Flint Block
+chiselsandbits:block_bit:0, Chiseled Bit - Low Grade Charcoal Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Aether Dirt
 chiselsandbits:block_bit:0, Chiseled Bit - Holystone
 chiselsandbits:block_bit:0, Chiseled Bit - Mossy Holystone
@@ -21010,6 +22112,19 @@ chiselsandbits:block_bit:0, Chiseled Bit - Chalcopyrite Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Sperrylite Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Cobalt Ore
 chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Tin Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Lead Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Uranium Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Amethyst Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Ruby Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Peridot Ore
@@ -21018,24 +22133,11 @@ chiselsandbits:block_bit:0, Chiseled Bit - Tanzanite Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Malachite Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Sapphire Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Amber Ore
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Aluminum Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Lead Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Silver Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Nickel Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Uranium Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Tin Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Lead Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Uranium Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Bodypart Template
 chiselsandbits:block_bit:0, Chiseled Bit - Compact Raw Porkchop
@@ -21613,26 +22715,6 @@ contenttweaker:chalcopyrite_ore:0, Chalcopyrite Ore
 contenttweaker:sperrylite_ore:0, Sperrylite Ore
 contenttweaker:cobalt_ore:0, Cobalt Ore
 patchouli:guide_book, Guide Book
-divergentunderground:rock_quark_basalt, Basalt Rock
-divergentunderground:quark_basalt_cobblestone, Basalt Cobblestone
-divergentunderground:rock_quark_icystone, Permafrost Rock
-divergentunderground:rock_quark_firestone, Brimstone Rock
-divergentunderground:gem_raw_bop_amethyst, Uncut Amethyst
-divergentunderground:gem_raw_bop_ruby, Uncut Ruby
-divergentunderground:gem_raw_bop_peridot, Uncut Peridot
-divergentunderground:gem_raw_bop_topaz, Uncut Topaz
-divergentunderground:gem_raw_bop_tanzanite, Uncut Tanzanite
-divergentunderground:gem_raw_bop_malachite, Uncut Malachite
-divergentunderground:gem_raw_bop_sapphire, Uncut Sapphire
-divergentunderground:gem_raw_bop_amber, Uncut Amber
-divergentunderground:bop_hard_amethyst_ore, Amethyst Ore
-divergentunderground:bop_hard_ruby_ore, Ruby Ore
-divergentunderground:bop_hard_peridot_ore, Peridot Ore
-divergentunderground:bop_hard_topaz_ore, Topaz Ore
-divergentunderground:bop_hard_tanzanite_ore, Tanzanite Ore
-divergentunderground:bop_hard_malachite_ore, Malachite Ore
-divergentunderground:bop_hard_sapphire_ore, Sapphire Ore
-divergentunderground:bop_hard_amber_ore, Amber Ore
 divergentunderground:ore_thermal_copper, Copper Ore
 divergentunderground:ore_thermal_tin, Tin Ore
 divergentunderground:ore_thermal_silver, Silver Ore
@@ -21651,6 +22733,34 @@ divergentunderground:thermal_hard_nickel_ore, Nickel Ore
 divergentunderground:thermal_hard_platinum_ore, Platinum Ore
 divergentunderground:thermal_hard_iridium_ore, Iridium Ore
 divergentunderground:thermal_hard_mithril_ore, Mithril Ore
+divergentunderground:rock_quark_basalt, Basalt Rock
+divergentunderground:quark_basalt_cobblestone, Basalt Cobblestone
+divergentunderground:rock_quark_icystone, Permafrost Rock
+divergentunderground:rock_quark_firestone, Brimstone Rock
+divergentunderground:ore_ic2_copper, Copper Ore
+divergentunderground:ore_ic2_tin, Tin Ore
+divergentunderground:ore_ic2_lead, Lead Ore
+divergentunderground:ore_ic2_uranium, Uranium Ore
+divergentunderground:ic2_hard_copper_ore, Copper Ore
+divergentunderground:ic2_hard_tin_ore, Tin Ore
+divergentunderground:ic2_hard_lead_ore, Lead Ore
+divergentunderground:ic2_hard_uranium_ore, Uranium Ore
+divergentunderground:gem_raw_bop_amethyst, Uncut Amethyst
+divergentunderground:gem_raw_bop_ruby, Uncut Ruby
+divergentunderground:gem_raw_bop_peridot, Uncut Peridot
+divergentunderground:gem_raw_bop_topaz, Uncut Topaz
+divergentunderground:gem_raw_bop_tanzanite, Uncut Tanzanite
+divergentunderground:gem_raw_bop_malachite, Uncut Malachite
+divergentunderground:gem_raw_bop_sapphire, Uncut Sapphire
+divergentunderground:gem_raw_bop_amber, Uncut Amber
+divergentunderground:bop_hard_amethyst_ore, Amethyst Ore
+divergentunderground:bop_hard_ruby_ore, Ruby Ore
+divergentunderground:bop_hard_peridot_ore, Peridot Ore
+divergentunderground:bop_hard_topaz_ore, Topaz Ore
+divergentunderground:bop_hard_tanzanite_ore, Tanzanite Ore
+divergentunderground:bop_hard_malachite_ore, Malachite Ore
+divergentunderground:bop_hard_sapphire_ore, Sapphire Ore
+divergentunderground:bop_hard_amber_ore, Amber Ore
 divergentunderground:ore_ie_copper, Copper Ore
 divergentunderground:ore_ie_aluminum, Aluminum Ore
 divergentunderground:ore_ie_lead, Lead Ore
@@ -21663,14 +22773,6 @@ divergentunderground:ie_hard_lead_ore, Lead Ore
 divergentunderground:ie_hard_silver_ore, Silver Ore
 divergentunderground:ie_hard_nickel_ore, Nickel Ore
 divergentunderground:ie_hard_uranium_ore, Uranium Ore
-divergentunderground:ore_ic2_copper, Copper Ore
-divergentunderground:ore_ic2_tin, Tin Ore
-divergentunderground:ore_ic2_lead, Lead Ore
-divergentunderground:ore_ic2_uranium, Uranium Ore
-divergentunderground:ic2_hard_copper_ore, Copper Ore
-divergentunderground:ic2_hard_tin_ore, Tin Ore
-divergentunderground:ic2_hard_lead_ore, Lead Ore
-divergentunderground:ic2_hard_uranium_ore, Uranium Ore
 endercrop:ender_crop, Ender Crop
 endercrop:tilled_end_stone, Tilled End Stone
 endercrop:ender_seeds, Ender Seeds
@@ -23385,9 +24487,9 @@ sync:item_shell_constructor, Shell Constructor
 sync:item_shell_storage, Shell Storage
 sync:item_treadmill, Treadmill
 openglasses:openglasses_card, Glasses Terminal Card
-openglasses:openglasses:0, AR Glasses
-openglasses:openglasses:0, AR Glasses
 openglasses:openglassesterminal, Glasses Terminal
+openglasses:openglasses:0, AR Glasses
+openglasses:openglasses:0, AR Glasses
 thebetweenlands:druid_stone_1, Rune Stone
 thebetweenlands:druid_stone_2, Rune Stone
 thebetweenlands:druid_stone_3, Rune Stone

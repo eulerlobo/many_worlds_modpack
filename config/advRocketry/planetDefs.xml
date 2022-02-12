@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <galaxy>
-    <star blackHole="false" name="Sol" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
+    <star blackHole="false" name="Sun" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
         <planet DIMID="0" customIcon="earthlike" dimMapping="" name="Titan">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -9,17 +9,17 @@
             <orbitalDistance>100</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>100</atmosphereDensity>
+            <atmosphereDensity>150</atmosphereDensity>
             <generateCraters>false</generateCraters>
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
             <planet DIMID="5" customIcon="moon" name="Luna">
-                <isKnown>false</isKnown>
+                <isKnown>true</isKnown>
                 <fogColor>1.0,1.0,1.0</fogColor>
                 <skyColor>1.0,1.0,1.0</skyColor>
                 <gravitationalMultiplier>16</gravitationalMultiplier>
-                <orbitalDistance>100</orbitalDistance>
+                <orbitalDistance>400</orbitalDistance>
                 <orbitalPhi>0</orbitalPhi>
                 <rotationalPeriod>128000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
@@ -36,17 +36,17 @@
             <fogColor>0.1098,0.3059,0.6078</fogColor>
             <skyColor>0.1098,0.3059,0.6078</skyColor>
             <gravitationalMultiplier>10</gravitationalMultiplier>
-            <orbitalDistance>0</orbitalDistance>
+            <orbitalDistance>30</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>4224000</rotationalPeriod>
-            <atmosphereDensity>10</atmosphereDensity>
+            <atmosphereDensity>0</atmosphereDensity>
             <generateCraters>false</generateCraters>
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
             <biomeIds>biometweaker:sun_planet,biometweaker:beach_sun_planet,biometweaker:ocean_sun_planet</biomeIds>
         </planet>
-        <planet DIMID="22" customIcon="gasgiantred" name="Venus">
+        <planet DIMID="22" customIcon="Venusian" name="Venus">
             <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>sulfur_dioxide</gas>
@@ -55,7 +55,7 @@
             <fogColor>0.89,0.733,0.462</fogColor>
             <skyColor>0.89,0.733,0.462</skyColor>
             <gravitationalMultiplier>45</gravitationalMultiplier>
-            <orbitalDistance>40</orbitalDistance>
+            <orbitalDistance>60</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>200</atmosphereDensity>
@@ -64,7 +64,7 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
         </planet>
-        <planet DIMID="6" customIcon="marslike" name="Pales">
+        <planet DIMID="6" customIcon="MarsLike" name="Pales">
             <isKnown>true</isKnown>
             <fogColor>0.619,0.254,0.176</fogColor>
             <skyColor>0.619,0.254,0.176</skyColor>
@@ -72,14 +72,14 @@
             <orbitalDistance>150</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>10</atmosphereDensity>
+            <atmosphereDensity>60</atmosphereDensity>
             <generateCraters>false</generateCraters>
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
             <biomeIds>biometweaker:cold_dry_rock</biomeIds>
         </planet>
-        <planet DIMID="8" customIcon="gasgiantred" name="Juno">
+        <planet DIMID="8" customIcon="GasGiantRed" name="Juno">
             <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>nitrogen</gas>
@@ -88,8 +88,8 @@
             <gas>oxygen</gas>
             <fogColor>0.619,0.254,0.176</fogColor>
             <skyColor>0.619,0.254,0.176</skyColor>
-            <gravitationalMultiplier>200</gravitationalMultiplier>
-            <orbitalDistance>200</orbitalDistance>
+            <gravitationalMultiplier>400</gravitationalMultiplier>
+            <orbitalDistance>400</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>10000</rotationalPeriod>
             <atmosphereDensity>200</atmosphereDensity>
@@ -103,7 +103,7 @@
                 <skyColor>0.2,0.533,0.65</skyColor>
                 <gravitationalMultiplier>32</gravitationalMultiplier>
                 <orbitalDistance>20</orbitalDistance>
-                <orbitalPhi>130</orbitalPhi>
+                <orbitalPhi>40</orbitalPhi>
                 <rotationalPeriod>256000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
                 <generateCraters>true</generateCraters>
@@ -118,7 +118,7 @@
                 <fogColor>1.0,1.0,0.4549</fogColor>
                 <skyColor>1.0,1.0,0.4549</skyColor>
                 <gravitationalMultiplier>10</gravitationalMultiplier>
-                <orbitalDistance>10</orbitalDistance>
+                <orbitalDistance>40</orbitalDistance>
                 <orbitalPhi>0</orbitalPhi>
                 <rotationalPeriod>56000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
@@ -132,36 +132,6 @@
         </planet>
     </star>
     <star blackHole="true" name="Geon" numGasGiants="0" numPlanets="0" size="1.0" temp="200" x="95" y="-175">
-        <planet DIMID="113" customIcon="earthlike" dimMapping="" name="Antonine">
-            <isKnown>false</isKnown>
-            <fogColor>1.0,1.0,1.0</fogColor>
-            <skyColor>1.0,1.0,1.0</skyColor>
-            <gravitationalMultiplier>100</gravitationalMultiplier>
-            <orbitalDistance>100</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>100</atmosphereDensity>
-            <generateCraters>false</generateCraters>
-            <generateVolcanos>false</generateVolcanos>
-            <generateStructures>false</generateStructures>
-            <generateGeodes>false</generateGeodes>
-            <planet DIMID="11" customIcon="moon" name="Galen">
-                <isKnown>false</isKnown>
-                <fogColor>1.0,1.0,1.0</fogColor>
-                <skyColor>1.0,1.0,1.0</skyColor>
-                <gravitationalMultiplier>16</gravitationalMultiplier>
-                <orbitalDistance>100</orbitalDistance>
-                <orbitalPhi>0</orbitalPhi>
-                <rotationalPeriod>128000</rotationalPeriod>
-                <atmosphereDensity>0</atmosphereDensity>
-                <generateCraters>true</generateCraters>
-                <generateVolcanos>false</generateVolcanos>
-                <generateStructures>false</generateStructures>
-                <generateGeodes>false</generateGeodes>
-                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
-                <biomeIds>biometweaker:earthlike_moon_white,biometweaker:earthlike_moon_dark</biomeIds>
-            </planet>
-        </planet>
         <planet DIMID="12" customIcon="gasgiantblue" name="Salacia">
             <isKnown>false</isKnown>
             <GasGiant>true</GasGiant>
@@ -222,7 +192,7 @@
             <orbitalDistance>150</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>10</atmosphereDensity>
+            <atmosphereDensity>60</atmosphereDensity>
             <generateCraters>false</generateCraters>
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
@@ -231,6 +201,10 @@
         </planet>
         <planet DIMID="15" customIcon="gasgiantblue" name="Apalala">
             <isKnown>false</isKnown>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>water</gas>
             <fogColor>0.0,0.031,0.043</fogColor>
             <skyColor>0.0,0.031,0.043</skyColor>
             <gravitationalMultiplier>200</gravitationalMultiplier>
@@ -259,7 +233,7 @@
             <fogColor>0.619,0.254,0.176</fogColor>
             <skyColor>0.619,0.254,0.176</skyColor>
             <gravitationalMultiplier>10</gravitationalMultiplier>
-            <orbitalDistance>0</orbitalDistance>
+            <orbitalDistance>20</orbitalDistance>
             <orbitalPhi>0</orbitalPhi>
             <rotationalPeriod>4224000</rotationalPeriod>
             <atmosphereDensity>0</atmosphereDensity>
@@ -267,7 +241,7 @@
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
-            <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+            <craterFrequencyMultiplier>0.5</craterFrequencyMultiplier>
             <biomeIds>biometweaker:beach_sun_planet,biometweaker:ocean_sun_planet</biomeIds>
         </planet>
         <planet DIMID="226" customIcon="marslike" name="Astyages">

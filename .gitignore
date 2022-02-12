@@ -476,6 +476,11 @@ dev_helper/
 
 #Ignore mods folder
 mods/
+!millenaire/
+!millenaire-custom/mods/
+!millenaire-custom/config-custom.txt
+!opendisks/
+!OpenSecurity/
 
 #Ignore Xaero
 XaeroWaypoints/
