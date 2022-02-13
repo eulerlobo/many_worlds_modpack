@@ -108,5 +108,5 @@
     noiseYFactor: 0.7
   }
   enabled: true
-  dimensions: [ 225 ]
+  dimensions: [ 114, 225 ]
 }

@@ -7,7 +7,7 @@
     blocks.cave::GRANITE
     blocks.cave::OBSIDIAN
   ]
-  dimensions: [ 5, 13 ]
+  dimensions: [ 5, 13, 17 ]
   enabled: true
   wallDecorators: [
     {

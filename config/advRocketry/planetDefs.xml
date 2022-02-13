@@ -292,7 +292,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
-                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+                <craterFrequencyMultiplier>0.6</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:ice_spike_moon</biomeIds>
             </planet>
         </planet>
@@ -322,7 +322,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
-                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+                <craterFrequencyMultiplier>0.4</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:earthlike_moon_white,biometweaker:earthlike_moon_dark</biomeIds>
             </planet>
         </planet>

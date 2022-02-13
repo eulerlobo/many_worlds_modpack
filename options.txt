@@ -103,7 +103,6 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_quark.keybind.changeHotbar:44
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,6 +121,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.changeHotbar:44
 key_keybind.baublesinventory:0
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34

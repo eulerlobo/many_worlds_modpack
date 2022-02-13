@@ -152,7 +152,7 @@
     },
     {
       "name": "silent",
-      "dimension-ids": [3, 5, 9, 10, 13, 16, 18],
+      "dimension-ids": [3, 5, 9, 10, 13, 16, 18, 21, 17],
       "disable-all": true,
       "biome-selector": {
         "always": false

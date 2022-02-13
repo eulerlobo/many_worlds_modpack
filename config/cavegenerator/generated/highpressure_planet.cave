@@ -1,0 +1,46 @@
+{
+  dimensions: [ 226 ]
+  enabled: true
+  caverns: [
+    {
+      height: [
+        9
+        44
+      ]
+      generators: [
+        {
+          threshold: [ -1, -0.8 ]
+          frequency: 0.007
+          stretch: 0.2
+        }
+      ]
+      caveBlocks: {
+        states: advancedrocketry:enrichedlavafluid
+        height: [
+          14
+          94
+        ]
+      }
+    }
+    {
+      height: [
+        5
+        34
+      ]
+      generators: [
+        {
+          threshold: [ -1, -0.8 ]
+          frequency: 0.003
+          stretch: 0.2
+        }
+      ]
+      caveBlocks: {
+        states: lava
+        height: [
+          10
+          94
+        ]
+      }
+    }
+  ]
+}

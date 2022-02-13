@@ -97,6 +97,24 @@
       "weather": false,
       "fog": true,
       "seaLevel": 0
-    }
+    },
+    {
+      "dimId": 21,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 17,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
   ]
 }

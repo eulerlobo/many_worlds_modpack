@@ -1,5 +1,7 @@
 #priority 98
 
+val experienceSmelting = 0.03125; //2 exp by one stack
+
 val copperRod = <libvulpes:productrod:4>;
 val ironRod = <libvulpes:productrod:1>;
 val steelRod = <libvulpes:productrod:6>;
@@ -36,3 +38,6 @@ recipes.remove(titaniumIridiumRod);
 recipes.remove(aluminumRod);
 mods.jei.JEI.removeAndHide(<immersiveengineering:material:1>); //IE Iron Rod
 mods.jei.JEI.removeAndHide(<immersiveengineering:material:2>); //IE Steel Rod
+
+//---> Add charcoal recipe for Charcoal Log
+furnace.addRecipe(<minecraft:coal:1>*4, <advancedrocketry:charcoallog>, experienceSmelting);
