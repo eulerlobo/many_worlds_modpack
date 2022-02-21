@@ -116,5 +116,41 @@
       "fog": false,
       "seaLevel": 0
     },
+    {
+      "dimId": 25,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 28,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 29,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": false,
+      "weather": false,
+      "fog": true,
+      "seaLevel": 0
+    },
+    {
+      "dimId": 30,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": true,
+      "weather": false,
+      "fog": true,
+      "seaLevel": 0
+    }
   ]
 }

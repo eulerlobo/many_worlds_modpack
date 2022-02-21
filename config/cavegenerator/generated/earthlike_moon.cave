@@ -1,5 +1,5 @@
 {
-  dimensions: [ 5, 13, 17 ]
+  dimensions: [ 5, 13, 17, 25 ]
   enabled: true
   wallDecorators: [
     {

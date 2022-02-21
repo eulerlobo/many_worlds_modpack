@@ -1,5 +1,8 @@
 {
-  dimensions: [ 0 ]
+  dimensions: [
+    27
+  ]
+  blacklistDimensions: true
   enabled: true
   caveBlocks: {
     states: lava
@@ -61,29 +64,6 @@
       height: [
         5
         50
-      ]
-    }
-  ]
-  clusters: [
-    {
-      states: [
-        hardened_clay
-        stained_hardened_clay:8
-        stained_hardened_clay:9
-        clay
-      ]
-      chance: 0.06
-      radius: [
-        10
-        15
-      ]
-      radiusY: [
-        2
-        4
-      ]
-      centerHeight: [
-        15
-        45
       ]
     }
   ]

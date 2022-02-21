@@ -1,5 +1,6 @@
 {
-  dimensions: [ 0 ]
+  dimensions: [ 0, 227 ]
+  blacklistDimensions: false
   enabled: true
   caveBlocks: []
   replaceableBlocks: [

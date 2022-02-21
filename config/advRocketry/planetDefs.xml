@@ -434,7 +434,7 @@
                 <fogColor>1.0,1.0,0.4549</fogColor>
                 <skyColor>1.0,1.0,0.4549</skyColor>
                 <gravitationalMultiplier>10</gravitationalMultiplier>
-                <orbitalDistance>10</orbitalDistance>
+                <orbitalDistance>200</orbitalDistance>
                 <orbitalPhi>0</orbitalPhi>
                 <rotationalPeriod>22000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
@@ -450,10 +450,11 @@
                 <fogColor>0.713,0.341,0.113</fogColor>
                 <skyColor>0.713,0.341,0.113</skyColor>
                 <gravitationalMultiplier>60</gravitationalMultiplier>
-                <orbitalDistance>35</orbitalDistance>
-                <orbitalPhi>0</orbitalPhi>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalPhi>180</orbitalPhi>
+                <orbitalTheta>90</orbitalTheta>
                 <rotationalPeriod>23000</rotationalPeriod>
-                <atmosphereDensity>15</atmosphereDensity>
+                <atmosphereDensity>30</atmosphereDensity>
                 <generateCraters>false</generateCraters>
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
@@ -465,10 +466,11 @@
                 <fogColor>1.0,1.0,0.4549</fogColor>
                 <skyColor>1.0,1.0,0.4549</skyColor>
                 <gravitationalMultiplier>45</gravitationalMultiplier>
-                <orbitalDistance>50</orbitalDistance>
-                <orbitalPhi>0</orbitalPhi>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalPhi>90</orbitalPhi>
+                <orbitalTheta>60</orbitalTheta>
                 <rotationalPeriod>18000</rotationalPeriod>
-                <atmosphereDensity>20</atmosphereDensity>
+                <atmosphereDensity>40</atmosphereDensity>
                 <generateCraters>false</generateCraters>
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>

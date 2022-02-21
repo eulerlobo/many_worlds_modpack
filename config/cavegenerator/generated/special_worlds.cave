@@ -1,5 +1,5 @@
 {
-  dimensions: [ 9, 16 ]
+  dimensions: [ 29 ]
   enabled: true
   caverns: [
     {
@@ -31,7 +31,7 @@
         }
       }
       caveBlocks: {
-        states: lava
+        states: advancedrocketry:enrichedlavafluid
         integrity: 1
         height: [
           5
@@ -42,7 +42,7 @@
   ]
   caveBlocks: [
     {
-      states: lava
+      states: advancedrocketry:enrichedlavafluid
       height: [ 0, 6 ]
     }
   ]

@@ -20,7 +20,8 @@
     conditions.cave           :: OCEAN_BIOMES
     defaults.cave::caveBlocks as LAVA_CAVE_BLOCK
   ]
-  dimensions: [ 0 ]
+  dimensions: [ 0, 227 ]
+  blacklistDimensions: false
   enabled: true
   inner: [
     {

@@ -1,5 +1,6 @@
 {
-  dimensions: [ 0 ]
+  dimensions: [ 0, 227 ]
+  blacklistDimensions: false
   enabled: true
   inner: [
     {
@@ -282,6 +283,10 @@
       ]
     }
     {
+      dimensions: [
+        27
+      ]
+      blacklistDimensions: true
       burrows: [
         {
           radius: 2.5
@@ -335,29 +340,6 @@
           height: [
             5
             50
-          ]
-        }
-      ]
-      clusters: [
-        {
-          states: [
-            hardened_clay
-            stained_hardened_clay:8
-            stained_hardened_clay:9
-            clay
-          ]
-          chance: 0.06
-          radius: [
-            10
-            15
-          ]
-          radiusY: [
-            2
-            4
-          ]
-          centerHeight: [
-            15
-            45
           ]
         }
       ]

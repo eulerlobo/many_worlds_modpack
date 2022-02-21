@@ -1,5 +1,5 @@
 {
   $VANILLA: ALL
   enabled: true
-  dimensions: [ 114, 225 ]
+  dimensions: [ 114, 225, 23 ]
 }
