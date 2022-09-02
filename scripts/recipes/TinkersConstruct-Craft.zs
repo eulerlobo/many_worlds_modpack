@@ -278,3 +278,6 @@ mods.tconstruct.Melting.addRecipe(liquidEmerald * 666, <ore:uncutEmerald>, 866);
 
 //---> Hide Stone Torche
 mods.jei.JEI.hide(<tconstruct:stone_torch>);
+
+//---> Hide Stone Rod
+mods.jei.JEI.hide(<tconstruct:stone_stick>);

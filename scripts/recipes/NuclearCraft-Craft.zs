@@ -146,6 +146,9 @@ val oreKernite = <ore:oreKernite>;
 
 val oreColemanite = <ore:oreColemanite>;
 
+val oreItemSilicon = <ore:itemSilicon>;
+val silicon = <nuclearcraft:gem:6>;
+
 //--- Add Recipes ---//
 
 //---> Add Iron Crystal Smelting
@@ -372,3 +375,12 @@ recipes.remove(<nuclearcraft:ingot_block:12>);
 
 //---> Remap Silver Block
 recipes.remove(<nuclearcraft:ingot_block:13>);
+
+//---> Radiation Shielding Block
+recipes.addShaped(<contenttweaker:radiation_shielding_light>, [[<nuclearcraft:rad_shielding>, <nuclearcraft:rad_shielding>, <nuclearcraft:rad_shielding>], [<nuclearcraft:rad_shielding>, <nuclearcraft:rad_shielding>, <nuclearcraft:rad_shielding>], [<nuclearcraft:rad_shielding>, <nuclearcraft:rad_shielding>, <nuclearcraft:rad_shielding>]]);
+recipes.addShaped(<contenttweaker:radiation_shielding_medium>, [[<nuclearcraft:rad_shielding:1>, <nuclearcraft:rad_shielding:1>, <nuclearcraft:rad_shielding:1>], [<nuclearcraft:rad_shielding:1>, <nuclearcraft:rad_shielding:1>, <nuclearcraft:rad_shielding:1>], [<nuclearcraft:rad_shielding:1>, <nuclearcraft:rad_shielding:1>, <nuclearcraft:rad_shielding:1>]]);
+recipes.addShaped(<contenttweaker:radiation_shielding_heavy>, [[<nuclearcraft:rad_shielding:2>, <nuclearcraft:rad_shielding:2>, <nuclearcraft:rad_shielding:2>], [<nuclearcraft:rad_shielding:2>, <nuclearcraft:rad_shielding:2>, <nuclearcraft:rad_shielding:2>], [<nuclearcraft:rad_shielding:2>, <nuclearcraft:rad_shielding:2>, <nuclearcraft:rad_shielding:2>]]);
+
+//---> Remove and Hide Silicon
+oreItemSilicon.remove(silicon);
+mods.jei.JEI.removeAndHide(silicon);

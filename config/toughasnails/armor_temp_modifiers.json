@@ -23,15 +23,20 @@
   },
   {
     "names": [
-      "advancedrocketry:spacehelmet",
-      "advancedrocketry:spacechestplate",
-      "advancedrocketry:spaceleggings",
-      "advancedrocketry:spaceboots",
       "twilightforest:arctic_helmet",
       "twilightforest:arctic_chestplate",
       "twilightforest:arctic_leggings",
       "twilightforest:arctic_boots"
     ],
     "modifier": 2
+  },
+  {
+    "names": [
+      "twilightforest:yeti_helmet",
+      "twilightforest:yeti_chestplate",
+      "twilightforest:yeti_leggings",
+      "twilightforest:yeti_boots"
+    ],
+    "modifier": 3
   }
 ]

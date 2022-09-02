@@ -152,6 +152,22 @@
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
         </planet>
+        <planet DIMID="31" customIcon="moon" name="Siren">
+            <isKnown>false</isKnown>
+            <fogColor>0.1098,0.3059,0.6078</fogColor>
+            <skyColor>0.1098,0.3059,0.6078</skyColor>
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>4224000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <craterFrequencyMultiplier>0.2</craterFrequencyMultiplier>
+            <biomeIds>biometweaker:cold_desert,biometweaker:cold_desert_hill</biomeIds>
+        </planet>
     </star>
     <star blackHole="false" name="Lux" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="-115" y="150">
         <planet DIMID="225" customIcon="earthlike" dimMapping="" name="Draco">

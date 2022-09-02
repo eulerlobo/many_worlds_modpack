@@ -37,13 +37,12 @@
 			<oreDict>dustDilithium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productcrystal</itemStack>
+			<itemStack>libvulpes:productgem</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="400" power ="280">
 		<input>
-			<oreDict>ingotSilicon</oreDict>
-			<oreDict>nuggetSilicon</oreDict>
+			<oreDict>itemSilicon;2</oreDict>
 		</input>
 		<output>
 			<itemStack>libvulpes:productboule;1;3</itemStack>

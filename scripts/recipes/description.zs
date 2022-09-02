@@ -1,3 +1,5 @@
 #priority 98
 
-<minecraft:stick>.addTooltip("Leaves drop sticks when broken");
+<contenttweaker:radiation_shielding_light>.addTooltip("30% radiation shielding");
+<contenttweaker:radiation_shielding_medium>.addTooltip("60% radiation shielding");
+<contenttweaker:radiation_shielding_heavy>.addTooltip("90% radiation shielding");

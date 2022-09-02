@@ -61,7 +61,7 @@
 			<oreDict>bouleSilicon;1</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:wafer;4</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="20">

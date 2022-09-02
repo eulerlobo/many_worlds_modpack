@@ -2,6 +2,9 @@
 
 import mods.immersiveengineering.Crusher;
 
+//---> Hide Silver Ore
+mods.jei.JEI.removeAndHide(<iceandfire:silver_ore>);
+
 //---> Remap Silver Block
 recipes.remove(<iceandfire:silver_block>);
 

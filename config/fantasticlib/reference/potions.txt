@@ -101,6 +101,9 @@ mowziesmobs:geomancy
 mowziesmobs:frozen
 mowziesmobs:poison_resist
 scalinghealth:bandaged
+techguns:radiation
+techguns:radresistance
+techguns:radregeneration
 aether_legacy:inebriation
 xaerominimap:no_minimap
 xaerominimap:no_minimap_harmful

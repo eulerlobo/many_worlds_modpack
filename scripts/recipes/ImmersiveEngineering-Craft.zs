@@ -354,6 +354,9 @@ val pulverizedCharcoal = <thermalfoundation:material:769>;
 //---> Hide Copper Ore
 mods.jei.JEI.removeAndHide(<immersiveengineering:ore>);
 
+//---> Hide Bauxite Ore
+mods.jei.JEI.removeAndHide(<immersiveengineering:ore:1>);
+
 //---> Hide Lead Ore
 mods.jei.JEI.removeAndHide(<immersiveengineering:ore:2>);
 
@@ -362,6 +365,9 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:ore:4>);
 
 //---> Hide Uranium Ore
 mods.jei.JEI.removeAndHide(<immersiveengineering:ore:5>);
+
+//---> Hide Silver Ore
+mods.jei.JEI.removeAndHide(<immersiveengineering:ore:3>);
 
 //---> Remove ingots recipes for remap
 ArcFurnace.removeRecipe(ironIngot);
@@ -881,3 +887,10 @@ Crusher.addRecipe(<thermalfoundation:material:768> * 9, <ore:blockCoal>, crusher
 //---> Remap Charcoal Recipes.
 Crusher.addRecipe(pulverizedCharcoal * 9, oreCharcoalBlock, crusherBaseEnergy);
 Crusher.addRecipe(pulverizedCharcoal, oreCharcoal, crusherBaseEnergy);
+
+//---> Add Clay dust Recipe
+Crusher.addRecipe(<ic2:dust:1> * 2, <ore:blockClay>, crusherBaseEnergy);
+
+//---> Remove HOP Graphite Dust
+Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
+Squeezer.removeByInput(<immersiveengineering:material:17>);

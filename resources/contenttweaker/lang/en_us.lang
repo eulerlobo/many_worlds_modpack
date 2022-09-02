@@ -222,3 +222,8 @@ fluid.mineralized_acid_water=Mineralized Acid Water
 
 #Ingot
 item.contenttweaker.uranium_ingot.name=Uranium Ingot
+
+#Blocks
+tile.contenttweaker.radiation_shielding_light.name=Light Radiation Shielding
+tile.contenttweaker.radiation_shielding_medium.name=Medium Radiation Shielding
+tile.contenttweaker.radiation_shielding_heavy.name=Heavy Radiation Shielding

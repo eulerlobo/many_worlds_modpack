@@ -1,1 +1,32 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "theaurorian:the_aurorian_guide": {
+      "viewedEntries": [
+        "theaurorian:aurorianbasics/1makingtheportal"
+      ],
+      "bookmarks": [],
+      "history": [
+        "theaurorian:aurorianbasics/1makingtheportal"
+      ],
+      "completedManualQuests": []
+    },
+    "techguns:techguns_manual": {
+      "viewedEntries": [
+        "techguns:weapon_mechanics",
+        "techguns:oredrills/ore_clusters",
+        "techguns:armors/hev_suit",
+        "techguns:armor_mechanics"
+      ],
+      "bookmarks": [],
+      "history": [
+        "techguns:armor_mechanics",
+        "techguns:armors/hev_suit",
+        "techguns:oredrills/ore_clusters",
+        "techguns:weapon_mechanics"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -20,6 +20,7 @@ mods.jei.JEI.removeAndHide(<primal_tech:bone_shears>); //Bone Shears
 mods.jei.JEI.removeAndHide(<primal_tech:bone_shard>); //Bone Shard
 mods.jei.JEI.removeAndHide(<primal_tech:flint_edged_disc>); //Water Powered Saw Blade
 mods.jei.JEI.removeAndHide(<primal_tech:plant_fibres>); //Plant Fibres
+mods.jei.JEI.removeAndHide(<primal_tech:stick_bundle>); //Stick Bundles
 
 var oreString = <ore:string>;
 oreString.remove(<primal_tech:twine>);
@@ -29,3 +30,7 @@ mods.jei.JEI.removeAndHide(<primal_tech:twine>); //Twine
 //---> Remap Work Stump
 recipes.remove(<primal_tech:work_stump>);
 recipes.addShapeless("PrimalWorkStump", <primal_tech:work_stump>, [<ore:logWood>, <ore:plankWood>]);
+
+//---> Remap Fire Sticks
+recipes.remove(<primal_tech:fire_sticks>);
+recipes.addShapeless("PrimalFireSticks", <primal_tech:fire_sticks>.withTag({}), [<ore:stickWood>, <ore:bone>]);

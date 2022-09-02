@@ -23,3 +23,6 @@ recipes.remove(<ic2:dust:21>);
 
 //---> Remove and Hide Vibration Chamber
 mods.jei.JEI.removeAndHide(<appliedenergistics2:vibration_chamber>);
+
+//---> Remove Silicon Recipe
+furnace.remove(<appliedenergistics2:material:5>);

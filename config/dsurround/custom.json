@@ -151,6 +151,15 @@
       "weather": false,
       "fog": true,
       "seaLevel": 0
+    },
+    {
+      "dimId": 31,
+      "skyHeight": 255,
+      "haze": false,
+      "aurora": true,
+      "weather": false,
+      "fog": false,
+      "seaLevel": 0
     }
   ]
 }

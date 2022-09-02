@@ -1,5 +1,5 @@
 {
-  dimensions: [ 29 ]
+  dimensions: [ 29, 31 ]
   enabled: true
   caverns: [
     {

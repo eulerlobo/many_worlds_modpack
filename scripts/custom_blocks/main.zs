@@ -182,10 +182,10 @@ purifiedAluminumCrushed.register();
 
 //---> Aluminum Ore
 var aluminumOre = VanillaFactory.createBlock("aluminum_ore", <blockmaterial:rock>);
-aluminumOre.setBlockHardness(3.0);
-aluminumOre.setBlockResistance(3.0);
+aluminumOre.setBlockHardness(5.0);
+aluminumOre.setBlockResistance(5.0);
 aluminumOre.setToolClass("pickaxe");
-aluminumOre.setToolLevel(1);
+aluminumOre.setToolLevel(2);
 aluminumOre.setBlockSoundType(<soundtype:stone>);
 aluminumOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -221,10 +221,10 @@ purifiedNickelCrushed.register();
 
 //---> Nickel Ore
 var nickelOre = VanillaFactory.createBlock("nickel_ore", <blockmaterial:rock>);
-nickelOre.setBlockHardness(3.0);
-nickelOre.setBlockResistance(3.0);
+nickelOre.setBlockHardness(5.0);
+nickelOre.setBlockResistance(5.0);
 nickelOre.setToolClass("pickaxe");
-nickelOre.setToolLevel(1);
+nickelOre.setToolLevel(2);
 nickelOre.setBlockSoundType(<soundtype:stone>);
 nickelOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -252,10 +252,10 @@ rockNativeCopperOre.register();
 
 //---> Ore Native Copper
 var nativeCopperOre = VanillaFactory.createBlock("native_copper_ore", <blockmaterial:rock>);
-nativeCopperOre.setBlockHardness(3.0);
-nativeCopperOre.setBlockResistance(3.0);
+nativeCopperOre.setBlockHardness(5.0);
+nativeCopperOre.setBlockResistance(5.0);
 nativeCopperOre.setToolClass("pickaxe");
-nativeCopperOre.setToolLevel(1);
+nativeCopperOre.setToolLevel(2);
 nativeCopperOre.setBlockSoundType(<soundtype:stone>);
 nativeCopperOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -600,10 +600,10 @@ purifiedBauxiteCrushed.register();
 
 //---> Ore Bauxite
 var bauxiteOre = VanillaFactory.createBlock("bauxite_ore", <blockmaterial:rock>);
-bauxiteOre.setBlockHardness(3.0);
-bauxiteOre.setBlockResistance(3.0);
+bauxiteOre.setBlockHardness(5.0);
+bauxiteOre.setBlockResistance(5.0);
 bauxiteOre.setToolClass("pickaxe");
-bauxiteOre.setToolLevel(1);
+bauxiteOre.setToolLevel(2);
 bauxiteOre.setBlockSoundType(<soundtype:stone>);
 bauxiteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -639,10 +639,10 @@ purifiedLeuciteCrushed.register();
 
 //---> Ore Leucite
 var leuciteOre = VanillaFactory.createBlock("leucite_ore", <blockmaterial:rock>);
-leuciteOre.setBlockHardness(3.0);
-leuciteOre.setBlockResistance(3.0);
+leuciteOre.setBlockHardness(5.0);
+leuciteOre.setBlockResistance(5.0);
 leuciteOre.setToolClass("pickaxe");
-leuciteOre.setToolLevel(1);
+leuciteOre.setToolLevel(2);
 leuciteOre.setBlockSoundType(<soundtype:stone>);
 leuciteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -678,10 +678,10 @@ purifiedPentlanditeCrushed.register();
 
 //---> Ore Pentlandite
 var pentlanditeOre = VanillaFactory.createBlock("pentlandite_ore", <blockmaterial:rock>);
-pentlanditeOre.setBlockHardness(3.0);
-pentlanditeOre.setBlockResistance(3.0);
+pentlanditeOre.setBlockHardness(5.0);
+pentlanditeOre.setBlockResistance(5.0);
 pentlanditeOre.setToolClass("pickaxe");
-pentlanditeOre.setToolLevel(1);
+pentlanditeOre.setToolLevel(2);
 pentlanditeOre.setBlockSoundType(<soundtype:stone>);
 pentlanditeOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -717,10 +717,10 @@ purifiedGarnieriteCrushed.register();
 
 //---> Ore Garnierite
 var garnieriteOre = VanillaFactory.createBlock("garnierite_ore", <blockmaterial:rock>);
-garnieriteOre.setBlockHardness(3.0);
-garnieriteOre.setBlockResistance(3.0);
+garnieriteOre.setBlockHardness(5.0);
+garnieriteOre.setBlockResistance(5.0);
 garnieriteOre.setToolClass("pickaxe");
-garnieriteOre.setToolLevel(1);
+garnieriteOre.setToolLevel(2);
 garnieriteOre.setBlockSoundType(<soundtype:stone>);
 garnieriteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -748,10 +748,10 @@ rockNativeGoldOre.register();
 
 //---> Ore Native Gold
 var nativeGoldOre = VanillaFactory.createBlock("native_gold_ore", <blockmaterial:rock>);
-nativeGoldOre.setBlockHardness(3.0);
-nativeGoldOre.setBlockResistance(3.0);
+nativeGoldOre.setBlockHardness(5.0);
+nativeGoldOre.setBlockResistance(5.0);
 nativeGoldOre.setToolClass("pickaxe");
-nativeGoldOre.setToolLevel(1);
+nativeGoldOre.setToolLevel(2);
 nativeGoldOre.setBlockSoundType(<soundtype:stone>);
 nativeGoldOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -868,10 +868,10 @@ rockLithiumOre.register();
 
 //---> Ore Lithium
 var lithiumOre = VanillaFactory.createBlock("lithium_ore", <blockmaterial:rock>);
-lithiumOre.setBlockHardness(3.0);
-lithiumOre.setBlockResistance(3.0);
+lithiumOre.setBlockHardness(5.0);
+lithiumOre.setBlockResistance(5.0);
 lithiumOre.setToolClass("pickaxe");
-lithiumOre.setToolLevel(1);
+lithiumOre.setToolLevel(2);
 lithiumOre.setBlockSoundType(<soundtype:stone>);
 lithiumOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -907,10 +907,10 @@ purifiedSpodumeneCrushed.register();
 
 //---> Ore Spodumene
 var spodumeneOre = VanillaFactory.createBlock("spodumene_ore", <blockmaterial:rock>);
-spodumeneOre.setBlockHardness(3.0);
-spodumeneOre.setBlockResistance(3.0);
+spodumeneOre.setBlockHardness(5.0);
+spodumeneOre.setBlockResistance(5.0);
 spodumeneOre.setToolClass("pickaxe");
-spodumeneOre.setToolLevel(1);
+spodumeneOre.setToolLevel(2);
 spodumeneOre.setBlockSoundType(<soundtype:stone>);
 spodumeneOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -946,10 +946,10 @@ purifiedRutileCrushed.register();
 
 //---> Ore Rutile
 var rutileOre = VanillaFactory.createBlock("rutile_ore", <blockmaterial:rock>);
-rutileOre.setBlockHardness(3.0);
-rutileOre.setBlockResistance(3.0);
+rutileOre.setBlockHardness(7.0);
+rutileOre.setBlockResistance(7.0);
 rutileOre.setToolClass("pickaxe");
-rutileOre.setToolLevel(1);
+rutileOre.setToolLevel(3);
 rutileOre.setBlockSoundType(<soundtype:stone>);
 rutileOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -985,10 +985,10 @@ purifiedIlmeniteCrushed.register();
 
 //---> Ore Ilmenite
 var ilmeniteOre = VanillaFactory.createBlock("ilmenite_ore", <blockmaterial:rock>);
-ilmeniteOre.setBlockHardness(3.0);
-ilmeniteOre.setBlockResistance(3.0);
+ilmeniteOre.setBlockHardness(7.0);
+ilmeniteOre.setBlockResistance(7.0);
 ilmeniteOre.setToolClass("pickaxe");
-ilmeniteOre.setToolLevel(1);
+ilmeniteOre.setToolLevel(3);
 ilmeniteOre.setBlockSoundType(<soundtype:stone>);
 ilmeniteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1102,10 +1102,10 @@ purifiedCarnotiteCrushed.register();
 
 //---> Ore Carnotite
 var carnotiteOre = VanillaFactory.createBlock("carnotite_ore", <blockmaterial:rock>);
-carnotiteOre.setBlockHardness(3.0);
-carnotiteOre.setBlockResistance(3.0);
+carnotiteOre.setBlockHardness(7.0);
+carnotiteOre.setBlockResistance(7.0);
 carnotiteOre.setToolClass("pickaxe");
-carnotiteOre.setToolLevel(1);
+carnotiteOre.setToolLevel(3);
 carnotiteOre.setBlockSoundType(<soundtype:stone>);
 carnotiteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1141,10 +1141,10 @@ purifiedUraniniteCrushed.register();
 
 //---> Ore Uraninite
 var uraniniteOre = VanillaFactory.createBlock("uraninite_ore", <blockmaterial:rock>);
-uraniniteOre.setBlockHardness(3.0);
-uraniniteOre.setBlockResistance(3.0);
+uraniniteOre.setBlockHardness(7.0);
+uraniniteOre.setBlockResistance(7.0);
 uraniniteOre.setToolClass("pickaxe");
-uraniniteOre.setToolLevel(1);
+uraniniteOre.setToolLevel(3);
 uraniniteOre.setBlockSoundType(<soundtype:stone>);
 uraniniteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1180,10 +1180,10 @@ purifiedThoriteCrushed.register();
 
 //---> Ore Thorite
 var thoriteOre = VanillaFactory.createBlock("thorite_ore", <blockmaterial:rock>);
-thoriteOre.setBlockHardness(3.0);
-thoriteOre.setBlockResistance(3.0);
+thoriteOre.setBlockHardness(7.0);
+thoriteOre.setBlockResistance(7.0);
 thoriteOre.setToolClass("pickaxe");
-thoriteOre.setToolLevel(1);
+thoriteOre.setToolLevel(3);
 thoriteOre.setBlockSoundType(<soundtype:stone>);
 thoriteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1219,10 +1219,10 @@ purifiedMonaziteCrushed.register();
 
 //---> Ore Monazite
 var monaziteOre = VanillaFactory.createBlock("monazite_ore", <blockmaterial:rock>);
-monaziteOre.setBlockHardness(3.0);
-monaziteOre.setBlockResistance(3.0);
+monaziteOre.setBlockHardness(7.0);
+monaziteOre.setBlockResistance(7.0);
 monaziteOre.setToolClass("pickaxe");
-monaziteOre.setToolLevel(1);
+monaziteOre.setToolLevel(3);
 monaziteOre.setBlockSoundType(<soundtype:stone>);
 monaziteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1258,10 +1258,10 @@ purifiedColemaniteCrushed.register();
 
 //---> Ore Colemanite
 var colemaniteOre = VanillaFactory.createBlock("colemanite_ore", <blockmaterial:rock>);
-colemaniteOre.setBlockHardness(3.0);
-colemaniteOre.setBlockResistance(3.0);
+colemaniteOre.setBlockHardness(7.0);
+colemaniteOre.setBlockResistance(7.0);
 colemaniteOre.setToolClass("pickaxe");
-colemaniteOre.setToolLevel(1);
+colemaniteOre.setToolLevel(3);
 colemaniteOre.setBlockSoundType(<soundtype:stone>);
 colemaniteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1297,10 +1297,10 @@ purifiedKerniteCrushed.register();
 
 //---> Ore Kernite
 var kerniteOre = VanillaFactory.createBlock("kernite_ore", <blockmaterial:rock>);
-kerniteOre.setBlockHardness(3.0);
-kerniteOre.setBlockResistance(3.0);
+kerniteOre.setBlockHardness(7.0);
+kerniteOre.setBlockResistance(7.0);
 kerniteOre.setToolClass("pickaxe");
-kerniteOre.setToolLevel(1);
+kerniteOre.setToolLevel(3);
 kerniteOre.setBlockSoundType(<soundtype:stone>);
 kerniteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1338,10 +1338,10 @@ uraniumIngot.register();
 
 //---> Uranium Ore
 var uraniumOre = VanillaFactory.createBlock("uranium_ore", <blockmaterial:rock>);
-uraniumOre.setBlockHardness(3.0);
-uraniumOre.setBlockResistance(3.0);
+uraniumOre.setBlockHardness(7.0);
+uraniumOre.setBlockResistance(7.0);
 uraniumOre.setToolClass("pickaxe");
-uraniumOre.setToolLevel(1);
+uraniumOre.setToolLevel(3);
 uraniumOre.setBlockSoundType(<soundtype:stone>);
 uraniumOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1381,10 +1381,10 @@ purifiedBoronCrushed.register();
 
 //---> Boron Ore
 var boronOre = VanillaFactory.createBlock("boron_ore", <blockmaterial:rock>);
-boronOre.setBlockHardness(3.0);
-boronOre.setBlockResistance(3.0);
+boronOre.setBlockHardness(7.0);
+boronOre.setBlockResistance(7.0);
 boronOre.setToolClass("pickaxe");
-boronOre.setToolLevel(1);
+boronOre.setToolLevel(3);
 boronOre.setBlockSoundType(<soundtype:stone>);
 boronOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1424,10 +1424,10 @@ purifiedThoriumCrushed.register();
 
 //---> Thorium Ore
 var thoriumOre = VanillaFactory.createBlock("thorium_ore", <blockmaterial:rock>);
-thoriumOre.setBlockHardness(3.0);
-thoriumOre.setBlockResistance(3.0);
+thoriumOre.setBlockHardness(7.0);
+thoriumOre.setBlockResistance(7.0);
 thoriumOre.setToolClass("pickaxe");
-thoriumOre.setToolLevel(1);
+thoriumOre.setToolLevel(3);
 thoriumOre.setBlockSoundType(<soundtype:stone>);
 thoriumOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1729,10 +1729,10 @@ purifiedKamaciteCrushed.register();
 
 //---> Ore Kamacite
 var kamaciteOre = VanillaFactory.createBlock("kamacite_ore", <blockmaterial:rock>);
-kamaciteOre.setBlockHardness(3.0);
-kamaciteOre.setBlockResistance(3.0);
+kamaciteOre.setBlockHardness(7.0);
+kamaciteOre.setBlockResistance(7.0);
 kamaciteOre.setToolClass("pickaxe");
-kamaciteOre.setToolLevel(1);
+kamaciteOre.setToolLevel(3);
 kamaciteOre.setBlockSoundType(<soundtype:stone>);
 kamaciteOre.register();
 
@@ -1748,10 +1748,10 @@ purifiedCarbonaceousICrushed.register();
 
 //---> Ore Carbonaceous I
 var carbonaceousIOre = VanillaFactory.createBlock("carbonaceous_i_ore", <blockmaterial:rock>);
-carbonaceousIOre.setBlockHardness(3.0);
-carbonaceousIOre.setBlockResistance(3.0);
+carbonaceousIOre.setBlockHardness(7.0);
+carbonaceousIOre.setBlockResistance(7.0);
 carbonaceousIOre.setToolClass("pickaxe");
-carbonaceousIOre.setToolLevel(1);
+carbonaceousIOre.setToolLevel(3);
 carbonaceousIOre.setBlockSoundType(<soundtype:stone>);
 carbonaceousIOre.register();
 
@@ -1767,10 +1767,10 @@ purifiedOlivineCrushed.register();
 
 //---> Ore Olivine
 var olivineOre = VanillaFactory.createBlock("olivine_ore", <blockmaterial:rock>);
-olivineOre.setBlockHardness(3.0);
-olivineOre.setBlockResistance(3.0);
+olivineOre.setBlockHardness(7.0);
+olivineOre.setBlockResistance(7.0);
 olivineOre.setToolClass("pickaxe");
-olivineOre.setToolLevel(1);
+olivineOre.setToolLevel(3);
 olivineOre.setBlockSoundType(<soundtype:stone>);
 olivineOre.register();
 
@@ -1786,10 +1786,10 @@ purifiedAugiteCrushed.register();
 
 //---> Ore Augite
 var augiteOre = VanillaFactory.createBlock("augite_ore", <blockmaterial:rock>);
-augiteOre.setBlockHardness(3.0);
-augiteOre.setBlockResistance(3.0);
+augiteOre.setBlockHardness(7.0);
+augiteOre.setBlockResistance(7.0);
 augiteOre.setToolClass("pickaxe");
-augiteOre.setToolLevel(1);
+augiteOre.setToolLevel(3);
 augiteOre.setBlockSoundType(<soundtype:stone>);
 augiteOre.register();
 
@@ -1805,10 +1805,10 @@ purifiedTroiliteCrushed.register();
 
 //---> Ore Troilite
 var troiliteOre = VanillaFactory.createBlock("troilite_ore", <blockmaterial:rock>);
-troiliteOre.setBlockHardness(3.0);
-troiliteOre.setBlockResistance(3.0);
+troiliteOre.setBlockHardness(7.0);
+troiliteOre.setBlockResistance(7.0);
 troiliteOre.setToolClass("pickaxe");
-troiliteOre.setToolLevel(1);
+troiliteOre.setToolLevel(3);
 troiliteOre.setBlockSoundType(<soundtype:stone>);
 troiliteOre.register();
 
@@ -1824,10 +1824,10 @@ purifiedAbramoviteCrushed.register();
 
 //---> Ore Abramovite
 var abramoviteOre = VanillaFactory.createBlock("abramovite_ore", <blockmaterial:rock>);
-abramoviteOre.setBlockHardness(3.0);
-abramoviteOre.setBlockResistance(3.0);
+abramoviteOre.setBlockHardness(7.0);
+abramoviteOre.setBlockResistance(7.0);
 abramoviteOre.setToolClass("pickaxe");
-abramoviteOre.setToolLevel(1);
+abramoviteOre.setToolLevel(3);
 abramoviteOre.setBlockSoundType(<soundtype:stone>);
 abramoviteOre.register();
 
@@ -1843,10 +1843,10 @@ purifiedDaviditeCrushed.register();
 
 //---> Ore Davidite
 var daviditeOre = VanillaFactory.createBlock("davidite_ore", <blockmaterial:rock>);
-daviditeOre.setBlockHardness(3.0);
-daviditeOre.setBlockResistance(3.0);
+daviditeOre.setBlockHardness(7.0);
+daviditeOre.setBlockResistance(7.0);
 daviditeOre.setToolClass("pickaxe");
-daviditeOre.setToolLevel(1);
+daviditeOre.setToolLevel(3);
 daviditeOre.setBlockSoundType(<soundtype:stone>);
 daviditeOre.register();
 
@@ -1862,10 +1862,10 @@ purifiedTitaniteCrushed.register();
 
 //---> Ore Titanite
 var titaniteOre = VanillaFactory.createBlock("titanite_ore", <blockmaterial:rock>);
-titaniteOre.setBlockHardness(3.0);
-titaniteOre.setBlockResistance(3.0);
+titaniteOre.setBlockHardness(7.0);
+titaniteOre.setBlockResistance(7.0);
 titaniteOre.setToolClass("pickaxe");
-titaniteOre.setToolLevel(1);
+titaniteOre.setToolLevel(3);
 titaniteOre.setBlockSoundType(<soundtype:stone>);
 titaniteOre.register();
 
@@ -1881,10 +1881,10 @@ purifiedPolycraseCrushed.register();
 
 //---> Ore Polycrase
 var polycraseOre = VanillaFactory.createBlock("polycrase_ore", <blockmaterial:rock>);
-polycraseOre.setBlockHardness(3.0);
-polycraseOre.setBlockResistance(3.0);
+polycraseOre.setBlockHardness(7.0);
+polycraseOre.setBlockResistance(7.0);
 polycraseOre.setToolClass("pickaxe");
-polycraseOre.setToolLevel(1);
+polycraseOre.setToolLevel(3);
 polycraseOre.setBlockSoundType(<soundtype:stone>);
 polycraseOre.register();
 
@@ -1900,10 +1900,10 @@ purifiedFeldsparCrushed.register();
 
 //---> Ore Feldspar
 var feldsparOre = VanillaFactory.createBlock("feldspar_ore", <blockmaterial:rock>);
-feldsparOre.setBlockHardness(3.0);
-feldsparOre.setBlockResistance(3.0);
+feldsparOre.setBlockHardness(7.0);
+feldsparOre.setBlockResistance(7.0);
 feldsparOre.setToolClass("pickaxe");
-feldsparOre.setToolLevel(1);
+feldsparOre.setToolLevel(3);
 feldsparOre.setBlockSoundType(<soundtype:stone>);
 feldsparOre.register();
 
@@ -1919,10 +1919,10 @@ purifiedOsmiridiumCrushed.register();
 
 //---> Ore Osmiridium
 var osmiridiumOre = VanillaFactory.createBlock("osmiridium_ore", <blockmaterial:rock>);
-osmiridiumOre.setBlockHardness(3.0);
-osmiridiumOre.setBlockResistance(3.0);
+osmiridiumOre.setBlockHardness(7.0);
+osmiridiumOre.setBlockResistance(7.0);
 osmiridiumOre.setToolClass("pickaxe");
-osmiridiumOre.setToolLevel(1);
+osmiridiumOre.setToolLevel(3);
 osmiridiumOre.setBlockSoundType(<soundtype:stone>);
 osmiridiumOre.register();
 
@@ -1938,10 +1938,10 @@ purifiedSperryliteCrushed.register();
 
 //---> Ore Sperrylite
 var sperryliteOre = VanillaFactory.createBlock("sperrylite_ore", <blockmaterial:rock>);
-sperryliteOre.setBlockHardness(3.0);
-sperryliteOre.setBlockResistance(3.0);
+sperryliteOre.setBlockHardness(7.0);
+sperryliteOre.setBlockResistance(7.0);
 sperryliteOre.setToolClass("pickaxe");
-sperryliteOre.setToolLevel(1);
+sperryliteOre.setToolLevel(3);
 sperryliteOre.setBlockSoundType(<soundtype:stone>);
 sperryliteOre.register();
 
@@ -2029,3 +2029,34 @@ driedSandChunk.register();
 //---> White Sand Chunk
 var whiteSandChunk = VanillaFactory.createItem("white_sand_chunk");
 whiteSandChunk.register();
+
+//--------------------------------//
+//      Radiation Shieldings      //
+//--------------------------------//
+
+//---> Radiation Shielding Light
+var lightRadiationShieldingBlock = VanillaFactory.createBlock("radiation_shielding_light", <blockmaterial:rock>);
+lightRadiationShieldingBlock.setBlockHardness(5.0);
+lightRadiationShieldingBlock.setBlockResistance(5.0);
+lightRadiationShieldingBlock.setToolClass("pickaxe");
+lightRadiationShieldingBlock.setToolLevel(1);
+lightRadiationShieldingBlock.setBlockSoundType(<soundtype:stone>);
+lightRadiationShieldingBlock.register();
+
+//---> Radiation Shielding Medium
+var mediumRadiationShieldingBlock = VanillaFactory.createBlock("radiation_shielding_medium", <blockmaterial:rock>);
+mediumRadiationShieldingBlock.setBlockHardness(10.0);
+mediumRadiationShieldingBlock.setBlockResistance(10.0);
+mediumRadiationShieldingBlock.setToolClass("pickaxe");
+mediumRadiationShieldingBlock.setToolLevel(2);
+mediumRadiationShieldingBlock.setBlockSoundType(<soundtype:stone>);
+mediumRadiationShieldingBlock.register();
+
+//---> Radiation Shielding Heavy
+var heavyRadiationShieldingBlock = VanillaFactory.createBlock("radiation_shielding_heavy", <blockmaterial:rock>);
+heavyRadiationShieldingBlock.setBlockHardness(15.0);
+heavyRadiationShieldingBlock.setBlockResistance(15.0);
+heavyRadiationShieldingBlock.setToolClass("pickaxe");
+heavyRadiationShieldingBlock.setToolLevel(3);
+heavyRadiationShieldingBlock.setBlockSoundType(<soundtype:stone>);
+heavyRadiationShieldingBlock.register();

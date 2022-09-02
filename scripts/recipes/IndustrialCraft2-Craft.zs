@@ -1,5 +1,8 @@
 #priority 98
 
+val oreIngotUranium = <ore:ingotUranium>;
+val experienceSmelting = 0.03125; //2 exp by one stack
+
 //--- Add Recipes ---//
 
 //---> Remove Liquid Fuel Firebox machine for balance between other mods
@@ -36,6 +39,12 @@ mods.jei.JEI.removeAndHide(<ic2:te:2>);
 
 //---> Hide Coal Coke
 mods.jei.JEI.removeAndHide(<ic2:coke>);
+
+//---> Hide Lead Tiny Dust
+mods.jei.JEI.removeAndHide(<ic2:dust:23>);
+
+//---> Hide Industrial Diamond
+mods.jei.JEI.removeAndHide(<ic2:crafting:19>);
 
 //---> Remove Pellets of MOX Nuclear Fuel and Pellets of Enriched Uranium Nuclear Fuel
 mods.jei.JEI.removeAndHide(<ic2:nuclear:8>);
@@ -104,3 +113,15 @@ mods.jei.JEI.removeAndHide(<ic2:refractory_bricks>);
 mods.jei.JEI.removeAndHide(<ic2:te:100>);
 mods.jei.JEI.removeAndHide(<ic2:te:101>);
 mods.jei.JEI.removeAndHide(<ic2:te:102>);
+
+//---> Add recipe to create Uranium Block
+recipes.addShaped("IC2UraniumBlock", <ic2:resource:10>, [[oreIngotUranium, oreIngotUranium, oreIngotUranium], [oreIngotUranium, oreIngotUranium, oreIngotUranium], [oreIngotUranium, oreIngotUranium, oreIngotUranium]]);
+
+//---> Remap the circuit recipes
+recipes.remove(<ic2:crafting:1>);
+recipes.remove(<ic2:crafting:2>);
+recipes.addShaped("IC2BasicCircuit", <ic2:crafting:1>, [[<ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>], [<ore:dustRedstone>, <icbmclassic:circuit:1>, <ore:dustRedstone>], [<ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>]]);
+recipes.addShaped("IC2AdvancedCircuit", <ic2:crafting:2>, [[<ore:itemInsulatedGoldCable>, <ore:itemInsulatedGoldCable>, <ore:itemInsulatedGoldCable>], [<ore:dustLapis>, <ic2:crafting:1>, <ore:dustLapis>], [<ore:plateAluminum>, <icbmclassic:circuit:2>, <ore:plateAluminum>]]);
+
+//---> Add Silicon recipes
+furnace.addRecipe(<appliedenergistics2:material:5>, <ore:dustSiliconDioxide>, experienceSmelting);

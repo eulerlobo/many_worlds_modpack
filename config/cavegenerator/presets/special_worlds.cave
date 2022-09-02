@@ -3,7 +3,7 @@
     cat/common.cave::half_rel()
     cat/common.cave::full_rel()
   ]
-  dimensions: [ 29 ]
+  dimensions: [ 29, 31 ]
   enabled: true
   caverns: [
     {
