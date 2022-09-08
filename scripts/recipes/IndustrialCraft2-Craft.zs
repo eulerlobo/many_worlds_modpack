@@ -3,6 +3,13 @@
 val oreIngotUranium = <ore:ingotUranium>;
 val experienceSmelting = 0.03125; //2 exp by one stack
 
+val sawBlade = <thermalfoundation:material:657>;
+
+val orePlateIron = <ore:plateIron>;
+val orePlateSteel = <ore:plateSteel>;
+
+val oreGemDiamond = <ore:gemDiamond>;
+
 //--- Add Recipes ---//
 
 //---> Remove Liquid Fuel Firebox machine for balance between other mods
@@ -125,3 +132,15 @@ recipes.addShaped("IC2AdvancedCircuit", <ic2:crafting:2>, [[<ore:itemInsulatedGo
 
 //---> Add Silicon recipes
 furnace.addRecipe(<appliedenergistics2:material:5>, <ore:dustSiliconDioxide>, experienceSmelting);
+
+//---> Add solar panel description
+<ic2:te:8>.addTooltip(format.aqua("Produce 5RF/t constantly during the daytime."));
+
+//---> Remap IC2 Cutting Blade
+recipes.remove(<ic2:block_cutting_blade>);
+recipes.remove(<ic2:block_cutting_blade:1>);
+recipes.remove(<ic2:block_cutting_blade:2>);
+
+recipes.addShaped("IC2IronCuttingBlade", <ic2:block_cutting_blade>, [[orePlateIron, orePlateIron, orePlateIron], [orePlateIron, sawBlade, orePlateIron], [orePlateIron, orePlateIron, orePlateIron]]);
+recipes.addShaped("IC2SteelCuttingBlade", <ic2:block_cutting_blade:1>, [[orePlateSteel, orePlateSteel, orePlateSteel], [orePlateSteel, sawBlade, orePlateSteel], [orePlateSteel, orePlateSteel, orePlateSteel]]);
+recipes.addShaped("IC2DiamondCuttingBlade", <ic2:block_cutting_blade:2>, [[oreGemDiamond, oreGemDiamond, oreGemDiamond], [oreGemDiamond, sawBlade, oreGemDiamond], [oreGemDiamond, oreGemDiamond, oreGemDiamond]]);

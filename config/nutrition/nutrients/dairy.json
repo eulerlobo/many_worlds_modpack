@@ -501,7 +501,10 @@
 			"xlfoodmod:taco",
 			"xlfoodmod:taco_salad",
 			"xlfoodmod:vanilla_icecream",
-			"xlfoodmod:waffle"
+			"xlfoodmod:waffle",
+			"nuclearcraft:unsweetened_chocolate",
+			"nuclearcraft:dark_chocolate",
+			"nuclearcraft:milk_chocolate"
 		]
 	}
 }

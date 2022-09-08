@@ -1,9 +1,11 @@
-#Immersive Engineering & Pam's HarvestCraft: Pam's HarvestCraft Crops, Seeds, and Saplings now create ethanol:
-#author: DarethMC
-#Fermenter
-#OutputStack, OutputFluid, InputStack, Time in Ticks
-print("Initializing '04_pams_hc_ie_fermenter.zs...");
+#priority 98
 
+val oreString = <ore:string>;
+val wovenCottonItem = <harvestcraft:wovencottonitem>;
+
+val oreBarsIron = <ore:barsIron>;
+
+// ---- 04_pams_hc_ie_fermenter ----
 val ethanol = <liquid:ethanol>;
 val seed = <immersiveengineering:seed>;
 
@@ -226,4 +228,65 @@ mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:
 mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:wintersquashseeditem>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:zucchiniitem>, 80);
 mods.immersiveengineering.Fermenter.addRecipe(seed, ethanol *100, <harvestcraft:zucchiniseeditem>, 80);
-print("Initialized '04_pams_hc_ie_fermenter.zs...");
+
+// ---- 04_pams_hc_ie_fermenter ----
+
+//---> Remove all Woven Cotton Craft Recipes
+recipes.removeByRecipeName("harvestcraft:wovencottonitem_x3");
+recipes.removeByRecipeName("harvestcraft:wool_0");
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_helmet");
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_chestplate");
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_leggings");
+recipes.removeByRecipeName("harvestcraft:minecraft_leather_boots");
+recipes.removeByRecipeName("harvestcraft:leather_helmet");
+recipes.removeByRecipeName("harvestcraft:leather_chestplate");
+recipes.removeByRecipeName("harvestcraft:leather_leggings");
+recipes.removeByRecipeName("harvestcraft:leather_boots");
+recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
+
+//---> Hide unwanted items
+mods.jei.JEI.removeAndHide(<harvestcraft:market>);
+mods.jei.JEI.removeAndHide(<harvestcraft:shippingbin>);
+mods.jei.JEI.removeAndHide(<harvestcraft:well>);
+
+//---> Hide candles
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco1>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco2>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco3>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco4>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco5>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco6>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco7>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco8>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco9>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco10>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco11>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco12>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco13>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco14>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco15>);
+mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
+
+//---> Remap Woven Cotton recipes
+recipes.remove(wovenCottonItem);
+recipes.addShaped("WovenCottonItem", wovenCottonItem, [[null, oreString, oreString], [oreString, oreString, oreString], [oreString, oreString, null]]);
+
+//---> Add recipe for water bottle
+recipes.addShapeless("HarvestCraftWaterBottle", <minecraft:potion>.withTag({Potion: "minecraft:water"}), [<harvestcraft:freshwateritem>, <harvestcraft:freshwateritem>, <ore:itemEmptyBottle>]);
+
+//---> Remap Water Filter recipe
+recipes.remove(<harvestcraft:waterfilter>);
+recipes.addShaped("WaterFilter", <harvestcraft:waterfilter>, [[oreBarsIron, oreBarsIron, oreBarsIron], [oreBarsIron, <ore:itemEmptyBucket>, oreBarsIron], [oreBarsIron, <ore:cobblestone>, oreBarsIron]]);
+
+//---> Remap cooking tools recipes
+recipes.remove(<harvestcraft:cuttingboarditem>);
+recipes.addShaped("CuttingBoardItem", <harvestcraft:cuttingboarditem>, [[<ore:ingotIron>, null, null], [null, <ore:stickWood>, null], [null, null, <ore:plankWood>]]);
+
+recipes.remove(<harvestcraft:potitem>);
+recipes.addShaped("PotItem", <harvestcraft:potitem>, [[<ore:stickWood>, null, null], [null, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:ingotIron>, <ore:ingotIron>]]);
+
+recipes.remove(<harvestcraft:skilletitem>);
+recipes.addShaped("SkilletItem", <harvestcraft:skilletitem>, [[<ore:ingotIron>, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:ingotIron>, null], [null, null, <ore:stickWood>]]);
+
+recipes.remove(<harvestcraft:saucepanitem>);
+recipes.addShaped("SaucePanItem", <harvestcraft:saucepanitem>, [[null, null, null], [null, <ore:stickWood>, null], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);

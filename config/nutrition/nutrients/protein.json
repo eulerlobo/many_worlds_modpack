@@ -1188,7 +1188,8 @@
 			"zawa:large_meat_raw",
 			"zawa:raw_frog_leg",
 			"zawa:reptile_meat_cooked",
-			"zawa:reptile_meat_raw"
+			"zawa:reptile_meat_raw",
+			"nuclearcraft:marshmallow"
 		]
 	}
 }

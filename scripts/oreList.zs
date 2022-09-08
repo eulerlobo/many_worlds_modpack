@@ -740,3 +740,30 @@ blockCoalCokeOreList.add(<immersiveengineering:stone_decoration:3>);
 //---> Unify Aether Plank
 val plankWood = <ore:plankWood>;
 plankWood.add(<aether_legacy:skyroot_plank>);
+
+//---> Add Aquaculture Algae to Seaweed
+val cropSeaweedList = <ore:cropSeaweed>;
+cropSeaweedList.add(<aquaculture:food:1>);
+
+//---> Add Aquaculture Turtle to Turtle List
+val foodTurtlerawList = <ore:foodTurtleraw>;
+foodTurtlerawList.add(<aquaculture:fish:18>);
+
+//---> Remove Vulpes Copper Coil and Titanium Coil
+val oreCoilCopper = <ore:coilCopper>;
+val oreCoilGold = <ore:coilGold>;
+val coilAluminum = <ore:coilAluminum>;
+val oreCoilTitanium = <ore:coilTitanium>;
+val oreBlockCoil = <ore:blockCoil>;
+
+oreCoilCopper.remove(<libvulpes:coil0:4>);
+oreBlockCoil.remove(<libvulpes:coil0:4>);
+
+oreCoilGold.remove(<libvulpes:coil0:2>);
+oreBlockCoil.remove(<libvulpes:coil0:2>);
+
+coilAluminum.remove(<libvulpes:coil0:9>);
+oreBlockCoil.remove(<libvulpes:coil0:9>);
+
+oreCoilTitanium.remove(<libvulpes:coil0:7>);
+oreBlockCoil.remove(<libvulpes:coil0:7>);

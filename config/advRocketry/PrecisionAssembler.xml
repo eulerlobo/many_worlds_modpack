@@ -197,6 +197,8 @@
 			<itemStack>libvulpes:productgem;2;0</itemStack>
 			<itemStack>advancedrocketry:structuretower;2;0</itemStack>
 			<itemStack>advancedrocketry:advrocketmotor;3;0</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
 			<oreDict>blockTitaniumAluminide;2</oreDict>
 		</input>
 		<output>

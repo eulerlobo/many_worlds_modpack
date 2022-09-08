@@ -530,12 +530,6 @@ Mortar.addRecipe(["obsidian"], crushedColemanite * 2, 3, [oreColemanite]);
 Mortar.addRecipe(["emerald"], crushedColemanite * 2, 3, [oreColemanite]);
 Mortar.addRecipe(["gold"], crushedColemanite * 2, 1, [oreColemanite]);
 
-//---> Remap Copper Block
-recipes.remove(<libvulpes:metal0:4>);
-
-//---> Remap Aluminum Block
-recipes.remove(<libvulpes:metal0:9>);
-
 //---> Add Charcoal
 Mortar.addRecipe(["stone"], pulverizedCharcoal, 9, [oreCharcoal]);
 Mortar.addRecipe(["iron"], pulverizedCharcoal, 7, [oreCharcoal]);

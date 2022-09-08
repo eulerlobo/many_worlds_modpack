@@ -27,8 +27,8 @@ recipes.addShapeless(<nuclearcraft:flour>, [<harvestcraft:flouritem>]);
 //recipes.remove(<nuclearcraft:portable_ender_chest>);
 
 //Change Advanced Rocketry concrete to be the same of the IE
-recipes.remove(<advancedrocketry:concrete>);
-recipes.addShapeless(<advancedrocketry:concrete>, [<immersiveengineering:stone_decoration:5>]);
+// recipes.remove(<advancedrocketry:concrete>);
+// recipes.addShapeless(<advancedrocketry:concrete>, [<immersiveengineering:stone_decoration:5>]);
 
 //Integrate OpenComputer with ICBM
 recipes.remove(<icbmclassic:circuit>);

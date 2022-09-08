@@ -384,3 +384,6 @@ recipes.addShaped(<contenttweaker:radiation_shielding_heavy>, [[<nuclearcraft:ra
 //---> Remove and Hide Silicon
 oreItemSilicon.remove(silicon);
 mods.jei.JEI.removeAndHide(silicon);
+
+//---> Remove and Hide Dominos Special
+mods.jei.JEI.removeAndHide(<nuclearcraft:dominos>);
