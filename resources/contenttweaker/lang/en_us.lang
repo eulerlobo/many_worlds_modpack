@@ -219,11 +219,25 @@ item.contenttweaker.magnesium_crystal.name=Magnesium Crystal
 #Fluid
 fluid.slag_slurry=Slag Slurry
 fluid.mineralized_acid_water=Mineralized Acid Water
+fluid.e_fuel=e-Fuel
 
 #Ingot
 item.contenttweaker.uranium_ingot.name=Uranium Ingot
+item.contenttweaker.steam_alloy_ingot.name=Steam Alloy Ingot
 
 #Blocks
 tile.contenttweaker.radiation_shielding_light.name=Light Radiation Shielding
 tile.contenttweaker.radiation_shielding_medium.name=Medium Radiation Shielding
 tile.contenttweaker.radiation_shielding_heavy.name=Heavy Radiation Shielding
+
+#Items
+item.contenttweaker.harvester_trowel.name=Harvester Trowel
+item.contenttweaker.pistol_canisters.name=Pistol Canisters
+item.contenttweaker.rifle_canisters.name=Rifle Canisters
+item.contenttweaker.sniper_canisters.name=Sniper Canisters
+item.contenttweaker.shotgun_canisters.name=Shotgun Canisters
+item.contenttweaker.30mm_canisters.name=30mm Canisters
+item.contenttweaker.small_tire.name=Small Tire
+item.contenttweaker.medium_tire.name=Medium Tire
+item.contenttweaker.large_tire.name=Large Tire
+item.contenttweaker.instrument_panel.name=Instrument Panel

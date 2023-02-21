@@ -390,9 +390,9 @@ recipes.addShapeless("AU-Hazmat-Suit-Helmet-hot-add2", <techguns:hazmat_helmet>.
 
 //---> Add recipes for Combat Armor
 //Helmet
-recipes.addShapeless("AU-Combat-Helmet-cold-add1", <techguns:t4_power_helmet>.withTag({"carrots:ArmorTLining": "COOL"}), [<techguns:t2_combat_helmet>, <armorunder:cool_helmet_liner>]);
+recipes.addShapeless("AU-Combat-Helmet-cold-add1", <techguns:t2_combat_helmet>.withTag({"carrots:ArmorTLining": "COOL"}), [<techguns:t2_combat_helmet>, <armorunder:cool_helmet_liner>]);
 recipes.addShapeless("AU-Combat-Helmet-cold-add2", <techguns:t2_combat_helmet>.withTag({"carrots:ArmorTLining": "COOLER"}), [<techguns:t2_combat_helmet>.withTag({"carrots:ArmorTLining": "COOL"}), <armorunder:cool_helmet_liner>]);
-recipes.addShapeless("AU-Combat-Helmet-hot-add1", <techguns:t4_power_helmet>.withTag({"carrots:ArmorTLining": "WARM"}), [<techguns:t2_combat_helmet>, <armorunder:warm_helmet_liner>]);
+recipes.addShapeless("AU-Combat-Helmet-hot-add1", <techguns:t2_combat_helmet>.withTag({"carrots:ArmorTLining": "WARM"}), [<techguns:t2_combat_helmet>, <armorunder:warm_helmet_liner>]);
 recipes.addShapeless("AU-Combat-Helmet-hot-add2", <techguns:t2_combat_helmet>.withTag({"carrots:ArmorTLining": "WARMER"}), [<techguns:t2_combat_helmet>.withTag({"carrots:ArmorTLining": "WARM"}), <armorunder:warm_helmet_liner>]);
 
 //---> Add recipes for Ranger Veteran Armor

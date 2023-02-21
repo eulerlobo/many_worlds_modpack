@@ -26,3 +26,10 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:vibration_chamber>);
 
 //---> Remove Silicon Recipe
 furnace.remove(<appliedenergistics2:material:5>);
+
+//---> Remap Annihilation Core recipe
+recipes.remove(<appliedenergistics2:material:44>);
+recipes.addShaped("APAnnihilationCore", <appliedenergistics2:material:44>, [[null, null, null], [<appliedenergistics2:material:11>, <appliedenergistics2:material:8>, <appliedenergistics2:material:22>], [null, null, null]]);
+
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:46>); //Ender Dust
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:3>); //Nether Quartz Dust

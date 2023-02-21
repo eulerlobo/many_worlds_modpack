@@ -554,3 +554,22 @@ furnace.addRecipe(iridiumDust, orePurifiedCrushedOsmiridium, experienceSmelting)
 furnace.addRecipe(platinumDust, oreSperrylite, experienceSmelting);
 furnace.addRecipe(platinumDust, oreCrushedSperrylite, experienceSmelting);
 furnace.addRecipe(platinumDust, orePurifiedCrushedSperrylite, experienceSmelting);
+
+//---> Remove Daylight Sensor recipe
+recipes.removeByRecipeName("minecraft:daylight_detector");
+
+recipes.remove(<minecraft:daylight_detector>);
+recipes.addShaped("MinecraftDaylightDetector", <minecraft:daylight_detector>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:crystalPureNetherQuartz>, <ore:crystalPureNetherQuartz>, <ore:crystalPureNetherQuartz>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+
+//---> e-Fuel crafting
+mods.immersiveengineering.Refinery.addRecipe(<liquid:e_fuel> * 90, <liquid:carbon_dioxide> * 20, <liquid:hydrogen> * 90, 2600);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:e_fuel> * 110, <liquid:carbon_monoxide> * 30, <liquid:hydrogen> * 90, 2400);
+
+//---> Remove dust crafting
+recipes.removeByRecipeName("thermalfoundation:material_2"); //Bronze Blend
+recipes.remove(<thermalfoundation:material:97>); //Electrum Blend
+recipes.remove(<thermalfoundation:material:98>); //Invar Blend
+recipes.remove(<thermalfoundation:material:100>); //Constantan Blend
+recipes.remove(<thermalfoundation:material:101>); //Signalum Blend
+recipes.remove(<thermalfoundation:material:102>); //Lumium Blend
+recipes.remove(<thermalfoundation:material:103>); //Enderium Blend

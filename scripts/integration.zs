@@ -39,7 +39,7 @@ recipes.remove(<icbmclassic:circuit:2>);
 recipes.addShaped(<icbmclassic:circuit:2>, [[null, <opencomputers:component:10>, null], [null, <opencomputers:component:2>, <opencomputers:component:5>], [<ore:plateCopper>, <opencomputers:material:4>, <ore:plateCopper>]]);
 
 //Remove sync tread mill
-recipes.remove(<sync:item_treadmill>);
+// recipes.remove(<sync:item_treadmill>);
 
 //Resolve conflict NuclearCraft and Thermal Foundation
 recipes.remove(<nuclearcraft:gem_dust>);

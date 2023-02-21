@@ -398,6 +398,155 @@
     "playerhelditem": "immersiverailroading:item_rolling_stock",
     "message": "[Warning] Environment not suitable for this vehicle",
     "result": "deny"
-  }
- ]
- 
+  },
+  {
+    "block": "advancedrocketry:oxygencharger",
+    "message": "No GUI, just fill with oxygen or hydrogen, no power need",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ah64_black",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ah64_black",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ah64_green",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ah64_green",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ah64_tan",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ah64_tan",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ch47_green",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ch47_green",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ec145_black",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ec145_black",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ec145_blue",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ec145_blue",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ec145_gold",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ec145_gold",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ec145_green",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ec145_green",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.ec145_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.ec145_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.r22_blue",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.r22_blue",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.r22_red",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.r22_red",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.r22_yellow",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.r22_yellow",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "dimension": [0, 225, 111, 227, -1, -10, 7, 66, 20, 1],
+    "playerhelditem": "mts:helicopterpack.uh1_green",
+    "result": "allow"
+  },
+  {
+    "playerhelditem": "mts:helicopterpack.uh1_green",
+    "message": "[Warning] Environment not suitable for this vehicle",
+    "result": "deny"
+  },
+  {
+    "playerhelditem": "chisel:chisel_iron",
+    "message": "",
+    "result": "deny"
+  },
+  {
+    "playerhelditem": "chisel:chisel_diamond",
+    "message": "",
+    "result": "deny"
+  },
+  {
+    "playerhelditem": "chisel:chisel_hitech",
+    "message": "",
+    "result": "deny"
+  },
+]

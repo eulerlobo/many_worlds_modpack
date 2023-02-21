@@ -52,3 +52,29 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:armor.helmet_silver>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:armor.plate_silver>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:armor.legs_silver>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:armor.boots_silver>);
+
+recipes.removeByRecipeName("thermalfoundation:paper");
+recipes.removeByRecipeName("thermalfoundation:fertilizer");
+recipes.removeByRecipeName("thermalfoundation:fertilizer_2");
+recipes.removeByRecipeName("thermalfoundation:fertilizer_3");
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:800>); //Sawdust
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:801>); //Compressed Sawdust
+furnace.remove(<minecraft:coal:1>, <thermalfoundation:material:801>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:bait>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:bait:1>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:bait:2>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:864>); //Slag
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:865>); //Rich Slag
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:832>); //Rosin
+recipes.removeByRecipeName("thermalfoundation:sticky_piston");
+recipes.removeByRecipeName("thermalfoundation:lead");
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:833>); //Tar
+recipes.removeByRecipeName("thermalfoundation:sticky_piston_1");
+recipes.removeByRecipeName("thermalfoundation:lead_1");
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:892>); //Bitumen
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:818>); //Pulped Bioblend
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:819>); //Rich Bioblend
+
+mods.immersiveengineering.Refinery.addRecipe(<liquid:refined_biofuel> * 25, <liquid:plantoil> * 7, <liquid:ic2biomass> * 18, 700);
+
+recipes.addShaped("TFRichDirt", <minecraft:dirt> * 12, [[<ore:itemSlag>, <thermalfoundation:material:817>, <ore:itemSlag>], [<thermalfoundation:material:817>, <ore:itemSlag>, <thermalfoundation:material:817>], [<ore:itemSlag>, <thermalfoundation:material:817>, <ore:itemSlag>]]);

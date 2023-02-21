@@ -32,3 +32,11 @@ oreLead.remove(<erebus:ore_lead>);
 recipes.remove(<erebus:ore_silver>);
 furnace.remove(<erebus:ore_silver>);
 oreSilver.remove(<erebus:ore_silver>);
+
+<erebus:materials:32>.addTooltip("Used to make smoothie with ErebusCo. Smoothie-matic 2000");
+
+//---> Remap Ender Seeds
+recipes.remove(<endercrop:ender_seeds>);
+recipes.addShaped("ErebusEnderSeeds", <endercrop:ender_seeds>, [[null, <ic2:dust:32>, null], [<ic2:dust:31>, <erebus:materials:32>, <ic2:dust:31>], [null, <ic2:dust:32>, null]]);
+
+<erebus:materials:38>.addTooltip("Fusion of a Diamond, an Emerald and a piece of Obsidian on an Offering Altar");

@@ -50,6 +50,7 @@
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
 			<itemStack>advancedrocketry:lens</itemStack>
+			<oreDict>plateAluminum;2</oreDict>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
@@ -67,9 +68,10 @@
 	</Recipe>
 	<Recipe timeRequired="500" power ="240">
 		<input>
-			<oreDict>dustRedstone;1</oreDict>
-			<oreDict>gemEmerald;1</oreDict>
 			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>opencomputers:material;1;7</itemStack>
+			<itemStack>opencomputers:material;1;12</itemStack>
+			<oreDict>gemEmerald;1</oreDict>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:dataunit</itemStack>
@@ -91,6 +93,7 @@
 			<oreDict>ingotGold;2</oreDict>
 			<oreDict>blockRedstone;1</oreDict>
 			<itemStack>opencomputers:material;12;29</itemStack>
+			<itemStack>advancedrocketry:wafer</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
@@ -98,10 +101,11 @@
 	</Recipe>
 	<Recipe timeRequired="200" power ="15">
 		<input>
-			<itemStack>minecraft:feather</itemStack>
+			<itemStack>minecraft:feather;2;0</itemStack>
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
 			<itemStack>minecraft:leather_boots</itemStack>
+			<oreDict>ingotCobalt;1</oreDict>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemupgrade;1;3</itemStack>
@@ -109,10 +113,9 @@
 	</Recipe>
 	<Recipe timeRequired="200" power ="15">
 		<input>
-			<itemStack>minecraft:diamond</itemStack>
-			<itemStack>advancedrocketry:ic;1;2</itemStack>
-			<itemStack>advancedrocketry:ic;1;3</itemStack>
-			<itemStack>minecraft:fire_charge</itemStack>
+			<itemStack>advancedrocketry:ic;1;4</itemStack>
+			<itemStack>advancedrocketry:ic;2;2</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemupgrade;1;1</itemStack>
@@ -120,10 +123,9 @@
 	</Recipe>
 	<Recipe timeRequired="200" power ="15">
 		<input>
-			<itemStack>minecraft:redstone</itemStack>
-			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
-			<itemStack>minecraft:redstone_torch</itemStack>
+			<itemStack>advancedrocketry:ic;2;0</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemupgrade</itemStack>
@@ -173,11 +175,116 @@
 		<input>
 			<oreDict>stickCopper;2</oreDict>
 			<oreDict>stickTitanium;1</oreDict>
-			<itemStack>advancedrocketry:ic;1;2</itemStack>
-			<itemStack>advancedrocketry:wafer;2</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<oreDict>stickCopper;2</oreDict>
+			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
+			<oreDict>plateIron;2</oreDict>
+			<itemStack>advancedrocketry:orescanner</itemStack>
+			<itemStack>advancedrocketry:ic;2;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<itemStack>advancedrocketry:lens;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
+			<oreDict>stickIron;1</oreDict>
+			<oreDict>plateAluminum;2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
+			<oreDict>gemDilithium;1</oreDict>
+			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
+			<oreDict>stickTitaniumIridium;1</oreDict>
+			<oreDict>stickCopper;1</oreDict>
+			<oreDict>stickIron;1</oreDict>
+			<oreDict>plateLead;3</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+			<itemStack>appliedenergistics2:material;1;10</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+			<itemStack>appliedenergistics2:material;1;11</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<itemStack>advancedrocketry:lens;2;0</itemStack>
+			<oreDict>dustGlowstone;1</oreDict>
+			<oreDict>plateGold;1</oreDict>
+			<oreDict>dustRedstone;1</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:ic;1;4</itemStack>
+			<oreDict>blockAluminum;2</oreDict>
+			<oreDict>plateAluminum;9</oreDict>
+			<oreDict>blockTitanium;1</oreDict>
+			<oreDict>stickTitanium;2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satellite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<itemStack>advancedrocketry:solarpanel;3</itemStack>
+			<itemStack>libvulpes:structuremachine;2</itemStack>
+			<oreDict>plateCarbon;2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satellitepowersource</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="15">
+		<input>
+			<itemStack>advancedrocketry:satellitepowersource;3</itemStack>
+			<oreDict>stickTitanium;2</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satellitepowersource;1;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="100" power ="20">
@@ -266,6 +373,1308 @@
 		</input>
 		<output>
 			<itemStack>icbmclassic:missile;1;28</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;0</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockSteel;3</oreDict>
+			<oreDict>dyeGray;2</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;20</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.comanche_grey</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;0</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockSteel;3</oreDict>
+			<oreDict>dyeBlue;2</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;20</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.comanche_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;0</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockSteel;3</oreDict>
+			<oreDict>dyeRed;2</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;20</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.comanche_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;0</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockSteel;3</oreDict>
+			<oreDict>dyeYellow;2</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;20</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.comanche_yellow</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;10;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockTitaniumAluminide;2</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeRed;5</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;24</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.e500_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;10;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockTitaniumAluminide;2</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeBlue;5</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;24</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.e500_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;10;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockTitaniumAluminide;2</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeLime;5</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;24</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.e500_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;10;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockTitaniumAluminide;2</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeYellow;5</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;24</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.e500_yellow</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>minecraft:glass;6;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>blockSteel;8</oreDict>
+			<oreDict>dyeRed;5</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dustRedstone;20</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.firetruck</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;10;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<oreDict>dyeWhite;2</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.gmcbrig_white</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;10;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<oreDict>dyeBlack;2</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.gmcbrig_black</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;10;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<oreDict>dyeBlue;2</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.gmcbrig_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;10;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<oreDict>dyeGreen;2</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.gmcbrig_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;10;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<oreDict>dyeRed;2</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.gmcbrig_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;10;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<oreDict>dyeYellow;2</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.gmcbrig_yellow</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockIron;5</oreDict>
+			<oreDict>blockSteel;2</oreDict>
+			<oreDict>dyeRed;3</oreDict>
+			<oreDict>dustGlowstone;6</oreDict>
+			<oreDict>dustRedstone;6</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.scout_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockIron;5</oreDict>
+			<oreDict>blockSteel;2</oreDict>
+			<oreDict>dyeYellow;3</oreDict>
+			<oreDict>dustGlowstone;6</oreDict>
+			<oreDict>dustRedstone;6</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.scout_yellow</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockIron;5</oreDict>
+			<oreDict>blockSteel;2</oreDict>
+			<oreDict>dyeOrange;3</oreDict>
+			<oreDict>dustGlowstone;6</oreDict>
+			<oreDict>dustRedstone;6</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.scout_orange</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;4;0</itemStack>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+			<oreDict>blockIron;5</oreDict>
+			<oreDict>blockSteel;2</oreDict>
+			<oreDict>dyeBlue;3</oreDict>
+			<oreDict>dustGlowstone;6</oreDict>
+			<oreDict>dustRedstone;6</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.scout_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:planks;64;0</itemStack>
+			<itemStack>minecraft:wooden_slab;32;0</itemStack>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.mc172_oak</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:planks;64;4</itemStack>
+			<itemStack>minecraft:wooden_slab;32;4</itemStack>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.mc172_acacia</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:planks;64;2</itemStack>
+			<itemStack>minecraft:wooden_slab;32;2</itemStack>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.mc172_birch</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:planks;64;5</itemStack>
+			<itemStack>minecraft:wooden_slab;32;5</itemStack>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.mc172_darkoak</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:planks;64;3</itemStack>
+			<itemStack>minecraft:wooden_slab;32;3</itemStack>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.mc172_jungle</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;8;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:planks;64;1</itemStack>
+			<itemStack>minecraft:wooden_slab;32;1</itemStack>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dustRedstone;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.mc172_spruce</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:wool;10;0</itemStack>
+			<oreDict>blockAluminum;26</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeRed;4</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dustRedstone;32</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.trimotor_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:wool;10;0</itemStack>
+			<oreDict>blockAluminum;26</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeBlue;4</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dustRedstone;32</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.trimotor_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:wool;10;0</itemStack>
+			<oreDict>blockAluminum;26</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeBlack;4</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dustRedstone;32</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.trimotor_black</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>minecraft:glass;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<itemStack>minecraft:wool;10;0</itemStack>
+			<oreDict>blockAluminum;26</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeWhite;4</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dustRedstone;32</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.trimotor_white</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<itemStack>minecraft:wool;4;0</itemStack>
+			<oreDict>blockAluminum;10</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeRed;4</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;22</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.vulcanair_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<itemStack>minecraft:wool;4;0</itemStack>
+			<oreDict>blockAluminum;10</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeBlack;4</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;22</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.vulcanair_black</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<itemStack>minecraft:wool;4;0</itemStack>
+			<oreDict>blockAluminum;10</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeBlue;4</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;22</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.vulcanair_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<itemStack>minecraft:wool;4;0</itemStack>
+			<oreDict>blockAluminum;10</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeLime;4</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;22</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.vulcanair_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;12;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;1</itemStack>
+			<itemStack>minecraft:wool;4;0</itemStack>
+			<oreDict>blockAluminum;10</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeWhite;4</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dustRedstone;22</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.vulcanair_white</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>ic2:crafting;6;0</itemStack>
+			<itemStack>minecraft:glass;2;0</itemStack>
+			<itemStack>icbmclassic:circuit;2;0</itemStack>
+			<oreDict>blockIron;4</oreDict>
+			<oreDict>blockAluminum;10</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>dyeGreen;4</oreDict>
+			<oreDict>dustGlowstone;4</oreDict>
+			<oreDict>dustRedstone;6</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.pzlp11</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockIron;3</oreDict>
+			<oreDict>sheetIron;2</oreDict>
+			<oreDict>plateIron;2</oreDict>
+			<oreDict>plateBronze;1</oreDict>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.engineamci4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockIron;3</oreDict>
+			<oreDict>blockAluminum;1</oreDict>
+			<oreDict>blockSteel;1</oreDict>
+			<oreDict>sheetAluminum;2</oreDict>
+			<oreDict>plateAluminum;2</oreDict>
+			<oreDict>plateBronze;1</oreDict>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.enginebristolmercury</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockSteel;3</oreDict>
+			<oreDict>sheetSteel;3</oreDict>
+			<oreDict>plateSteel;2</oreDict>
+			<oreDict>plateBronze;1</oreDict>
+			<itemStack>icbmclassic:circuit;1;0</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.enginedetroitdiesel</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockIron;3</oreDict>
+			<oreDict>blockAluminum;2</oreDict>
+			<oreDict>plateIron;2</oreDict>
+			<oreDict>sheetIron;2</oreDict>
+			<oreDict>plateBronze;1</oreDict>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.enginelycomingo360</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;3</oreDict>
+			<oreDict>blockAluminum;1</oreDict>
+			<oreDict>blockSteel;1</oreDict>
+			<oreDict>plateAluminum;2</oreDict>
+			<oreDict>plateTitanium;1</oreDict>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.enginepw610f</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;3</oreDict>
+			<oreDict>blockSteel;2</oreDict>
+			<oreDict>plateNickel;2</oreDict>
+			<oreDict>sheetSteel;2</oreDict>
+			<oreDict>sheetTitanium;2</oreDict>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.engineget700</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>mts:mtsofficialpack.enginelycomingo360;1;0</itemStack>
+			<oreDict>sheetAluminum;2</oreDict>
+			<oreDict>sheetSteel;2</oreDict>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.enginelycomingo320</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;3</oreDict>
+			<oreDict>blockSteel;2</oreDict>
+			<oreDict>plateNickel;2</oreDict>
+			<oreDict>plateTitanium;1</oreDict>
+			<oreDict>sheetSteel;2</oreDict>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.enginelycomingt53</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;2</oreDict>
+			<oreDict>blockSteel;1</oreDict>
+			<oreDict>blockNickel;1</oreDict>
+			<oreDict>plateTitanium;1</oreDict>
+			<oreDict>plateAluminum;1</oreDict>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.enginelycomingt55</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;2</oreDict>
+			<oreDict>blockSteel;2</oreDict>
+			<oreDict>blockAluminum;1</oreDict>
+			<oreDict>plateNickel;1</oreDict>
+			<oreDict>sheetTitanium;2</oreDict>
+			<itemStack>icbmclassic:circuit;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.engineturbomeca1e2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>plateAluminum;12</oreDict>
+			<oreDict>stickAluminum;8</oreDict>
+			<itemStack>minecraft:wooden_slab;16</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.brigbedbox</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockAluminum;3</oreDict>
+			<oreDict>stickAluminum;8</oreDict>
+			<itemStack>minecraft:planks;16</itemStack>
+			<itemStack>minecraft:wooden_slab;10</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.brigbedstake</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>minecraft:glass;6</itemStack>
+			<oreDict>blockAluminum;2</oreDict>
+			<oreDict>plateAluminum;6</oreDict>
+			<oreDict>stickAluminum;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.scouthardtop</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<itemStack>minecraft:glass;6</itemStack>
+			<itemStack>ic2:crafting;20</itemStack>
+			<oreDict>plateAluminum;4</oreDict>
+			<oreDict>stickAluminum;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.scoutvinyltop</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="200">
+		<input>
+			<itemStack>combustfish:combustive_cod</itemStack>
+			<itemStack>minecraft:blaze_rod;4</itemStack>
+			<itemStack>appliedenergistics2:material;3;11</itemStack>
+			<itemStack>tconstruct:ingots;3;2</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;6;76</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="200">
+		<input>
+			<itemStack>ic2:upgrade;2</itemStack>
+			<oreDict>plateSteel;4</oreDict>
+			<itemStack>ic2:crafting;1;2</itemStack>
+			<itemStack>techguns:itemshared;1;39</itemStack>
+			<itemStack>ic2:cover;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;72</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="200">
+		<input>
+			<itemStack>appliedenergistics2:material;1;9</itemStack>
+			<itemStack>nuclearcraft:part;4;5</itemStack>
+			<itemStack>appliedenergistics2:material;2;12</itemStack>
+			<oreDict>ingotLeadPlatinum;4</oreDict>
+			<oreDict>ingotGold;2</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;73</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="200">
+		<input>
+			<oreDict>plateTitanium;4</oreDict>
+			<itemStack>thebetweenlands:items_misc;1;19</itemStack>
+			<oreDict>dustSignalum;3</oreDict>
+			<oreDict>dustEnderPearl;4</oreDict>
+			<oreDict>plateSteel;3</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;74</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="200">
+		<input>
+			<oreDict>ingotHSLASteel;6</oreDict>
+			<oreDict>plateTitaniumAluminide;4</oreDict>
+			<itemStack>icbmclassic:circuit;4;2</itemStack>
+			<oreDict>plateNickel;4</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;4;67</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="200">
+		<input>
+			<itemStack>nuclearcraft:part;3;6</itemStack>
+			<oreDict>ingotGold;3</oreDict>
+			<oreDict>dustRedstone;3</oreDict>
+			<itemStack>opencomputers:material;1;9</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;4;69</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="200">
+		<input>
+			<itemStack>minecraft:leather;3</itemStack>
+			<fluidStack>sulfuric_acid;1000</fluidStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;3;77</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="3000" power ="200">
+		<input>
+			<itemStack>libvulpes:productgem</itemStack>
+			<itemStack>minecraft:nether_star</itemStack>
+			<oreDict>ingotLumium;4</oreDict>
+			<oreDict>ingotEnderium;4</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;92</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="80" power ="128">
+		<input>
+			<fluidStack>biodiesel;11700</fluidStack>
+			<itemStack>techguns:itemshared;1;28</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;27</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="80" power="128">
+		<input>
+			<fluidStack>diesel;9000</fluidStack>
+			<itemStack>techguns:itemshared;1;28</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;27</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="80" power="128">
+		<input>
+			<fluidStack>e_fuel;9000</fluidStack>
+			<itemStack>techguns:itemshared;1;28</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;27</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="1100">
+		<input>
+			<itemStack>techguns:itemshared;1;30</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;29</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<itemStack>contenttweaker:rifle_canisters;25</itemStack>
+			<oreDict>ingotBronze;25</oreDict>
+			<oreDict>ingotLead;25</oreDict>
+			<itemStack>minecraft:gunpowder;25</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
+			<oreDict>plateBronze;25</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet_762_ball</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
+			<oreDict>ingotSteel;25</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet_762_pierce</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
+			<oreDict>dustRedstone;50</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet_762_tracer</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<itemStack>contenttweaker:30mm_canisters;30</itemStack>
+			<oreDict>ingotLead;30</oreDict>
+			<oreDict>ingotBronze;30</oreDict>
+			<itemStack>minecraft:gunpowder;60</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet30training</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<itemStack>contenttweaker:30mm_canisters;30</itemStack>
+			<oreDict>ingotSteel;30</oreDict>
+			<itemStack>appliedenergistics2:tiny_tnt;60</itemStack>
+			<itemStack>minecraft:gunpowder;60</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet30he</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<itemStack>contenttweaker:30mm_canisters;30</itemStack>
+			<oreDict>dustRedstone;60</oreDict>
+			<oreDict>ingotBronze;30</oreDict>
+			<itemStack>minecraft:gunpowder;60</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet30tracer</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<oreDict>plateInvar;5</oreDict>
+			<oreDict>ingotSteel;6</oreDict>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>advancedrocketry:thermite;10</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet_hellfire_training</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<oreDict>plateInvar;5</oreDict>
+			<itemStack>minecraft:tnt</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>advancedrocketry:thermite;12</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bullet_hellfire_he</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<oreDict>plateInvar;9</oreDict>
+			<oreDict>ingotSteel;6</oreDict>
+			<itemStack>opencomputers:material;3;9</itemStack>
+			<itemStack>advancedrocketry:thermite;18</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bulleth70training</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power="200">
+		<input>
+			<oreDict>plateInvar;9</oreDict>
+			<itemStack>minecraft:tnt;2</itemStack>
+			<itemStack>opencomputers:material;3;9</itemStack>
+			<itemStack>advancedrocketry:thermite;18</itemStack>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.bulleth70he</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>plankWood;9</oreDict>
+			<oreDict>wool;8</oreDict>
+			<itemStack>techguns:itemshared;6;77</itemStack>
+			<oreDict>dyeBlack;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.seatblack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>plankWood;9</oreDict>
+			<oreDict>wool;8</oreDict>
+			<itemStack>techguns:itemshared;6;77</itemStack>
+			<oreDict>dyeBlue;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.seatblue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>plankWood;9</oreDict>
+			<oreDict>wool;8</oreDict>
+			<itemStack>techguns:itemshared;6;77</itemStack>
+			<oreDict>dyeBrown;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.seatbrown</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>plankWood;9</oreDict>
+			<oreDict>wool;8</oreDict>
+			<itemStack>techguns:itemshared;6;77</itemStack>
+			<oreDict>dyeGray;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.seatgrey</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>plankWood;9</oreDict>
+			<oreDict>wool;8</oreDict>
+			<itemStack>techguns:itemshared;6;77</itemStack>
+			<oreDict>dyePink;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.seatpink</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>plankWood;9</oreDict>
+			<oreDict>wool;8</oreDict>
+			<itemStack>techguns:itemshared;6;77</itemStack>
+			<oreDict>dyeRed;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.seatred</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>plankWood;9</oreDict>
+			<oreDict>wool;8</oreDict>
+			<itemStack>techguns:itemshared;6;77</itemStack>
+			<oreDict>dyeWhite;4</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.seatwhite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>ingotAluminum;6</oreDict>
+			<oreDict>wool;2</oreDict>
+			<itemStack>techguns:itemshared;4;77</itemStack>
+			<oreDict>dyeBlack;2</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.seatbench_black</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<oreDict>ingotAluminum;6</oreDict>
+			<oreDict>wool;2</oreDict>
+			<itemStack>techguns:itemshared;4;77</itemStack>
+			<oreDict>dyeGreen;2</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.seatbench_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<itemStack>contenttweaker:large_tire;8</itemStack>
+			<oreDict>dustSulfur;10</oreDict>
+			<oreDict>blockAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ground_wheel_ch47</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<itemStack>contenttweaker:medium_tire;8</itemStack>
+			<oreDict>dustSulfur;8</oreDict>
+			<oreDict>blockAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ground_wheel_ah64</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<itemStack>contenttweaker:small_tire;8</itemStack>
+			<oreDict>dustSulfur;6</oreDict>
+			<oreDict>blockAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ground_tailwheel_ah64</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<itemStack>contenttweaker:large_tire;8</itemStack>
+			<oreDict>dustSulfur;8</oreDict>
+			<oreDict>blockIron</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.wheellarge</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<itemStack>contenttweaker:medium_tire;8</itemStack>
+			<oreDict>dustSulfur;6</oreDict>
+			<oreDict>blockIron</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.wheelmedium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="400">
+		<input>
+			<itemStack>contenttweaker:small_tire;8</itemStack>
+			<oreDict>dustSulfur;4</oreDict>
+			<oreDict>blockIron</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:mtsofficialpack.wheelsmall</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockAluminum;10</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<oreDict>blockBronze;2</oreDict>
+			<itemStack>icbmclassic:circuit;5;1</itemStack>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>minecraft:glass;8;0</itemStack>
+			<oreDict>dustRedstone;10</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dyeGreen;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.uh1_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockSteel;5</oreDict>
+			<oreDict>blockBronze;2</oreDict>
+			<itemStack>minecraft:glass;5;0</itemStack>
+			<itemStack>ic2:crafting;6;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;0</itemStack>
+			<oreDict>dustRedstone;6</oreDict>
+			<oreDict>dustGlowstone;6</oreDict>
+			<oreDict>dyeBlue;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.r22_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockSteel;5</oreDict>
+			<oreDict>blockBronze;2</oreDict>
+			<itemStack>minecraft:glass;5;0</itemStack>
+			<itemStack>ic2:crafting;6;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;0</itemStack>
+			<oreDict>dustRedstone;6</oreDict>
+			<oreDict>dustGlowstone;6</oreDict>
+			<oreDict>dyeRed;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.r22_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockSteel;5</oreDict>
+			<oreDict>blockBronze;2</oreDict>
+			<itemStack>minecraft:glass;5;0</itemStack>
+			<itemStack>ic2:crafting;6;0</itemStack>
+			<itemStack>icbmclassic:circuit;4;0</itemStack>
+			<oreDict>dustRedstone;6</oreDict>
+			<oreDict>dustGlowstone;6</oreDict>
+			<oreDict>dyeYellow;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.r22_yellow</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitanium;12</oreDict>
+			<oreDict>blockAluminum;4</oreDict>
+			<itemStack>minecraft:glass;18;0</itemStack>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;6;1</itemStack>
+			<oreDict>dustRedstone;16</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dyeBlack;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ec145_black</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitanium;12</oreDict>
+			<oreDict>blockAluminum;4</oreDict>
+			<itemStack>minecraft:glass;18;0</itemStack>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;6;1</itemStack>
+			<oreDict>dustRedstone;16</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dyeBlue;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ec145_blue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitanium;12</oreDict>
+			<oreDict>blockAluminum;4</oreDict>
+			<itemStack>minecraft:glass;18;0</itemStack>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;6;1</itemStack>
+			<oreDict>dustRedstone;16</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dyeYellow;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ec145_gold</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitanium;12</oreDict>
+			<oreDict>blockAluminum;4</oreDict>
+			<itemStack>minecraft:glass;18;0</itemStack>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;6;1</itemStack>
+			<oreDict>dustRedstone;16</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dyeGreen;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ec145_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitanium;12</oreDict>
+			<oreDict>blockAluminum;4</oreDict>
+			<itemStack>minecraft:glass;18;0</itemStack>
+			<itemStack>ic2:crafting;16;0</itemStack>
+			<itemStack>icbmclassic:circuit;6;1</itemStack>
+			<oreDict>dustRedstone;16</oreDict>
+			<oreDict>dustGlowstone;16</oreDict>
+			<oreDict>dyeRed;8</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ec145_red</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;20</oreDict>
+			<oreDict>blockAluminum;8</oreDict>
+			<oreDict>blockSteel;4</oreDict>
+			<itemStack>minecraft:glass;24;0</itemStack>
+			<itemStack>icbmclassic:circuit;5;2</itemStack>
+			<itemStack>ic2:crafting;24;0</itemStack>
+			<oreDict>dustRedstone;32</oreDict>
+			<oreDict>dustGlowstone;12</oreDict>
+			<oreDict>dyeGreen;12</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ch47_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;14</oreDict>
+			<oreDict>blockAluminum;6</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<itemStack>icbmclassic:circuit;8;2</itemStack>
+			<itemStack>minecraft:glass;12;0</itemStack>
+			<itemStack>ic2:crafting;24;0</itemStack>
+			<oreDict>dustRedstone;20</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dyeBlack;12</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ah64_black</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;14</oreDict>
+			<oreDict>blockAluminum;6</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<itemStack>icbmclassic:circuit;8;2</itemStack>
+			<itemStack>minecraft:glass;12;0</itemStack>
+			<itemStack>ic2:crafting;24;0</itemStack>
+			<oreDict>dustRedstone;20</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dyeGreen;12</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ah64_green</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="400">
+		<input>
+			<oreDict>blockTitaniumAluminide;14</oreDict>
+			<oreDict>blockAluminum;6</oreDict>
+			<oreDict>blockSteel;6</oreDict>
+			<itemStack>icbmclassic:circuit;8;2</itemStack>
+			<itemStack>minecraft:glass;12;0</itemStack>
+			<itemStack>ic2:crafting;24;0</itemStack>
+			<oreDict>dustRedstone;20</oreDict>
+			<oreDict>dustGlowstone;8</oreDict>
+			<oreDict>dyeBrown;12</oreDict>
+		</input>
+		<output>
+			<itemStack>mts:helicopterpack.ah64_tan</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

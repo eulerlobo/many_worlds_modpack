@@ -96,7 +96,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     }
 
     //Dirt drops, for dirt, podzol, grass and flowering grass
-    if ((block == "minecraft:dirt" || block == "minecraft:dirt:2" || block == "minecraft:grass" || block == "biomesoplenty:grass:7") && !event.silkTouch) {
+    if ((block == "minecraft:dirt" || block == "minecraft:dirt:2" || block == "minecraft:grass" || block == "minecraft:grass_path" || block == "biomesoplenty:grass:7") && !event.silkTouch) {
       val quantity = 2 + Math.ceil(Math.random() * 2);
       val dirtChunk = [<contenttweaker:dirt_chunk> * quantity] as IItemStack[];
       event.drops = dirtChunk;

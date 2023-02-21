@@ -36,6 +36,8 @@ val orePlateCarbon = <ore:plateCarbon>;
 val orePlateElectrum = <ore:plateElectrum>;
 val orePlateSteel = <ore:plateSteel>;
 val orePlateAluminium = <ore:plateAluminum>;
+val orePlateTin = <ore:plateTin>;
+val orePlateInvar = <ore:plateInvar>;
 
 val oreStickTitanium = <ore:stickTitanium>;
 val orePlateTitaniumIridium = <ore:plateTitaniumIridium>;
@@ -47,12 +49,20 @@ val oreDustRedstone = <ore:dustRedstone>;
 
 val oreStickIron = <ore:stickIron>;
 val oreStickTitaniumAluminide = <ore:stickTitaniumAluminide>;
+val oreStickCopper = <ore:stickCopper>;
+
+val oreRedstoneTorch = <ore:redstoneTorch>;
+val orePaneGlass = <ore:paneGlass>;
+
+val oreWool = <ore:wool>;
 
 //---> Remove recipes
 recipes.remove(<libvulpes:coalgenerator>);
 recipes.remove(<advancedrocketry:hovercraft>);
 recipes.remove(<libvulpes:productgem>);
 recipes.remove(<advancedrocketry:misc:1>);
+mods.jei.JEI.removeAndHide(<libvulpes:productdust:7>);
+mods.jei.JEI.removeAndHide(<advancedrocketry:misc:1>); //Carbon Brick
 mods.immersiveengineering.Crusher.removeRecipe(<libvulpes:productgem>);
 
 //Remap recipes for integration
@@ -268,3 +278,58 @@ recipes.addShaped("ARLens", <advancedrocketry:lens>, [[null, null, <tconstruct:c
 
 //---> Remove Planet Holo Selector (is breaking the game)
 mods.jei.JEI.removeAndHide(<advancedrocketry:planetholoselector>);
+
+//---> Remove Fluid Pump
+mods.jei.JEI.removeAndHide(<advancedrocketry:blockpump>);
+
+//---> Remap Jet Pack recipe
+recipes.remove(<advancedrocketry:jetpack>);
+recipes.addShaped("ARJetPack", <advancedrocketry:jetpack>, [[<advancedrocketry:ic>, orePlateSteel, <advancedrocketry:ic:3>], [orePlateSteel, <ic2:jetpack:27>, orePlateSteel], [<advancedrocketry:pressuretank>, null, <advancedrocketry:pressuretank>]]);
+
+//---> Remap Seal detector
+recipes.remove(<advancedrocketry:sealdetector>);
+recipes.addShaped("ARSealDetector", <advancedrocketry:sealdetector>, [[oreRedstoneTorch, orePaneGlass, oreRedstoneTorch], [orePlateTin, <libvulpes:productfan:6>, orePlateTin], [null, <minecraft:comparator>, null]]);
+
+//---> Remap Space Suit
+recipes.remove(<advancedrocketry:spacehelmet>);
+recipes.remove(<advancedrocketry:spacechestplate>);
+recipes.remove(<advancedrocketry:spaceleggings>);
+recipes.remove(<advancedrocketry:spaceboots>);
+
+recipes.addShaped("ARSpaceHelmet", <advancedrocketry:spacehelmet>, [[orePlateInvar, <harvestcraft:hardenedleatherhelmitem>, orePlateInvar], [orePlateInvar, <minecraft:glass_pane>, <advancedrocketry:ic>], [oreWool, <minecraft:leather_helmet>, oreWool]]);
+recipes.addShaped("ARSpaceChestplate", <advancedrocketry:spacechestplate>, [[oreWool, <advancedrocketry:ic:2>, oreWool], [orePlateInvar, <minecraft:leather_chestplate>, <advancedrocketry:fueltank>], [oreWool, <harvestcraft:hardenedleatherchestitem>, oreWool]]);
+recipes.addShaped("ARSpaceLeggings", <advancedrocketry:spaceleggings>, [[oreWool, <advancedrocketry:ic>, oreWool], [oreWool, <minecraft:leather_leggings>, oreWool], [orePlateInvar, <harvestcraft:hardenedleatherleggingsitem>, orePlateInvar]]);
+recipes.addShaped("ARSpaceBoots", <advancedrocketry:spaceboots>, [[oreWool, null, oreWool], [<advancedrocketry:ic>, <minecraft:leather_boots>, <advancedrocketry:ic>], [orePlateInvar, <harvestcraft:hardenedleatherbootsitem>, orePlateInvar]]);
+
+//---> Remove satellite sensors
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:4>); //Ore Mapper
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:3>); //Microwave Transmitter
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:2>); //Mass Detector
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:1>); //Composition Sensor
+recipes.remove(<advancedrocketry:satelliteprimaryfunction>); //Optical Sensor
+
+//---> Remove satellite recipes
+recipes.remove(<advancedrocketry:satellite>);
+recipes.remove(<advancedrocketry:satellitepowersource>);
+recipes.remove(<advancedrocketry:satellitepowersource:1>);
+
+//---> Remap Guidance Computer recipe
+recipes.remove(<advancedrocketry:guidancecomputer>);
+recipes.addShaped("ARGuidanceComputer", <advancedrocketry:guidancecomputer>, [[<advancedrocketry:ic:1>, orePlateTitanium, <advancedrocketry:ic:1>], [<advancedrocketry:ic:2>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>], [<advancedrocketry:ic:1>, orePlateTitanium, <advancedrocketry:ic:1>]]);
+
+//---> Remap Satellite Terminal recipe
+recipes.remove(<advancedrocketry:satellitecontrolcenter>);
+recipes.addShaped("ARSatelliteControl", <advancedrocketry:satellitecontrolcenter>, [[oreStickCopper, <advancedrocketry:satelliteprimaryfunction>, oreStickCopper], [<advancedrocketry:ic:3>, <libvulpes:structuremachine>, <advancedrocketry:misc>], [<minecraft:repeater>, <advancedrocketry:ic:1>, <minecraft:repeater>]]);
+
+//---> Remap Ore Scanner recipe
+recipes.remove(<advancedrocketry:orescanner>);
+recipes.addShaped("AROreScanner", <advancedrocketry:orescanner>, [[oreStickCopper, <advancedrocketry:misc>, oreStickCopper], [orePlateTin, <advancedrocketry:ic:2>, orePlateTin], [<libvulpes:battery>, orePlateTin, <libvulpes:battery>]]);
+
+//---> Remap Wirelesss Transceiver recipe
+recipes.remove(<advancedrocketry:wirelesstransciever>);
+recipes.addShaped("ARWirelessTransceiver", <advancedrocketry:wirelesstransciever>, [[null, orePlateAluminium, null], [null, <opencomputers:upgrade:31>, orePlateAluminium], [<advancedrocketry:dataunit>, <icbmclassic:circuit>, null]]);
+
+//---> Remove and Hide Circle Light
+mods.jei.JEI.removeAndHide(<advancedrocketry:circlelight>);
+
+mods.jei.JEI.removeAndHide(<advancedrocketry:arcfurnace>);

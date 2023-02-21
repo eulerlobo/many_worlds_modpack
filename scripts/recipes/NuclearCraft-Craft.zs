@@ -5,6 +5,8 @@ import mods.nuclearcraft.chemical_reactor;
 import mods.nuclearcraft.infuser;
 import mods.nuclearcraft.ingot_former;
 import mods.nuclearcraft.pressurizer;
+import mods.nuclearcraft.manufactory;
+import mods.nuclearcraft.alloy_furnace;
 
 val timeBaseMultiplier = 50 * 20;
 val powerBaseMultiplier = 60;
@@ -385,5 +387,37 @@ recipes.addShaped(<contenttweaker:radiation_shielding_heavy>, [[<nuclearcraft:ra
 oreItemSilicon.remove(silicon);
 mods.jei.JEI.removeAndHide(silicon);
 
-//---> Remove and Hide Dominos Special
-mods.jei.JEI.removeAndHide(<nuclearcraft:dominos>);
+//---> Remove Dominos Special
+recipes.remove(<nuclearcraft:dominos>);
+
+//---> Remap Emerald recipe
+pressurizer.addRecipe([<ic2:dust:34>, <minecraft:emerald>]);
+
+//---> Remap Copper Solenoid
+recipes.remove(<nuclearcraft:part:4>);
+recipes.addShapeless("NuclearCraftCopperSolenoid", <nuclearcraft:part:4>, [<ic2:crafting:5>, <ic2:crafting:5>, <ic2:crafting:5>, <ic2:crafting:5>]);
+
+//---> Hide Fluids
+mods.jei.JEI.hide(<nuclearcraft:fluid_ethanol>);
+
+//---> Remove Crushed Diamond
+manufactory.removeRecipeWithOutput(<nuclearcraft:gem_dust:0>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:gem_dust:0>);
+
+//---> Fix Uraniun Oxide Ingot
+infuser.removeRecipeWithOutput([<nuclearcraft:ingot_oxide:1>]);
+// infuser.addRecipe([<ore:ingotUranium>, <liquid:oxygen> * 1000, <nuclearcraft:ingot_oxide:1>]);
+infuser.addRecipe([<contenttweaker:uranium_ingot>, <liquid:oxygen> * 1000, <nuclearcraft:ingot_oxide:1>]);
+
+//---> Remove Lithium Ingot
+furnace.remove(<nuclearcraft:ingot:6>, <nuclearcraft:dust:6>);
+furnace.remove(<nuclearcraft:ingot:6>, <nuclearcraft:ore:6>);
+
+//---> Hide the SiC-SiC Ceramic Matrix Composite
+// mods.jei.JEI.removeAndHide(<nuclearcraft:alloy:14>); //SiC-SiC Ceramic Matrix Composite
+
+//---> Add Aluminum Brass Ingot
+alloy_furnace.addRecipe([<ore:ingotCopper>, <ore:ingotAluminum> * 3, <tconstruct:ingots:5> * 4]);
+alloy_furnace.addRecipe([<ore:ingotCopper>, <ore:dustAluminum> * 3, <tconstruct:ingots:5> * 4]);
+alloy_furnace.addRecipe([<ore:dustCopper>, <ore:ingotAluminum> * 3, <tconstruct:ingots:5> * 4]);
+alloy_furnace.addRecipe([<ore:dustCopper>, <ore:dustAluminum> * 3, <tconstruct:ingots:5> * 4]);

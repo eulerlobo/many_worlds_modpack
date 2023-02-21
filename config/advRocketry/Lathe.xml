@@ -66,14 +66,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotTitanium</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productrod;2;7</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotIridium</oreDict>
 		</input>
 		<output>

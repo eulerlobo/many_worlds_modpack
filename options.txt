@@ -15,7 +15,7 @@ difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["ManyWorldsAmbientSounds"]
+resourcePacks:["ManyWorldsResourcePack"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -72,9 +72,9 @@ key_key.togglePerspective:63
 key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
-key_key.swapHands:33
-key_key.saveToolbarActivator:46
-key_key.loadToolbarActivator:45
+key_key.swapHands:0
+key_key.saveToolbarActivator:0
+key_key.loadToolbarActivator:0
 key_key.advancements:0
 key_key.hotbar.1:2
 key_key.hotbar.2:3
@@ -103,7 +103,6 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_quark.keybind.changeHotbar:44
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,6 +121,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.changeHotbar:0
 key_keybind.baublesinventory:0
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
@@ -185,7 +185,7 @@ key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.aether.accessory_menu:0
-key_key.toggle_focus.desc:15
+key_key.toggle_focus.desc:0
 key_key.astikorcarts.desc:19
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:0
@@ -204,15 +204,15 @@ key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_quick_eat:0
 key_gui.xaero_toggle_sneak:0
-key_gui.xaero_quick_use_1:79
-key_gui.xaero_quick_use_2:80
-key_gui.xaero_quick_use_3:81
-key_gui.xaero_quick_use_4:75
-key_gui.xaero_quick_use_5:76
-key_gui.xaero_quick_use_6:77
-key_gui.xaero_quick_use_7:71
-key_gui.xaero_quick_use_8:72
-key_gui.xaero_quick_use_9:73
+key_gui.xaero_quick_use_1:0
+key_gui.xaero_quick_use_2:0
+key_gui.xaero_quick_use_3:0
+key_gui.xaero_quick_use_4:0
+key_gui.xaero_quick_use_5:0
+key_gui.xaero_quick_use_6:0
+key_gui.xaero_quick_use_7:0
+key_gui.xaero_quick_use_8:0
+key_gui.xaero_quick_use_9:0
 key_gui.xaero_better_pvp_settings:0
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
@@ -244,7 +244,7 @@ key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
 key_key.toggleCleanView:0
 key_key.clipboardPaste:210
-key_cyberware.keybinds.menu:19
+key_cyberware.keybinds.menu:16:SHIFT
 key_keybinding.extrabitmanipulation.design:19
 key_keybinding.extrabitmanipulation.throw.bit:19
 key_keybinding.extrabitmanipulation.throw.bit.bitbag:19
@@ -262,7 +262,7 @@ key_key.dragon_down:45
 key_key.dragon_change_view:65
 key_invtweaks.key.sort:0
 key_key.menu:50
-key_key.villages:47
+key_key.villages:0
 key_key.escorts:34
 key_key.nutrition:49
 key_key.plustic_release_entity.desc:11
@@ -289,7 +289,7 @@ key_key.use_ring:19
 key_key.use_secondary_ring:0
 key_key.open_pouch:34
 key_key.connect_caving_rope:47
-key_Toggle Jetpack:45
+key_Toggle Jetpack:302
 key_Open Rocket GUI:46
 key_Toggle RCS:19
 key_Rotate Vehicle Right:32

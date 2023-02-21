@@ -17,14 +17,58 @@
         "techguns:weapon_mechanics",
         "techguns:oredrills/ore_clusters",
         "techguns:armors/hev_suit",
-        "techguns:armor_mechanics"
+        "techguns:armor_mechanics",
+        "techguns:weapon_stats",
+        "techguns:machines/turret",
+        "techguns:tg_hud",
+        "techguns:tg_inventory_tab",
+        "techguns:oredrills/ore_drills"
       ],
       "bookmarks": [],
       "history": [
+        "techguns:oredrills/ore_drills",
+        "techguns:tg_inventory_tab",
+        "techguns:tg_hud",
+        "techguns:machines/turret",
+        "techguns:weapon_stats",
         "techguns:armor_mechanics",
         "techguns:armors/hev_suit",
         "techguns:oredrills/ore_clusters",
         "techguns:weapon_mechanics"
+      ],
+      "completedManualQuests": []
+    },
+    "deepmoblearning:book": {
+      "viewedEntries": [
+        "deepmoblearning:0_introduction/0_introduction",
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:3_system_malfunction/0_system_glitches",
+        "deepmoblearning:3_system_malfunction/1_glitch_fragments",
+        "deepmoblearning:3_system_malfunction/3_equipment",
+        "deepmoblearning:2_trials/1_trials",
+        "deepmoblearning:3_system_malfunction/2_glitch_metal",
+        "deepmoblearning:1_machines/3_energy",
+        "deepmoblearning:0_introduction/1_data",
+        "deepmoblearning:1_machines/0_simulation_chamber",
+        "deepmoblearning:1_machines/1_matter",
+        "deepmoblearning:2_trials/0_trial_key",
+        "deepmoblearning:1_machines/2_loot_fabricator"
+      ],
+      "bookmarks": [],
+      "history": [
+        "deepmoblearning:1_machines/2_loot_fabricator",
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:1_machines/0_simulation_chamber",
+        "deepmoblearning:2_trials/0_trial_key",
+        "deepmoblearning:1_machines/1_matter",
+        "deepmoblearning:0_introduction/1_data",
+        "deepmoblearning:1_machines/3_energy",
+        "deepmoblearning:3_system_malfunction/1_glitch_fragments",
+        "deepmoblearning:3_system_malfunction/0_system_glitches",
+        "deepmoblearning:3_system_malfunction/2_glitch_metal",
+        "deepmoblearning:3_system_malfunction/3_equipment",
+        "deepmoblearning:2_trials/1_trials",
+        "deepmoblearning:0_introduction/0_introduction"
       ],
       "completedManualQuests": []
     }

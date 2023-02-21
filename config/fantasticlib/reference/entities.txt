@@ -93,15 +93,6 @@ ic2:rubber_boat
 ic2:electric_boat
 ic2:particle
 ic2:fireproof_item
-quark:pickarang
-quark:dragon_breath_bottle
-quark:soul_powder
-quark:parrot_egg
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:chest_passenger
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -113,6 +104,15 @@ quark:crab
 quark:wraith
 quark:gravisand
 quark:seat
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
+quark:chest_passenger
+quark:pickarang
+quark:dragon_breath_bottle
+quark:soul_powder
+quark:parrot_egg
 thermalfoundation:blizz
 thermalfoundation:blitz
 thermalfoundation:basalz
@@ -617,6 +617,7 @@ golems:golem_straw
 golems:golem_tnt
 golems:golem_wooden
 golems:golem_wool
+mts:mts_entity
 icbmclassic:block.gravity
 icbmclassic:block.fragment
 icbmclassic:block.explosive
@@ -684,7 +685,6 @@ iceandfire:dread_horse
 iceandfire:if_hydra
 iceandfire:hydra_breath
 iceandfire:hydra_arrow
-mts:mts_entity
 immersiverailroading:carfreight
 immersiverailroading:carpassenger
 immersiverailroading:cartank

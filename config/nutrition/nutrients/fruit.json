@@ -622,7 +622,9 @@
 			"xlfoodmod:taco_salad",
 			"xlfoodmod:tomato",
 			"xlfoodmod:tomato_soup",
-			"xlfoodmod:vegetable_soup"
+			"xlfoodmod:vegetable_soup",
+			"betternether:black_apple",
+			"betternether:stalagnate_bowl_apple"
 		]
 	}
 }

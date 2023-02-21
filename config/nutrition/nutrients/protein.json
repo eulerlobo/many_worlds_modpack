@@ -1189,7 +1189,12 @@
 			"zawa:raw_frog_leg",
 			"zawa:reptile_meat_cooked",
 			"zawa:reptile_meat_raw",
-			"nuclearcraft:marshmallow"
+			"nuclearcraft:marshmallow",
+			"aether_legacy:cockatrice",
+			"aether_legacy:burnt_cockatrice",
+			"aether_legacy:enchanted_cockatrice",
+			"aether_legacy:cooked_enchanted_cockatrice",
+			"rewired:energydrink"
 		]
 	}
 }

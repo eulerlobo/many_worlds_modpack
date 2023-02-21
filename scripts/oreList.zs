@@ -767,3 +767,23 @@ oreBlockCoil.remove(<libvulpes:coil0:9>);
 
 oreCoilTitanium.remove(<libvulpes:coil0:7>);
 oreBlockCoil.remove(<libvulpes:coil0:7>);
+
+//---> Remove ICBM items from list
+val oreWireCopper = <ore:wireCopper>;
+val oreWireGold = <ore:wireGold>;
+
+oreWireCopper.remove(<icbmclassic:wire>);
+oreWireGold.remove(<icbmclassic:wire:1>);
+
+//---> Remove Rubber Bar from rubber list
+val oreItemRubber =  <ore:itemRubber>;
+oreItemRubber.remove(<techguns:itemshared:56>);
+
+//---> Remove Techguns items
+oreWireCopper.remove(<techguns:itemshared:62>);
+
+val orePlateCarbon = <ore:plateCarbon>;
+orePlateCarbon.remove(<techguns:itemshared:53>);
+
+val orePlateTitanium = <ore:plateTitanium>;
+orePlateTitanium.remove(<techguns:itemshared:54>);

@@ -16,8 +16,11 @@ mods.immersivetechnology.Distiller.addRecipe(<liquid:ic2distilled_water> * 250, 
 
 //---> Add fuels for the Boiler
 mods.immersivetechnology.Boiler.addFuel(<liquid:diesel> * 10, 5, 3.75);
-mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel> * 15, 5, 3.75);
+mods.immersivetechnology.Boiler.addFuel(<liquid:e_fuel> * 10, 5, 3.75);
+mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel> * 13, 5, 3.75);
 mods.immersivetechnology.Boiler.addFuel(<liquid:gasoline> * 40, 5, 3.75);
+mods.immersivetechnology.Boiler.addFuel(<liquid:refined_biofuel> * 46, 5, 3.75);
+mods.immersivetechnology.Boiler.addFuel(<liquid:ethanol> * 53, 5, 3.75);
 
 //---> Add Steam production for the Boiler by water and distilled Water
 mods.immersivetechnology.Boiler.addRecipe(<liquid:ic2steam> * 100, <liquid:water> * 1, 1);

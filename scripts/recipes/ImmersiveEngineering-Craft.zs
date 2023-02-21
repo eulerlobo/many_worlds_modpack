@@ -1,15 +1,23 @@
 #priority 98
 
+import crafttweaker.item.IItemCondition;
+
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Squeezer;
+import mods.immersiveengineering.Refinery;
+import mods.immersiveengineering.BlastFurnace;
+import mods.immersiveengineering.AlloySmelter;
 
 val crusherBaseEnergy = 2048;
 val dropRateSecondaryOutput = 0.1;
 val ticksArcFurnace = 200;
 val rfTickArcFurnace = 512;
+
+val blastFurnaceTime = 3000; //2.5min
+val alloyKilnTime = 200; //10s
 
 val oreMagnetite = <ore:oreMagnetite>;
 val crushedMagnetite = <contenttweaker:crushed_magnetite>;
@@ -31,6 +39,7 @@ val oreIron = <ore:oreIron>;
 val rockOreIron = <ore:rockOreIron>;
 val ironIngot = <minecraft:iron_ingot>;
 val dustIron = <thermalfoundation:material>;
+val oreIngotIron = <ore:ingotIron>;
 val oreDustIron = <ore:dustIron>;
 val oreCrushedIron = <ore:crushedIron>;
 val orePurifiedCrushedIron = <ore:crushedPurifiedIron>;
@@ -41,6 +50,7 @@ val oreRockOreGold = <ore:rockOreGold>;
 val goldIngot = <minecraft:gold_ingot>;
 val oreGoldIngot = <ore:ingotGold>;
 val cinnabar = <thermalfoundation:material:866>;
+val oreIngotSilver = <ore:ingotSilver>;
 val oreDustSilver = <ore:dustSilver>;
 val oreDustGold = <ore:dustGold>;
 val oreCrushedGold = <ore:crushedGold>;
@@ -48,6 +58,7 @@ val orePurifiedCrushedGold = <ore:crushedPurifiedGold>;
 
 val oreCopper = <ore:oreCopper>;
 val oreRockOreCopper = <ore:rockOreCopper>;
+val oreIngotCopper = <ore:ingotCopper>;
 val copperIngot = <thermalfoundation:material:128>;
 val oreDustCopper = <ore:dustCopper>;
 val oreCrushedCopper = <ore:crushedCopper>;
@@ -72,6 +83,7 @@ val oreTin = <ore:oreTin>;
 val oreRockOreTin = <ore:rockOreTin>;
 val dustTin = <thermalfoundation:material:65>;
 val oreDustTin = <ore:dustTin>;
+val oreIngotTin = <ore:ingotTin>;
 val oreCrushedTin = <ore:crushedTin>;
 val orePurifiedCrushedTin = <ore:crushedPurifiedTin>;
 val oreTinCrystal = <ore:tinCrystal>;
@@ -92,6 +104,7 @@ val oreRockOreLead = <ore:rockOreLead>;
 val dustLead = <thermalfoundation:material:67>;
 val dustSilver = <thermalfoundation:material:66>;
 val oreDustLead = <ore:dustLead>;
+val oreIngotLead = <ore:ingotLead>;
 val tinyDustLead = <ore:dustTinyLead>;
 val oreCrushedLead = <ore:crushedLead>;
 val orePurifiedCrushedLead = <ore:crushedPurifiedLead>;
@@ -187,6 +200,7 @@ val oreCrushedPurifiedBrucite = <ore:crushedPurifiedBrucite>;
 
 val oreLithium = <ore:oreLithium>;
 val dustLithium = <ic2:dust:11>;
+val oreIngotLithium = <ore:ingotLithium>;
 val oreDustLithium = <ore:dustLithium>;
 val lithiumIngot = <nuclearcraft:ingot:6>;
 
@@ -199,8 +213,10 @@ val oreSulfur = <ore:oreSulfur>;
 val dustSulfur = <thermalfoundation:material:771>;
 
 val oreIngotSteel = <ore:ingotSteel>;
+val oreDustSteel = <ore:dustSteel>;
 val oreString = <ore:string>;
 val oreStickWood = <ore:stickWood>;
+val ingotSteel = <thermalfoundation:material:160>;
 
 val uraniumIngot = <contenttweaker:uranium_ingot>;
 val oreUranium = <ore:oreUranium>;
@@ -293,7 +309,8 @@ val oreIridiumDust = <ore:dustIridium>;
 val platinumIngot = <thermalfoundation:material:134>;
 val orePlatinumIngot = <ore:ingotPlatinum>;
 val platinumDust = <thermalfoundation:material:70>;
-val orePlatinumDust = <ore:dustPlatinum>;
+val oreDustPlatinum = <ore:dustPlatinum>;
+val oreIngotPlatinum = <ore:ingotPlatinum>;
 
 val oreKamacite = <ore:oreKamacite>;
 val crushedKamacite = <contenttweaker:crushed_kamacite>;
@@ -349,6 +366,48 @@ val oreCharcoalBlock = <ore:blockCharcoal>;
 val oreCharcoal = <ore:charcoal>;
 val pulverizedCharcoal = <thermalfoundation:material:769>;
 
+val oreIngotTitanium = <ore:ingotTitanium>;
+val oreIngotAluminum = <ore:ingotAluminum>;
+val oreDustIridium = <ore:dustIridium>;
+val ingotTitaniumAluminide = <advancedrocketry:productingot>;
+val ingotTitaniumIridium = <advancedrocketry:productingot:1>;
+
+val oreIngotMagnesium = <ore:ingotMagnesium>;
+val oreDustMagnesium = <ore:dustMagnesium>;
+val oreIngotBoron = <ore:ingotBoron>;
+val oreDustBoron = <ore:dustBoron>;
+val oreIngotMagnesiumDioxide = <ore:ingotManganeseDioxide>;
+val oreDustMagnesiumDioxide = <ore:dustManganeseDioxide>;
+val magnesiumDiborideIngot = <nuclearcraft:alloy:3>;
+val lithiumManganeseDioxideIngot = <nuclearcraft:alloy:4>;
+val ferroboronIngot = <nuclearcraft:alloy:6>;
+
+val toughAlloyIngot = <nuclearcraft:alloy:1>;
+val hardCarbonAlloyIngot = <nuclearcraft:alloy:2>;
+val shibuichiIngot = <nuclearcraft:alloy:7>;
+val tinSilverAlloyIngot = <nuclearcraft:alloy:8>;
+val leadPlatinumAlloyIngot = <nuclearcraft:alloy:9>;
+val extremeAlloyIngot = <nuclearcraft:alloy:10>;
+val thermoconductingAlloyIngot = <nuclearcraft:alloy:11>;
+val zircaloyIngot = <nuclearcraft:alloy:12>;
+val siliconCarbideIngot = <nuclearcraft:alloy:13>;
+val hslaSteelIngot = <nuclearcraft:alloy:15>;
+val oreIngotThough = <ore:ingotTough>;
+val oreIngotHardCarbon = <ore:ingotHardCarbon>;
+val oreIngotFerroboron = <ore:ingotFerroboron>;
+val oreGemDiamond = <ore:gemDiamond>;
+val oreDustDiamond = <ore:dustDiamond>;
+val oreIngotGraphite = <ore:ingotGraphite>;
+val oreDustGraphite = <ore:dustGraphite>;
+val oreIngotExtreme = <ore:ingotExtreme>;
+val oreGemBoronArsenide = <ore:gemBoronArsenide>;
+val oreIngotZirconium = <ore:ingotZirconium>;
+val oreDustZirconium = <ore:dustZirconium>;
+val oreItemSilicon = <ore:itemSilicon>;
+val oreDustCarbonManganese = <ore:dustCarbonManganese>;
+
+val hardenedGlass = <thermalfoundation:glass:3>;
+
 //--- Add Recipes ---//
 
 //---> Hide Copper Ore
@@ -368,6 +427,9 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:ore:5>);
 
 //---> Hide Silver Ore
 mods.jei.JEI.removeAndHide(<immersiveengineering:ore:3>);
+
+//---> Hide Nitrate Dust
+mods.jei.JEI.removeAndHide(<immersiveengineering:material:24>);
 
 //---> Remove ingots recipes for remap
 ArcFurnace.removeRecipe(ironIngot);
@@ -444,6 +506,10 @@ Crusher.addRecipe(crushedHematite * 3, oreHematite, crusherBaseEnergy);
 recipes.addShapeless("HematiteIEHammer", crushedHematite * 2, [oreHematite, <immersiveengineering:tool>]);
 ArcFurnace.addRecipe(ironIngot, oreCrushedhematite, slag, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(ironIngot * 2, orePurifiedCrushedHematite, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Nitrate Recipes
+Crusher.removeRecipe(<minecraft:sand>);
+Crusher.addRecipe(<minecraft:sand> * 2, <ore:sandstone>, crusherBaseEnergy, <thermalfoundation:material:772>, 0.5);
 
 //---> Remap Iron Ore recipes
 Crusher.removeRecipe(<thermalfoundation:material>);
@@ -577,7 +643,19 @@ ArcFurnace.addRecipe(iridiumIngot, oreIridiumDust, null, ticksArcFurnace, rfTick
 //---> Remap Platinum ore recipes
 Crusher.removeRecipe(platinumDust);
 Crusher.addRecipe(platinumDust, orePlatinumIngot, crusherBaseEnergy);
-ArcFurnace.addRecipe(platinumIngot, orePlatinumDust, null, ticksArcFurnace, rfTickArcFurnace);
+ArcFurnace.addRecipe(platinumIngot, oreDustPlatinum, null, ticksArcFurnace, rfTickArcFurnace);
+
+//---> Remap Titanium Aluminide Ingot
+// ArcFurnace.addRecipe(ingotTitaniumAluminide * 3, oreIngotTitanium * 7, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotAluminum * 3]);
+ArcFurnace.addRecipe(ingotTitaniumAluminide * 3, oreIngotTitanium * 7, null, ticksArcFurnace, rfTickArcFurnace, [oreDustAluminum * 3]);
+ArcFurnace.addRecipe(ingotTitaniumAluminide * 3, oreDustTitanium * 7, null, ticksArcFurnace, rfTickArcFurnace, [oreDustAluminum * 3]);
+// ArcFurnace.addRecipe(ingotTitaniumAluminide * 3, oreDustTitanium * 7, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotAluminum * 3]);
+
+//---> Remap Titanium Iridium Ingot
+// ArcFurnace.addRecipe(ingotTitaniumIridium * 2, oreIngotTitanium, null, ticksArcFurnace, rfTickArcFurnace, [oreIridiumIngot]);
+ArcFurnace.addRecipe(ingotTitaniumIridium * 2, oreIngotTitanium, null, ticksArcFurnace, rfTickArcFurnace, [oreDustIridium]);
+ArcFurnace.addRecipe(ingotTitaniumIridium * 2, oreDustTitanium, null, ticksArcFurnace, rfTickArcFurnace, [oreDustIridium]);
+// ArcFurnace.addRecipe(ingotTitaniumIridium * 2, oreDustTitanium, null, ticksArcFurnace, rfTickArcFurnace, [oreIridiumIngot]);
 
 //---> Add Craft to Slag Slurry with Mixer
 Mixer.addRecipe(<liquid:slag_slurry> * 500, <liquid:sulfuric_acid> * 500, [<ore:itemSlag>], 1000);
@@ -747,7 +825,7 @@ ArcFurnace.addRecipe(platinumDust * 6, purifiedCrushedSperrylite, null, ticksArc
 
 //---> Remap Lithium ore recipes
 Crusher.removeRecipe(<ic2:dust:11>);
-Crusher.addRecipe(dustLithium * 2, oreLithium, crusherBaseEnergy);
+Crusher.addRecipe(dustLithium, oreLithium, crusherBaseEnergy);
 Crusher.addRecipe(dustLithium, lithiumIngot, crusherBaseEnergy);
 ArcFurnace.addRecipe(dustLithium, oreLithium, null, ticksArcFurnace, rfTickArcFurnace);
 ArcFurnace.addRecipe(lithiumIngot, oreDustLithium, null, ticksArcFurnace, rfTickArcFurnace);
@@ -875,8 +953,8 @@ recipes.remove(<immersiveengineering:material:1>);
 recipes.remove(<immersiveengineering:material:2>);
 MetalPress.removeRecipe(<immersiveengineering:material:1>); //IE Iron Rod
 MetalPress.removeRecipe(<immersiveengineering:material:2>); //IE Iron Rod
-MetalPress.addRecipe(<libvulpes:productrod:1>*2, <ore:ingotIron>, <immersiveengineering:mold:2>, 2400);
-MetalPress.addRecipe(<libvulpes:productrod:6>*2, <ore:ingotSteel>, <immersiveengineering:mold:2>, 2400);
+MetalPress.addRecipe(<libvulpes:productrod:1>*2, oreIngotIron, <immersiveengineering:mold:2>, 2400);
+MetalPress.addRecipe(<libvulpes:productrod:6>*2, oreIngotSteel, <immersiveengineering:mold:2>, 2400);
 
 //---> Remap Coal Coke Recipes.
 recipes.remove(<immersiveengineering:material:6>);
@@ -894,3 +972,180 @@ Crusher.addRecipe(<ic2:dust:1> * 2, <ore:blockClay>, crusherBaseEnergy);
 //---> Remove HOP Graphite Dust
 Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 Squeezer.removeByInput(<immersiveengineering:material:17>);
+
+//---> Emerald, ender pearl and eye dust recipes
+Crusher.addRecipe(<ic2:dust:34>, <ore:gemEmerald>, crusherBaseEnergy); //Emerald dust
+Crusher.addRecipe(<ic2:dust:32>, <minecraft:ender_eye>, crusherBaseEnergy); //Ender eye dust
+Crusher.addRecipe(<ic2:dust:31>, <minecraft:ender_pearl>, crusherBaseEnergy); //Ender peral dust
+Crusher.addRecipe(<ic2:dust:33>, <ic2:crop_res:6>, crusherBaseEnergy); //Ender peral dust
+
+//---> Remap all wires recipes
+recipes.remove(<immersiveengineering:material:20>);
+recipes.addShapeless("IEWireCopper", <immersiveengineering:material:20> * 2, [<ore:plateCopper>, <immersiveengineering:tool:1>]);
+
+recipes.remove(<immersiveengineering:material:21>);
+recipes.addShapeless("IEWireElectrum", <immersiveengineering:material:21> * 2, [<ore:plateElectrum>, <immersiveengineering:tool:1>]);
+
+recipes.remove(<immersiveengineering:material:22>);
+recipes.addShapeless("IEWireAluminum", <immersiveengineering:material:22> * 2, [<ore:plateAluminum>, <immersiveengineering:tool:1>]);
+
+recipes.remove(<immersiveengineering:material:23>);
+recipes.addShapeless("IEWireSteel", <immersiveengineering:material:23> * 2, [<ore:plateSteel>, <immersiveengineering:tool:1>]);
+
+recipes.remove(<immersiveengineering:wirecoil>);
+recipes.addShaped("IELVWireCoil", <immersiveengineering:wirecoil>*4, [[null, <immersiveengineering:material:20>, null], [<immersiveengineering:material:20>, <ore:stickTreatedWood>, <immersiveengineering:material:20>], [null, <immersiveengineering:material:20>, null]]);
+
+recipes.remove(<immersiveengineering:wirecoil:1>);
+recipes.addShaped("IEMVWireCoil", <immersiveengineering:wirecoil:1>*4, [[null, <immersiveengineering:material:21>, null], [<immersiveengineering:material:21>, <ore:stickTreatedWood>, <immersiveengineering:material:21>], [null, <immersiveengineering:material:21>, null]]);
+
+recipes.remove(<immersiveengineering:wirecoil:2>);
+recipes.addShaped("IEHVWireCoil", <immersiveengineering:wirecoil:2>*4, [[null, <immersiveengineering:material:22>, null], [<immersiveengineering:material:23>, <ore:stickTreatedWood>, <immersiveengineering:material:23>], [null, <immersiveengineering:material:22>, null]]);
+
+recipes.remove(<immersiveengineering:wirecoil:5>);
+recipes.addShaped("IERedstoneWireCoil", <immersiveengineering:wirecoil:5>*4, [[<projectred-transmission:wire>, <immersiveengineering:material:4>, <projectred-transmission:wire>], [<immersiveengineering:material:4>, <ore:stickTreatedWood>, <immersiveengineering:material:4>], [<projectred-transmission:wire>, <immersiveengineering:material:4>, <projectred-transmission:wire>]]);
+
+recipes.removeByRecipeName("industrialwires:wires/wire/wire_tin_ins");
+recipes.removeByRecipeName("industrialwires:wires/wire/wire_hv");
+recipes.removeByRecipeName("industrialwires:wires/wire/wire_gold_ins");
+recipes.removeByRecipeName("industrialwires:wires/wire/wire_gold");
+recipes.removeByRecipeName("industrialwires:wires/wire/wire_glass");
+recipes.removeByRecipeName("industrialwires:wires/wire/wire_copper_ins");
+recipes.removeByRecipeName("industrialwires:wires/wire/wire_copper");
+
+recipes.remove(<industrialwires:ic2_wire_coil>);
+recipes.addShaped("IETinWireCoil", <industrialwires:ic2_wire_coil>.withTag({wireLength: 256}), [[<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})], [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ore:stickTreatedWood>, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})], [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})]]);
+
+recipes.remove(<industrialwires:ic2_wire_coil:1>);
+recipes.addShaped("IECopperWireCoil", <industrialwires:ic2_wire_coil:1>.withTag({wireLength: 256}), [[<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})], [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ore:stickTreatedWood>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})], [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]]);
+
+recipes.remove(<industrialwires:ic2_wire_coil:2>);
+recipes.addShaped("IEGoldWireCoil", <industrialwires:ic2_wire_coil:2>.withTag({wireLength: 256}), [[<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})], [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ore:stickTreatedWood>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})], [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})]]);
+
+recipes.remove(<industrialwires:ic2_wire_coil:3>);
+recipes.addShaped("IEIronWireCoil", <industrialwires:ic2_wire_coil:3>.withTag({wireLength: 512}), [[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})], [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ore:stickTreatedWood>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})], [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})]]);
+
+recipes.remove(<industrialwires:ic2_wire_coil:4>);
+recipes.addShaped("IEGlassFiberWireCoil", <industrialwires:ic2_wire_coil:4>.withTag({wireLength: 512}), [[<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})], [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ore:stickTreatedWood>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})], [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]]);
+
+recipes.remove(<industrialwires:ic2_wire_coil:5>);
+recipes.addShaped("IEInsulatedTinWireCoil", <industrialwires:ic2_wire_coil:5>.withTag({wireLength: 256}), [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:itemRubber>, <industrialwires:ic2_wire_coil>.withTag({wireLength: 256}), <ore:itemRubber>], [null, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), null]]);
+
+recipes.remove(<industrialwires:ic2_wire_coil:6>);
+recipes.addShaped("IEInsulatedCopperWireCoil", <industrialwires:ic2_wire_coil:6>.withTag({wireLength: 256}), [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:itemRubber>, <industrialwires:ic2_wire_coil:1>.withTag({wireLength: 256}), <ore:itemRubber>], [null, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), null]]);
+
+recipes.remove(<industrialwires:ic2_wire_coil:7>);
+recipes.addShaped("IEInsulatedGoldWireCoil", <industrialwires:ic2_wire_coil:7>.withTag({wireLength: 256}), [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:itemRubber>, <industrialwires:ic2_wire_coil:2>.withTag({wireLength: 256}), <ore:itemRubber>], [null, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), null]]);
+
+//---> Add Netherrack Dust
+Crusher.addRecipe(<ic2:dust:30>, <ore:netherrack>, crusherBaseEnergy);
+
+//---> Add Dilithium Dust
+Crusher.addRecipe(<libvulpes:productdust>, <ore:gemDilithium>, crusherBaseEnergy);
+
+//---> Remap Obsidian Dust
+Crusher.removeRecipe(<thermalfoundation:material:770>);
+Crusher.addRecipe(<thermalfoundation:material:770> * 4, <ore:obsidian>, crusherBaseEnergy);
+
+//---> Balance Blast Furnace to be more equivalent with IC2 Blast Furnace
+BlastFurnace.removeRecipe(<thermalfoundation:storage_alloy>); //Remove Steel Block, craft only ingots
+BlastFurnace.removeRecipe(<immersiveengineering:storage:8>); //Remove Steel Block, craft only ingots
+BlastFurnace.addRecipe(<twilightforest:ironwood_ingot> * 2, <ore:oreIronwood>, blastFurnaceTime, slag); //Add Ironwood Ingot
+BlastFurnace.removeRecipe(ingotSteel);
+BlastFurnace.addRecipe(ingotSteel, oreIngotIron, blastFurnaceTime, slag); //Add Steel Ingot
+BlastFurnace.addRecipe(ingotSteel, oreDustIron, blastFurnaceTime, slag);
+
+//---> Add NuclearCraft alloys
+// ArcFurnace.addRecipe(magnesiumDiborideIngot * 3, oreIngotMagnesium, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotBoron * 2]); //Magensium Diboride
+ArcFurnace.addRecipe(magnesiumDiborideIngot * 3, oreIngotMagnesium, null, ticksArcFurnace, rfTickArcFurnace, [oreDustBoron * 2]);
+// ArcFurnace.addRecipe(magnesiumDiborideIngot * 3, oreDustMagnesium, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotBoron * 2]);
+ArcFurnace.addRecipe(magnesiumDiborideIngot * 3, oreDustMagnesium, null, ticksArcFurnace, rfTickArcFurnace, [oreDustBoron * 2]);
+
+// ArcFurnace.addRecipe(lithiumManganeseDioxideIngot * 2, oreIngotLithium, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotMagnesiumDioxide]); //Lithium Manganese Dioxide
+ArcFurnace.addRecipe(lithiumManganeseDioxideIngot * 2, oreIngotLithium, null, ticksArcFurnace, rfTickArcFurnace, [oreDustMagnesiumDioxide]);
+// ArcFurnace.addRecipe(lithiumManganeseDioxideIngot * 2, oreDustLithium, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotMagnesiumDioxide]);
+ArcFurnace.addRecipe(lithiumManganeseDioxideIngot * 2, oreDustLithium, null, ticksArcFurnace, rfTickArcFurnace, [oreDustMagnesiumDioxide]);
+
+// ArcFurnace.addRecipe(ferroboronIngot * 2, oreIngotSteel, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotBoron]); //Ferroboron
+ArcFurnace.addRecipe(ferroboronIngot * 2, oreIngotSteel, null, ticksArcFurnace, rfTickArcFurnace, [oreDustBoron]);
+// ArcFurnace.addRecipe(ferroboronIngot * 2, oreDustSteel, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotBoron]);
+ArcFurnace.addRecipe(ferroboronIngot * 2, oreDustSteel, null, ticksArcFurnace, rfTickArcFurnace, [oreDustBoron]);
+
+//---> Add Shibuichi Alloy
+ArcFurnace.addRecipe(shibuichiIngot * 4, oreIngotSilver, null, ticksArcFurnace, rfTickArcFurnace, [oreDustCopper * 3]);
+ArcFurnace.addRecipe(shibuichiIngot * 4, oreDustSilver, null, ticksArcFurnace, rfTickArcFurnace, [oreDustCopper * 3]);
+AlloySmelter.addRecipe(shibuichiIngot * 4, oreIngotSilver, oreIngotCopper * 3, alloyKilnTime);
+AlloySmelter.addRecipe(shibuichiIngot * 4, oreIngotSilver, oreDustCopper * 3, alloyKilnTime);
+AlloySmelter.addRecipe(shibuichiIngot * 4, oreDustSilver, oreIngotCopper * 3, alloyKilnTime);
+AlloySmelter.addRecipe(shibuichiIngot * 4, oreDustSilver, oreDustCopper * 3, alloyKilnTime);
+
+//---> Add Tin Silver Alloy
+ArcFurnace.addRecipe(tinSilverAlloyIngot * 4, oreIngotSilver, null, ticksArcFurnace, rfTickArcFurnace, [oreDustTin * 3]);
+ArcFurnace.addRecipe(tinSilverAlloyIngot * 4, oreDustSilver, null, ticksArcFurnace, rfTickArcFurnace, [oreDustTin * 3]);
+AlloySmelter.addRecipe(tinSilverAlloyIngot * 4, oreIngotSilver, oreIngotTin * 3, alloyKilnTime);
+AlloySmelter.addRecipe(tinSilverAlloyIngot * 4, oreIngotSilver, oreDustTin * 3, alloyKilnTime);
+AlloySmelter.addRecipe(tinSilverAlloyIngot * 4, oreDustSilver, oreIngotTin * 3, alloyKilnTime);
+AlloySmelter.addRecipe(tinSilverAlloyIngot * 4, oreDustSilver, oreDustTin * 3, alloyKilnTime);
+
+//---> Add Lead Platinum Alloy
+ArcFurnace.addRecipe(leadPlatinumAlloyIngot * 4, oreIngotPlatinum, null, ticksArcFurnace, rfTickArcFurnace, [oreDustLead * 3]);
+ArcFurnace.addRecipe(leadPlatinumAlloyIngot * 4, oreDustPlatinum, null, ticksArcFurnace, rfTickArcFurnace, [oreDustLead * 3]);
+AlloySmelter.addRecipe(leadPlatinumAlloyIngot * 4, oreIngotPlatinum, oreIngotLead * 3, alloyKilnTime);
+AlloySmelter.addRecipe(leadPlatinumAlloyIngot * 4, oreIngotPlatinum, oreDustLead * 3, alloyKilnTime);
+AlloySmelter.addRecipe(leadPlatinumAlloyIngot * 4, oreDustPlatinum, oreIngotLead * 3, alloyKilnTime);
+AlloySmelter.addRecipe(leadPlatinumAlloyIngot * 4, oreDustPlatinum, oreDustLead * 3, alloyKilnTime);
+
+//---> Add Extreme Alloy
+ArcFurnace.addRecipe(extremeAlloyIngot, oreIngotThough, null, ticksArcFurnace, rfTickArcFurnace, [oreIngotHardCarbon]);
+
+//---> Add Tough Alloy
+ArcFurnace.addRecipe(toughAlloyIngot * 2, oreIngotFerroboron, null, ticksArcFurnace, rfTickArcFurnace, [oreDustLithium]);
+AlloySmelter.addRecipe(toughAlloyIngot * 2, oreIngotFerroboron, oreIngotLithium, alloyKilnTime);
+AlloySmelter.addRecipe(toughAlloyIngot * 2, oreIngotFerroboron, oreDustLithium, alloyKilnTime);
+
+//---> Add Hard Carbon Alloy
+ArcFurnace.addRecipe(hardCarbonAlloyIngot * 2, oreGemDiamond, null, ticksArcFurnace, rfTickArcFurnace, [oreDustGraphite * 2]);
+ArcFurnace.addRecipe(hardCarbonAlloyIngot * 2, oreDustDiamond, null, ticksArcFurnace, rfTickArcFurnace, [oreDustGraphite * 2]);
+AlloySmelter.addRecipe(hardCarbonAlloyIngot * 2, oreGemDiamond, oreIngotGraphite * 2, alloyKilnTime);
+AlloySmelter.addRecipe(hardCarbonAlloyIngot * 2, oreGemDiamond, oreDustGraphite * 2, alloyKilnTime);
+AlloySmelter.addRecipe(hardCarbonAlloyIngot * 2, oreDustDiamond, oreIngotGraphite * 2, alloyKilnTime);
+AlloySmelter.addRecipe(hardCarbonAlloyIngot * 2, oreDustDiamond, oreDustGraphite * 2, alloyKilnTime);
+
+//---> Add Thermoconducting Alloy
+ArcFurnace.addRecipe(thermoconductingAlloyIngot * 2, oreIngotExtreme, null, ticksArcFurnace, rfTickArcFurnace, [oreGemBoronArsenide]);
+
+//---> Add Zircaloy
+ArcFurnace.addRecipe(zircaloyIngot * 8, oreIngotTin, null, ticksArcFurnace, rfTickArcFurnace, [oreDustZirconium * 7]);
+ArcFurnace.addRecipe(zircaloyIngot * 8, oreDustTin, null, ticksArcFurnace, rfTickArcFurnace, [oreDustZirconium * 7]);
+AlloySmelter.addRecipe(zircaloyIngot * 8, oreIngotTin, oreIngotZirconium * 7, alloyKilnTime);
+AlloySmelter.addRecipe(zircaloyIngot * 8, oreIngotTin, oreDustZirconium * 7, alloyKilnTime);
+AlloySmelter.addRecipe(zircaloyIngot * 8, oreDustTin, oreIngotZirconium * 7, alloyKilnTime);
+AlloySmelter.addRecipe(zircaloyIngot * 8, oreDustTin, oreDustZirconium * 7, alloyKilnTime);
+
+//---> Add Silicon Carbide
+ArcFurnace.addRecipe(siliconCarbideIngot * 2, oreItemSilicon, null, ticksArcFurnace, rfTickArcFurnace, [oreDustGraphite]);
+AlloySmelter.addRecipe(siliconCarbideIngot * 2, oreItemSilicon, oreIngotGraphite, alloyKilnTime);
+AlloySmelter.addRecipe(siliconCarbideIngot * 2, oreItemSilicon, oreDustGraphite, alloyKilnTime);
+
+//---> Add HSLA Steel
+ArcFurnace.addRecipe(hslaSteelIngot * 16, oreDustCarbonManganese, null, ticksArcFurnace, rfTickArcFurnace, [oreDustIron * 15]);
+AlloySmelter.addRecipe(hslaSteelIngot * 16, oreDustCarbonManganese, oreIngotIron * 15, alloyKilnTime);
+AlloySmelter.addRecipe(hslaSteelIngot * 16, oreDustCarbonManganese, oreDustIron * 15, alloyKilnTime);
+
+//---> Add Hardened Glass Craft
+ArcFurnace.addRecipe(hardenedGlass, <tconstruct:clear_glass>, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustObsidian> * 6]);
+ArcFurnace.addRecipe(<thermalfoundation:glass>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreDustCopper * 4]); //Hardened Copper Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass:1>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreDustTin * 4]); //Hardened Tin Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass:2>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreDustSilver * 4]); //Hardened Silver Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass:4>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreDustAluminum * 4]); //Hardened Aluminum Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass:5>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreDustNickel * 4]); //Hardened Nickel Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass:6>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreDustPlatinum * 4]); //Hardened Platinum Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass:7>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreIridiumDust * 4]); //Hardened Iridium Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass:8>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustMithril> * 4]); //Hardened Mana Infused Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [oreDustSteel * 4]); //Hardened Steel Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:1>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustElectrum> * 4]); //Hardened Electrum Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:2>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustInvar> * 4]); //Hardened Invar Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:3>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustBronze> * 4]); //Hardened Bronze Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:4>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustConstantan> * 4]); //Hardened Constantan Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:5>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustSignalum> * 4]); //Hardened Signalum Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:6>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustLumium> * 4]); //Hardened Lumium Glass
+ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:7>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustEnderium> * 4]); //Hardened Enderium Glass

@@ -135,19 +135,19 @@
     "comment4": "If you are having troubles getting the name for a particular fluid, run the game with the mods you want and check the \u0027lastLoadedFluids\u0027 list.  This contains all the fluids that were present during the last run of the game.",
     "fuels": {
       "diesel": {
-        "diesel": 1.0,
-        "lava": 1.0,
-        "oil": 0.5,
-        "biodiesel": 0.8
+        "diesel": 0.32,
+        "e_fuel": 0.32,
+        "biodiesel": 0.19
       },
       "avgas": {
-        "lava": 1.0,
-        "gasoline": 1.0
+        "gasoline": 0.29,
+        "e_fuel": 0.29
       },
       "gasoline": {
-        "lava": 1.0,
-        "gasoline": 1.0,
-        "ethanol": 0.85
+        "e_fuel": 0.32,
+        "gasoline": 0.32,
+        "ethanol": 0.2,
+        "refined_biofuel": 0.26
       }
     },
     "lastLoadedFluids": {
@@ -230,6 +230,7 @@
       "lithium": "Molten Lithium",
       "americium_242_fluoride": "Molten Americium-242 Fluoride",
       "depleted_fuel_hep_239_fluoride_flibe": "Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel",
+      "e_fuel": "e-Fuel",
       "neptunium_237_fluoride": "Molten Neptunium-237 Fluoride",
       "rubber": "Rubber",
       "tin": "Molten Tin",
@@ -633,7 +634,7 @@
   },
   "clientRendering": {
     "renderHUD_1P": {
-      "value": true,
+      "value": false,
       "comment": "If false, the HUD in vehicles will not render in 1st-person mode."
     },
     "renderHUD_3P": {

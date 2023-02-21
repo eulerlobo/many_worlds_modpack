@@ -1956,6 +1956,14 @@ slagSlurry.vaporize = true;
 slagSlurry.rarity = "UNCOMMON";
 slagSlurry.register();
 
+//---> e-Fuel
+var eFuel = VanillaFactory.createFluid('e_fuel', Color.fromHex("9BC7C7"));
+eFuel.density = 300;
+eFuel.vaporize = false;
+eFuel.rarity = "UNCOMMON";
+eFuel.register();
+
+//---> Mineralized Acid Water
 //FFFD82
 var mineralizedAcidWater = VanillaFactory.createFluid('mineralized_acid_water', Color.fromHex("CAA583"));
 mineralizedAcidWater.vaporize = true;
@@ -2060,3 +2068,43 @@ heavyRadiationShieldingBlock.setToolClass("pickaxe");
 heavyRadiationShieldingBlock.setToolLevel(3);
 heavyRadiationShieldingBlock.setBlockSoundType(<soundtype:stone>);
 heavyRadiationShieldingBlock.register();
+
+//--------------------------------//
+//         Harvester Tool         //
+//--------------------------------//
+
+var harvesterTrowel = VanillaFactory.createItem("harvester_trowel");
+harvesterTrowel.register();
+
+//--------------------------------//
+//         Weapon Canisters       //
+//--------------------------------//
+
+var pistolCanisters = VanillaFactory.createItem("pistol_canisters");
+pistolCanisters.register();
+var rifleCanisters = VanillaFactory.createItem("rifle_canisters");
+rifleCanisters.register();
+var sniperCanisters = VanillaFactory.createItem("sniper_canisters");
+sniperCanisters.register();
+var shotgunCanisters = VanillaFactory.createItem("shotgun_canisters");
+shotgunCanisters.register();
+var canisters30mm = VanillaFactory.createItem("30mm_canisters");
+canisters30mm.register();
+
+
+//--- Steam Alloy ---//
+
+//---> Steam Alloy Ingot
+var steamAlloyIngot = VanillaFactory.createItem("steam_alloy_ingot");
+steamAlloyIngot.register();
+
+//---> Tires
+var smallTire = VanillaFactory.createItem("small_tire");
+smallTire.register();
+var mediumTire = VanillaFactory.createItem("medium_tire");
+mediumTire.register();
+var largeTire = VanillaFactory.createItem("large_tire");
+largeTire.register();
+
+var instrumentPanel = VanillaFactory.createItem("instrument_panel");
+instrumentPanel.register();

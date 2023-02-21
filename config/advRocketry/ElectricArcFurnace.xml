@@ -32,31 +32,4 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
-	<Recipe timeRequired="900" power ="256">
-		<input>
-			<itemStack>thermalfoundation:material;7;132</itemStack>
-			<itemStack>libvulpes:productingot;3;7</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:productingot;3</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="600" power ="64">
-		<input>
-			<itemStack>minecraft:coal;1;1</itemStack>
-			<itemStack>minecraft:iron_ingot</itemStack>
-		</input>
-		<output>
-			<itemStack>thermalfoundation:material;1;160</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="256">
-		<input>
-			<itemStack>thermalfoundation:material;1;135</itemStack>
-			<itemStack>libvulpes:productingot;1;7</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:productingot;2;1</itemStack>
-		</output>
-	</Recipe>
 </Recipes>

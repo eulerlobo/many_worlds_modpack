@@ -44,10 +44,10 @@
 	<Recipe timeRequired="100" power="1400">
 		<input>
 			<fluidStack>oxygen;10</fluidStack>
-			<fluidStack>hydrogen;10</fluidStack>
+			<fluidStack>hydrogen;20</fluidStack>
 		</input>
 		<output>
-			<fluidStack>rocketfuel;20</fluidStack>
+			<fluidStack>rocketfuel;10</fluidStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="100" power="140">
@@ -80,8 +80,8 @@
 			<itemStack>nuclearcraft:fuel_californium;1;6</itemStack>
 			<oreDict>dustLithium;1</oreDict>
 			<itemStack>nuclearcraft:americium;1;1</itemStack>
-			<fluidStack>neutron;20</fluidStack>
-			<fluidStack>helium;20</fluidStack>
+			<fluidStack>neutron;40</fluidStack>
+			<fluidStack>helium;250</fluidStack>
 		</input>
 		<output>
 			<itemStack>nuclearcraft:californium;6;14</itemStack>
@@ -92,12 +92,12 @@
 	<Recipe timeRequired="900" power="3400">
 		<input>
 			<itemStack>nuclearcraft:berkelium;1;5</itemStack>
-			<oreDict>materialCoraliumPearl</oreDict>
+			<oreDict>netherStar</oreDict>
 			<fluidStack>neutron;20</fluidStack>
 			<fluidStack>tritium;250</fluidStack>
 		</input>
 		<output>
-			<fluidStack>liquidantimatter;1000</fluidStack>
+			<fluidStack>neutron;30</fluidStack>
 			<itemStack>nuclearcraft:berkelium;6;6</itemStack>
 		</output>
 	</Recipe>
@@ -117,6 +117,52 @@
 		</input>
 		<output>
 			<fluidStack>mineralized_acid_water;1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="1400">
+		<input>
+			<itemStack>techguns:itemshared;1;32</itemStack>
+			<itemStack>techguns:itemshared;1;98</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;31</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="1400">
+		<input>
+			<itemStack>techguns:itemshared;1;26</itemStack>
+			<itemStack>icbmclassic:poisonpowder;8</itemStack>
+			<oreDict>slimeball;2</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;25</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="2700">
+		<input>
+			<fluidStack>carbon_dioxide;20</fluidStack>
+			<fluidStack>hydrogen;90</fluidStack>
+		</input>
+		<output>
+			<fluidStack>e_fuel;90</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="2500">
+		<input>
+			<fluidStack>carbon_monoxide;30</fluidStack>
+			<fluidStack>hydrogen;90</fluidStack>
+		</input>
+		<output>
+			<fluidStack>e_fuel;110</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<fluidStack>plantoil;7</fluidStack>
+			<fluidStack>ic2biomass;18</fluidStack>
+		</input>
+		<output>
+			<fluidStack>refined_biofuel;25</fluidStack>
 		</output>
 	</Recipe>
 </Recipes>
