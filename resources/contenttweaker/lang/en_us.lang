@@ -205,6 +205,9 @@ item.contenttweaker.silty_chunk.name=Silty Chunk
 item.contenttweaker.sandy_chunk.name=Sandy Chunk
 item.contenttweaker.dried_sand_chunk.name=Dried Sand Chunk
 item.contenttweaker.white_sand_chunk.name=White Sand Chunk
+item.contenttweaker.moon_turf_chunk.name=Moon Turf Chunk
+item.contenttweaker.moon_turf_dark_chunk.name=Moon Turf Dark Chunk
+item.contenttweaker.hotdry_turf_chunk.name=Oxidized Ferric Sand Chunk
 
 #Crystal
 item.contenttweaker.iron_crystal.name=Iron Crystal

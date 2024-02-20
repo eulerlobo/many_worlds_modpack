@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.5
+gamma:0.5070422
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -103,6 +103,7 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
+key_quark.keybind.changeHotbar:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -121,7 +122,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.changeHotbar:0
 key_keybind.baublesinventory:0
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
@@ -261,7 +261,7 @@ key_key.dragon_strike:34
 key_key.dragon_down:45
 key_key.dragon_change_view:65
 key_invtweaks.key.sort:0
-key_key.menu:50
+key_key.menu:0
 key_key.villages:0
 key_key.escorts:34
 key_key.nutrition:49

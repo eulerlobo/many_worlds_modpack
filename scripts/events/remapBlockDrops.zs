@@ -95,7 +95,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
       return;
     }
 
-    //Dirt drops, for dirt, podzol, grass and flowering grass
+    //Dirt drops, for dirt, podzol, grass, grass path and flowering grass
     if ((block == "minecraft:dirt" || block == "minecraft:dirt:2" || block == "minecraft:grass" || block == "minecraft:grass_path" || block == "biomesoplenty:grass:7") && !event.silkTouch) {
       val quantity = 2 + Math.ceil(Math.random() * 2);
       val dirtChunk = [<contenttweaker:dirt_chunk> * quantity] as IItemStack[];
@@ -184,6 +184,30 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     if (block == "harvestcraft:pamcinnamon") {
       val pamCinnamon = [<harvestcraft:pamcinnamon>] as IItemStack[];
       event.drops = pamCinnamon;
+      return;
+    }
+
+    //Moon Turf drops
+    if (block == "advancedrocketry:moonturf" && !event.silkTouch) {
+      val quantity = 2 + Math.ceil(Math.random() * 2);
+      val moonTurf = [<contenttweaker:moon_turf_chunk> * quantity] as IItemStack[];
+      event.drops = moonTurf;
+      return;
+    }
+
+    //Moon Turf Dark drops
+    if (block == "advancedrocketry:moonturf_dark" && !event.silkTouch) {
+      val quantity = 2 + Math.ceil(Math.random() * 2);
+      val moonTurfDark = [<contenttweaker:moon_turf_dark_chunk> * quantity] as IItemStack[];
+      event.drops = moonTurfDark;
+      return;
+    }
+
+    //Oxidized Ferric Sand drops
+    if (block == "advancedrocketry:hotturf" && !event.silkTouch) {
+      val quantity = 2 + Math.ceil(Math.random() * 2);
+      val moonTurfDark = [<contenttweaker:hotdry_turf_chunk> * quantity] as IItemStack[];
+      event.drops = moonTurfDark;
       return;
     }
   }

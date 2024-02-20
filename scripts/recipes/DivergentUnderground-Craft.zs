@@ -14,9 +14,15 @@ val dirt = <minecraft:dirt>;
 val sand = <minecraft:sand>;
 val redSand = <minecraft:sand:1>;
 val sandChunk = <contenttweaker:sand_chunk>;
+val moonTurf = <advancedrocketry:moonturf>;
+val moonTurfDark = <advancedrocketry:moonturf_dark>;
+val hotdryTurf = <contenttweaker:hotdry_turf_chunk>;
 val oreRockDirt = <ore:rockDirt>;
 val oreRockSand = <ore:rockSand>;
 val oreRockRedSand = <ore:rockRedSand>;
+val rockMoonTurf = <ore:rockMoonTurf>;
+val rockMoonTurfDark = <ore:rockMoonTurfDark>;
+val rockOxidizedFerricSand = <ore:rockOxidizedFerricSand>;
 
 val oreClayBall = <ore:clayball>;
 val oreDustStone = <ore:dustStone>;
@@ -117,6 +123,8 @@ mods.jei.JEI.hide(<divergentunderground:tconstruct_hard_cobalt_ore>);
 
 //---> Hide Uranium Ore
 mods.jei.JEI.hide(<divergentunderground:ore_ic2_uranium>);
+mods.jei.JEI.hide(<divergentunderground:ic2_hard_uranium_ore>);
+mods.jei.JEI.hide(<divergentunderground:ie_hard_uranium_ore>);
 
 //---> Hide Iridium from Divergent Underground
 mods.jei.JEI.removeAndHide(<divergentunderground:thermal_hard_iridium_ore>);
@@ -143,6 +151,10 @@ recipes.addShapeless("SandyDivergent", sandyDirt, [oreRockSandy, oreRockSandy, o
 recipes.addShapeless("SiltyDivergent", siltyDirt, [oreRockSilty, oreRockSilty, oreRockSilty, oreRockSilty]);
 recipes.addShapeless("DriedSandDivergent", driedSand, [oreDriedSand, oreDriedSand, oreDriedSand, oreDriedSand]);
 recipes.addShapeless("WhiteSandDivergent", whiteSand, [oreWhiteSand, oreWhiteSand, oreWhiteSand, oreWhiteSand]);
+
+recipes.addShapeless("MoonTurfDivergent", moonTurf, [rockMoonTurf, rockMoonTurf, rockMoonTurf, rockMoonTurf]);
+recipes.addShapeless("MoonTurfDarkDivergent", moonTurfDark, [rockMoonTurfDark, rockMoonTurfDark, rockMoonTurfDark, rockMoonTurfDark]);
+recipes.addShapeless("HotdryTurfDivergent", hotdryTurf, [rockOxidizedFerricSand, rockOxidizedFerricSand, rockOxidizedFerricSand, rockOxidizedFerricSand]);
 
 //---> Dirt Chunk can be used as base for other dirts
 recipes.addShapeless("LoamyCraftDivergent", loamyChunk * 2, [oreClayBall, oreRockDirt]);

@@ -573,3 +573,9 @@ recipes.remove(<thermalfoundation:material:100>); //Constantan Blend
 recipes.remove(<thermalfoundation:material:101>); //Signalum Blend
 recipes.remove(<thermalfoundation:material:102>); //Lumium Blend
 recipes.remove(<thermalfoundation:material:103>); //Enderium Blend
+
+//---> Remove default Gunpowder recipe
+recipes.removeByRecipeName("minecraft:gunpowder");
+
+//---> Remap Bone Meal recipe
+recipes.addShapeless("MCBonemeal", <minecraft:dye:15> * 2, [<minecraft:bone>]);

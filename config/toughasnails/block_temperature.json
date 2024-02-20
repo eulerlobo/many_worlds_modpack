@@ -5,6 +5,7 @@
   {"state": {"block": "nuclearcraft:fluid_liquidhelium","properties": {}},"temperature": -14.8},
   {"state": {"block": "thermalfoundation:fluid_cryotheum","properties": {}},"temperature": -12.5},
   {"state": {"block": "nuclearcraft:fluid_liquid_nitrogen","properties": {}},"temperature": -11.5},
+  {"state": {"block": "iceandfire:dragon_ice","properties": {}},"temperature": -5.0},
   {"state": {"block": "biomesoplenty:hard_ice","properties": {}},"temperature": -5.0},
   {"state": {"block": "minecraft:packed_ice","properties": {}},"temperature": -2.0},
   {"state": {"block": "chisel:ice","properties": {}},"temperature": -1.0},

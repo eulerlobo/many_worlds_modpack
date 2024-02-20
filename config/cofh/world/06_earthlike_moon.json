@@ -1,0 +1,685 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground"],
+  "populate": {
+    "magnetite_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": [
+          {
+            "name": "contenttweaker:magnetite_ore"
+          },
+          {
+            "name": "divergentunderground:hard_stone"
+          },
+          {
+            "name": "minecraft:gravel"
+          }
+        ],
+        "slim": true,
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "radius": 5,
+        "height": 1
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 95,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "magnetite_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:magnetite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 95,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "kamacite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:kamacite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 70,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "kamacite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:kamacite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 70,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "olivine": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:olivine_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 32,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "olivine_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:olivine_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "troilite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:troilite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 32,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "troilite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:troilite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "native_gold_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "native_gold_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "native_copper_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_copper_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "native_copper_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_copper_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "abramovite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": [
+          {
+            "name": "contenttweaker:abramovite_ore"
+          },
+          {
+            "name": "divergentunderground:hard_stone"
+          },
+          {
+            "name": "minecraft:gravel"
+          }
+        ],
+        "slim": true,
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "radius": 3,
+        "height": 1
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 14,
+      "max-height": 70,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "abramovite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:abramovite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 70,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "feldspar": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:feldspar_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 73,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "feldspar_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:feldspar_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 73,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "augite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:augite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 42,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "augite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:augite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 42,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "titanite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:titanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 69,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "titanite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:titanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 69,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "native_silver_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_silver_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "native_silver_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_silver_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "davidite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:davidite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 31,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "davidite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:davidite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 31,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "polycrase": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:polycrase_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 34,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "polycrase_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:polycrase_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 34,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "monazite_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:monazite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "monazite_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:monazite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "kernite_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:kernite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 16
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "kernite_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:kernite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 16
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "ground-level": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "carbonaceous": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:carbonaceous_i_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 16,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 33,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "osmiridium": {
+      "distribution": "uniform",
+      "enabled": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:osmiridium_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 16,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "sperrylite": {
+      "distribution": "uniform",
+      "enabled": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:sperrylite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 16,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "redstone_moon": {
+      "distribution": "uniform",
+      "enabled": true,
+      "generator": {
+        "type": "cluster",
+        "block": "divergentunderground:hard_redstone_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 19
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    },
+    "ice_moon": {
+      "enabled": true,
+      "distribution": "gaussian",
+      "generator": {
+        "type": "geode",
+        "block": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:packed_ice",
+            "weight": 5
+          }
+        ],
+        "crust": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:packed_ice",
+            "weight": 5
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"]
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "center-height": 40,
+      "spread": 20,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [5]
+      }
+    }
+  }
+}

@@ -478,6 +478,21 @@ val rockWhiteSandList = <ore:rockWhiteSand>;
 rockOreList.add(<contenttweaker:white_sand_chunk>);
 rockWhiteSandList.add(<contenttweaker:white_sand_chunk>);
 
+//--- Moon Turf Chunk ---//
+val rockMoonTurf = <ore:rockMoonTurf>;
+rockOreList.add(<contenttweaker:moon_turf_chunk>);
+rockMoonTurf.add(<contenttweaker:moon_turf_chunk>);
+
+//--- Moon Turf Dark Chunk ---//
+val rockMoonTurfDark = <ore:rockMoonTurfDark>;
+rockOreList.add(<contenttweaker:moon_turf_dark_chunk>);
+rockMoonTurfDark.add(<contenttweaker:moon_turf_dark_chunk>);
+
+//--- Oxidized Ferric Sand Chunk ---//
+val rockOxidizedFerricSand = <ore:rockOxidizedFerricSand>;
+rockOreList.add(<contenttweaker:hotdry_turf_chunk>);
+rockOxidizedFerricSand.add(<contenttweaker:hotdry_turf_chunk>);
+
 //--- Fix the Ore List for Tinty Dust Lead ---//
 val tinyDustLeadList = <ore:tinyDustLead>;
 val ic2TinyDustLead = <ic2:dust:23>;
@@ -787,3 +802,8 @@ orePlateCarbon.remove(<techguns:itemshared:53>);
 
 val orePlateTitanium = <ore:plateTitanium>;
 orePlateTitanium.remove(<techguns:itemshared:54>);
+
+//---> Add Rubber to Bioplastic ore
+val orePlastic = <ore:plastic>;
+orePlastic.add(<nuclearcraft:part:6>);
+orePlastic.add(<ic2:crafting>);

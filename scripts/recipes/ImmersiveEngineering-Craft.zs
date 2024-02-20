@@ -10,6 +10,7 @@ import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.AlloySmelter;
+import mods.immersiveengineering.Excavator;
 
 val crusherBaseEnergy = 2048;
 val dropRateSecondaryOutput = 0.1;
@@ -375,7 +376,6 @@ val ingotTitaniumIridium = <advancedrocketry:productingot:1>;
 val oreIngotMagnesium = <ore:ingotMagnesium>;
 val oreDustMagnesium = <ore:dustMagnesium>;
 val oreIngotBoron = <ore:ingotBoron>;
-val oreDustBoron = <ore:dustBoron>;
 val oreIngotMagnesiumDioxide = <ore:ingotManganeseDioxide>;
 val oreDustMagnesiumDioxide = <ore:dustManganeseDioxide>;
 val magnesiumDiborideIngot = <nuclearcraft:alloy:3>;
@@ -407,6 +407,8 @@ val oreItemSilicon = <ore:itemSilicon>;
 val oreDustCarbonManganese = <ore:dustCarbonManganese>;
 
 val hardenedGlass = <thermalfoundation:glass:3>;
+
+val orePlateSteel = <ore:plateSteel>;
 
 //--- Add Recipes ---//
 
@@ -990,7 +992,7 @@ recipes.remove(<immersiveengineering:material:22>);
 recipes.addShapeless("IEWireAluminum", <immersiveengineering:material:22> * 2, [<ore:plateAluminum>, <immersiveengineering:tool:1>]);
 
 recipes.remove(<immersiveengineering:material:23>);
-recipes.addShapeless("IEWireSteel", <immersiveengineering:material:23> * 2, [<ore:plateSteel>, <immersiveengineering:tool:1>]);
+recipes.addShapeless("IEWireSteel", <immersiveengineering:material:23> * 2, [orePlateSteel, <immersiveengineering:tool:1>]);
 
 recipes.remove(<immersiveengineering:wirecoil>);
 recipes.addShaped("IELVWireCoil", <immersiveengineering:wirecoil>*4, [[null, <immersiveengineering:material:20>, null], [<immersiveengineering:material:20>, <ore:stickTreatedWood>, <immersiveengineering:material:20>], [null, <immersiveengineering:material:20>, null]]);
@@ -1149,3 +1151,45 @@ ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:4>, hardenedGlass, null, tic
 ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:5>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustSignalum> * 4]); //Hardened Signalum Glass
 ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:6>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustLumium> * 4]); //Hardened Lumium Glass
 ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:7>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustEnderium> * 4]); //Hardened Enderium Glass
+
+//---> Add Mixer of Water from Distilled Water
+Mixer.addRecipe(<liquid:water> * 1000, <liquid:distwater> * 1000, [<ore:dustSalt>], 1000);
+
+//---> Remap Portable Generator
+recipes.remove(<immersivepetroleum:metal_device:1>);
+recipes.addShaped("PortableGeneratorIE", <immersivepetroleum:metal_device:1>, [[orePlateSteel, orePlateSteel, orePlateSteel], [<immersiveengineering:metal_device0>, <immersiveengineering:metal_decoration0:6>, <mts:mtsofficialpack.engineamci4>], [orePlateSteel, orePlateSteel, orePlateSteel]]);
+
+//---> Remap Excavator
+
+//Default Recipes
+//Bauxite - 94.74% Aluminum Ore, 5.26% Rutile Ore
+//Cassiterite - 100% Tin Ore
+//Coal - 96.84% Coal Ore, 1,58% Diamond Ore, 1.58% Emerald Ore
+//Copper - 68.42% Copper Ore, 26.32% Gold Ore, 5.26% Nickel Ore
+//Cinnabar - 78.95% Redstone Ore, 10.53% Cinnabar Ore, 5.26% Ruby Ore, 5.26% Sulfur Ore
+//Silt - 50% Clay, 30% Sand, 20% Gravel
+//Galena - 44.44% Lead Ore, 44.44% Silver Ore, 11.11% Sulfur Ore
+//Gold - 68.42% Gold Ore, 26.32 Copper Ore, 5.26% Nickel Ore
+//Iron - 52.63% Iron Ore, 26.32% Nickel Ore, 21.05% Tin Ore
+//Lapis - 68.42% Lapis Ore, 28.95% Iron Ore, 2.63% Sulfur Ore
+//Lead - 57.89% Lead Ore, 42.11% Silver Ore
+//Magnetite - 85% Iron Ore, 15% Gold Ore
+//Nickel - 89.47% Nickel Ore, 5.26% Platinum Ore, 5.26% Iron Ore
+//Pyrite - 50% Iron Ore, 50% Sulfur Ore
+//Quarzite - 60% Nether Quartz Ore, 40% Certus Quartz Ore
+//Silver - 57.89% Silver Ore, 42.11% Lead Ore
+//Uranium - 64.71% Uranium Ore, 35.29% Lead Ore
+Excavator.removeMineral("Silt");
+
+val Uranium = Excavator.getMineral("Uranium"); //Add Thorium to Uranium Vein
+Uranium.addOre("oreThorium", 0.65);
+
+val Cinnabar = Excavator.getMineral("Cinnabar"); //Remove Thaumcraft Cinnabar from Cinnabar Vein
+Cinnabar.removeOre("oreCinnabar");
+
+//Make Silt exclusive to planets that could have water in some point
+Excavator.addMineral("Silt", 20, 0.005, ["blockClay", "sand", "gravel"], [0.5, 0.3, 0.2], [0, 6]);
+
+//---> Remove IE dust recipes
+recipes.removeByRecipeName("immersiveengineering:material/dust_electrum");
+recipes.removeByRecipeName("immersiveengineering:material/dust_constantan");

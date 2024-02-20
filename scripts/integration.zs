@@ -18,7 +18,7 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:rocketfuel> * 10, <liquid:o
 
 //More ways to make purified water
 mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:water> * 500, [<ore:charcoal>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:dist_water> * 500, [<ore:itemSalt>, <ore:sugar>], 512);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:distwater> * 500, [<ore:itemSalt>, <ore:sugar>], 512);
 
 //Flour from nuclearcraft can be crafted with the flour from harvestcraft
 recipes.addShapeless(<nuclearcraft:flour>, [<harvestcraft:flouritem>]);

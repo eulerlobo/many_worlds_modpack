@@ -1,0 +1,250 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground"],
+  "populate": {
+    "ice_ice_moon": {
+      "enabled": true,
+      "distribution": "gaussian",
+      "generator": {
+        "type": "geode",
+        "block": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:packed_ice",
+            "weight": 5
+          }
+        ],
+        "crust": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:packed_ice",
+            "weight": 5
+          }
+        ],
+        "material": "minecraft:packed_ice"
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "center-height": 40,
+      "spread": 20,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [10]
+      }
+    },
+    "dirtypocket_ice_moon": {
+      "enabled": true,
+      "distribution": "gaussian",
+      "generator": {
+        "type": "geode",
+        "block": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:dirt",
+            "weight": 5
+          }
+        ],
+        "crust": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:dirt",
+            "weight": 5
+          }
+        ],
+        "material": "minecraft:packed_ice"
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "center-height": 40,
+      "spread": 20,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [10]
+      }
+    },
+    "icepocket_ice_moon": {
+      "enabled": true,
+      "distribution": "surface",
+      "follow-terrain": true,
+      "generator": {
+        "type": "lake",
+        "block": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:packed_ice",
+            "weight": 5
+          }
+        ],
+        "material": "minecraft:packed_ice",
+        "gap-block": "minecraft:ice",
+        "outline-block": "minecraft:ice",
+        "use-material": true
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "retrogen": false,
+      "material": "minecraft:packed_ice",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [10]
+      }
+    },
+    "gravelpocket_ice_moon": {
+      "enabled": true,
+      "distribution": "surface",
+      "follow-terrain": true,
+      "generator": {
+        "type": "lake",
+        "block": [
+          {
+            "name": "minecraft:gravel",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:air",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:air",
+            "weight": 5
+          }
+        ],
+        "material": "minecraft:packed_ice",
+        "gap-block": "minecraft:ice",
+        "outline-block": "minecraft:ice",
+        "use-material": true
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "retrogen": false,
+      "material": "minecraft:packed_ice",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [10]
+      }
+    },
+    "holepocket_ice_moon": {
+      "enabled": true,
+      "distribution": "surface",
+      "follow-terrain": true,
+      "generator": {
+        "type": "lake",
+        "block": "minecraft:air",
+        "material": "minecraft:packed_ice",
+        "gap-block": "minecraft:air",
+        "outline-block": "minecraft:ice",
+        "use-material": true
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "retrogen": false,
+      "material": "minecraft:packed_ice",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [10]
+      }
+    },
+    "gravelgeode_ice_moon": {
+      "enabled": true,
+      "distribution": "gaussian",
+      "generator": {
+        "type": "geode",
+        "block": [
+          {
+            "name": "minecraft:gravel",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:ice",
+            "weight": 10
+          }
+        ],
+        "crust": [
+          {
+            "name": "minecraft:gravel",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:ice",
+            "weight": 10
+          }
+        ],
+        "material": "minecraft:packed_ice"
+      },
+      "chunk-chance": 5,
+      "cluster-count": 5,
+      "center-height": 40,
+      "spread": 20,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [10]
+      }
+    },
+    "hardicepocket_ice_moon": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": [
+          {
+            "name": "biomesoplenty:hard_ice"
+          },
+          {
+            "name": "iceandfire:dragon_ice"
+          },
+          {
+            "name": "minecraft:dirt"
+          }
+        ],
+        "slim": true,
+        "material": "minecraft:packed_ice",
+        "radius": 5,
+        "height": 1
+      },
+      "chunk-chance": 5,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 25,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [10]
+      }
+    }
+  }
+}

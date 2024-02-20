@@ -1,0 +1,70 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground", "ic2"],
+  "populate": {
+    "basalt_cave_bottom": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": "ic2:resource",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0, 5, 6, 9]
+      }
+    },
+    "basalt_cave_top": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": "ic2:resource",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ceiling": true,
+      "ground-level": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0, 5, 6, 9]
+      }
+    },
+    "rubber_tree": {
+      "enabled": true,
+      "distribution": "decoration",
+      "generator": {
+        "type": "small-tree",
+        "block": "ic2:rubber_wood",
+        "surface": "minecraft:grass",
+        "leaves": "ic2:leaves",
+        "min-height": 5,
+        "height-variance": 3
+      },
+      "chunk-chance": 5,
+      "cluster-count": 1,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "WET"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    }
+  }
+}

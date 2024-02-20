@@ -1,7 +1,8 @@
 #priority 98
 
-val mbIngotOre = 360; //360mb --> 2 Ingots
-val mbCrystalOre = 540; //540mb --> 3 Ingots
+val mbIngotOre = 288; //288mb --> 2 Ingots
+val mbCrystalOre = 432; //432mb --> 3 Ingots
+val mbErebusOre = 576; //576mb --> 4 Ingots
 
 val ironSmeltingTemperature = 635; //335 Celsius
 val goldSmeltingTemperature = 454; //154 Celsius
@@ -281,3 +282,12 @@ mods.jei.JEI.hide(<tconstruct:stone_torch>);
 
 //---> Hide Stone Rod
 mods.jei.JEI.hide(<tconstruct:stone_stick>);
+
+//---> Erebus Ore Melting
+mods.tconstruct.Melting.addRecipe(liquidIron * mbErebusOre, <erebus:ore_iron>, ironSmeltingTemperature); //Iron
+mods.tconstruct.Melting.addRecipe(liquidGold * mbErebusOre, <erebus:ore_gold>, goldSmeltingTemperature); //Gold
+mods.tconstruct.Melting.addRecipe(liquidCopper * mbErebusOre, <erebus:ore_copper>, copperSmeltingTemperature); //Copper
+mods.tconstruct.Melting.addRecipe(liquidSilver * mbErebusOre, <erebus:ore_silver>, silverSmeltingTemperature); //Silver
+mods.tconstruct.Melting.addRecipe(liquidTin * mbErebusOre, <erebus:ore_tin>, tinSmeltingTemperature); //Tin
+mods.tconstruct.Melting.addRecipe(liquidLead * mbErebusOre, <erebus:ore_lead>, leadSmeltingTemperature); //Lead
+mods.tconstruct.Melting.addRecipe(liquidAluminum * mbErebusOre, <erebus:ore_aluminium>, aluminumSmeltingTemperature); //Aluminium

@@ -132,7 +132,7 @@
 		<input>
 			<itemStack>techguns:itemshared;1;26</itemStack>
 			<itemStack>icbmclassic:poisonpowder;8</itemStack>
-			<oreDict>slimeball;2</oreDict>
+			<itemStack>techguns:itemshared;1;61</itemStack>
 		</input>
 		<output>
 			<itemStack>techguns:itemshared;1;25</itemStack>
@@ -163,6 +163,51 @@
 		</input>
 		<output>
 			<fluidStack>refined_biofuel;25</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<fluidStack>carbon_monoxide;500</fluidStack>
+			<itemStack>contenttweaker:hotdry_turf_chunk;26</itemStack>
+		</input>
+		<output>
+			<fluidStack>carbon_dioxide;1000</fluidStack>
+			<itemStack>minecraft:iron_nugget;8</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="350">
+		<input>
+			<oreDict>dustAluminum;1</oreDict>
+			<itemStack>contenttweaker:hotdry_turf_chunk;16</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_nugget;8</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="275">
+		<input>
+			<fluidStack>oil;3000</fluidStack>
+		</input>
+		<output>
+			<itemStack>ic2:crafting;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<itemStack>thermalfoundation:material;2;817</itemStack>
+			<oreDict>bonemeal;4</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;4;61</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<itemStack>thermalfoundation:material;8;816</itemStack>
+			<oreDict>bonemeal;4</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;4;61</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

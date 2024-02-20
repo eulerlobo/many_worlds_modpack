@@ -1,0 +1,1273 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground"],
+  "populate": {
+    "hematite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "contenttweaker:hematite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "sparse": false,
+        "cluster-size": 12,
+        "vein-height": 10,
+        "vein-diameter": 15,
+        "vertical-density": 3,
+        "horizontal-density": 7,
+        "min-height": 28
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 28,
+      "max-height": 135,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "magnetite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "contenttweaker:magnetite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "sparse": true,
+        "cluster-size": 17,
+        "vein-height": 10,
+        "vein-diameter": 15,
+        "vertical-density": 3,
+        "horizontal-density": 14,
+        "min-height": 0
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "hematite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:hematite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 135,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "magnetite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:magnetite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_gold": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_gold_mesa": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 5,
+      "cluster-count": 20,
+      "min-height": 32,
+      "max-height": 80,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "id",
+            "entry": [
+              "mesa",
+              "mesa_rock",
+              "mesa_clear_rock",
+              "mutated_mesa",
+              "mutated_mesa_rock",
+              "mutated_mesa_clear_rock"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_gold_river": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 20,
+      "min-height": 30,
+      "max-height": 55,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "RIVER"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_gold_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "chalcopyrite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "contenttweaker:chalcopyrite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "sparse": false,
+        "cluster-size": 12,
+        "vein-height": 10,
+        "vein-diameter": 15,
+        "vertical-density": 3,
+        "horizontal-density": 7,
+        "min-height": 35
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 35,
+      "max-height": 115,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_copper": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_copper_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 15,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "chalcopyrite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:chalcopyrite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_copper_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_copper_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "teallite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "contenttweaker:teallite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "sparse": false,
+        "cluster-size": 6,
+        "vein-height": 6,
+        "vein-diameter": 4,
+        "vertical-density": 3,
+        "horizontal-density": 6,
+        "min-height": 28
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 28,
+      "max-height": 59,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "cassiterite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:cassiterite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 7
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 12,
+      "max-height": 40,
+      "retrogen": false,
+      "biome": {
+        "restriction": "blacklist",
+        "value": [
+          {
+            "type": "id",
+            "entry": [
+              "desert",
+              "desert_hills",
+              "mutated_desert",
+              "traverse:red_desert"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "teallite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:teallite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 62,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "cassiterite_river": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:cassiterite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 20,
+      "min-height": 38,
+      "max-height": 42,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "RIVER"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "cassiterite_ocean": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:cassiterite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 5
+      },
+      "chunk-chance": 10,
+      "cluster-count": 20,
+      "min-height": 13,
+      "max-height": 56,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "OCEAN"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "galena_cerussite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": [
+          {
+            "name": "contenttweaker:galena_ore"
+          },
+          {
+            "name": "contenttweaker:cerussite_ore"
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 7
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 42,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "galena_cerussite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": [
+          {
+            "name": "contenttweaker:galena_ore"
+          },
+          {
+            "name": "contenttweaker:cerussite_ore"
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 5,
+      "cluster-count": 4,
+      "ground-level": 42,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "bauxite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "contenttweaker:bauxite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "sparse": false,
+        "cluster-size": 12,
+        "vein-height": 10,
+        "vein-diameter": 15,
+        "vertical-density": 3,
+        "horizontal-density": 7,
+        "min-height": 12
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "min-height": 12,
+      "max-height": 56,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "bauxite_sandy": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "contenttweaker:bauxite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "sparse": false,
+        "cluster-size": 12,
+        "vein-height": 10,
+        "vein-diameter": 15,
+        "vertical-density": 3,
+        "horizontal-density": 7,
+        "min-height": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 12,
+      "max-height": 56,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "SANDY"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "bauxite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:bauxite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 14,
+      "cluster-count": 10,
+      "ground-level": 56,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "leucite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:leucite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "min-height": 6,
+      "max-height": 44,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "leucite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:leucite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 16,
+      "cluster-count": 10,
+      "ground-level": 56,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "pentlandite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:pentlandite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "garnierite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:garnierite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "garnierite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:garnierite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 10,
+      "ground-level": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "rutile": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:rutile_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 24,
+      "retrogen": false,
+      "biome": {
+        "restriction": "blacklist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "BEACH"
+          },
+          {
+            "type": "dictionary",
+            "entry": "OCEAN"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "rutile_ilmenite_ocean": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": [
+          {
+            "name": "contenttweaker:rutile_ore"
+          },
+          {
+            "name": "contenttweaker:ilmenite_ore"
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 24,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "BEACH"
+          },
+          {
+            "type": "dictionary",
+            "entry": "OCEAN"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "ilmenite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:ilmenite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 16,
+      "cluster-count": 10,
+      "ground-level": 24,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "rutile_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:rutile_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 8
+      },
+      "chunk-chance": 16,
+      "cluster-count": 10,
+      "ground-level": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_silver": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_silver_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 39,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "native_silver_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_silver_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 5,
+      "cluster-count": 10,
+      "ground-level": 39,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "magnesite_ocean": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "contenttweaker:magnesite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "sparse": true,
+        "cluster-size": 17,
+        "vein-height": 10,
+        "vein-diameter": 15,
+        "vertical-density": 3,
+        "horizontal-density": 14,
+        "min-height": 0
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 39,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "OCEAN"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "magnesite_river": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:magnesite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 5
+      },
+      "chunk-chance": 16,
+      "cluster-count": 20,
+      "min-height": 0,
+      "max-height": 39,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "RIVER"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "magnesite_cave_ocean": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:magnesite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "ground-level": 39,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "OCEAN"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "spodumene": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:spodumene_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 20,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "WET"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "spodumene_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:spodumene_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "ground-level": 32,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "WET"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "sulfur": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:sulfur_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 16
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "sulfur_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:sulfur_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 6,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "carnotite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:carnotite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 7
+      },
+      "chunk-chance": 20,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 34,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "uraninite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:uraninite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 20,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 23,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "carnotite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:carnotite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "ground-level": 34,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "uraninite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:uraninite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 16,
+      "cluster-count": 4,
+      "ground-level": 34,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "monazite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:monazite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 14,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 42,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "thorite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:thorite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 28,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "monazite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:monazite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 14,
+      "cluster-count": 6,
+      "ground-level": 42,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "thorite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:thorite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 4,
+      "ground-level": 28,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "kernite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:kernite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 16
+      },
+      "chunk-chance": 14,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 42,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "HOT"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "kernite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:kernite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 10
+      },
+      "chunk-chance": 14,
+      "cluster-count": 4,
+      "ground-level": 28,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "HOT"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "colemanite": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:colemanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 12
+      },
+      "chunk-chance": 10,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 42,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "HOT"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "colemanite_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:colemanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 10
+      },
+      "chunk-chance": 14,
+      "cluster-count": 4,
+      "ground-level": 28,
+      "retrogen": false,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "HOT"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "coal": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": [
+          {
+            "name": "divergentunderground:hard_coal_ore"
+          },
+          {
+            "name": "divergentunderground:hard_stone"
+          },
+          {
+            "name": "minecraft:dirt"
+          }
+        ],
+        "slim": true,
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "radius": 5,
+        "height": 1
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 45,
+      "max-height": 70,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": "PLAINS"
+          },
+          {
+            "type": "dictionary",
+            "entry": "SWAMP"
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "redstone": {
+      "distribution": "uniform",
+      "enabled": true,
+      "generator": {
+        "block": "divergentunderground:hard_redstone_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 16
+      },
+      "chunk-chance": 10,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "fossil": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "divergentunderground:fossil",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 10
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 15,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    }
+  }
+}

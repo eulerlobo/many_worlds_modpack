@@ -78,3 +78,5 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:material:819>); //Rich Bioblend
 mods.immersiveengineering.Refinery.addRecipe(<liquid:refined_biofuel> * 25, <liquid:plantoil> * 7, <liquid:ic2biomass> * 18, 700);
 
 recipes.addShaped("TFRichDirt", <minecraft:dirt> * 12, [[<ore:itemSlag>, <thermalfoundation:material:817>, <ore:itemSlag>], [<thermalfoundation:material:817>, <ore:itemSlag>, <thermalfoundation:material:817>], [<ore:itemSlag>, <thermalfoundation:material:817>, <ore:itemSlag>]]);
+
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:512>); //Redstone servo

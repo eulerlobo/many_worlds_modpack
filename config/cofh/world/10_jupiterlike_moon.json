@@ -1,0 +1,659 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground"],
+  "populate": {
+    "magnetite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:magnetite_ore",
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 95,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "magnetite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:magnetite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 95,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "kamacite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:kamacite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 70,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "kamacite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:kamacite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 70,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "olivine_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:olivine_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 32,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "olivine_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:olivine_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "troilite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:troilite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 32,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "troilite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:troilite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "native_gold_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 20
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "native_gold_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_gold_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 20
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "native_copper_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_copper_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 24
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "native_copper_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_copper_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 24
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "abramovite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:abramovite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 14,
+      "max-height": 70,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "abramovite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:abramovite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 70,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "feldspar_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:feldspar_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 73,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "feldspar_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:feldspar_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 73,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "augite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:augite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 42,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "augite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:augite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 42,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "titanite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:titanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 69,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "titanite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:titanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 69,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "native_silver_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:native_silver_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 20
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "native_silver_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:native_silver_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 20
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "davidite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:davidite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 31,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "davidite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:davidite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 31,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "polycrase_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:polycrase_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 34,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "polycrase_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "block": "contenttweaker:polycrase_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 34,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "monazite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:monazite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "monazite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:monazite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 32
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "kernite_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:kernite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 40
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "kernite_jupiter_moon_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "ceiling": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:kernite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 40
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "ground-level": 58,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "carbonaceous_jupiter_moon": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:carbonaceous_i_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 26
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 33,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "osmiridium_jupiter_moon": {
+      "distribution": "uniform",
+      "enabled": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:osmiridium_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 20
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "sperrylite_jupiter_moon": {
+      "distribution": "uniform",
+      "enabled": true,
+      "generator": {
+        "type": "cluster",
+        "block": "contenttweaker:sperrylite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 20
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "redstone_jupiter_moon": {
+      "distribution": "uniform",
+      "enabled": true,
+      "generator": {
+        "type": "cluster",
+        "block": "divergentunderground:hard_redstone_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 46
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    },
+    "ice_jupiter_moon": {
+      "enabled": true,
+      "distribution": "gaussian",
+      "generator": {
+        "type": "geode",
+        "block": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:packed_ice",
+            "weight": 5
+          }
+        ],
+        "crust": [
+          {
+            "name": "minecraft:ice",
+            "weight": 20
+          },
+          {
+            "name": "minecraft:gravel",
+            "weight": 10
+          },
+          {
+            "name": "minecraft:packed_ice",
+            "weight": 5
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"]
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "center-height": 40,
+      "spread": 20,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [9]
+      }
+    }
+  }
+}

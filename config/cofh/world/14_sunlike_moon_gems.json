@@ -1,0 +1,374 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground", "appliedenergistics2"],
+  "populate": {
+    "certus_quartz_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": [
+          {
+            "name": "appliedenergistics2:quartz_ore",
+            "weight": 20
+          },
+          {
+            "name": "appliedenergistics2:charged_quartz_ore",
+            "weight": 1
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 29,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "certus_quartz_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": [
+          {
+            "name": "appliedenergistics2:quartz_ore",
+            "weight": 20
+          },
+          {
+            "name": "appliedenergistics2:charged_quartz_ore",
+            "weight": 8
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 10,
+      "ground-level": 29,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "lapis_sun": {
+      "enabled": true,
+      "distribution": "gaussian",
+      "generator": {
+        "block": "divergentunderground:hard_lapis_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 10
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "center-height": 16,
+      "spread": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "lapis_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "divergentunderground:hard_lapis_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 10
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "ground-level": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "diamond_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "divergentunderground:hard_diamond_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "diamond_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "divergentunderground:hard_diamond_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 10,
+      "ground-level": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "emerald_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "divergentunderground:hard_emerald_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "emerald_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "divergentunderground:hard_emerald_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 7,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "ruby_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:ruby_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "ruby_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:ruby_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 7,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "peridot_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:peridot_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "peridot_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:peridot_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 7,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "topaz_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:topaz_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "topaz_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:topaz_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 7,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "tanzanite_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:tanzanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "tanzanite_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:tanzanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 7,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "malachite_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:malachite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "malachite_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:malachite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 7,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "sapphire_sun": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:sapphire_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 10,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    },
+    "sapphire_sun_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:sapphire_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 9
+      },
+      "chunk-chance": 14,
+      "cluster-count": 7,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [3]
+      }
+    }
+  }
+}

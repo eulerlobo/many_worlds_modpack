@@ -1508,7 +1508,7 @@ var amethystOre = VanillaFactory.createBlock("amethyst_ore", <blockmaterial:rock
 amethystOre.setBlockHardness(3.0);
 amethystOre.setBlockResistance(3.0);
 amethystOre.setToolClass("pickaxe");
-amethystOre.setToolLevel(1);
+amethystOre.setToolLevel(2);
 amethystOre.setBlockSoundType(<soundtype:stone>);
 amethystOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1535,7 +1535,7 @@ var topazOre = VanillaFactory.createBlock("topaz_ore", <blockmaterial:rock>);
 topazOre.setBlockHardness(3.0);
 topazOre.setBlockResistance(3.0);
 topazOre.setToolClass("pickaxe");
-topazOre.setToolLevel(1);
+topazOre.setToolLevel(2);
 topazOre.setBlockSoundType(<soundtype:stone>);
 topazOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1562,7 +1562,7 @@ var peridotOre = VanillaFactory.createBlock("peridot_ore", <blockmaterial:rock>)
 peridotOre.setBlockHardness(3.0);
 peridotOre.setBlockResistance(3.0);
 peridotOre.setToolClass("pickaxe");
-peridotOre.setToolLevel(1);
+peridotOre.setToolLevel(2);
 peridotOre.setBlockSoundType(<soundtype:stone>);
 peridotOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1589,7 +1589,7 @@ var amberOre = VanillaFactory.createBlock("amber_ore", <blockmaterial:rock>);
 amberOre.setBlockHardness(3.0);
 amberOre.setBlockResistance(3.0);
 amberOre.setToolClass("pickaxe");
-amberOre.setToolLevel(1);
+amberOre.setToolLevel(2);
 amberOre.setBlockSoundType(<soundtype:stone>);
 amberOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1616,7 +1616,7 @@ var rubyOre = VanillaFactory.createBlock("ruby_ore", <blockmaterial:rock>);
 rubyOre.setBlockHardness(3.0);
 rubyOre.setBlockResistance(3.0);
 rubyOre.setToolClass("pickaxe");
-rubyOre.setToolLevel(1);
+rubyOre.setToolLevel(2);
 rubyOre.setBlockSoundType(<soundtype:stone>);
 rubyOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1643,7 +1643,7 @@ var tanzaniteOre = VanillaFactory.createBlock("tanzanite_ore", <blockmaterial:ro
 tanzaniteOre.setBlockHardness(3.0);
 tanzaniteOre.setBlockResistance(3.0);
 tanzaniteOre.setToolClass("pickaxe");
-tanzaniteOre.setToolLevel(1);
+tanzaniteOre.setToolLevel(2);
 tanzaniteOre.setBlockSoundType(<soundtype:stone>);
 tanzaniteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1670,7 +1670,7 @@ var malachiteOre = VanillaFactory.createBlock("malachite_ore", <blockmaterial:ro
 malachiteOre.setBlockHardness(3.0);
 malachiteOre.setBlockResistance(3.0);
 malachiteOre.setToolClass("pickaxe");
-malachiteOre.setToolLevel(1);
+malachiteOre.setToolLevel(2);
 malachiteOre.setBlockSoundType(<soundtype:stone>);
 malachiteOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -1697,7 +1697,7 @@ var sapphireOre = VanillaFactory.createBlock("sapphire_ore", <blockmaterial:rock
 sapphireOre.setBlockHardness(3.0);
 sapphireOre.setBlockResistance(3.0);
 sapphireOre.setToolClass("pickaxe");
-sapphireOre.setToolLevel(1);
+sapphireOre.setToolLevel(2);
 sapphireOre.setBlockSoundType(<soundtype:stone>);
 sapphireOre.setDropHandler(function(drops, world, position, state, fortune) {
     var fortuneMultiplier = 1;
@@ -2037,6 +2037,18 @@ driedSandChunk.register();
 //---> White Sand Chunk
 var whiteSandChunk = VanillaFactory.createItem("white_sand_chunk");
 whiteSandChunk.register();
+
+//---> Moon Turf Chunk
+var moonTurfChunk = VanillaFactory.createItem("moon_turf_chunk");
+moonTurfChunk.register();
+
+//---> Moon Turf Dark Chunk
+var moonTurfDarkChunk = VanillaFactory.createItem("moon_turf_dark_chunk");
+moonTurfDarkChunk.register();
+
+//---> Oxidized Ferric Sand Chunk
+var hotdryTurfChunk = VanillaFactory.createItem("hotdry_turf_chunk");
+hotdryTurfChunk.register();
 
 //--------------------------------//
 //      Radiation Shieldings      //

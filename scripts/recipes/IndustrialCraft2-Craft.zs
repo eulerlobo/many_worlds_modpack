@@ -33,6 +33,8 @@ val advancedCircuit = <ic2:crafting:2>;
 val advancedMachineBlock = <ic2:resource:13>;
 val dilithium = <libvulpes:productgem>;
 
+val orePlastic = <ore:plastic>;
+
 //--- Add Recipes ---//
 
 //---> Remove Liquid Fuel Firebox machine for balance between other mods
@@ -164,7 +166,7 @@ recipes.addShaped("IC2IronCuttingBlade", <ic2:block_cutting_blade>, [[orePlateIr
 recipes.addShaped("IC2SteelCuttingBlade", <ic2:block_cutting_blade:1>, [[orePlateSteel, orePlateSteel, orePlateSteel], [orePlateSteel, sawBlade, orePlateSteel], [orePlateSteel, orePlateSteel, orePlateSteel]]);
 recipes.addShaped("IC2DiamondCuttingBlade", <ic2:block_cutting_blade:2>, [[oreGemDiamond, oreGemDiamond, oreGemDiamond], [oreGemDiamond, sawBlade, oreGemDiamond], [oreGemDiamond, oreGemDiamond, oreGemDiamond]]);
 
-recipes.addShaped("IC2HarvesterTrowel", <contenttweaker:harvester_trowel>, [[oreIngotSteel, null, oreIngotSteel], [oreDyeBlue, oreIngotSteel, oreDyeBlue], [oreItemRubber, oreIngotSteel, oreItemRubber]]);
+recipes.addShaped("IC2HarvesterTrowel", <contenttweaker:harvester_trowel>, [[oreIngotSteel, null, oreIngotSteel], [oreDyeBlue, oreIngotSteel, oreDyeBlue], [orePlastic, oreIngotSteel, orePlastic]]);
 
 //---> Add tooltips
 <ic2:crop_stick>.addTooltip(format.aqua("Left click in a crop drop seed bag, right click drop crop items."));

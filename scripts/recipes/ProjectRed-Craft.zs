@@ -33,7 +33,7 @@ mods.jei.JEI.removeAndHide(<projectred-core:resource_item:600>); //Null-Logic Ro
 
 //---> Remap Multimeter recipes
 recipes.remove(<projectred-core:multimeter>);
-recipes.addShaped("ProjectRedMultimeter", <projectred-core:multimeter>, [[<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>], [<ore:dyeBlack>, <ore:gemEmerald>, <ore:dyeRed>], [<ore:dyeBlack>, <ore:dustGlowstone>, <ore:dyeRed>]]);
+recipes.addShaped("ProjectRedMultimeter", <projectred-core:multimeter>, [[<ore:ingotRedAlloy>, <advancedrocketry:misc>, <ore:ingotRedAlloy>], [<ore:dyeBlack>, <ore:gemEmerald>, <ore:dyeRed>], [<ore:dyeBlack>, <ore:dustGlowstone>, <ore:dyeRed>]]);
 
 //---> Remap Silicon recipe
 oreBouleSilicon.remove(<projectred-core:resource_item:300>);

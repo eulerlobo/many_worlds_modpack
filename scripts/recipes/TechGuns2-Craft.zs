@@ -127,6 +127,8 @@ val orePlateTitaniumAluminide = <ore:plateTitaniumAluminide>;
 val treatedLeather = <techguns:itemshared:77>;
 val powerArmorPlate = <techguns:itemshared:67>;
 
+val orePlastic = <ore:plastic>;
+
 //---> Hide Ores
 mods.jei.JEI.removeAndHide(<techguns:basicore>);
 mods.jei.JEI.removeAndHide(<techguns:basicore:1>);
@@ -366,9 +368,9 @@ furnace.remove(<thermalfoundation:material:160>, <techguns:itemshared:100>);
 
 //---> Remap Mining Charge
 recipes.remove(<techguns:explosive_charge>);
-recipes.addShaped("TechGunExplosiveCharge", <techguns:explosive_charge> * 3, [[tnt, basicCircuit, tnt], [oreItemRubber, tnt, oreItemRubber], [tnt, oreItemRubber, tnt]]);
+recipes.addShaped("TechGunExplosiveCharge", <techguns:explosive_charge> * 3, [[tnt, basicCircuit, tnt], [orePlastic, tnt, orePlastic], [tnt, orePlastic, tnt]]);
 recipes.remove(<techguns:explosive_charge:1>);
-recipes.addShaped("TechGunExplosiveChargeAdvanced", <techguns:explosive_charge:1> * 3, [[condensedExplosives, basicCircuit, condensedExplosives], [condensedExplosives, oreItemRubber, condensedExplosives], [condensedExplosives, oreItemRubber, condensedExplosives]]);
+recipes.addShaped("TechGunExplosiveChargeAdvanced", <techguns:explosive_charge:1> * 3, [[condensedExplosives, basicCircuit, condensedExplosives], [condensedExplosives, orePlastic, condensedExplosives], [condensedExplosives, orePlastic, condensedExplosives]]);
 
 //---> Magazines Remap
 recipes.remove(<techguns:itemshared:10>);
@@ -597,3 +599,6 @@ pressurizer.addRecipe([<techguns:itemshared:24>, <techguns:itemshared:23>]);
 
 //---> Remove Yellowcake
 furnace.remove(<contenttweaker:uranium_ingot>, <techguns:itemshared:97>);
+
+//---> Remap Bio Mass
+recipes.remove(<techguns:itemshared:61>);

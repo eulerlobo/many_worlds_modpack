@@ -10,9 +10,9 @@ import mods.nuclearcraft.alloy_furnace;
 
 val timeBaseMultiplier = 50 * 20;
 val powerBaseMultiplier = 60;
-val mbIngotOre = 360; //360mb --> 2 Ingots
-val mbCrystalOre = 540; //540mb --> 3 Ingots
-val mbChunks = 500;
+val mbIngotOre = 288; //288mb --> 2 Ingots
+val mbCrystalOre = 432; //432mb --> 3 Ingots
+val mbChunks = 360;
 
 val oreIron = <ore:oreIron>;
 val oreRockOreIron = <ore:rockOreIron>;
@@ -150,6 +150,13 @@ val oreColemanite = <ore:oreColemanite>;
 
 val oreItemSilicon = <ore:itemSilicon>;
 val silicon = <nuclearcraft:gem:6>;
+
+val oreIngotSteel = <ore:ingotSteel>;
+val oreIngotFerroboron = <ore:ingotFerroboron>;
+val orePlastic = <ore:plastic>;
+val oreIngotCopper = <ore:ingotCopper>;
+val oreDustRedstone = <ore:dustRedstone>;
+val basicPlate = <nuclearcraft:part>;
 
 //--- Add Recipes ---//
 
@@ -421,3 +428,22 @@ alloy_furnace.addRecipe([<ore:ingotCopper>, <ore:ingotAluminum> * 3, <tconstruct
 alloy_furnace.addRecipe([<ore:ingotCopper>, <ore:dustAluminum> * 3, <tconstruct:ingots:5> * 4]);
 alloy_furnace.addRecipe([<ore:dustCopper>, <ore:ingotAluminum> * 3, <tconstruct:ingots:5> * 4]);
 alloy_furnace.addRecipe([<ore:dustCopper>, <ore:dustAluminum> * 3, <tconstruct:ingots:5> * 4]);
+
+//---> Add Water Craft
+chemical_reactor.addRecipe([<liquid:hydrogen> * 1000, <liquid:oxygen> * 500, <liquid:distwater> * 500, null]);
+
+//---> Remap Bioplastic recipes that can use plastic
+recipes.remove(<nuclearcraft:geiger_counter>); //Geiger Counter
+recipes.addShaped("NuclearCraftGeiger", <nuclearcraft:geiger_counter>, [[oreIngotSteel, oreIngotFerroboron, oreIngotFerroboron], [oreIngotCopper,<appliedenergistics2:material:12>, oreDustRedstone], [orePlastic, oreIngotFerroboron, oreIngotFerroboron]]);
+
+recipes.remove(<nuclearcraft:rad_shielding:1>); //Medium Radiation Shielding
+recipes.addShaped("NuclearCraftMRS", <nuclearcraft:rad_shielding:1>, [[orePlastic, orePlastic, orePlastic], [<nuclearcraft:rad_shielding>, oreIngotFerroboron, <nuclearcraft:rad_shielding>], [basicPlate, basicPlate, basicPlate]]);
+
+recipes.remove(<nuclearcraft:helm_hazmat>); //Remap Hazmat Suit
+recipes.remove(<nuclearcraft:chest_hazmat>);
+recipes.remove(<nuclearcraft:legs_hazmat>);
+recipes.remove(<nuclearcraft:boots_hazmat>);
+recipes.addShaped("NuclearCraftHelmHazmat", <nuclearcraft:helm_hazmat>, [[null, <ore:dyeYellow>, null], [<nuclearcraft:rad_shielding:2>, <harvestcraft:hardenedleatherhelmitem>, <nuclearcraft:rad_shielding:2>], [orePlastic, oreIngotSteel, orePlastic]]);
+recipes.addShaped("NuclearCraftChestHazmat", <nuclearcraft:chest_hazmat>, [[<ore:dyeYellow>, <nuclearcraft:rad_shielding:2>, <ore:dyeYellow>], [orePlastic, <harvestcraft:hardenedleatherchestitem>, orePlastic], [<nuclearcraft:rad_shielding:2>, orePlastic, <nuclearcraft:rad_shielding:2>]]);
+recipes.addShaped("NuclearCraftLegsHazmat", <nuclearcraft:legs_hazmat>, [[null, orePlastic, null], [<nuclearcraft:rad_shielding:2>, <harvestcraft:hardenedleatherleggingsitem>, <nuclearcraft:rad_shielding:2>], [orePlastic, <ore:dyeYellow>, orePlastic]]);
+recipes.addShaped("NuclearCraftBootsHazmat", <nuclearcraft:boots_hazmat>, [[null, <ore:dyeBlack>, null], [<nuclearcraft:rad_shielding:2>, <harvestcraft:hardenedleatherbootsitem>, <nuclearcraft:rad_shielding:2>], [orePlastic, null, orePlastic]]);

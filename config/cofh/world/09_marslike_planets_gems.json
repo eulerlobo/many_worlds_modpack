@@ -1,0 +1,410 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground", "appliedenergistics2"],
+  "populate": {
+    "certus_quartz_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": [
+          {
+            "name": "appliedenergistics2:quartz_ore",
+            "weight": 20
+          },
+          {
+            "name": "appliedenergistics2:charged_quartz_ore",
+            "weight": 1
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 29,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "certus_quartz_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": [
+          {
+            "name": "appliedenergistics2:quartz_ore",
+            "weight": 20
+          },
+          {
+            "name": "appliedenergistics2:charged_quartz_ore",
+            "weight": 8
+          }
+        ],
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 10,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 29,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "lapis_mars": {
+      "enabled": true,
+      "distribution": "gaussian",
+      "generator": {
+        "block": "divergentunderground:hard_lapis_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 7
+      },
+      "chunk-chance": 10,
+      "cluster-count": 1,
+      "center-height": 16,
+      "spread": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "lapis_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "divergentunderground:hard_lapis_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 7
+      },
+      "chunk-chance": 16,
+      "cluster-count": 1,
+      "ground-level": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "diamond_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "divergentunderground:hard_diamond_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "diamond_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "divergentunderground:hard_diamond_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 16,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "emerald_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "divergentunderground:hard_emerald_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "emerald_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "divergentunderground:hard_emerald_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "ruby_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:ruby_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "ruby_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:ruby_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "peridot_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:peridot_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "peridot_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:peridot_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "topaz_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:topaz_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "topaz_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:topaz_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "tanzanite_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:tanzanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "tanzanite_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:tanzanite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "malachite_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:malachite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "malachite_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:malachite_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "sapphire_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:sapphire_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "sapphire_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:sapphire_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 20,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "amber_mars": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "block": "contenttweaker:amber_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 30,
+      "cluster-count": 1,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    },
+    "amber_mars_cave": {
+      "enabled": true,
+      "distribution": "cave",
+      "generator": {
+        "block": "contenttweaker:amber_ore",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone"],
+        "cluster-size": 6
+      },
+      "chunk-chance": 30,
+      "cluster-count": 1,
+      "ground-level": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [6]
+      }
+    }
+  }
+}

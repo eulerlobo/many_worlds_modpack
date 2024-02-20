@@ -67,7 +67,7 @@ waypointsMutualEdit:false
 compassLocation:1
 compassScale:1
 caveMapsDepth:30
-hideWaypointCoordinates:false
+hideWaypointCoordinates:true
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false

@@ -24,16 +24,18 @@
   },
   {
     "mod": "iceandfire",
+    "onjoin": true,
     "result": "deny"
   },
   {
+    "mod": "iceandfire",
     "onjoin": true,
     "dimension": 225,
-    "mod": "iceandfire",
     "result": "allow"
   },
   {
     "mob": "iceandfire:stymphalianbird",
+    "onjoin": true,
 		"mincount": {
       "amount": 20,
       "mob": "iceandfire:stymphalianbird",

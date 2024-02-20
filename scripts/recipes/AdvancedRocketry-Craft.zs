@@ -267,7 +267,7 @@ recipes.remove(<libvulpes:metal0:9>);
 
 //---> Nerf machine structures
 recipes.remove(<libvulpes:structuremachine>);
-recipes.addShaped("ARStructureMachine", <libvulpes:structuremachine> * 3, [[oreStickIron, orePlateIron, oreStickIron], [orePlateIron, null, orePlateIron], [oreStickIron, orePlateIron, oreStickIron]]);
+recipes.addShaped("ARStructureMachine", <libvulpes:structuremachine> * 3, [[oreStickSteel, orePlateSteel, oreStickSteel], [orePlateSteel, null, orePlateSteel], [oreStickSteel, orePlateSteel, oreStickSteel]]);
 
 recipes.remove(<libvulpes:advstructuremachine>);
 recipes.addShaped("ARAdvStructureMachine", <libvulpes:advstructuremachine> * 3, [[oreStickTitaniumAluminide, orePlateTitaniumAluminide, oreStickTitaniumAluminide], [orePlateTitaniumAluminide, null, orePlateTitaniumAluminide], [oreStickTitaniumAluminide, orePlateTitaniumAluminide, oreStickTitaniumAluminide]]);
@@ -333,3 +333,7 @@ recipes.addShaped("ARWirelessTransceiver", <advancedrocketry:wirelesstransciever
 mods.jei.JEI.removeAndHide(<advancedrocketry:circlelight>);
 
 mods.jei.JEI.removeAndHide(<advancedrocketry:arcfurnace>);
+
+//---> Remap fuel tank recipe
+recipes.remove(<advancedrocketry:fueltank>);
+recipes.addShaped("ARFuelTank", <advancedrocketry:fueltank>, [[steelRod, orePlateAluminium, steelRod], [orePlateAluminium, <advancedrocketry:pressuretank:2>, orePlateAluminium], [steelRod, <advancedrocketry:pressuretank:2>, steelRod]]);
