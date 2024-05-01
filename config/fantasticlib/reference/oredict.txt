@@ -1250,15 +1250,15 @@ crystalPureCertusQuartz
 crystalPureFluix
 dustEnder
 itemIlluminatedPanel
+fencegateAluminium
+fencegateAluminum
+fencegateSteel
+fencegateTreatedWood
 doorConcrete
 doorSteel
 doorTreatedWood
 trapdoorSteel
 trapdoorTreatedWood
-fencegateAluminium
-fencegateAluminum
-fencegateSteel
-fencegateTreatedWood
 circuitElite
 wireGold
 desertMyrmexEgg
@@ -1299,6 +1299,8 @@ sheetPlastic
 ingotUraniumEnriched
 itemRawRubber
 rawPlastic
+rockOreAluminum
+rockOreNickel
 uncutAmethyst
 uncutRuby
 uncutPeridot
@@ -1310,8 +1312,6 @@ uncutAmber
 rockBasalt
 rockIcystone
 rockFirestone
-rockOreAluminum
-rockOreNickel
 rockOrePlatinum
 rockOreIridium
 rockOreMithril

@@ -1,0 +1,77 @@
+{
+  imports: [
+    cat_custom/generic.cave          as GENERIC_FEATURES
+    cat_custom/generic.cave::tunnels as GENERIC_TUNNELS
+    cat_custom/generic.cave::ravines as GENERIC_RAVINES
+    cat_custom/maze.cave::tunnels    as MAZE_TUNNELS
+    cat_custom/crack.cave::ravines   as SURFACE_CRACKS
+    cat_custom/water.cave            as WATER_DECORATORS
+    cat_custom/snow.cave             as SNOW_FEATURES
+    cat_custom/desert.cave           as DESERT_FEATURES
+    cat_custom/mushroom.cave         as MUSHROOM_FEATURES
+    cat_custom/jungle.cave           as JUNGLE_FEATURES
+    cat_custom/mountain.cave         as MOUNTAIN_FEATURES
+    cat_custom/common.cave           :: DECORATED_BIOMES
+    cat_custom/common.cave           :: DENSE_CAVE_BIOMES
+    cat_custom/common.cave           :: MOUNTAIN_CAVE_BIOMES
+    conditions.cave           :: SNOWY_BIOMES
+    conditions.cave           :: SANDY_BIOMES
+    conditions.cave           :: MUSHROOM_BIOMES
+    conditions.cave           :: OCEAN_BIOMES
+    defaults.cave::caveBlocks as LAVA_CAVE_BLOCK
+  ]
+  dimensions: [ 0, 227 ]
+  blacklistDimensions: false
+  enabled: true
+  inner: [
+    {
+      $SNOW_FEATURES: ALL
+      biomes: $SNOWY_BIOMES
+      ravines: $GENERIC_RAVINES
+    }
+    {
+      $DESERT_FEATURES: ALL
+      biomes: $SANDY_BIOMES
+    }
+    {
+      $MUSHROOM_FEATURES: ALL
+      biomes: $MUSHROOM_BIOMES
+      caveBlocks: []
+    }
+    {
+      $JUNGLE_FEATURES: ALL
+      biomes: $DENSE_CAVE_BIOMES
+      ravines: $GENERIC_RAVINES
+      caveBlocks: []
+    }
+    {
+      $MOUNTAIN_FEATURES: ALL
+      biomes: $MOUNTAIN_CAVE_BIOMES
+    }
+    {
+      blacklistBiomes: true
+      biomes: $MOUNTAIN_CAVE_BIOMES
+      ravines: $SURFACE_CRACKS
+    }
+    {
+      $GENERIC_FEATURES: ALL
+      $WATER_DECORATORS: ALL
+      biomes: $OCEAN_BIOMES
+      *tunnels.checkWater: false
+      *ravines.checkWater: false
+      stalactites: []
+    }
+    {
+      $GENERIC_FEATURES: ALL
+      blacklistBiomes: true
+      biomes: $DECORATED_BIOMES
+      tunnels: [
+        $GENERIC_TUNNELS
+        $MAZE_TUNNELS
+      ]
+    }
+  ]
+  # This feature should be spawned
+  # in all of the inner presets.
+  caveBlocks: $LAVA_CAVE_BLOCK
+}

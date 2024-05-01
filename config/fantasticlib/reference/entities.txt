@@ -94,11 +94,7 @@ ic2:electric_boat
 ic2:particle
 ic2:fireproof_item
 quark:gravisand
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:chest_passenger
+quark:seat
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -108,7 +104,11 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:seat
+quark:chest_passenger
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:dragon_breath_bottle
 quark:soul_powder

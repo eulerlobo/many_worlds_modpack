@@ -3,7 +3,7 @@
     27
   ]
   blacklistDimensions: true
-  enabled: true
+  enabled: false
   caveBlocks: {
     states: lava
     height: [
