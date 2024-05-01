@@ -32,7 +32,7 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>libvulpes:battery</itemStack>
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
@@ -44,7 +44,7 @@
 			<itemStack>advancedrocketry:atmanalyser</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="200" power ="15">
+	<Recipe timeRequired="400" power="30">
 		<input>
 			<itemStack>libvulpes:battery</itemStack>
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
@@ -56,7 +56,7 @@
 			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="200" power ="15">
+	<Recipe timeRequired="400" power="15">
 		<input>
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
@@ -66,40 +66,7 @@
 			<itemStack>advancedrocketry:itemupgrade;1;2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="500" power ="240">
-		<input>
-			<itemStack>advancedrocketry:ic</itemStack>
-			<itemStack>opencomputers:material;1;7</itemStack>
-			<itemStack>opencomputers:material;1;12</itemStack>
-			<oreDict>gemEmerald;1</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:dataunit</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="900" power ="150">
-		<input>
-			<itemStack>advancedrocketry:itemcircuitplate;1;0</itemStack>
-			<oreDict>dustEnderPearl;3</oreDict>
-			<oreDict>dustRedstone;2</oreDict>
-			<oreDict>dustGold;3</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="900" power ="300">
-		<input>
-			<oreDict>ingotGold;2</oreDict>
-			<oreDict>blockRedstone;1</oreDict>
-			<itemStack>opencomputers:material;12;29</itemStack>
-			<itemStack>advancedrocketry:wafer</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="200" power ="15">
+	<Recipe timeRequired="400" power="30">
 		<input>
 			<itemStack>minecraft:feather;2;0</itemStack>
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
@@ -111,7 +78,7 @@
 			<itemStack>advancedrocketry:itemupgrade;1;3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="200" power ="15">
+	<Recipe timeRequired="400" power="30">
 		<input>
 			<itemStack>advancedrocketry:ic;1;4</itemStack>
 			<itemStack>advancedrocketry:ic;2;2</itemStack>
@@ -121,7 +88,7 @@
 			<itemStack>advancedrocketry:itemupgrade;1;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="200" power ="15">
+	<Recipe timeRequired="400" power="30">
 		<input>
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
@@ -131,7 +98,7 @@
 			<itemStack>advancedrocketry:itemupgrade</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>libvulpes:battery</itemStack>
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
@@ -143,7 +110,7 @@
 			<itemStack>advancedrocketry:biomechanger</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="15">
+	<Recipe timeRequired="200" power="30">
 		<input>
 			<itemStack>advancedrocketry:ic;1;1</itemStack>
 			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
@@ -152,26 +119,7 @@
 			<itemStack>advancedrocketry:beaconfinder</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="15">
-		<input>
-			<itemStack>advancedrocketry:spacestationchip</itemStack>
-			<itemStack>advancedrocketry:ic;1;1</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:elevatorchip</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="900" power ="150">
-		<input>
-			<itemStack>minecraft:redstone</itemStack>
-			<itemStack>minecraft:ender_eye</itemStack>
-			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic;1;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<oreDict>stickCopper;2</oreDict>
 			<oreDict>stickTitanium;1</oreDict>
@@ -181,7 +129,7 @@
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<oreDict>stickCopper;2</oreDict>
 			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
@@ -193,7 +141,7 @@
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>advancedrocketry:lens;2</itemStack>
 			<itemStack>advancedrocketry:ic;1;1</itemStack>
@@ -205,7 +153,7 @@
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
 			<oreDict>gemDilithium;1</oreDict>
@@ -219,7 +167,7 @@
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
 			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
@@ -231,7 +179,7 @@
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>advancedrocketry:satelliteprimaryfunction;2</itemStack>
 			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
@@ -243,7 +191,7 @@
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>advancedrocketry:lens;2;0</itemStack>
 			<oreDict>dustGlowstone;1</oreDict>
@@ -254,7 +202,7 @@
 			<itemStack>advancedrocketry:satelliteprimaryfunction</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
 			<itemStack>advancedrocketry:ic;1;1</itemStack>
@@ -268,7 +216,7 @@
 			<itemStack>advancedrocketry:satellite</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>advancedrocketry:solarpanel;3</itemStack>
 			<itemStack>libvulpes:structuremachine;2</itemStack>
@@ -278,7 +226,7 @@
 			<itemStack>advancedrocketry:satellitepowersource</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>advancedrocketry:satellitepowersource;3</itemStack>
 			<oreDict>stickTitanium;2</oreDict>
@@ -287,7 +235,7 @@
 			<itemStack>advancedrocketry:satellitepowersource;1;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="20">
+	<Recipe timeRequired="200" power="40">
 		<input>
 			<oreDict>stickIron;1</oreDict>
 			<itemStack>advancedrocketry:lens;3</itemStack>
@@ -297,7 +245,7 @@
 			<itemStack>advancedrocketry:blocklens</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="900" power ="240">
+	<Recipe timeRequired="1800" power="480">
 		<input>
 			<oreDict>gemCrystalFlux;2</oreDict>
 			<itemStack>advancedrocketry:misc;1;0</itemStack>
@@ -312,7 +260,7 @@
 			<itemStack>advancedrocketry:hovercraft;1;0</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="900" power ="240">
+	<Recipe timeRequired="1800" power="480">
 		<input>
 			<oreDict>plateSignalum;4</oreDict>
 			<oreDict>gemDilithium;1</oreDict>
@@ -327,7 +275,7 @@
 			<itemStack>gravitygun:gravitygun;1;0</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="900" power ="150">
+	<Recipe timeRequired="1800" power="300">
 		<input>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
 			<oreDict>plateInvar;7</oreDict>
@@ -341,7 +289,7 @@
 			<itemStack>icbmclassic:missile;1;24</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="700" power ="150">
+	<Recipe timeRequired="1400" power="300">
 		<input>
 			<itemStack>advancedrocketry:ic;1;3</itemStack>
 			<oreDict>plateInvar;7</oreDict>
@@ -355,7 +303,7 @@
 			<itemStack>icbmclassic:missile;1;24</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>icbmclassic:missile;3;24</itemStack>
 			<itemStack>advancedrocketry:structuretower;2;0</itemStack>
@@ -365,7 +313,7 @@
 			<itemStack>icbmclassic:missile;1;27</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="15">
+	<Recipe timeRequired="2000" power="30">
 		<input>
 			<itemStack>icbmclassic:missile;3;24</itemStack>
 			<itemStack>advancedrocketry:structuretower;2;0</itemStack>
@@ -375,7 +323,7 @@
 			<itemStack>icbmclassic:missile;1;28</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -390,7 +338,7 @@
 			<itemStack>mts:mtsofficialpack.comanche_grey</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -405,7 +353,7 @@
 			<itemStack>mts:mtsofficialpack.comanche_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -420,7 +368,7 @@
 			<itemStack>mts:mtsofficialpack.comanche_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -435,7 +383,7 @@
 			<itemStack>mts:mtsofficialpack.comanche_yellow</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;10;0</itemStack>
@@ -451,7 +399,7 @@
 			<itemStack>mts:mtsofficialpack.e500_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;10;0</itemStack>
@@ -467,7 +415,7 @@
 			<itemStack>mts:mtsofficialpack.e500_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;10;0</itemStack>
@@ -483,7 +431,7 @@
 			<itemStack>mts:mtsofficialpack.e500_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;10;0</itemStack>
@@ -499,7 +447,7 @@
 			<itemStack>mts:mtsofficialpack.e500_yellow</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;16;0</itemStack>
 			<itemStack>minecraft:glass;6;0</itemStack>
@@ -514,7 +462,7 @@
 			<itemStack>mts:mtsofficialpack.firetruck</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;10;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -529,7 +477,7 @@
 			<itemStack>mts:mtsofficialpack.gmcbrig_white</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;10;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -544,7 +492,7 @@
 			<itemStack>mts:mtsofficialpack.gmcbrig_black</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;10;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -559,7 +507,7 @@
 			<itemStack>mts:mtsofficialpack.gmcbrig_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;10;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -574,7 +522,7 @@
 			<itemStack>mts:mtsofficialpack.gmcbrig_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;10;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -589,7 +537,7 @@
 			<itemStack>mts:mtsofficialpack.gmcbrig_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;10;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -604,7 +552,7 @@
 			<itemStack>mts:mtsofficialpack.gmcbrig_yellow</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -619,7 +567,7 @@
 			<itemStack>mts:mtsofficialpack.scout_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -634,7 +582,7 @@
 			<itemStack>mts:mtsofficialpack.scout_yellow</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -649,7 +597,7 @@
 			<itemStack>mts:mtsofficialpack.scout_orange</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;4;0</itemStack>
@@ -664,7 +612,7 @@
 			<itemStack>mts:mtsofficialpack.scout_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -678,7 +626,7 @@
 			<itemStack>mts:mtsofficialpack.mc172_oak</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -692,7 +640,7 @@
 			<itemStack>mts:mtsofficialpack.mc172_acacia</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -706,7 +654,7 @@
 			<itemStack>mts:mtsofficialpack.mc172_birch</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -720,7 +668,7 @@
 			<itemStack>mts:mtsofficialpack.mc172_darkoak</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -734,7 +682,7 @@
 			<itemStack>mts:mtsofficialpack.mc172_jungle</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;8;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -748,7 +696,7 @@
 			<itemStack>mts:mtsofficialpack.mc172_spruce</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;16;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -764,7 +712,7 @@
 			<itemStack>mts:mtsofficialpack.trimotor_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;16;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -780,7 +728,7 @@
 			<itemStack>mts:mtsofficialpack.trimotor_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;16;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -796,7 +744,7 @@
 			<itemStack>mts:mtsofficialpack.trimotor_black</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;16;0</itemStack>
 			<itemStack>minecraft:glass;16;0</itemStack>
@@ -812,7 +760,7 @@
 			<itemStack>mts:mtsofficialpack.trimotor_white</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -828,7 +776,7 @@
 			<itemStack>mts:mtsofficialpack.vulcanair_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -844,7 +792,7 @@
 			<itemStack>mts:mtsofficialpack.vulcanair_black</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -860,7 +808,7 @@
 			<itemStack>mts:mtsofficialpack.vulcanair_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -876,7 +824,7 @@
 			<itemStack>mts:mtsofficialpack.vulcanair_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;12;0</itemStack>
 			<itemStack>minecraft:glass;8;0</itemStack>
@@ -892,7 +840,7 @@
 			<itemStack>mts:mtsofficialpack.vulcanair_white</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>ic2:crafting;6;0</itemStack>
 			<itemStack>minecraft:glass;2;0</itemStack>
@@ -908,7 +856,7 @@
 			<itemStack>mts:mtsofficialpack.pzlp11</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockIron;3</oreDict>
 			<oreDict>sheetIron;2</oreDict>
@@ -920,7 +868,7 @@
 			<itemStack>mts:mtsofficialpack.engineamci4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockIron;3</oreDict>
 			<oreDict>blockAluminum;1</oreDict>
@@ -934,7 +882,7 @@
 			<itemStack>mts:mtsofficialpack.enginebristolmercury</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockSteel;3</oreDict>
 			<oreDict>sheetSteel;3</oreDict>
@@ -946,7 +894,7 @@
 			<itemStack>mts:mtsofficialpack.enginedetroitdiesel</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockIron;3</oreDict>
 			<oreDict>blockAluminum;2</oreDict>
@@ -959,7 +907,7 @@
 			<itemStack>mts:mtsofficialpack.enginelycomingo360</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;3</oreDict>
 			<oreDict>blockAluminum;1</oreDict>
@@ -972,7 +920,7 @@
 			<itemStack>mts:mtsofficialpack.enginepw610f</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;3</oreDict>
 			<oreDict>blockSteel;2</oreDict>
@@ -985,7 +933,7 @@
 			<itemStack>mts:helicopterpack.engineget700</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>mts:mtsofficialpack.enginelycomingo360;1;0</itemStack>
 			<oreDict>sheetAluminum;2</oreDict>
@@ -996,7 +944,7 @@
 			<itemStack>mts:helicopterpack.enginelycomingo320</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;3</oreDict>
 			<oreDict>blockSteel;2</oreDict>
@@ -1009,7 +957,7 @@
 			<itemStack>mts:helicopterpack.enginelycomingt53</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;2</oreDict>
 			<oreDict>blockSteel;1</oreDict>
@@ -1022,7 +970,7 @@
 			<itemStack>mts:helicopterpack.enginelycomingt55</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;2</oreDict>
 			<oreDict>blockSteel;2</oreDict>
@@ -1035,7 +983,7 @@
 			<itemStack>mts:helicopterpack.engineturbomeca1e2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockAluminum;3</oreDict>
 			<oreDict>plateAluminum;12</oreDict>
@@ -1046,7 +994,7 @@
 			<itemStack>mts:mtsofficialpack.brigbedbox</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockAluminum;3</oreDict>
 			<oreDict>stickAluminum;8</oreDict>
@@ -1057,7 +1005,7 @@
 			<itemStack>mts:mtsofficialpack.brigbedstake</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>minecraft:glass;6</itemStack>
 			<oreDict>blockAluminum;2</oreDict>
@@ -1068,7 +1016,7 @@
 			<itemStack>mts:mtsofficialpack.scouthardtop</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<itemStack>minecraft:glass;6</itemStack>
 			<itemStack>ic2:crafting;20</itemStack>
@@ -1079,7 +1027,7 @@
 			<itemStack>mts:mtsofficialpack.scoutvinyltop</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>combustfish:combustive_cod</itemStack>
 			<itemStack>minecraft:blaze_rod;4</itemStack>
@@ -1090,7 +1038,7 @@
 			<itemStack>techguns:itemshared;6;76</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>ic2:upgrade;2</itemStack>
 			<oreDict>plateSteel;4</oreDict>
@@ -1102,7 +1050,7 @@
 			<itemStack>techguns:itemshared;1;72</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>appliedenergistics2:material;1;9</itemStack>
 			<itemStack>nuclearcraft:part;4;5</itemStack>
@@ -1114,7 +1062,7 @@
 			<itemStack>techguns:itemshared;1;73</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<oreDict>plateTitanium;4</oreDict>
 			<itemStack>thebetweenlands:items_misc;1;19</itemStack>
@@ -1126,7 +1074,7 @@
 			<itemStack>techguns:itemshared;1;74</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<oreDict>ingotHSLASteel;6</oreDict>
 			<oreDict>plateTitaniumAluminide;4</oreDict>
@@ -1137,7 +1085,7 @@
 			<itemStack>techguns:itemshared;4;67</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>nuclearcraft:part;3;6</itemStack>
 			<oreDict>ingotGold;3</oreDict>
@@ -1148,7 +1096,7 @@
 			<itemStack>techguns:itemshared;4;69</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>minecraft:leather;3</itemStack>
 			<fluidStack>sulfuric_acid;1000</fluidStack>
@@ -1157,7 +1105,7 @@
 			<itemStack>techguns:itemshared;3;77</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="3000" power ="200">
+	<Recipe timeRequired="6000" power="400">
 		<input>
 			<itemStack>libvulpes:productgem</itemStack>
 			<itemStack>minecraft:nether_star</itemStack>
@@ -1168,7 +1116,7 @@
 			<itemStack>techguns:itemshared;1;92</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power ="128">
+	<Recipe timeRequired="160" power="256">
 		<input>
 			<fluidStack>biodiesel;11700</fluidStack>
 			<itemStack>techguns:itemshared;1;28</itemStack>
@@ -1177,7 +1125,7 @@
 			<itemStack>techguns:itemshared;1;27</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power="128">
+	<Recipe timeRequired="160" power="256">
 		<input>
 			<fluidStack>diesel;9000</fluidStack>
 			<itemStack>techguns:itemshared;1;28</itemStack>
@@ -1186,7 +1134,7 @@
 			<itemStack>techguns:itemshared;1;27</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power="128">
+	<Recipe timeRequired="160" power="256">
 		<input>
 			<fluidStack>e_fuel;9000</fluidStack>
 			<itemStack>techguns:itemshared;1;28</itemStack>
@@ -1195,7 +1143,7 @@
 			<itemStack>techguns:itemshared;1;27</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="200" power="1100">
+	<Recipe timeRequired="400" power="2200">
 		<input>
 			<itemStack>techguns:itemshared;1;30</itemStack>
 		</input>
@@ -1203,7 +1151,7 @@
 			<itemStack>techguns:itemshared;1;29</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>contenttweaker:rifle_canisters;25</itemStack>
 			<oreDict>ingotBronze;25</oreDict>
@@ -1214,7 +1162,7 @@
 			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
 			<oreDict>plateBronze;25</oreDict>
@@ -1223,7 +1171,7 @@
 			<itemStack>mts:helicopterpack.bullet_762_ball</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
 			<oreDict>ingotSteel;25</oreDict>
@@ -1232,7 +1180,7 @@
 			<itemStack>mts:helicopterpack.bullet_762_pierce</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>mts:mtsofficialpack.bullet762</itemStack>
 			<oreDict>dustRedstone;50</oreDict>
@@ -1241,7 +1189,7 @@
 			<itemStack>mts:helicopterpack.bullet_762_tracer</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>contenttweaker:30mm_canisters;30</itemStack>
 			<oreDict>ingotLead;30</oreDict>
@@ -1252,7 +1200,7 @@
 			<itemStack>mts:helicopterpack.bullet30training</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>contenttweaker:30mm_canisters;30</itemStack>
 			<oreDict>ingotSteel;30</oreDict>
@@ -1263,7 +1211,7 @@
 			<itemStack>mts:helicopterpack.bullet30he</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<itemStack>contenttweaker:30mm_canisters;30</itemStack>
 			<oreDict>dustRedstone;60</oreDict>
@@ -1274,7 +1222,7 @@
 			<itemStack>mts:helicopterpack.bullet30tracer</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<oreDict>plateInvar;5</oreDict>
 			<oreDict>ingotSteel;6</oreDict>
@@ -1285,7 +1233,7 @@
 			<itemStack>mts:helicopterpack.bullet_hellfire_training</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<oreDict>plateInvar;5</oreDict>
 			<itemStack>minecraft:tnt</itemStack>
@@ -1296,7 +1244,7 @@
 			<itemStack>mts:helicopterpack.bullet_hellfire_he</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<oreDict>plateInvar;9</oreDict>
 			<oreDict>ingotSteel;6</oreDict>
@@ -1307,7 +1255,7 @@
 			<itemStack>mts:helicopterpack.bulleth70training</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power="200">
+	<Recipe timeRequired="2000" power="400">
 		<input>
 			<oreDict>plateInvar;9</oreDict>
 			<itemStack>minecraft:tnt;2</itemStack>
@@ -1318,7 +1266,7 @@
 			<itemStack>mts:helicopterpack.bulleth70he</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>plankWood;9</oreDict>
 			<oreDict>wool;8</oreDict>
@@ -1329,7 +1277,7 @@
 			<itemStack>mts:mtsofficialpack.seatblack</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>plankWood;9</oreDict>
 			<oreDict>wool;8</oreDict>
@@ -1340,7 +1288,7 @@
 			<itemStack>mts:mtsofficialpack.seatblue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>plankWood;9</oreDict>
 			<oreDict>wool;8</oreDict>
@@ -1351,7 +1299,7 @@
 			<itemStack>mts:mtsofficialpack.seatbrown</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>plankWood;9</oreDict>
 			<oreDict>wool;8</oreDict>
@@ -1362,7 +1310,7 @@
 			<itemStack>mts:mtsofficialpack.seatgrey</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>plankWood;9</oreDict>
 			<oreDict>wool;8</oreDict>
@@ -1373,7 +1321,7 @@
 			<itemStack>mts:mtsofficialpack.seatpink</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>plankWood;9</oreDict>
 			<oreDict>wool;8</oreDict>
@@ -1384,7 +1332,7 @@
 			<itemStack>mts:mtsofficialpack.seatred</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>plankWood;9</oreDict>
 			<oreDict>wool;8</oreDict>
@@ -1395,7 +1343,7 @@
 			<itemStack>mts:mtsofficialpack.seatwhite</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>ingotAluminum;6</oreDict>
 			<oreDict>wool;2</oreDict>
@@ -1406,7 +1354,7 @@
 			<itemStack>mts:helicopterpack.seatbench_black</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<oreDict>ingotAluminum;6</oreDict>
 			<oreDict>wool;2</oreDict>
@@ -1417,7 +1365,7 @@
 			<itemStack>mts:helicopterpack.seatbench_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<itemStack>contenttweaker:large_tire;8</itemStack>
 			<oreDict>dustSulfur;10</oreDict>
@@ -1427,7 +1375,7 @@
 			<itemStack>mts:helicopterpack.ground_wheel_ch47</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<itemStack>contenttweaker:medium_tire;8</itemStack>
 			<oreDict>dustSulfur;8</oreDict>
@@ -1437,7 +1385,7 @@
 			<itemStack>mts:helicopterpack.ground_wheel_ah64</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<itemStack>contenttweaker:small_tire;8</itemStack>
 			<oreDict>dustSulfur;6</oreDict>
@@ -1447,7 +1395,7 @@
 			<itemStack>mts:helicopterpack.ground_tailwheel_ah64</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<itemStack>contenttweaker:large_tire;8</itemStack>
 			<oreDict>dustSulfur;8</oreDict>
@@ -1457,7 +1405,7 @@
 			<itemStack>mts:mtsofficialpack.wheellarge</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<itemStack>contenttweaker:medium_tire;8</itemStack>
 			<oreDict>dustSulfur;6</oreDict>
@@ -1467,7 +1415,7 @@
 			<itemStack>mts:mtsofficialpack.wheelmedium</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1000" power ="400">
+	<Recipe timeRequired="2000" power="800">
 		<input>
 			<itemStack>contenttweaker:small_tire;8</itemStack>
 			<oreDict>dustSulfur;4</oreDict>
@@ -1477,7 +1425,7 @@
 			<itemStack>mts:mtsofficialpack.wheelsmall</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockAluminum;10</oreDict>
 			<oreDict>blockSteel;4</oreDict>
@@ -1493,7 +1441,7 @@
 			<itemStack>mts:helicopterpack.uh1_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockSteel;5</oreDict>
 			<oreDict>blockBronze;2</oreDict>
@@ -1508,7 +1456,7 @@
 			<itemStack>mts:helicopterpack.r22_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockSteel;5</oreDict>
 			<oreDict>blockBronze;2</oreDict>
@@ -1523,7 +1471,7 @@
 			<itemStack>mts:helicopterpack.r22_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockSteel;5</oreDict>
 			<oreDict>blockBronze;2</oreDict>
@@ -1538,7 +1486,7 @@
 			<itemStack>mts:helicopterpack.r22_yellow</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitanium;12</oreDict>
 			<oreDict>blockAluminum;4</oreDict>
@@ -1553,7 +1501,7 @@
 			<itemStack>mts:helicopterpack.ec145_black</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitanium;12</oreDict>
 			<oreDict>blockAluminum;4</oreDict>
@@ -1568,7 +1516,7 @@
 			<itemStack>mts:helicopterpack.ec145_blue</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitanium;12</oreDict>
 			<oreDict>blockAluminum;4</oreDict>
@@ -1583,7 +1531,7 @@
 			<itemStack>mts:helicopterpack.ec145_gold</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitanium;12</oreDict>
 			<oreDict>blockAluminum;4</oreDict>
@@ -1598,7 +1546,7 @@
 			<itemStack>mts:helicopterpack.ec145_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitanium;12</oreDict>
 			<oreDict>blockAluminum;4</oreDict>
@@ -1613,7 +1561,7 @@
 			<itemStack>mts:helicopterpack.ec145_red</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;20</oreDict>
 			<oreDict>blockAluminum;8</oreDict>
@@ -1629,7 +1577,7 @@
 			<itemStack>mts:helicopterpack.ch47_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;14</oreDict>
 			<oreDict>blockAluminum;6</oreDict>
@@ -1645,7 +1593,7 @@
 			<itemStack>mts:helicopterpack.ah64_black</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;14</oreDict>
 			<oreDict>blockAluminum;6</oreDict>
@@ -1661,7 +1609,7 @@
 			<itemStack>mts:helicopterpack.ah64_green</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="2000" power ="400">
+	<Recipe timeRequired="4000" power="800">
 		<input>
 			<oreDict>blockTitaniumAluminide;14</oreDict>
 			<oreDict>blockAluminum;6</oreDict>
@@ -1675,6 +1623,27 @@
 		</input>
 		<output>
 			<itemStack>mts:helicopterpack.ah64_tan</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power="800">
+		<input>
+			<itemStack>advancedrocketry:solarpanel;8</itemStack>
+			<itemStack>advancedrocketry:structuretower;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:solararraypanel;8</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power="800">
+		<input>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+			<itemStack>rftools:machine_frame</itemStack>
+			<itemStack>techguns:itemshared;4;41</itemStack>
+			<oreDict>blockSapphire</oreDict>
+			<oreDict>blockRuby</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:vacuumlaser</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

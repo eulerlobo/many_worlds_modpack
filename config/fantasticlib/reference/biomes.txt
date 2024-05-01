@@ -191,7 +191,7 @@ traverse:thicket
 traverse:arid_highland
 traverse:rocky_plains
 advancedrocketry:moon
-advancedrocketry:alien forest
+advancedrocketry:alien_forest
 advancedrocketry:hotdryrock
 advancedrocketry:space
 advancedrocketry:stormland

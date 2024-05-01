@@ -86,6 +86,29 @@
       stretch: [ 0.25, 0.15, 1 ]
     }
   ]
+  clusters: [
+    {
+      states: $ANDESITE
+      chance: 0.01
+      radiusX: [ 16, 23 ]
+      radiusY: [ 11, 18 ]
+      radiusZ: [ 16, 23 ]
+      centerHeight: $half_rel(20, 32)
+    }
+    {
+      states: $DIORITE
+      chance: 0.01
+      centerHeight: $half_rel(49, 58)
+    }
+    {
+      states: $GRANITE
+      chance: 0.015
+      radiusX: [ 20, 27 ]
+      radiusY: [ 15, 22 ]
+      radiusZ: [ 20, 27 ]
+      centerHeight: $half_rel(5, 12)
+    }
+  ]
   stalactites: [
     {
       type: speleothem

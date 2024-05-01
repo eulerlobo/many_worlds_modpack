@@ -13,12 +13,9 @@ allSeeds.add(<immersiveengineering:seed>);
 //Craft sapphire of Ice and Fire with the sapphire from Biomes O Plenty
 //recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
 
-//Immersive Engineering should create Rocket Fuel
-mods.immersiveengineering.Refinery.addRecipe(<liquid:rocketfuel> * 10, <liquid:oxygen> * 10, <liquid:hydrogen> * 20, 1400);
-
 //More ways to make purified water
 mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:water> * 500, [<ore:charcoal>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:distwater> * 500, [<ore:itemSalt>, <ore:sugar>], 512);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:purified_water> * 500, <liquid:ic2distilled_water> * 500, [<ore:itemSalt>, <ore:sugar>], 512);
 
 //Flour from nuclearcraft can be crafted with the flour from harvestcraft
 recipes.addShapeless(<nuclearcraft:flour>, [<harvestcraft:flouritem>]);

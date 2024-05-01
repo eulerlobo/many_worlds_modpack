@@ -1,0 +1,19 @@
+{
+  imports: [
+    cat/common.cave::half_rel()
+    cat/common.cave::full_rel()
+  ]
+  dimensions: [ 5 ]
+  blacklistDimensions: false
+  enabled: true
+  caverns: [
+    {
+      height: [ 5, 75 ]
+      generators: {
+        frequency: 0.02
+        threshold: -0.5
+        stretch: 0.5
+      }
+    }
+  ]
+}

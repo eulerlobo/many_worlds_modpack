@@ -42,22 +42,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="100">
 		<input>
-			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic;4;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
-			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
 			<oreDict>bouleSilicon;1</oreDict>
 		</input>
 		<output>

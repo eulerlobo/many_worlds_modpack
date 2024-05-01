@@ -7,6 +7,7 @@ import mods.nuclearcraft.ingot_former;
 import mods.nuclearcraft.pressurizer;
 import mods.nuclearcraft.manufactory;
 import mods.nuclearcraft.alloy_furnace;
+// import mods.nuclearcraft.electrolyzer;
 
 val timeBaseMultiplier = 50 * 20;
 val powerBaseMultiplier = 60;
@@ -430,7 +431,7 @@ alloy_furnace.addRecipe([<ore:dustCopper>, <ore:ingotAluminum> * 3, <tconstruct:
 alloy_furnace.addRecipe([<ore:dustCopper>, <ore:dustAluminum> * 3, <tconstruct:ingots:5> * 4]);
 
 //---> Add Water Craft
-chemical_reactor.addRecipe([<liquid:hydrogen> * 1000, <liquid:oxygen> * 500, <liquid:distwater> * 500, null]);
+chemical_reactor.addRecipe([<liquid:hydrogen> * 1000, <liquid:oxygen> * 500, <liquid:ic2distilled_water> * 500, null]);
 
 //---> Remap Bioplastic recipes that can use plastic
 recipes.remove(<nuclearcraft:geiger_counter>); //Geiger Counter
@@ -447,3 +448,6 @@ recipes.addShaped("NuclearCraftHelmHazmat", <nuclearcraft:helm_hazmat>, [[null, 
 recipes.addShaped("NuclearCraftChestHazmat", <nuclearcraft:chest_hazmat>, [[<ore:dyeYellow>, <nuclearcraft:rad_shielding:2>, <ore:dyeYellow>], [orePlastic, <harvestcraft:hardenedleatherchestitem>, orePlastic], [<nuclearcraft:rad_shielding:2>, orePlastic, <nuclearcraft:rad_shielding:2>]]);
 recipes.addShaped("NuclearCraftLegsHazmat", <nuclearcraft:legs_hazmat>, [[null, orePlastic, null], [<nuclearcraft:rad_shielding:2>, <harvestcraft:hardenedleatherleggingsitem>, <nuclearcraft:rad_shielding:2>], [orePlastic, <ore:dyeYellow>, orePlastic]]);
 recipes.addShaped("NuclearCraftBootsHazmat", <nuclearcraft:boots_hazmat>, [[null, <ore:dyeBlack>, null], [<nuclearcraft:rad_shielding:2>, <harvestcraft:hardenedleatherbootsitem>, <nuclearcraft:rad_shielding:2>], [orePlastic, null, orePlastic]]);
+
+//Distilled Water
+// electrolyzer.addRecipe([<liquid:ic2distilled_water> * 1000, <liquid:hydrogen> * 950, <liquid:oxygen> * 500, <liquid:deuterium> * 50, null, 1.2, 1, 0.0]);

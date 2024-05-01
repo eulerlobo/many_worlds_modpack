@@ -1,0 +1,213 @@
+<!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="100" power="100">
+		<input>
+			<itemStack>advancedrocketry:carbonscrubbercartridge;1;32766</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:carbonscrubbercartridge</itemStack>
+			<itemStack>minecraft:coal;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="1400">
+		<input>
+			<fluidStack>oxygen;10</fluidStack>
+			<fluidStack>hydrogen;20</fluidStack>
+		</input>
+		<output>
+			<fluidStack>rocketfuel;10</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="140">
+		<input>
+			<itemStack>minecraft:bone</itemStack>
+			<fluidStack>nitrogen;10</fluidStack>
+		</input>
+		<output>
+			<itemStack>minecraft:dye;8;15</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="140">
+		<input>
+			<itemStack>nuclearcraft:dust;1;3</itemStack>
+		</input>
+		<output>
+			<fluidStack>helium;10</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power="140">
+		<input>
+			<itemStack>immersiveengineering:metal;1;14</itemStack>
+		</input>
+		<output>
+			<fluidStack>helium;20</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power="3600">
+		<input>
+			<itemStack>nuclearcraft:fuel_californium;1;6</itemStack>
+			<oreDict>dustLithium;1</oreDict>
+			<itemStack>nuclearcraft:americium;1;1</itemStack>
+			<fluidStack>neutron;40</fluidStack>
+			<fluidStack>helium;250</fluidStack>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:californium;6;14</itemStack>
+			<oreDict>dustDilithium;1</oreDict>
+			<itemStack>nuclearcraft:americium;2;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power="3400">
+		<input>
+			<itemStack>nuclearcraft:berkelium;1;5</itemStack>
+			<oreDict>netherStar</oreDict>
+			<fluidStack>neutron;20</fluidStack>
+			<fluidStack>tritium;250</fluidStack>
+		</input>
+		<output>
+			<fluidStack>neutron;30</fluidStack>
+			<itemStack>nuclearcraft:berkelium;6;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="28">
+		<input>
+			<oreDict>itemSlag</oreDict>
+			<fluidStack>sulfuric_acid;500</fluidStack>
+		</input>
+		<output>
+			<fluidStack>slag_slurry;500</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="28">
+		<input>
+			<fluidStack>slag_slurry;500</fluidStack>
+			<fluidStack>ic2distilled_water;500</fluidStack>
+		</input>
+		<output>
+			<fluidStack>mineralized_acid_water;1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="1400">
+		<input>
+			<itemStack>techguns:itemshared;1;32</itemStack>
+			<itemStack>techguns:itemshared;1;98</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;31</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="1400">
+		<input>
+			<itemStack>techguns:itemshared;1;26</itemStack>
+			<itemStack>icbmclassic:poisonpowder;8</itemStack>
+			<itemStack>techguns:itemshared;1;61</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;1;25</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="2700">
+		<input>
+			<fluidStack>carbon_dioxide;20</fluidStack>
+			<fluidStack>hydrogen;90</fluidStack>
+		</input>
+		<output>
+			<fluidStack>e_fuel;90</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="2500">
+		<input>
+			<fluidStack>carbon_monoxide;30</fluidStack>
+			<fluidStack>hydrogen;90</fluidStack>
+		</input>
+		<output>
+			<fluidStack>e_fuel;110</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<fluidStack>plantoil;7</fluidStack>
+			<fluidStack>ic2biomass;18</fluidStack>
+		</input>
+		<output>
+			<fluidStack>refined_biofuel;25</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<fluidStack>carbon_monoxide;500</fluidStack>
+			<itemStack>contenttweaker:hotdry_turf_chunk;26</itemStack>
+		</input>
+		<output>
+			<fluidStack>carbon_dioxide;1000</fluidStack>
+			<itemStack>minecraft:iron_nugget;8</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="350">
+		<input>
+			<oreDict>dustAluminum;1</oreDict>
+			<itemStack>contenttweaker:hotdry_turf_chunk;16</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_nugget;8</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power="275">
+		<input>
+			<fluidStack>oil;3000</fluidStack>
+		</input>
+		<output>
+			<itemStack>ic2:crafting;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<itemStack>thermalfoundation:material;2;817</itemStack>
+			<oreDict>bonemeal;4</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;4;61</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="700">
+		<input>
+			<itemStack>thermalfoundation:material;8;816</itemStack>
+			<oreDict>bonemeal;4</oreDict>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared;4;61</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

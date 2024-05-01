@@ -1153,7 +1153,7 @@ ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:6>, hardenedGlass, null, tic
 ArcFurnace.addRecipe(<thermalfoundation:glass_alloy:7>, hardenedGlass, null, ticksArcFurnace, rfTickArcFurnace, [<ore:dustEnderium> * 4]); //Hardened Enderium Glass
 
 //---> Add Mixer of Water from Distilled Water
-Mixer.addRecipe(<liquid:water> * 1000, <liquid:distwater> * 1000, [<ore:dustSalt>], 1000);
+Mixer.addRecipe(<liquid:water> * 1000, <liquid:ic2distilled_water> * 1000, [<ore:dustSalt>], 1000);
 
 //---> Remap Portable Generator
 recipes.remove(<immersivepetroleum:metal_device:1>);

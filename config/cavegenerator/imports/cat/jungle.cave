@@ -132,7 +132,7 @@
   }
   clusters: {
     states: [ "dirt", "dirt", "dirt", "clay" ]
-    radius: [ 7, 14 ]
+    radius: [ 20, 35 ]
     centerHeight: $half_rel(28, 50)
   }
   structures: [

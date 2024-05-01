@@ -201,6 +201,56 @@
       ]
     }
   ]
+  clusters: [
+    {
+      states: stone:5
+      chance: 0.01
+      radiusX: [
+        16
+        23
+      ]
+      radiusY: [
+        11
+        18
+      ]
+      radiusZ: [
+        16
+        23
+      ]
+      centerHeight: [
+        20
+        32
+      ]
+    }
+    {
+      states: stone:3
+      chance: 0.01
+      centerHeight: [
+        49
+        58
+      ]
+    }
+    {
+      states: stone:1
+      chance: 0.015
+      radiusX: [
+        20
+        27
+      ]
+      radiusY: [
+        15
+        22
+      ]
+      radiusZ: [
+        20
+        27
+      ]
+      centerHeight: [
+        5
+        12
+      ]
+    }
+  ]
   stalactites: [
     {
       type: speleothem

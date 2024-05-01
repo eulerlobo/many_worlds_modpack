@@ -30,19 +30,9 @@
 	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
-
-		<Recipe timeRequired="100" power ="20">
-		<input>
-			<fluidStack>water;40</fluidStack>
-		</input>
-		<output>
-			<fluidStack>hydrogen;26</fluidStack>
-			<fluidStack>oxygen;13</fluidStack>
-		</output>
-	</Recipe>
 <!-->
 <Recipes useDefault="true">
-	<Recipe timeRequired="100" power ="200">
+	<Recipe timeRequired="400" power ="400">
 		<input>
 			<fluidStack>water;40</fluidStack>
 		</input>
@@ -51,7 +41,7 @@
 			<fluidStack>oxygen;8</fluidStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="100">
+	<Recipe timeRequired="320" power ="400">
 		<input>
 			<fluidStack>ic2distilled_water;40</fluidStack>
 		</input>

@@ -67,6 +67,29 @@
       ]
     }
   ]
+  clusters: [
+    {
+      states: [
+        hardened_clay
+        stained_hardened_clay:8
+        stained_hardened_clay:9
+        clay
+      ]
+      chance: 0.06
+      radius: [
+        30
+        40
+      ]
+      radiusY: [
+        5
+        7
+      ]
+      centerHeight: [
+        15
+        45
+      ]
+    }
+  ]
   stalactites: {
     type: speleothem
     state: stone

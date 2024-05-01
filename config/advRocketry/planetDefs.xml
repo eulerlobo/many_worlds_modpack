@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <galaxy>
     <star blackHole="false" name="Sun" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
+        <planet DIMID="3" customIcon="moon" name="Ceres">
+            <isKnown>true</isKnown>
+            <fogColor>0.1098,0.3059,0.6078</fogColor>
+            <skyColor>0.1098,0.3059,0.6078</skyColor>
+            <gravitationalMultiplier>10</gravitationalMultiplier>
+            <orbitalDistance>30</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>4224000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <generateCaves>true</generateCaves>
+            <biomeIds>biometweaker:sun_planet,biometweaker:beach_sun_planet,biometweaker:ocean_sun_planet</biomeIds>
+        </planet>
+        <planet DIMID="22" customIcon="Venusian" name="Venus">
+            <isKnown>true</isKnown>
+            <GasGiant>true</GasGiant>
+            <gas>sulfur_dioxide</gas>
+            <gas>sulfur_trioxide</gas>
+            <gas>carbon_dioxide</gas>
+            <fogColor>0.89,0.733,0.462</fogColor>
+            <skyColor>0.89,0.733,0.462</skyColor>
+            <gravitationalMultiplier>45</gravitationalMultiplier>
+            <orbitalDistance>60</orbitalDistance>
+            <orbitalPhi>0</orbitalPhi>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>200</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+        </planet>
         <planet DIMID="0" customIcon="earthlike" dimMapping="" name="Titan">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -27,42 +61,10 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>true</generateCaves>
                 <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:earthlike_moon_white,biometweaker:earthlike_moon_dark</biomeIds>
             </planet>
-        </planet>
-        <planet DIMID="3" customIcon="moon" name="Ceres">
-            <isKnown>true</isKnown>
-            <fogColor>0.1098,0.3059,0.6078</fogColor>
-            <skyColor>0.1098,0.3059,0.6078</skyColor>
-            <gravitationalMultiplier>10</gravitationalMultiplier>
-            <orbitalDistance>30</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>4224000</rotationalPeriod>
-            <atmosphereDensity>0</atmosphereDensity>
-            <generateCraters>false</generateCraters>
-            <generateVolcanos>false</generateVolcanos>
-            <generateStructures>false</generateStructures>
-            <generateGeodes>false</generateGeodes>
-            <biomeIds>biometweaker:sun_planet,biometweaker:beach_sun_planet,biometweaker:ocean_sun_planet</biomeIds>
-        </planet>
-        <planet DIMID="22" customIcon="Venusian" name="Venus">
-            <isKnown>true</isKnown>
-            <GasGiant>true</GasGiant>
-            <gas>sulfur_dioxide</gas>
-            <gas>sulfur_trioxide</gas>
-            <gas>carbon_dioxide</gas>
-            <fogColor>0.89,0.733,0.462</fogColor>
-            <skyColor>0.89,0.733,0.462</skyColor>
-            <gravitationalMultiplier>45</gravitationalMultiplier>
-            <orbitalDistance>60</orbitalDistance>
-            <orbitalPhi>0</orbitalPhi>
-            <rotationalPeriod>24000</rotationalPeriod>
-            <atmosphereDensity>200</atmosphereDensity>
-            <generateCraters>false</generateCraters>
-            <generateVolcanos>false</generateVolcanos>
-            <generateStructures>false</generateStructures>
-            <generateGeodes>false</generateGeodes>
         </planet>
         <planet DIMID="6" customIcon="MarsLike" name="Pales">
             <isKnown>true</isKnown>
@@ -77,6 +79,7 @@
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
+            <generateCaves>true</generateCaves>
             <biomeIds>biometweaker:cold_dry_rock</biomeIds>
         </planet>
         <planet DIMID="8" customIcon="GasGiantRed" name="Juno">
@@ -110,6 +113,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>true</generateCaves>
                 <craterFrequencyMultiplier>5.0</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:gasgiant_moon_white,biometweaker:gasgiant_moon_dark</biomeIds>
             </planet>
@@ -126,6 +130,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>false</generateCaves>
                 <craterFrequencyMultiplier>3.0</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:ice_spike_moon</biomeIds>
             </planet>
@@ -165,6 +170,7 @@
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
+            <generateCaves>true</generateCaves>
             <craterFrequencyMultiplier>0.2</craterFrequencyMultiplier>
             <biomeIds>biometweaker:cold_desert,biometweaker:cold_desert_hill</biomeIds>
         </planet>
@@ -196,6 +202,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>true</generateCaves>
                 <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:earthlike_moon_dark</biomeIds>
             </planet>
@@ -213,6 +220,7 @@
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
+            <generateCaves>true</generateCaves>
             <biomeIds>biometweaker:cold_dry_rock</biomeIds>
         </planet>
         <planet DIMID="15" customIcon="gasgiantblue" name="Apalala">
@@ -238,6 +246,7 @@
                 <rotationalPeriod>256000</rotationalPeriod>
                 <atmosphereDensity>20</atmosphereDensity>
                 <generateCraters>true</generateCraters>
+                <generateCaves>true</generateCaves>
                 <craterFrequencyMultiplier>0.2</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:gasgiant_moon_white</biomeIds>
             </planet>
@@ -257,6 +266,7 @@
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
+            <generateCaves>true</generateCaves>
             <craterFrequencyMultiplier>0.5</craterFrequencyMultiplier>
             <biomeIds>biometweaker:beach_sun_planet,biometweaker:ocean_sun_planet</biomeIds>
         </planet>
@@ -273,6 +283,7 @@
             <generateVolcanos>true</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>true</generateGeodes>
+            <generateCaves>true</generateCaves>
             <volcanoFrequencyMultiplier>1.0</volcanoFrequencyMultiplier>
             <geodefrequencyMultiplier>1.0</geodefrequencyMultiplier>
             <biomeIds>advancedrocketry:hotdryrock,advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
@@ -308,6 +319,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>false</generateCaves>
                 <craterFrequencyMultiplier>0.6</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:ice_spike_moon</biomeIds>
             </planet>
@@ -338,6 +350,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>true</generateCaves>
                 <craterFrequencyMultiplier>0.4</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:earthlike_moon_white,biometweaker:earthlike_moon_dark</biomeIds>
             </planet>
@@ -370,6 +383,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>true</generateCaves>
                 <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:earthlike_moon_dark</biomeIds>
             </planet>
@@ -387,6 +401,7 @@
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
+            <generateCaves>true</generateCaves>
             <biomeIds>biometweaker:cracked_planet,biometweaker:cracked_ocean_planet</biomeIds>
         </planet>
         <planet DIMID="24" customIcon="gasgiantred" name="Phrontis">
@@ -458,6 +473,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>false</generateCaves>
                 <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
                 <biomeIds>biometweaker:ice_spike_moon</biomeIds>
             </planet>
@@ -475,6 +491,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>true</generateCaves>
                 <biomeIds>biometweaker:cold_desert,biometweaker:cold_desert_hill,biometweaker:cold_plains</biomeIds>
             </planet>
             <planet DIMID="30" customIcon="iceworld" name="Orfeu">
@@ -491,6 +508,7 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
+                <generateCaves>false</generateCaves>
                 <biomeIds>biometweaker:ice_spike_moon</biomeIds>
             </planet>
         </planet>

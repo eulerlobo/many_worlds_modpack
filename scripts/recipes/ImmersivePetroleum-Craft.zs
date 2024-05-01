@@ -3,7 +3,7 @@
 import mods.immersivepetroleum.Distillation;
 
 val timeBaseMultiplier = 40 * 20; //40s
-val powerBaseMultiplier = 2048;
+val powerBaseMultiplier = 4096;
 
 //Lithium should be created by water processing
 Distillation.addRecipe([], [<harvestcraft:saltitem>, <ic2:dust:24>], <liquid:water> * 1000, powerBaseMultiplier, timeBaseMultiplier, [0.5, 0.05]);

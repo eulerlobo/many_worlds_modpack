@@ -31,27 +31,110 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
-	<Recipe timeRequired="1200" power ="600">
+<Recipes useDefault="false">
+	<Recipe timeRequired="1800" power="600">
 		<input>
-			<itemStack>advancedrocketry:lens</itemStack>
-			<itemStack>ic2:plate;1;2</itemStack>
-			<itemStack>minecraft:redstone_block</itemStack>
-			<itemStack>advancedrocketry:wafer;4</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate;1;0</itemStack>
+			<oreDict>dustEnderPearl;3</oreDict>
+			<oreDict>dustRedstone;2</oreDict>
+			<oreDict>dustGold;3</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="1200" power ="400">
+	<Recipe timeRequired="1800" power="1200">
 		<input>
-			<itemStack>advancedrocketry:lens</itemStack>
-			<itemStack>ic2:plate;1;2</itemStack>
-			<itemStack>minecraft:redstone</itemStack>
-			<itemStack>advancedrocketry:wafer;4</itemStack>
+			<oreDict>ingotGold;2</oreDict>
+			<oreDict>blockRedstone;1</oreDict>
+			<oreDict>gemDiamond;4</oreDict>
+			<itemStack>advancedrocketry:wafer</itemStack>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:itemcircuitplate;2</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="300">
+		<input>
+			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;4;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power ="300">
+		<input>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power="600">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>opencomputers:material;3;12</itemStack>
+			<itemStack>opencomputers:material;1;7</itemStack>
+			<itemStack>opencomputers:material;2;4</itemStack>
+			<oreDict>gemEmerald;1</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power="1200">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:ender_eye</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;3;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power="300">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteidchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power="300">
+		<input>
+			<itemStack>advancedrocketry:ic;2;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:planetidchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power="300">
+		<input>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:asteroidchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power="300">
+		<input>
+			<itemStack>advancedrocketry:spacestationchip</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:elevatorchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1800" power="300">
+		<input>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>libvulpes:linker</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spacestationchip</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
