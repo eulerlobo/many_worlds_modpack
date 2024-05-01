@@ -1,19 +1,19 @@
 {
   imports: [
-    cat_custom/generic.cave          as GENERIC_FEATURES
-    cat_custom/generic.cave::tunnels as GENERIC_TUNNELS
-    cat_custom/generic.cave::ravines as GENERIC_RAVINES
-    cat_custom/maze.cave::tunnels    as MAZE_TUNNELS
-    cat_custom/crack.cave::ravines   as SURFACE_CRACKS
-    cat_custom/water.cave            as WATER_DECORATORS
-    cat_custom/snow.cave             as SNOW_FEATURES
-    cat_custom/desert.cave           as DESERT_FEATURES
-    cat_custom/mushroom.cave         as MUSHROOM_FEATURES
-    cat_custom/jungle.cave           as JUNGLE_FEATURES
-    cat_custom/mountain.cave         as MOUNTAIN_FEATURES
-    cat_custom/common.cave           :: DECORATED_BIOMES
-    cat_custom/common.cave           :: DENSE_CAVE_BIOMES
-    cat_custom/common.cave           :: MOUNTAIN_CAVE_BIOMES
+    global_setup/generic.cave          as GENERIC_FEATURES
+    global_setup/generic.cave::tunnels as GENERIC_TUNNELS
+    global_setup/generic.cave::ravines as GENERIC_RAVINES
+    global_setup/maze.cave::tunnels    as MAZE_TUNNELS
+    global_setup/crack.cave::ravines   as SURFACE_CRACKS
+    global_setup/water.cave            as WATER_DECORATORS
+    global_setup/snow.cave             as SNOW_FEATURES
+    global_setup/desert.cave           as DESERT_FEATURES
+    global_setup/mushroom.cave         as MUSHROOM_FEATURES
+    global_setup/jungle.cave           as JUNGLE_FEATURES
+    global_setup/mountain.cave         as MOUNTAIN_FEATURES
+    global_setup/common.cave           :: DECORATED_BIOMES
+    global_setup/common.cave           :: DENSE_CAVE_BIOMES
+    global_setup/common.cave           :: MOUNTAIN_CAVE_BIOMES
     conditions.cave           :: SNOWY_BIOMES
     conditions.cave           :: SANDY_BIOMES
     conditions.cave           :: MUSHROOM_BIOMES
