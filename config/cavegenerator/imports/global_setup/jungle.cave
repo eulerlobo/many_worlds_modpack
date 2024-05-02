@@ -1,8 +1,8 @@
 {
   imports: [
-    cat/common.cave::half_rel()
-    cat/common.cave::full_rel()
-    cat/common.cave::bottom_ost()
+    global_setup/common.cave::half_rel()
+    global_setup/common.cave::full_rel()
+    global_setup/common.cave::bottom_ost()
     types.cave::vines()
     types.cave::roots()
     types.cave::simple_generator()

@@ -1,6 +1,6 @@
 {
   imports: [
-    cat/common.cave::half_rel()
+    global_setup/common.cave::half_rel()
   ]
   dimensions: [ 3, 18 ]
   enabled: true
@@ -8,38 +8,6 @@
     {
       states: lava
       height: $half_rel(0, 35)
-    }
-  ]
-  burrows: [
-    {
-      replaceableBlocks: [
-        hardened_clay
-        stained_hardened_clay:8
-        stained_hardened_clay:9
-        clay
-        stone
-        sandstone
-        sand
-      ]
-      radius: 3.5
-      target: 0.075
-      branches: {
-        count: 4
-        chance: 0.4
-        systemChance: 0
-      }
-      height: [
-        25
-        90
-      ]
-      offset: {
-        range: [
-          30
-          85
-        ]
-        frequency: 0.006
-        seed: 10
-      }
     }
   ]
   caverns: [

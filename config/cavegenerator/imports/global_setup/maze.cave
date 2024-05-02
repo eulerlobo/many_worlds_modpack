@@ -1,8 +1,8 @@
 {
   imports: [
     blocks.cave::COARSE_DIRT
-    cat/common.cave::half_rel()
-    cat/common.cave::full_rel()
+    global_setup/common.cave::half_rel()
+    global_setup/common.cave::full_rel()
   ]
   # Rare tunnels which are rigid and
   # mazelike. These should spawn in

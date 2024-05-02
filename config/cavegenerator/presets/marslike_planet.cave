@@ -1,7 +1,7 @@
 {
   imports: [
-    cat/common.cave::half_rel()
-    cat/common.cave::full_rel()
+    global_setup/common.cave::half_rel()
+    global_setup/common.cave::full_rel()
     blocks.cave::ANDESITE
     blocks.cave::DIORITE
     blocks.cave::GRANITE

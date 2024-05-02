@@ -1,5 +1,5 @@
 {
-  imports: cat/common.cave::half_rel()
+  imports: global_setup/common.cave::half_rel()
   caveBlocks: [
     # Fills y=(12-45) with water.
     {

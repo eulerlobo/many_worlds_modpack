@@ -11,48 +11,6 @@
       10
     ]
   }
-  burrows: [
-    {
-      radius: 2.5
-      target: 0.065
-      branches: {
-        count: 7
-        chance: 0.4
-        systemChance: 0
-      }
-      offset: {
-        range: [
-          20
-          40
-        ]
-      }
-    }
-    {
-      replaceableBlocks: [
-        hardened_clay
-        stained_hardened_clay:8
-        stained_hardened_clay:9
-        clay
-        stone
-        sandstone
-        sand
-      ]
-      radius: 3.5
-      target: 0.075
-      height: [
-        25
-        75
-      ]
-      offset: {
-        range: [
-          30
-          70
-        ]
-        frequency: 0.006
-        seed: 10
-      }
-    }
-  ]
   caverns: [
     {
       generators: {
@@ -64,29 +22,6 @@
       height: [
         5
         50
-      ]
-    }
-  ]
-  clusters: [
-    {
-      states: [
-        hardened_clay
-        stained_hardened_clay:8
-        stained_hardened_clay:9
-        clay
-      ]
-      chance: 0.06
-      radius: [
-        30
-        40
-      ]
-      radiusY: [
-        5
-        7
-      ]
-      centerHeight: [
-        15
-        45
       ]
     }
   ]

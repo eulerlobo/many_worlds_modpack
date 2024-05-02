@@ -1,7 +1,7 @@
 {
   imports: [
-    cat/common.cave::full_rel()
-    cat/common.cave::half_rel()
+    global_setup/common.cave::full_rel()
+    global_setup/common.cave::half_rel()
   ]
   ravines: {
     replaceableBlocks: [ "stone", "dirt", "grass", "sandstone", "sand" ]

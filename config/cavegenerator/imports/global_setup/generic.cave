@@ -1,7 +1,7 @@
 {
   imports: [
-    cat/common.cave::half_rel()
-    cat/common.cave::full_rel()
+    global_setup/common.cave::half_rel()
+    global_setup/common.cave::full_rel()
     blocks.cave::ANDESITE
     blocks.cave::DIORITE
     blocks.cave::GRANITE
@@ -84,29 +84,6 @@
       dPitch: [ 0.1, 0, 0.95 ]
       scale: [ 4.5, 2, 1 ]
       stretch: [ 0.25, 0.15, 1 ]
-    }
-  ]
-  clusters: [
-    {
-      states: $ANDESITE
-      chance: 0.01
-      radiusX: [ 16, 23 ]
-      radiusY: [ 11, 18 ]
-      radiusZ: [ 16, 23 ]
-      centerHeight: $half_rel(20, 32)
-    }
-    {
-      states: $DIORITE
-      chance: 0.01
-      centerHeight: $half_rel(49, 58)
-    }
-    {
-      states: $GRANITE
-      chance: 0.015
-      radiusX: [ 20, 27 ]
-      radiusY: [ 15, 22 ]
-      radiusZ: [ 20, 27 ]
-      centerHeight: $half_rel(5, 12)
     }
   ]
   stalactites: [

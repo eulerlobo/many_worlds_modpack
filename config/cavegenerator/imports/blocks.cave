@@ -54,22 +54,6 @@
   GREEN_STAINED_GLASS: stained_glass:13
   RED_STAINED_GLASS: stained_glass:14
   BLACK_STAINED_GLASS: stained_glass:15
-  WHITE_STAINED_CLAY: stained_hardened_clay:0
-  ORANGE_STAINED_CLAY: stained_hardened_clay:1
-  MAGENTA_STAINED_CLAY: stained_hardened_clay:2
-  LIGHT_BLUE_STAINED_CLAY: stained_hardened_clay:3
-  YELLOW_STAINED_CLAY: stained_hardened_clay:4
-  LIME_STAINED_CLAY: stained_hardened_clay:5
-  PINK_STAINED_CLAY: stained_hardened_clay:6
-  GRAY_STAINED_CLAY: stained_hardened_clay:7
-  LIGHT_GRAY_STAINED_CLAY: stained_hardened_clay:8
-  CYAN_STAINED_CLAY: stained_hardened_clay:9
-  PURPLE_STAINED_CLAY: stained_hardened_clay:10
-  BLUE_STAINED_CLAY: stained_hardened_clay:11
-  BROWN_STAINED_CLAY: stained_hardened_clay:12
-  GREEN_STAINED_CLAY: stained_hardened_clay:13
-  RED_STAINED_CLAY: stained_hardened_clay:14
-  BLACK_STAINED_CLAY: stained_hardened_clay:15
   WHITE_CONCRETE: concrete:0
   ORANGE_CONCRETE: concrete:1
   MAGENTA_CONCRETE: concrete:2

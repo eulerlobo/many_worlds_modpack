@@ -1,5 +1,5 @@
 {
-  imports: cat/common.cave::half_rel()
+  imports: global_setup/common.cave::half_rel()
   enabled: true
   caverns: {
     height: $half_rel(9, 44)

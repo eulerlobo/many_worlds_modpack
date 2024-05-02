@@ -1,8 +1,8 @@
 {
   imports: [
     conditions.cave::SNOWY_BIOMES
-    cat/common.cave::half_rel()
-    cat/common.cave::full_rel()
+    global_setup/common.cave::half_rel()
+    global_setup/common.cave::full_rel()
   ]
   variables: {
     # Noise is shared between the upper

@@ -1,6 +1,6 @@
 {
   imports: [
-    cat/common.cave::half_rel()
+    global_setup/common.cave::half_rel()
     blocks.cave::COARSE_DIRT
   ]
   variables: {

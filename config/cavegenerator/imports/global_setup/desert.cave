@@ -1,5 +1,5 @@
 {
-  imports: cat/common.cave::half_rel()
+  imports: global_setup/common.cave::half_rel()
   dimensions: [ 27 ]
   blacklistDimensions: true
   burrows: [
@@ -39,17 +39,6 @@
         perturbFreq: 0.35
       }
       height: $half_rel(5, 50)
-    }
-  ]
-  clusters: [
-    {
-      # states: [ "glass:4", "stained_glass:7", "stained_glass:8", "stained_glass:12" ]
-      states: [ "hardened_clay", "stained_hardened_clay:8", "stained_hardened_clay:9", "clay" ]
-      chance: 0.06
-      chance: 0.06
-      radius: [ 30, 40 ]
-      radiusY: [ 5, 7 ]
-      centerHeight: $half_rel(15, 45)
     }
   ]
   stalactites: {
