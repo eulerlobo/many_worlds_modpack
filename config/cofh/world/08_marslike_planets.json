@@ -23,7 +23,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "magnetite_mars": {
@@ -48,7 +48,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "hematite_mars_cave": {
@@ -65,7 +65,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "magnetite_mars_cave": {
@@ -82,7 +82,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "native_gold_mars": {
@@ -101,7 +101,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "native_gold_mars_cave": {
@@ -118,7 +118,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "chalcopyrite_mars": {
@@ -143,7 +143,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "native_copper_mars": {
@@ -162,7 +162,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "chalcopyrite_mars_cave": {
@@ -179,7 +179,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "native_copper_mars_cave": {
@@ -196,7 +196,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "teallite_mars": {
@@ -221,7 +221,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "cassiterite_mars": {
@@ -240,7 +240,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "teallite_mars_cave": {
@@ -257,7 +257,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "galena_mars_cerussite": {
@@ -283,7 +283,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "galena_cerussite_mars_cave": {
@@ -307,7 +307,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "bauxite_mars": {
@@ -332,7 +332,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "bauxite_mars_cave": {
@@ -349,7 +349,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "leucite_mars": {
@@ -368,7 +368,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "leucite_mars_cave": {
@@ -385,7 +385,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "pentlandite_mars": {
@@ -404,7 +404,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "garnierite_mars": {
@@ -423,7 +423,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "garnierite_mars_cave": {
@@ -440,7 +440,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "rutile_mars": {
@@ -459,7 +459,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "ilmenite_mars_cave": {
@@ -476,7 +476,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "rutile_mars_cave": {
@@ -493,7 +493,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "native_silver_mars": {
@@ -512,7 +512,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "native_silver_mars_cave": {
@@ -529,7 +529,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "magnesite_mars_cave": {
@@ -547,7 +547,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "spodumene_mars": {
@@ -566,7 +566,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "spodumene_mars_cave": {
@@ -584,7 +584,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "sulfur_mars": {
@@ -603,7 +603,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "sulfur_mars_cave": {
@@ -620,7 +620,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "carnotite_mars": {
@@ -639,7 +639,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "uraninite_mars": {
@@ -658,7 +658,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "carnotite_mars_cave": {
@@ -676,7 +676,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "uraninite_mars_cave": {
@@ -694,7 +694,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "monazite_mars": {
@@ -713,7 +713,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "thorite_mars": {
@@ -732,7 +732,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "monazite_mars_cave": {
@@ -751,7 +751,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "thorite_mars_cave": {
@@ -769,7 +769,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "kernite_mars": {
@@ -788,7 +788,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "kernite_mars_cave": {
@@ -806,7 +806,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "colemanite_mars": {
@@ -825,7 +825,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "colemanite_mars_cave": {
@@ -843,7 +843,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "coal_mars": {
@@ -872,7 +872,7 @@
       "max-height": 70,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "redstone_mars": {
@@ -890,7 +890,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "fossil_mars": {
@@ -909,7 +909,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "kamacite_mars": {
@@ -927,7 +927,7 @@
       "max-height": 70,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "kamacite_mars_cave": {
@@ -944,7 +944,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "olivine_mars": {
@@ -962,7 +962,7 @@
       "max-height": 32,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "olivine_mars_cave": {
@@ -979,7 +979,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "troilite_mars": {
@@ -997,7 +997,7 @@
       "max-height": 32,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "troilite_mars_cave": {
@@ -1014,7 +1014,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "abramovite_mars": {
@@ -1044,7 +1044,7 @@
       "max-height": 70,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "abramovite_mars_cave": {
@@ -1062,7 +1062,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "feldspar_mars": {
@@ -1080,7 +1080,7 @@
       "max-height": 73,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "feldspar_mars_cave": {
@@ -1097,7 +1097,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "augite_mars": {
@@ -1115,7 +1115,7 @@
       "max-height": 42,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "augite_mars_cave": {
@@ -1132,7 +1132,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "titanite_mars": {
@@ -1150,7 +1150,7 @@
       "max-height": 69,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "titanite_mars_cave": {
@@ -1167,7 +1167,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "davidite_mars": {
@@ -1185,7 +1185,7 @@
       "max-height": 31,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "davidite_mars_cave": {
@@ -1202,7 +1202,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "polycrase_mars": {
@@ -1220,7 +1220,7 @@
       "max-height": 34,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "polycrase_mars_cave": {
@@ -1238,7 +1238,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "carbonaceous_mars": {
@@ -1256,7 +1256,7 @@
       "max-height": 33,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "osmiridium_mars": {
@@ -1275,7 +1275,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     },
     "sperrylite_mars": {
@@ -1294,7 +1294,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [6]
+        "value": [6, 14]
       }
     }
   }

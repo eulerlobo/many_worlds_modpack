@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -103,7 +103,6 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_quark.keybind.changeHotbar:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,6 +121,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.changeHotbar:0
 key_keybind.baublesinventory:0
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
@@ -166,7 +166,7 @@ key_key.openglasses.nightvision:49
 key_key.openglasses.thermalvision:48
 key_key.openglasses.config:46:SHIFT
 key_key.openglasses.opensecurity:24
-key_key.narrator:48:CONTROL
+key_key.narrator:0
 key_key.unhook:45
 key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL

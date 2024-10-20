@@ -781,22 +781,6 @@
           states: water
         }
       }
-      clusters: {
-        states: [
-          dirt
-          dirt
-          dirt
-          clay
-        ]
-        radius: [
-          20
-          35
-        ]
-        centerHeight: [
-          28
-          50
-        ]
-      }
       structures: [
         {
           name: bush1_sm

@@ -1,0 +1,110 @@
+{
+  "dependencies": ["contenttweaker", "divergentunderground", "thaumcraft"],
+  "populate": {
+    "twilight_air_fire_crystal": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "geode",
+        "block": "minecraft:stone",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone", "twilightforest:root", "minecraft:dirt"],
+        "hollow": true,
+        "filler": ["thaumcraft:crystal_ignis", "thaumcraft:crystal_aer", "minecraft:air"],
+        "crust": ["minecraft:stone", "minecraft:dirt"]
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [7]
+      }
+    },
+    "twilight_water_earth_crystal": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "geode",
+        "block": "minecraft:stone",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone", "twilightforest:root", "minecraft:dirt"],
+        "hollow": true,
+        "filler": ["thaumcraft:crystal_aqua", "thaumcraft:crystal_terra", "minecraft:air"],
+        "crust": ["minecraft:stone", "minecraft:dirt"]
+      },
+      "chunk-chance": 10,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [7]
+      }
+    },
+    "twilight_order_crystal": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "geode",
+        "block": "minecraft:stone",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone", "twilightforest:root", "minecraft:dirt"],
+        "hollow": true,
+        "filler": ["thaumcraft:crystal_ordo", "minecraft:air"],
+        "crust": ["minecraft:stone", "minecraft:dirt"]
+      },
+      "chunk-chance": 20,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [7]
+      }
+    },
+    "twilight_entropy_crystal": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "geode",
+        "block": "minecraft:stone",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone", "twilightforest:root", "minecraft:dirt"],
+        "hollow": true,
+        "filler": ["thaumcraft:crystal_perditio", "minecraft:air"],
+        "crust": ["minecraft:stone", "minecraft:dirt"]
+      },
+      "chunk-chance": 20,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [7]
+      }
+    },
+    "twilight_flux_crystal": {
+      "enabled": true,
+      "distribution": "uniform",
+      "generator": {
+        "type": "geode",
+        "block": "minecraft:stone",
+        "material": ["minecraft:stone", "divergentunderground:hard_stone", "twilightforest:root", "minecraft:dirt"],
+        "hollow": true,
+        "filler": ["thaumcraft:crystal_vitium", "minecraft:air"],
+        "crust": ["minecraft:stone", "minecraft:dirt"]
+      },
+      "chunk-chance": 20,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [7]
+      }
+    }
+  }
+}

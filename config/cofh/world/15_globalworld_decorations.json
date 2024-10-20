@@ -16,7 +16,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0, 5, 6, 9]
+        "value": [0, 5, 6, 9, 13, 17, 114]
       }
     },
     "basalt_cave_top": {
@@ -35,7 +35,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0, 5, 6, 9]
+        "value": [0, 5, 6, 9, 13, 17, 114]
       }
     },
     "rubber_tree": {

@@ -28,7 +28,7 @@
       "max-height": 95,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "magnetite_moon_cave": {
@@ -45,7 +45,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "kamacite": {
@@ -63,7 +63,7 @@
       "max-height": 70,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "kamacite_cave": {
@@ -80,7 +80,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "olivine": {
@@ -98,7 +98,7 @@
       "max-height": 32,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "olivine_cave": {
@@ -115,7 +115,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "troilite": {
@@ -133,7 +133,7 @@
       "max-height": 32,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "troilite_cave": {
@@ -150,7 +150,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "native_gold_moon": {
@@ -169,7 +169,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "native_gold_moon_cave": {
@@ -186,7 +186,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "native_copper_moon": {
@@ -205,7 +205,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "native_copper_moon_cave": {
@@ -222,7 +222,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "abramovite": {
@@ -252,7 +252,7 @@
       "max-height": 70,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "abramovite_cave": {
@@ -270,7 +270,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "feldspar": {
@@ -288,7 +288,7 @@
       "max-height": 73,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "feldspar_cave": {
@@ -305,7 +305,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "augite": {
@@ -323,7 +323,7 @@
       "max-height": 42,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "augite_cave": {
@@ -340,7 +340,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "titanite": {
@@ -358,7 +358,7 @@
       "max-height": 69,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "titanite_cave": {
@@ -375,7 +375,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "native_silver_moon": {
@@ -394,7 +394,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "native_silver_moon_cave": {
@@ -411,7 +411,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "davidite": {
@@ -429,7 +429,7 @@
       "max-height": 31,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "davidite_cave": {
@@ -446,7 +446,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "polycrase": {
@@ -464,7 +464,7 @@
       "max-height": 34,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "polycrase_cave": {
@@ -482,7 +482,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "monazite_moon": {
@@ -501,7 +501,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "monazite_moon_cave": {
@@ -520,7 +520,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "kernite_moon": {
@@ -539,7 +539,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "kernite_moon_cave": {
@@ -558,7 +558,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "carbonaceous": {
@@ -576,7 +576,7 @@
       "max-height": 33,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "osmiridium": {
@@ -595,7 +595,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "sperrylite": {
@@ -614,7 +614,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "redstone_moon": {
@@ -633,7 +633,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "ice_moon": {
@@ -678,7 +678,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     }
   }

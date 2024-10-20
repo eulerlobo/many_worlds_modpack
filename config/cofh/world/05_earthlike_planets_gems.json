@@ -26,7 +26,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "certus_quartz_cave": {
@@ -53,7 +53,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "lapis": {
@@ -71,7 +71,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "lapis_cave": {
@@ -88,7 +88,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "diamond": {
@@ -106,7 +106,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "diamond_cave": {
@@ -123,7 +123,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "emerald": {
@@ -150,7 +150,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "emerald_cave": {
@@ -176,7 +176,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "ruby": {
@@ -203,7 +203,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "ruby_cave": {
@@ -229,7 +229,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "peridot": {
@@ -256,7 +256,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "peridot_cave": {
@@ -282,7 +282,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "topaz": {
@@ -309,7 +309,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "topaz_cave": {
@@ -335,7 +335,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "tanzanite": {
@@ -362,7 +362,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "tanzanite_cave": {
@@ -388,7 +388,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "malachite": {
@@ -415,7 +415,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "malachite_cave": {
@@ -441,7 +441,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "sapphire": {
@@ -468,7 +468,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "sapphire_cave": {
@@ -494,7 +494,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "amber": {
@@ -521,7 +521,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "amber_cave": {
@@ -547,7 +547,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     }
   }

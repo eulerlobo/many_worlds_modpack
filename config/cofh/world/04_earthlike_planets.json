@@ -23,7 +23,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "magnetite": {
@@ -48,7 +48,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "hematite_cave": {
@@ -65,7 +65,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "magnetite_cave": {
@@ -82,7 +82,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_gold": {
@@ -101,7 +101,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_gold_mesa": {
@@ -136,7 +136,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_gold_river": {
@@ -164,7 +164,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_gold_cave": {
@@ -181,7 +181,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "chalcopyrite": {
@@ -206,7 +206,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_copper": {
@@ -225,7 +225,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "chalcopyrite_cave": {
@@ -242,7 +242,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_copper_cave": {
@@ -259,7 +259,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "teallite": {
@@ -284,7 +284,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "cassiterite": {
@@ -317,7 +317,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "teallite_cave": {
@@ -334,7 +334,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "cassiterite_river": {
@@ -362,7 +362,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "cassiterite_ocean": {
@@ -390,7 +390,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "galena_cerussite": {
@@ -416,7 +416,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "galena_cerussite_cave": {
@@ -440,7 +440,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "bauxite": {
@@ -465,7 +465,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "bauxite_sandy": {
@@ -499,7 +499,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "bauxite_cave": {
@@ -516,7 +516,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "leucite": {
@@ -535,7 +535,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "leucite_cave": {
@@ -552,7 +552,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "pentlandite": {
@@ -571,7 +571,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "garnierite": {
@@ -590,7 +590,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "garnierite_cave": {
@@ -607,7 +607,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "rutile": {
@@ -639,7 +639,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "rutile_ilmenite_ocean": {
@@ -678,7 +678,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "ilmenite_cave": {
@@ -695,7 +695,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "rutile_cave": {
@@ -712,7 +712,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_silver": {
@@ -731,7 +731,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "native_silver_cave": {
@@ -748,7 +748,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "magnesite_ocean": {
@@ -782,7 +782,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "magnesite_river": {
@@ -810,7 +810,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "magnesite_cave_ocean": {
@@ -837,7 +837,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "spodumene": {
@@ -865,7 +865,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "spodumene_cave": {
@@ -892,7 +892,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "sulfur": {
@@ -911,7 +911,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "sulfur_cave": {
@@ -928,7 +928,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "carnotite": {
@@ -947,7 +947,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "uraninite": {
@@ -966,7 +966,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "carnotite_cave": {
@@ -984,7 +984,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "uraninite_cave": {
@@ -1002,7 +1002,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "monazite": {
@@ -1021,7 +1021,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "thorite": {
@@ -1040,7 +1040,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "monazite_cave": {
@@ -1059,7 +1059,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "thorite_cave": {
@@ -1077,7 +1077,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "kernite": {
@@ -1105,7 +1105,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "kernite_cave": {
@@ -1132,7 +1132,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "colemanite": {
@@ -1160,7 +1160,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "colemanite_cave": {
@@ -1187,7 +1187,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "coal": {
@@ -1229,7 +1229,7 @@
       },
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "redstone": {
@@ -1247,7 +1247,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     },
     "fossil": {
@@ -1266,7 +1266,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [0]
+        "value": [0, 114, 225, 227]
       }
     }
   }

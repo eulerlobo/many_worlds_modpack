@@ -98,6 +98,7 @@
 				"restriction": "whitelist",
 				"value": [
 					0,
+					114,
 					225,
 					227
 				]
@@ -126,6 +127,7 @@
 				"restriction": "whitelist",
 				"value": [
 					0,
+					114,
 					225,
 					227
 				]
@@ -154,6 +156,7 @@
 				"restriction": "whitelist",
 				"value": [
 					0,
+					114,
 					225,
 					227
 				]

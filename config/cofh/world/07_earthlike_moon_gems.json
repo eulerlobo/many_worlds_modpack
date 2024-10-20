@@ -26,7 +26,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "certus_quartz_moon_cave": {
@@ -52,7 +52,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "lapis_moon": {
@@ -70,7 +70,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "lapis_moon_cave": {
@@ -87,7 +87,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "diamond_moon": {
@@ -105,7 +105,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "diamond_moon_cave": {
@@ -122,7 +122,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "emerald_moon": {
@@ -140,7 +140,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "emerald_moon_cave": {
@@ -157,7 +157,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "ruby_moon": {
@@ -175,7 +175,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "ruby_moon_cave": {
@@ -192,7 +192,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "peridot_moon": {
@@ -210,7 +210,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "peridot_moon_cave": {
@@ -227,7 +227,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "topaz_moon": {
@@ -245,7 +245,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "topaz_moon_cave": {
@@ -262,7 +262,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "tanzanite_moon": {
@@ -280,7 +280,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "tanzanite_moon_cave": {
@@ -297,7 +297,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "malachite_moon": {
@@ -315,7 +315,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "malachite_moon_cave": {
@@ -332,7 +332,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "sapphire_moon": {
@@ -350,7 +350,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     },
     "sapphire_moon_cave": {
@@ -367,7 +367,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [5]
+        "value": [5, 13, 17, 25]
       }
     }
   }

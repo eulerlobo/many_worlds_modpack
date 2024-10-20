@@ -34,6 +34,12 @@
     "result": "allow"
   },
   {
+    "mod": "techguns",
+    "onjoin": true,
+    "dimension": 225,
+    "result": "deny"
+  },
+  {
     "mob": "iceandfire:stymphalianbird",
     "onjoin": true,
 		"mincount": {
@@ -59,7 +65,7 @@
     "result": "deny"
   },
   {
-    "dimension": [-23, -10, -1, 0, 111, 113, 225],
+    "dimension": [-23, -10, -1, 0, 111, 113, 114, 225],
     "mod": "betteranimalsplus",
     "result": "deny"
   },

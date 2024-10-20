@@ -28,7 +28,7 @@
       "max-height": 95,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "magnetite_sun_cave": {
@@ -45,7 +45,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "kamacite_sun": {
@@ -63,7 +63,7 @@
       "max-height": 70,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "kamacite_sun_cave": {
@@ -80,7 +80,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "olivine_sun": {
@@ -98,7 +98,7 @@
       "max-height": 32,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "olivine_sun_cave": {
@@ -115,7 +115,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "troilite_sun": {
@@ -133,7 +133,7 @@
       "max-height": 32,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "troilite_sun_cave": {
@@ -150,7 +150,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "native_gold_sun": {
@@ -169,7 +169,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "native_gold_sun_cave": {
@@ -186,7 +186,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "native_copper_sun": {
@@ -205,7 +205,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "native_copper_sun_cave": {
@@ -222,7 +222,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "abramovite_sun": {
@@ -252,7 +252,7 @@
       "max-height": 70,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "abramovite_sun_cave": {
@@ -270,7 +270,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "feldspar_sun": {
@@ -288,7 +288,7 @@
       "max-height": 73,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "feldspar_sun_cave": {
@@ -305,7 +305,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "augite_sun": {
@@ -323,7 +323,7 @@
       "max-height": 42,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "augite_sun_cave": {
@@ -340,7 +340,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "titanite_sun": {
@@ -358,7 +358,7 @@
       "max-height": 69,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "titanite_sun_cave": {
@@ -375,7 +375,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "native_silver_sun": {
@@ -394,7 +394,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "native_silver_sun_cave": {
@@ -411,7 +411,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "davidite_sun": {
@@ -429,7 +429,7 @@
       "max-height": 31,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "davidite_sun_cave": {
@@ -446,7 +446,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "polycrase_sun": {
@@ -464,7 +464,7 @@
       "max-height": 34,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "polycrase_sun_cave": {
@@ -482,7 +482,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "monazite_sun": {
@@ -501,7 +501,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "monazite_sun_cave": {
@@ -520,7 +520,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "kernite_sun": {
@@ -539,7 +539,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "kernite_sun_cave": {
@@ -558,7 +558,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "carbonaceous_sun": {
@@ -576,7 +576,7 @@
       "max-height": 33,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "osmiridium_sun": {
@@ -595,7 +595,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "sperrylite_sun": {
@@ -614,7 +614,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "redstone_sun": {
@@ -633,7 +633,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     }
   }

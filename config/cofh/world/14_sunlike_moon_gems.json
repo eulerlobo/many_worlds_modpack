@@ -26,7 +26,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "certus_quartz_sun_cave": {
@@ -52,7 +52,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "lapis_sun": {
@@ -70,7 +70,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "lapis_sun_cave": {
@@ -87,7 +87,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "diamond_sun": {
@@ -105,7 +105,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "diamond_sun_cave": {
@@ -122,7 +122,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "emerald_sun": {
@@ -140,7 +140,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "emerald_sun_cave": {
@@ -157,7 +157,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "ruby_sun": {
@@ -175,7 +175,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "ruby_sun_cave": {
@@ -192,7 +192,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "peridot_sun": {
@@ -210,7 +210,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "peridot_sun_cave": {
@@ -227,7 +227,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "topaz_sun": {
@@ -245,7 +245,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "topaz_sun_cave": {
@@ -262,7 +262,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "tanzanite_sun": {
@@ -280,7 +280,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "tanzanite_sun_cave": {
@@ -297,7 +297,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "malachite_sun": {
@@ -315,7 +315,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "malachite_sun_cave": {
@@ -332,7 +332,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "sapphire_sun": {
@@ -350,7 +350,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     },
     "sapphire_sun_cave": {
@@ -367,7 +367,7 @@
       "retrogen": false,
       "dimension": {
         "restriction": "whitelist",
-        "value": [3]
+        "value": [3, 18]
       }
     }
   }

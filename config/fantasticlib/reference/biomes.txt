@@ -208,6 +208,8 @@ biometweaker:earthlike_moon_dark
 biometweaker:gasgiant_moon_white
 biometweaker:gasgiant_moon_dark
 biometweaker:cold_dry_rock
+biometweaker:cold_dry_rock_plain
+biometweaker:cold_dry_rock_plateau
 biometweaker:ice_spike_moon
 biometweaker:sun_planet
 biometweaker:beach_sun_planet
