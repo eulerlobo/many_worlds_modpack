@@ -167,7 +167,11 @@ erebus:submerged_swamp
 erebus:fields_sub_forest
 erebus:petrified_forest
 iceandfire:glacier
+mahoutsukai:realitymarble
 nuclearcraft:nuclear_wasteland
+thaumicaugmentation:emptiness
+thaumicaugmentation:tainted_lands
+thaumicaugmentation:emptiness_highlands
 traverse:autumnal_woods
 traverse:woodlands
 traverse:mini_jungle

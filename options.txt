@@ -5,13 +5,13 @@ fov:0.0
 gamma:0.5070422
 saturation:0.0
 renderDistance:12
-guiScale:3
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -121,8 +121,8 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.changeHotbar:0
-key_keybind.baublesinventory:0
+key_quark.keybind.changeHotbar:46:SHIFT
+key_keybind.baublesinventory:48:SHIFT
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -140,6 +140,7 @@ key_key.exchangers.directional_placement_mode_toggle:0
 key_key.exchangers.fuzzy_placement_mode_toggle:0
 key_key.exchangers.void_items_mode_toggle:0
 key_Toggle Magnetism Suppressor:49
+key_keybind.hammercorerenderstack:77
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
@@ -261,10 +262,12 @@ key_key.dragon_strike:34
 key_key.dragon_down:45
 key_key.dragon_change_view:65
 key_invtweaks.key.sort:0
+key_key.drawMahoujin:50
+key_key.changeMysticCode:21
 key_key.menu:0
 key_key.villages:0
 key_key.escorts:34
-key_key.nutrition:49
+key_key.nutrition:49:CONTROL
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
@@ -279,8 +282,10 @@ key_key.debugDumpNBTBlock:0
 key_techguns.key.toggleNightvision:49
 key_techguns.key.toggleSafemode:0
 key_techguns.key.toggleStepassist:47
-key_techguns.key.forceReload:19
+key_techguns.key.forceReload:19:SHIFT
 key_techguns.key.toggleJetpack:36
+key_key.carpet_forward:17
+key_key.carpet_backward:31
 key_dsurround.cfg.keybind.SelectionBox:0
 key_dsurround.cfg.keybind.Volume:0
 key_presets.cfg.keybind.Presets:0
