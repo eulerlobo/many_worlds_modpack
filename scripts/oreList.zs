@@ -807,3 +807,75 @@ orePlateTitanium.remove(<techguns:itemshared:54>);
 val orePlastic = <ore:plastic>;
 orePlastic.add(<nuclearcraft:part:6>);
 orePlastic.add(<ic2:crafting>);
+
+//---> Remap several dust itens without ore dictionary
+val oreDustTinyDiamond = <ore:dustTinyDiamond>;
+oreDustTinyDiamond.add(<ic2:dust:36>);
+
+val oreDustTinyEmerald = <ore:dustTinyEmerald>;
+oreDustTinyEmerald.add(<ic2:dust:35>);
+
+val oreDustEmerald = <ore:dustEmerald>;
+oreDustEmerald.add(<ic2:dust:34>);
+
+val oreDustHydratedTin = <ore:dustHydratedTin>;
+oreDustHydratedTin.add(<ic2:dust:29>);
+
+val oreDustEnergium = <ore:dustEnergium>;
+oreDustEnergium.add(<ic2:dust:6>);
+
+val orePixieDust = <ore:pixieDust>;
+orePixieDust.add(<familiarfauna:pixie_dust>);
+orePixieDust.add(<iceandfire:pixie_dust>);
+orePixieDust.add(<mahoutsukai:fae_essence>);
+
+val oreDustSkyStone = <ore:dustSkyStone>;
+oreDustSkyStone.add(<appliedenergistics2:material:45>);
+
+val oreDustPowdered = <ore:dustPowdered>;
+oreDustPowdered.add(<mahoutsukai:powdered_diamond>);
+oreDustPowdered.add(<mahoutsukai:powdered_ender>);
+oreDustPowdered.add(<mahoutsukai:powdered_gold>);
+oreDustPowdered.add(<mahoutsukai:powdered_iron>);
+oreDustPowdered.add(<mahoutsukai:powdered_quartz>);
+oreDustPowdered.add(<mahoutsukai:powdered_emerald>);
+oreDustPowdered.add(<mahoutsukai:powdered_eye>);
+
+val oreDustPowderedDiamond = <ore:dustPowderedDiamond>;
+oreDustPowderedDiamond.add(<mahoutsukai:powdered_diamond>);
+
+val oreDustPowderedEnder = <ore:dustPowderedEnder>;
+oreDustPowderedEnder.add(<mahoutsukai:powdered_ender>);
+
+val oreDustPowderedGold = <ore:dustPowderedGold>;
+oreDustPowderedGold.add(<mahoutsukai:powdered_gold>);
+
+val oreDustPowderedIron = <ore:dustPowderedIron>;
+oreDustPowderedIron.add(<mahoutsukai:powdered_iron>);
+
+val oreDustPowderedQuartz = <ore:dustPowderedQuartz>;
+oreDustPowderedQuartz.add(<mahoutsukai:powdered_quartz>);
+
+val oreDustPowderedEmerald = <ore:dustPowderedEmerald>;
+oreDustPowderedEmerald.add(<mahoutsukai:powdered_emerald>);
+
+val oreDustPowderedEye = <ore:dustPowderedEye>;
+oreDustPowderedEye.add(<mahoutsukai:powdered_eye>);
+
+// Add Ore Dictionary to Powdered Cluster
+val powderedDiamondCluster = <contenttweaker:powdered_diamond_cluster>;
+val powderedEmeraldCluster = <contenttweaker:powdered_emerald_cluster>;
+val powderedEnderCluster = <contenttweaker:powdered_ender_cluster>;
+val powderedEyeCluster = <contenttweaker:powdered_eye_cluster>;
+val powderedGoldCluster = <contenttweaker:powdered_gold_cluster>;
+val powderedIronCluster = <contenttweaker:powdered_iron_cluster>;
+val powderedQuartzCluster = <contenttweaker:powdered_quartz_cluster>;
+
+val powderedCluster = <ore:powderedCluster>;
+powderedCluster.add(powderedDiamondCluster);
+powderedCluster.add(powderedEmeraldCluster);
+powderedCluster.add(powderedEnderCluster);
+powderedCluster.add(powderedEyeCluster);
+powderedCluster.add(powderedGoldCluster);
+powderedCluster.add(powderedIronCluster);
+powderedCluster.add(powderedQuartzCluster);

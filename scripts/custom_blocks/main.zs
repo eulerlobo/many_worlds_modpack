@@ -2120,3 +2120,21 @@ largeTire.register();
 
 var instrumentPanel = VanillaFactory.createItem("instrument_panel");
 instrumentPanel.register();
+
+//------------------------//
+//     Mahou Clusters     //
+//------------------------//
+var powderedDiamondCluster = VanillaFactory.createItem("powdered_diamond_cluster");
+powderedDiamondCluster.register();
+var powderedEmeraldCluster = VanillaFactory.createItem("powdered_emerald_cluster");
+powderedEmeraldCluster.register();
+var powderedEnderCluster = VanillaFactory.createItem("powdered_ender_cluster");
+powderedEnderCluster.register();
+var powderedEyeCluster = VanillaFactory.createItem("powdered_eye_cluster");
+powderedEyeCluster.register();
+var powderedGoldCluster = VanillaFactory.createItem("powdered_gold_cluster");
+powderedGoldCluster.register();
+var powderedIronCluster = VanillaFactory.createItem("powdered_iron_cluster");
+powderedIronCluster.register();
+var powderedQuartzCluster = VanillaFactory.createItem("powdered_quartz_cluster");
+powderedQuartzCluster.register();

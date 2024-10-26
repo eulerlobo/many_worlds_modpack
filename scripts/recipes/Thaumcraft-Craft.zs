@@ -2,6 +2,13 @@
 
 import mods.immersiveengineering.Crusher;
 import mods.thaumcraft.Crucible;
+import mods.thaumcraft.SmeltingBonus;
+
+val oreHematite = <ore:oreHematite>;
+val oreMagnetite = <ore:oreMagnetite>;
+val oreIron = <ore:oreIron>;
+val oreRockOreIron = <ore:rockOreIron>;
+val ironIngot = <minecraft:iron_ingot>;
 
 //---> Hide Quartz ore
 //mods.jei.JEI.hide(<thaumcraft:ore_quartz>);

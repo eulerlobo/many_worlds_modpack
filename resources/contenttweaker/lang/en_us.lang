@@ -244,3 +244,12 @@ item.contenttweaker.small_tire.name=Small Tire
 item.contenttweaker.medium_tire.name=Medium Tire
 item.contenttweaker.large_tire.name=Large Tire
 item.contenttweaker.instrument_panel.name=Instrument Panel
+
+#Mahou Dust Cluster
+item.contenttweaker.powdered_diamond_cluster.name=Powdered Diamond Cluster
+item.contenttweaker.powdered_emerald_cluster.name=Powdered Emerald Cluster
+item.contenttweaker.powdered_ender_cluster.name=Powdered Ender Cluster
+item.contenttweaker.powdered_eye_cluster.name=Powdered Eye Cluster
+item.contenttweaker.powdered_gold_cluster.name=Powdered Gold Cluster
+item.contenttweaker.powdered_iron_cluster.name=Powdered Iron Cluster
+item.contenttweaker.powdered_quartz_cluster.name=Powdered Quartz Cluster
