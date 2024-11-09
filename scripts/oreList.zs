@@ -879,3 +879,8 @@ powderedCluster.add(powderedEyeCluster);
 powderedCluster.add(powderedGoldCluster);
 powderedCluster.add(powderedIronCluster);
 powderedCluster.add(powderedQuartzCluster);
+
+// Map water items
+val oreItemWaterBucket = <ore:itemWaterBucket>;
+oreItemWaterBucket.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}));
+oreItemWaterBucket.add(<erebus:bambucket>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));

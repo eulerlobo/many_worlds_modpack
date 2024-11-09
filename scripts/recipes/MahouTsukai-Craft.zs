@@ -229,12 +229,6 @@ mods.thaumcraft.Infusion.registerRecipe("mahou_mana_circuit_magitech", "", manaC
   faeEssence,
   faeEssence]);
 
-// Add some tooltips
-<thaumcraft:arcane_workbench>.addShiftTooltip(format.aqua("Use Salis Mundus in a Crafting Table to create an Arcane Workbench"));
-<thaumcraft:nugget:10>.addShiftTooltip(format.aqua("Some ores give rare earth if smelted in the Infernal Furnace"));
-<thaumcraft:thaumonomicon>.addShiftTooltip(format.aqua("Use Salis Mundus in a Bookshelf to create a Thaumonomicon"));
-<thaumcraft:research_table>.addShiftTooltip(format.aqua("Use a Scribing Tools in a Wood Table to create a Research Table"));
-
 // Add Cluster recipes
 recipes.addShapeless("MahouPowderedDiamond", powderedDiamond * 9, [powderedDiamondCluster]);
 recipes.addShapeless("MahouPowderedEnder", powderedEnder * 9, [powderedEnderCluster]);
@@ -257,13 +251,13 @@ recipes.remove(<mahoutsukai:guidebook>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_tsukai_compendium", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>], <mahoutsukai:guidebook>, [[null, <thaumcraft:scribing_tools>, null], [orePaper, <inspirations:books:14>, orePaper], [orePaper, <twilightforest:magic_map_focus>, orePaper]]);
 
 recipes.remove(<mahoutsukai:dagger>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_tsukai_dagger", "", 40, [<aspect:vitium>, <aspect:perditio>, <aspect:ordo>], <mahoutsukai:dagger>, [[<ore:dustRedstone>, <ore:ingotThaumium>, <ore:gemQuartz>], [<ore:ingotGold>, <minecraft:iron_sword>, <ore:ingotThaumium>], [salisMundus, <ore:ingotGold>, <ore:dustRedstone>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_tsukai_dagger", "", 40, [<aspect:perditio>, <aspect:ordo>], <mahoutsukai:dagger>, [[<ore:dustRedstone>, <ore:ingotThaumium>, <ore:gemQuartz>], [<ore:ingotGold>, <minecraft:iron_sword>, <ore:ingotThaumium>], [salisMundus, <ore:ingotGold>, <ore:dustRedstone>]]);
 
 recipes.remove(<mahoutsukai:mystic_code>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_mystic_code", "", 50, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:vitium>, <aspect:perditio>, <aspect:ordo>], <mahoutsukai:mystic_code>, [[powderedGold, powderedGold, powderedGold], [oreDyeBlack, leatherGloves, oreDyeBlack], [enchantedFabric, visResonator, enchantedFabric]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_mystic_code", "", 50, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:perditio>, <aspect:ordo>], <mahoutsukai:mystic_code>, [[powderedGold, powderedGold, powderedGold], [oreDyeBlack, leatherGloves, oreDyeBlack], [enchantedFabric, visResonator, enchantedFabric]]);
 
 recipes.remove(<mahoutsukai:mystic_code_first_sorcery>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_mystic_code_first_sorcery", "", 150, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:vitium>, <aspect:perditio>, <aspect:ordo>], <mahoutsukai:mystic_code_first_sorcery>, [[faeEssence, faeEssence, faeEssence], [oreDyeBlack, leatherGloves, oreDyeBlack], [enchantedFabric, morphicResonator, enchantedFabric]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_mystic_code_first_sorcery", "", 150, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:perditio>, <aspect:ordo>], <mahoutsukai:mystic_code_first_sorcery>, [[faeEssence, faeEssence, faeEssence], [oreDyeBlack, leatherGloves, oreDyeBlack], [enchantedFabric, morphicResonator, enchantedFabric]]);
 
 recipes.remove(spellCloth);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_spell_cloth", "", 20, [<aspect:vitium> * 2, <aspect:perditio> * 2, <aspect:ordo> * 2], spellCloth * 9, [[papyrus, papyrus, papyrus], [orePaper, orePaper, orePaper], [papyrus, papyrus, papyrus]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("mahou_spell_cloth", "", 20, [<aspect:perditio> * 2, <aspect:ordo> * 2], spellCloth * 9, [[papyrus, papyrus, papyrus], [orePaper, orePaper, orePaper], [papyrus, papyrus, papyrus]]);

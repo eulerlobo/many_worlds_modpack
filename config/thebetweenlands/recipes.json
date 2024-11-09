@@ -1,0 +1,89 @@
+{
+  "purifier": [{
+    "input": {
+      "id": "minecraft:stone"
+    },
+    "output": {
+      "id": "minecraft:dirt",
+      "meta": 2,
+      "size": 4,
+      "nbt": "{display: {Name:\"Magical Podzol\", Lore:[\"Such cool\", \"much wow\"]}}"
+    }
+  }],
+  "animator": [{
+    "input": {
+      "item": {
+        "id": "minecraft:stone"
+      },
+      "fuel": 8,
+      "life": 4
+    },
+    "output_entity": {
+      "id": "thebetweenlands:swamp_hag",
+      "nbt": "{Attributes: [{Name:generic.maxHealth, Base:2}], CustomName:\"Weak Swamp Hag\", CustomNameVisible:1}"
+    },
+    "rendered_entity": "thebetweenlands:swamp_hag"
+  }],
+  "animator_repairable": [{
+    "input": {
+      "item": {
+        "id": "minecraft:diamond_sword"
+      },
+      "min_fuel": 2,
+      "min_life": 4,
+      "max_fuel": 32,
+      "max_life": 60
+    }
+  }],
+  "compost_bin": [{
+    "input": {
+      "item": {
+        "id": "minecraft:dirt",
+        "meta": 2
+      },
+      "composting_time": 40
+    },
+    "output": 20
+  }],
+  "druid_altar": [{
+    "input": {
+      "item_1": {
+        "id": "minecraft:stone"
+      },
+      "item_2": {
+        "id": "minecraft:dirt"
+      },
+      "item_3": {
+        "id": "minecraft:grass"
+      },
+      "item_4": {
+        "id": "minecraft:cobblestone"
+      }
+    },
+    "output": {
+      "id": "minecraft:diamond"
+    }
+  }],
+  "pestle_and_mortar": [{
+    "input": {
+      "id": "minecraft:stone"
+    },
+    "output": {
+      "id": "minecraft:cobblestone"
+    }
+  }, {
+    "input": {
+      "id": "minecraft:cobblestone"
+    },
+    "output": {
+      "id": "minecraft:dirt"
+    }
+  }, {
+    "input": {
+      "id": "minecraft:dirt"
+    },
+    "output": {
+      "id": "minecraft:sand"
+    }
+  }]
+}

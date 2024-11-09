@@ -123,6 +123,9 @@ val liquidDiamond = <liquid:diamond>;
 
 val liquidEmerald = <liquid:emerald>;
 
+val oreSlimeBall = <ore:slimeball>;
+val yellowIllumar = <projectred-core:resource_item:504>;
+
 //--- Add Recipes ---/
 
 //---> Remap Tin Ore Smelting
@@ -291,3 +294,7 @@ mods.tconstruct.Melting.addRecipe(liquidSilver * mbErebusOre, <erebus:ore_silver
 mods.tconstruct.Melting.addRecipe(liquidTin * mbErebusOre, <erebus:ore_tin>, tinSmeltingTemperature); //Tin
 mods.tconstruct.Melting.addRecipe(liquidLead * mbErebusOre, <erebus:ore_lead>, leadSmeltingTemperature); //Lead
 mods.tconstruct.Melting.addRecipe(liquidAluminum * mbErebusOre, <erebus:ore_aluminium>, aluminumSmeltingTemperature); //Aluminium
+
+//---> Remap Glowball
+recipes.remove(<tconstruct:throwball>);
+recipes.addShaped("TCGlowball", <tconstruct:throwball> * 6, [[oreSlimeBall, oreSlimeBall, oreSlimeBall], [yellowIllumar, yellowIllumar, yellowIllumar], [oreSlimeBall, oreSlimeBall, oreSlimeBall]]);

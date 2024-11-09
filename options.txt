@@ -2,16 +2,16 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.5070422
+gamma:0.0
 saturation:0.0
-renderDistance:12
+renderDistance:16
 guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -103,7 +103,6 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_quark.keybind.changeHotbar:46:SHIFT
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,6 +121,20 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_psimisc.keybind:46:CONTROL
+key_rpsideas.kb.offhandcast:0
+key_rpsideas.kb.switchslot01:0
+key_rpsideas.kb.switchslot02:0
+key_rpsideas.kb.switchslot03:0
+key_rpsideas.kb.switchslot04:0
+key_rpsideas.kb.switchslot05:0
+key_rpsideas.kb.switchslot06:0
+key_rpsideas.kb.switchslot07:0
+key_rpsideas.kb.switchslot08:0
+key_rpsideas.kb.switchslot09:0
+key_rpsideas.kb.switchslot10:0
+key_rpsideas.kb.switchslot11:0
+key_rpsideas.kb.switchslot12:0
 key_keybind.baublesinventory:48:SHIFT
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
@@ -302,6 +315,7 @@ key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44:SHIFT
 key_Move Vehicle Down:45:SHIFT
 key_key.control:29
+key_Profile GUI:102
 key_key.mts.config:25
 soundCategory_master:1.0
 soundCategory_music:0.0
