@@ -1,0 +1,108 @@
+%YAML 1.1
+---
+worlds:
+-   sealevel: 63
+    nether: false
+    name: DIM50
+    the_end: false
+    title: PSI Remap - Recipes/The Abyssal Wasteland
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM51
+    the_end: false
+    title: PSI Remap - Recipes/The Dreadlands
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM52
+    the_end: false
+    title: PSI Remap - Recipes/Omothol
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM53
+    the_end: false
+    title: PSI Remap - Recipes/The Dark Realm
+    height: 256
+-   sealevel: 120
+    nether: false
+    name: DIM20
+    the_end: false
+    title: PSI Remap - Recipes/betweenlands
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM1146
+    the_end: false
+    title: PSI Remap - Recipes/mahoutsukai
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM66
+    the_end: false
+    title: PSI Remap - Recipes/EREBUS
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM1
+    the_end: true
+    title: PSI Remap - Recipes/the_end
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM2
+    the_end: false
+    title: PSI Remap - Recipes/planet
+    height: 256
+-   sealevel: 63
+    nether: true
+    name: DIM-1
+    the_end: false
+    title: PSI Remap - Recipes/the_nether
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM14676
+    the_end: false
+    title: PSI Remap - Recipes/emptiness
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM4
+    the_end: false
+    title: PSI Remap - Recipes/AetherI
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM7
+    the_end: false
+    title: PSI Remap - Recipes/twilight_forest
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM28885
+    the_end: false
+    title: PSI Remap - Recipes/hunting_dim
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM-11
+    the_end: false
+    title: PSI Remap - Recipes/Storage Cell
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: DIM111
+    the_end: false
+    title: PSI Remap - Recipes/lostcities
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: PSI Remap - Recipes
+    the_end: false
+    title: PSI Remap - Recipes/overworld
+    height: 256
+isMCPC: false
+useSaveFolderAsName: true
+maxWorldHeight: 256

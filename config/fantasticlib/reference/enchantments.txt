@@ -34,6 +34,12 @@ bibliocraft:bibliocraft.readingench
 mahoutsukai:projector
 parry:parry
 spartanshields:ssenchspikes
+abyssalcraft:coralium
+abyssalcraft:dread
+abyssalcraft:light_pierce
+abyssalcraft:iron_wall
+abyssalcraft:sapping
+abyssalcraft:multi_rend
 cofhcore:holding
 cofhcore:insight
 cofhcore:leech

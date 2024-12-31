@@ -85,13 +85,13 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_Change Caster Focus:33
+key_Misc Caster Toggle:34
 key_ALT Key:56
 key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
-key_Change Caster Focus:33
-key_Misc Caster Toggle:34
 key_ir_keys.increase_throttle:72
 key_ir_keys.zero_throttle:76
 key_ir_keys.decrease_throttle:80
@@ -103,6 +103,11 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
+key_key.staff_mode.desc:50
+key_key.use_cage.desc:49
+key_key.configurator_mode.desc:47
+key_key.configurator_filter.desc:48
+key_key.configurator_path.desc:34
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -135,7 +140,7 @@ key_rpsideas.kb.switchslot09:0
 key_rpsideas.kb.switchslot10:0
 key_rpsideas.kb.switchslot11:0
 key_rpsideas.kb.switchslot12:0
-key_keybind.baublesinventory:48:SHIFT
+key_keybind.baublesinventory:0
 key_key.betterfoliage.gui:66
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -181,8 +186,6 @@ key_key.openglasses.thermalvision:48
 key_key.openglasses.config:46:SHIFT
 key_key.openglasses.opensecurity:24
 key_key.narrator:0
-key_key.unhook:45
-key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -194,6 +197,8 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.unhook:45
+key_key.cofh.multimode:47
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31

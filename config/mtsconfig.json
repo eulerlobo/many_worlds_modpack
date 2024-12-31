@@ -96,27 +96,27 @@
       "comment": "Whether or not velocity is ignored when calculating wheel damage."
     },
     "propellerDamageFactor": {
-      "value": 1.0,
+      "value": 10.0,
       "comment": "Factor for damage caused by a propeller."
     },
     "jetDamageFactor": {
-      "value": 1.0,
+      "value": 10.0,
       "comment": "Factor for damage caused by a jet engine."
     },
     "wheelDamageFactor": {
-      "value": 1.0,
+      "value": 10.0,
       "comment": "Factor for damage caused by wheels on vehicles."
     },
     "crashDamageFactor": {
-      "value": 1.0,
+      "value": 10.0,
       "comment": "Factor for damage caused by crashes."
     },
     "bulletDamageFactor": {
-      "value": 1.0,
+      "value": 10.0,
       "comment": "Factor for damage caused by bullets on vehicles."
     },
     "engineLeakProbability": {
-      "value": 0.01,
+      "value": 0.5,
       "comment": "Chance an engine will spring a leak if hit.  Explosions cause 10x this chance."
     },
     "crashItemDropPercentage": {
@@ -188,9 +188,11 @@
       "chocolate_liquor": "Chocolate Liquor",
       "bronze": "Molten Bronze",
       "liquid_death": "Liquid Death",
+      "moltenabyssalnite": "Molten Abyssalnite",
       "unsweetened_chocolate": "Molten Unsweetened Chocolate",
       "redstone": "Destabilized Redstone",
       "americium_243": "Molten Americium-243",
+      "liquidcoralium": "Liquid Coralium",
       "neptunium_236": "Molten Neptunium-236",
       "ic2hydrogen": "Hydrogen",
       "neptunium_237": "Molten Neptunium-237",
@@ -227,6 +229,7 @@
       "depleted_fuel_leb_248": "Molten Depleted LEB-248 Fuel",
       "depleted_fuel_lecm_243_fluoride": "Molten Depleted LECm-243 Fluoride Fuel",
       "fuel_hecm_245_fluoride_flibe": "Molten FLiBe Salt Solution of HECm-245 Fluoride Fuel",
+      "acid": "Acid",
       "lithium": "Molten Lithium",
       "americium_242_fluoride": "Molten Americium-242 Fluoride",
       "depleted_fuel_hep_239_fluoride_flibe": "Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel",
@@ -297,6 +300,7 @@
       "curium_247_fluoride_flibe": "Molten FLiBe Salt Solution of Curium-247 Fluoride",
       "californium_250_fluoride_flibe": "Molten FLiBe Salt Solution of Californium-250 Fluoride",
       "zinc": "Molten Zinc",
+      "liquidantimatter": "Liquid Antimatter",
       "clean_water": "Clean Water",
       "fuel_lecm_247_fluoride": "Molten LECm-247 Fluoride Fuel",
       "oxygen_difluoride": "Oxygen Difluoride",
@@ -414,6 +418,7 @@
       "uranium_235_fluoride": "Molten Uranium-235 Fluoride",
       "lapis": "Molten Lapis",
       "glowstone_nak_hot": "Hot Eutectic NaK-Glowstone Mixture",
+      "deadblood": "Dead Blood",
       "nak_hot": "Hot Eutectic NaK Alloy",
       "napalm": "Napalm",
       "iron_nak_hot": "Hot Eutectic NaK-Iron Mixture",
@@ -443,6 +448,7 @@
       "depleted_fuel_tbu": "Molten Depleted TBU Fuel",
       "depleted_fuel_hecm_243_fluoride": "Molten Depleted HECm-243 Fluoride Fuel",
       "copper": "Molten Copper",
+      "moltenrefinedcoralium": "Molten Refined Coralium",
       "fuel_hep_241_fluoride_flibe": "Molten FLiBe Salt Solution of HEP-241 Fluoride Fuel",
       "fuel_heb_248_fluoride_flibe": "Molten FLiBe Salt Solution of HEB-248 Fluoride Fuel",
       "poison": "Poison",
@@ -618,6 +624,7 @@
       "depleted_fuel_heu_235_fluoride": "Molten Depleted HEU-235 Fluoride Fuel",
       "potassium_hydroxide_solution": "Potassium Hydroxide Solution",
       "fuel_lecm_243_fluoride": "Molten LECm-243 Fluoride Fuel",
+      "moltendreadium": "Molten Dreadium",
       "enderium": "Molten Enderium",
       "fuel_lecm_243_fluoride_flibe": "Molten FLiBe Salt Solution of LECm-243 Fluoride Fuel",
       "pumpkin_juice": "Pumpkin Juice",
