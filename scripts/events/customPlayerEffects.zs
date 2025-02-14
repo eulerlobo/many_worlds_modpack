@@ -186,6 +186,9 @@ events.onPlayerTick(function (event as PlayerTickEvent) {
             val randomMultiplierOf20 = ((Math.random() * 6) as int) * 20; // 0, 20, 40, 60, 80, 100
             // print("Random multiplier of 20: " + randomMultiplierOf20);
 
+            // Nause duration will always be greater or equal to base of thirst duration, this means that if the player take a second drink
+            // and reset the thirst duration, the nause duration will be the same as previous time, reducing the chance of getting
+            // to much poison effect along the duration of the thirst effect
             var nauseDuration = 100 + randomMultiplierOf20;
             nauseDuration = nauseDuration > basePotionDuration ? nauseDuration : basePotionDuration;
 

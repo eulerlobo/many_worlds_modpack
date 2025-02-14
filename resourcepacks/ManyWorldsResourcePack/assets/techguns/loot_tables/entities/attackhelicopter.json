@@ -54,7 +54,7 @@
                                 "max": 8
                             }
                         },
-                         {
+                        {
                             "function": "set_data",
                             "data": 3
                         }
@@ -85,7 +85,7 @@
                                 "max": 4
                             }
                         },
-                         {
+                        {
                             "function": "set_data",
                             "data": 0
                         }

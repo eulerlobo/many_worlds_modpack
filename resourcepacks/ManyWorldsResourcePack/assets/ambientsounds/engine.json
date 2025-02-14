@@ -479,7 +479,7 @@
       ]
     },
     {
-      "name": "grass", // All biomes covered with grass (subtle sounds)
+      "name": "grass",
       "bad-regions": [ "plains", "savanna", "swamp", "ocean", "highland", "jungle" ],
       "bad-biomes": [ "river" ],
       "special-biomes": {
@@ -522,7 +522,7 @@
       ]
     },
     {
-      "name": "plains", // Higher sound volume than "grass"
+      "name": "plains",
       "bad-regions": [ "ocean", "forest", "savanna", "swamp", "highland", "nether" ],
       "special-biomes": {
         "temperature": {

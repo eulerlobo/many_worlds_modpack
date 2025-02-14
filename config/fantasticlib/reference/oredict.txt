@@ -1464,6 +1464,8 @@ crystalClusterBeryl
 dustAbyssalnite
 dustLiquifiedCoralium
 dustDreadium
+rockOreAluminum
+rockOreNickel
 uncutAmethyst
 uncutRuby
 uncutPeridot
@@ -1475,8 +1477,6 @@ uncutAmber
 rockBasalt
 rockIcystone
 rockFirestone
-rockOreAluminum
-rockOreNickel
 rockOrePlatinum
 rockOreIridium
 rockOreMithril
@@ -3573,6 +3573,6 @@ plateMarshmallow
 gearMarshmallow
 dustMarshmallow
 blockPlutonium
-blockBlutonium
 blockYellorium
+blockBlutonium
 plateTungstenSteel

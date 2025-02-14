@@ -1,6 +1,6 @@
 {
   "general": {
-    "doEffectsInCreative": false,
+    "doEffectsInCreative": true,
     "waterSubstractFactor": 10,
     "enableDamageDebug": false
   },
@@ -18,8 +18,8 @@
         }
       },
       "dustDuration": {
-        "min": 500,
-        "max": 1000
+        "min": 100,
+        "max": 200
       },
       "dustAmount": {
         "min": 0,
@@ -99,7 +99,7 @@
       }
     },
     "damage": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 1.0,
       "damaged": {
         "disabled": false,
@@ -305,7 +305,7 @@
       "damageBlackList": []
     },
     "slender": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 1.0,
       "defaultIntensity": 0,
       "maxIntensity": 0.3,
@@ -333,7 +333,7 @@
     },
     "heartbeat": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.5,
       "useHealthPercentage": false,
       "maxHealth": 6,
       "maxHealthPercentage": 0.3,
@@ -349,7 +349,7 @@
       },
       "blur": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.7
       }
     },
     "thirst": {
@@ -369,7 +369,7 @@
     },
     "temperature": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.6,
       "defaultIntensity": 0,
       "mediumIntensity": 0.2,
       "maxIntensity": 0.4,
