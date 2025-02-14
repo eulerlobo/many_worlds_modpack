@@ -475,11 +475,15 @@ post-file-to-discord.bat
 dev_helper/
 
 #Ignore mods folder
-mods/
-!mods/millenaire/*
-!mods/millenaire-custom/*
-!mods/opendisks/*
-!mods/OpenSecurity/*
+mods/*
+!mods/millenaire/
+!mods/millenaire/**
+!mods/millenaire-custom/
+!mods/millenaire-custom/**
+!mods/opendisks/
+!mods/opendisks/**
+!mods/OpenSecurity/
+!mods/OpenSecurity/**
 
 #Ignore Xaero
 XaeroWaypoints/
