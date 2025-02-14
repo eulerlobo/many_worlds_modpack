@@ -7,7 +7,7 @@
   "handlers": {
     "explosion": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.3,
       "dust": {
         "disabled": false,
         "opacity": 1.0,
@@ -18,8 +18,8 @@
         }
       },
       "dustDuration": {
-        "min": 500,
-        "max": 1000
+        "min": 100,
+        "max": 200
       },
       "dustAmount": {
         "min": 0,
@@ -36,7 +36,7 @@
       },
       "blur": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.3
       },
       "maxBlur": {
         "min": 0,
@@ -52,7 +52,7 @@
       }
     },
     "potion": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 1.0,
       "duration": {
         "min": 30,
@@ -66,7 +66,7 @@
     },
     "sand": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.3,
       "duration": {
         "min": 100,
         "max": 100
@@ -74,7 +74,7 @@
       "sprintModifier": 1.5,
       "sand": {
         "disabled": false,
-        "opacity": 1.0,
+        "opacity": 0.3,
         "animationSpeed": 0,
         "scale": {
           "min": 0.1,
@@ -84,7 +84,7 @@
     },
     "splash": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.3,
       "duration": {
         "min": 10,
         "max": 10
@@ -95,11 +95,11 @@
       },
       "blur": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.3
       }
     },
     "damage": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 1.0,
       "damaged": {
         "disabled": false,
@@ -305,7 +305,7 @@
       "damageBlackList": []
     },
     "slender": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 1.0,
       "defaultIntensity": 0,
       "maxIntensity": 0.3,
@@ -318,7 +318,7 @@
     },
     "saturation": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.3,
       "fadeFactor": 0.0005,
       "saturation": {
         "min": 2,
@@ -328,12 +328,12 @@
       },
       "desaturate": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.3
       }
     },
     "heartbeat": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.3,
       "useHealthPercentage": false,
       "maxHealth": 6,
       "maxHealthPercentage": 0.3,
@@ -344,17 +344,17 @@
       "heartbeatVolume": 1.0,
       "lowhealth": {
         "disabled": false,
-        "opacity": 1.0,
+        "opacity": 0.3,
         "animationSpeed": 0
       },
       "blur": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.3
       }
     },
     "thirst": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.3,
       "defaultIntensity": 0,
       "maxIntensity": 5,
       "fadeFactor": 0.05000000074505806,
@@ -364,24 +364,24 @@
       },
       "focus": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.3
       }
     },
     "temperature": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.3,
       "defaultIntensity": 0,
       "mediumIntensity": 0.2,
       "maxIntensity": 0.4,
       "fadeFactor": 0.005,
       "freeze": {
         "disabled": false,
-        "opacity": 1.0,
+        "opacity": 0.3,
         "animationSpeed": 0
       },
       "heat": {
         "disabled": false,
-        "opacity": 1.0,
+        "opacity": 0.3,
         "animationSpeed": 0
       }
     }
