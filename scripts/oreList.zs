@@ -884,3 +884,18 @@ powderedCluster.add(powderedQuartzCluster);
 val oreItemWaterBucket = <ore:itemWaterBucket>;
 oreItemWaterBucket.add(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}));
 oreItemWaterBucket.add(<erebus:bambucket>.withTag({Fluid: {FluidName: "water", Amount: 1000}}));
+
+// Add Exotic Birds items to the list
+val oreListAllChickenRaw = <ore:listAllchickenraw>;
+val oreListAllMeatRaw = <ore:listAllmeatraw>;
+val oreListAllChickenCooked = <ore:listAllchickencooked>;
+val oreListAllMeatCooked = <ore:listAllmeatcooked>;
+val oreFoodMeat = <ore:foodMeat>;
+
+oreListAllChickenRaw.add(<exoticbirds:birdmeat>);
+oreListAllMeatRaw.add(<exoticbirds:birdmeat>);
+oreFoodMeat.add(<exoticbirds:birdmeat>);
+
+oreListAllChickenCooked.add(<exoticbirds:cooked_birdmeat>);
+oreListAllMeatCooked.add(<exoticbirds:cooked_birdmeat>);
+oreFoodMeat.add(<exoticbirds:cooked_birdmeat>);

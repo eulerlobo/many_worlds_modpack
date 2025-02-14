@@ -534,6 +534,7 @@ paneQuartzGlass
 blockQuartzGlass
 blockCincinnasite
 oreCincinnasite
+
 ballMud
 blockMeatRaw
 blockMud
@@ -1273,15 +1274,15 @@ crystalPureCertusQuartz
 crystalPureFluix
 dustEnder
 itemIlluminatedPanel
-doorConcrete
-doorSteel
-doorTreatedWood
 fencegateAluminium
 fencegateAluminum
 fencegateSteel
 fencegateTreatedWood
 trapdoorSteel
 trapdoorTreatedWood
+doorConcrete
+doorSteel
+doorTreatedWood
 circuitElite
 wireGold
 desertMyrmexEgg
@@ -1340,7 +1341,6 @@ ingotCoraliumBrick
 ingotDreadium
 materialMethane
 oreSaltpeter
-foodFriedEgg
 orePearlescentCoralium
 oreLiquifiedCoralium
 ingotEthaxiumBrick
@@ -1472,14 +1472,14 @@ uncutTanzanite
 uncutMalachite
 uncutSapphire
 uncutAmber
+rockBasalt
+rockIcystone
+rockFirestone
 rockOreAluminum
 rockOreNickel
 rockOrePlatinum
 rockOreIridium
 rockOreMithril
-rockBasalt
-rockIcystone
-rockFirestone
 toolPot
 toolSkillet
 toolSaucepan
@@ -2725,7 +2725,6 @@ clayPorcelain
 stringFire
 lilypad
 toolChisel
-pelletUranium235
 foodSpiceleaf
 foodYogurt
 materialPigskin
@@ -2733,6 +2732,7 @@ foodbbqchickenpizza
 cropLychee
 listAllwheat
 cropJackfruit
+pelletUranium235
 planks
 ingotPsioMetal
 nuggetPsioMetal
@@ -2998,6 +2998,7 @@ dustPowderedQuartz
 dustPowderedEmerald
 dustPowderedEye
 powderedCluster
+meeleWeapons
 coilElectrum
 plateElectrumFlux
 coralReef
@@ -3571,7 +3572,7 @@ oreNuggetMarshmallow
 plateMarshmallow
 gearMarshmallow
 dustMarshmallow
-blockYellorium
-blockBlutonium
 blockPlutonium
+blockBlutonium
+blockYellorium
 plateTungstenSteel

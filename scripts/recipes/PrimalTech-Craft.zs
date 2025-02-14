@@ -26,10 +26,15 @@ var oreString = <ore:string>;
 oreString.remove(<primal_tech:twine>);
 
 mods.jei.JEI.removeAndHide(<primal_tech:twine>); //Twine
+mods.jei.JEI.removeAndHide(<primal_tech:work_stump_upgraded>);
+mods.jei.JEI.removeAndHide(<primal_tech:stone_anvil>);
+mods.jei.JEI.removeAndHide(<primal_tech:stone_mallet>);
+mods.jei.JEI.removeAndHide(<primal_tech:flint_block>);
+mods.jei.JEI.removeAndHide(<primal_tech:clay_kiln>);
 
 //---> Remap Work Stump
 recipes.remove(<primal_tech:work_stump>);
-recipes.addShapeless("PrimalWorkStump", <primal_tech:work_stump>, [<ore:logWood>, <ore:plankWood>]);
+recipes.addShapeless("PrimalWorkStump", <primal_tech:work_stump>, [<horsepower:chopping_block>, <ore:logWood>, <flintmod:tool_part_flint>]);
 
 //---> Remap Fire Sticks
 recipes.remove(<primal_tech:fire_sticks>);

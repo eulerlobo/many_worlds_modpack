@@ -1,0 +1,46 @@
++-------+------------------+-----------------------+-----------------+------------------+----------------------------------------------------------------------------------------+
+|    ID | DimensionType ID | Name                  | shouldLoadSpawn | Currently loaded | WorldProvider class                                                                    |
++-------+------------------+-----------------------+-----------------+------------------+----------------------------------------------------------------------------------------+
+|     0 |                0 | overworld             |            true |             true | net.minecraft.world.WorldProviderSurface                                               |
+|     1 |                1 | the_end               |           false |            false | net.minecraft.world.WorldProviderEnd                                                   |
+|    50 |               50 | The Abyssal Wasteland |           false |             true | com.shinoow.abyssalcraft.common.world.WorldProviderAbyss                               |
+|    51 |               51 | The Dreadlands        |           false |             true | com.shinoow.abyssalcraft.common.world.WorldProviderDreadlands                          |
+|    52 |               52 | Omothol               |           false |             true | com.shinoow.abyssalcraft.common.world.WorldProviderOmothol                             |
+|    53 |               53 | The Dark Realm        |           false |             true | com.shinoow.abyssalcraft.common.world.WorldProviderDarkRealm                           |
+|    -1 |               -1 | Nether                |           false |            false | biomesoplenty.common.world.WorldProviderBOPHell                                        |
+|    66 |               66 | EREBUS                |           false |            false | erebus.world.WorldProviderErebus                                                       |
+| 28885 |            28885 | hunting_dim           |           false |            false | net.darkhax.huntingdim.dimension.WorldProviderHunting                                  |
+|   111 |              111 | lostcities            |           false |            false | mcjty.lostcities.dimensions.world.LostWorldProvider                                    |
+|   113 |              111 | lostcities            |           false |            false | mcjty.lostcities.dimensions.world.LostWorldProvider                                    |
+|   114 |              111 | lostcities            |           false |            false | mcjty.lostcities.dimensions.world.LostWorldProvider                                    |
+| 14676 |            14676 | emptiness             |           false |            false | thecodex6824.thaumicaugmentation.common.world.WorldProviderEmptiness                   |
+|    20 |               20 | betweenlands          |           false |            false | thebetweenlands.common.world.WorldProviderBetweenlands                                 |
+|     4 |                4 | AetherI               |           false |            false | com.gildedgames.the_aether.world.AetherWorldProvider                                   |
+|     7 |                7 | twilight_forest       |           false |            false | twilightforest.world.WorldProviderTwilightForest                                       |
+|    -2 |                3 | space                 |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderSpace                          |
+|     2 |              -11 | Storage Cell          |            true |             true | appeng.spatial.StorageWorldProvider                                                    |
+|  1146 |             1146 | mahoutsukai           |           false |            false | stepsword.mahoutsukai.items.spells.projection.RealityMarble.RealityMarbleWorldProvider |
+|     3 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|     5 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|     6 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|     9 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    10 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    31 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    13 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    14 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    16 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    18 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|   226 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    21 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    17 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    25 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    23 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    28 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    29 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|    30 |                2 | planet                |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                         |
+|   225 |                0 | JED Surface 0         |           false |            false | fi.dy.masa.justenoughdimensions.world.WorldProviderSurfaceJED                          |
+|   227 |                0 | JED Surface 0         |           false |            false | fi.dy.masa.justenoughdimensions.world.WorldProviderSurfaceJED                          |
+|   -10 |               -1 | Nether                |           false |            false | biomesoplenty.common.world.WorldProviderBOPHell                                        |
++-------+------------------+-----------------------+-----------------+------------------+----------------------------------------------------------------------------------------+
+|    ID | DimensionType ID | Name                  | shouldLoadSpawn | Currently loaded | WorldProvider class                                                                    |
++-------+------------------+-----------------------+-----------------+------------------+----------------------------------------------------------------------------------------+

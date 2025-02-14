@@ -93,3 +93,6 @@ furnace.remove(<thermalfoundation:material:132>, erebusAluminiumOre); //Aluminum
 furnace.addRecipe(<thermalfoundation:material:68> * 4, erebusAluminiumOre, experienceSmelting);
 melter.removeRecipeWithInput([erebusAluminiumOre]);
 melter.addRecipe([erebusAluminiumOre, <liquid:aluminum> * mbIngotOre]);
+
+recipes.remove(<erebus:planks:8>);
+recipes.addShaped("ErebusBambooPlanks", <erebus:planks:8>, [[<erebus:materials:3>, <erebus:materials:3>, <erebus:materials:3>], [<erebus:materials:3>, <erebus:materials:3>, <erebus:materials:3>], [<erebus:materials:3>, <erebus:materials:3>, <erebus:materials:3>]]); //Bamboo planks recipe

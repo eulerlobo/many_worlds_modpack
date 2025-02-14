@@ -36,6 +36,10 @@ toughasnails:heat_resistance
 toughasnails:hydration
 cyberware:neuropozyne
 cyberware:rejection
+extratan:heat_resistance
+extratan:cold_resistance
+extratan:temperature_resistance
+extratan:temperature_immunity
 rpsideas:psishock
 rpsideas:psipulse
 rpsideas:unseeing

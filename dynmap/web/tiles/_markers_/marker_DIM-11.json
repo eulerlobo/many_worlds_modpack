@@ -1,8 +1,8 @@
 {"sets": {"markers": {"hide": false,"circles": {}
 ,"areas": {}
-,"label": "Markers","markers": {"_spawn_DIM-11": {"markup": false,"x": 64.00,"icon": "world","y": 87.00,"dim": "16x16","z": -1360.00,"label": "Spawn"}
+,"label": "Markers","markers": {"_spawn_DIM-11": {"markup": false,"x": -64.00,"icon": "world","y": 77.00,"dim": "16x16","z": -2144.00,"label": "Spawn"}
 }
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1735659320815}
+,"timestamp": 1738938746665}

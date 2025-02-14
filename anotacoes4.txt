@@ -1,0 +1,80 @@
+De acordo como anotacoes3.txt estou dento crash quando tento andar no swap:
+
+Seed de teste:
+1025264127007051226
+
+/tp @p 4036 128 6349
+
+Jogando no ChatGPT ele identificou a seguinte falha:
+-----------------------------------------------------------------------------------------
+From the crash stack trace:
+
+Error preparing structure: VillageWoodMill
+java.util.ConcurrentModificationException: null
+    at java.util.LinkedList$ListItr.checkForComodification(LinkedList.java:966)
+    at java.util.LinkedList$ListItr.next(LinkedList.java:888)
+    at net.minecraft.world.gen.structure.StructureStart.generateStructure(StructureStart.java:45)
+    ...
+    at ivorius.reccomplex.world.gen.feature.villages.GenericVillagePiece.prepare(GenericVillagePiece.java:141)
+    ...
+    at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:756)
+
+the most important bits are:
+
+    The crash is happening in VillageWoodMill—that’s a Recurrent Complex (RecComplex) structure piece.
+    The actual exception is java.util.ConcurrentModificationException.
+
+What this usually indicates is that some code is trying to modify a LinkedList (in this case, the structure component list used by vanilla or Recurrent Complex) while it’s being read on another thread. By default, Minecraft worldgen expects chunk-generation/structure-placement code to be single-threaded. But certain mods add parallelism, or try to speed the game up in ways that inadvertently break mods (like Recurrent Complex) that do not expect multi-threaded generation.
+
+Why Recurrent Complex is Triggering This
+
+Recurrent Complex injects extra structures (e.g. custom villages) into chunk generation, and it can occasionally run code that is not thread-safe. When something else forces chunk gen to happen in parallel, Recurrent Complex can throw ConcurrentModificationException because it modifies a shared list at the same time another thread is iterating over it.
+Known Causes
+
+    TickCentral / LagGoggles in “event-redirect” or “async” modes can cause chunk-gen to happen off-thread.
+    Other performance/async mods that parallelize chunk generation (or certain events) sometimes create concurrency conflicts with mods that assume single-threaded code.
+
+Confirming You Have TickCentral / LagGoggles
+
+In your log, you can see references to:
+
+com.github.terminatornl.laggoggles.tickcentral.EventBusTransformer.redirectEvent(EventBusTransformer.java:67)
+...
+TickCentral (TickCentral-3.2.jar)
+
+This is exactly the scenario that often breaks mods like Recurrent Complex.
+
+How to Fix or Work Around
+
+Disable or remove TickCentral’s concurrency
+If you are using LagGoggles/TickCentral for profiling, try removing them or disabling any multi-threaded/event-redirect feature. In many cases, removing TickCentral has immediately stopped these sorts of concurrency crashes for Recurrent Complex.
+
+Remove Recurrent Complex
+If you do not require Recurrent Complex’s extra structures, you could remove it. That obviously stops the code path that is crashing.
+
+Disable certain structure generation in Recurrent Complex
+    Sometimes disabling its “custom villages” or “vanilla village replacements” in the RecurrentComplex.cfg can help.
+    Look for settings like B:generateVanillaVillages=false or similar toggles. Reducing RecComplex’s hooks into vanilla generation can avoid the concurrency bug.
+
+Check if Recurrent Complex has an option for single-thread
+Some older versions did not, but if there’s a config to force single-threaded generation, enable that.
+
+TL;DR
+
+The immediate cause is Recurrent Complex generating a “VillageWoodMill” while something else (likely TickCentral’s concurrency features) triggers a second thread reading the same data. Recurrent Complex is not safe for multi-threaded chunk generation, so you end up with a ConcurrentModificationException.
+
+Disable TickCentral’s concurrency or remove Recurrent Complex (or adjust its village-gen) to stop the crashes.
+-----------------------------------------------------------------------------------------
+
+Não acho que seja isso, mas vou testar
+
+J'zahar, Gatekeeper Of The Abyss não está dropando a essencia dele quando morre
+
+
+
+https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures
+
+https://www.curseforge.com/minecraft/mc-mods/universal-tweaks
+
+
+Mechanical parts from techguns is visible for test

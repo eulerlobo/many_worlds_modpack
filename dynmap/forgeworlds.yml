@@ -103,6 +103,30 @@ worlds:
     the_end: false
     title: PSI Remap - Recipes/overworld
     height: 256
+-   sealevel: 63
+    nether: false
+    name: Remap - Abyssalcraft
+    the_end: false
+    title: Remap - Abyssalcraft/overworld
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: 'Remap - Abyssalcraft #2'
+    the_end: false
+    title: 'Remap - Abyssalcraft #2/overworld'
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: Parasites Test
+    the_end: false
+    title: Parasites Test/overworld
+    height: 256
+-   sealevel: 63
+    nether: false
+    name: Parasites Test 2
+    the_end: false
+    title: Parasites Test 2/overworld
+    height: 256
 isMCPC: false
 useSaveFolderAsName: true
 maxWorldHeight: 256

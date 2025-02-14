@@ -350,9 +350,9 @@ furnace.remove(<techguns:itemshared:39>);
 furnace.remove(<techguns:itemshared:84>);
 mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput([<techguns:itemshared:84>]); //Obsidian Steel Ingot
 mods.jei.JEI.removeAndHide(<techguns:itemshared:84>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:57>); //Mechanical Parts (Iron)
-mods.jei.JEI.removeAndHide(<techguns:itemshared:58>); //Mechanical Parts (Hardened)
-mods.jei.JEI.removeAndHide(<techguns:itemshared:59>); //Mechanical Parts (Carbon)
+// mods.jei.JEI.removeAndHide(<techguns:itemshared:57>); //Mechanical Parts (Iron)
+// mods.jei.JEI.removeAndHide(<techguns:itemshared:58>); //Mechanical Parts (Hardened)
+// mods.jei.JEI.removeAndHide(<techguns:itemshared:59>); //Mechanical Parts (Carbon)
 furnace.remove(<techguns:itemshared:55>); //Plastic
 mods.jei.JEI.removeAndHide(<techguns:itemshared:55>);
 mods.immersiveengineering.MetalPress.removeRecipe(<techguns:itemshared:51>); //Obsidian Steel Plate

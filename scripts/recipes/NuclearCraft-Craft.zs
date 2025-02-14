@@ -451,3 +451,8 @@ recipes.addShaped("NuclearCraftBootsHazmat", <nuclearcraft:boots_hazmat>, [[null
 
 //Distilled Water
 // electrolyzer.addRecipe([<liquid:ic2distilled_water> * 1000, <liquid:hydrogen> * 950, <liquid:oxygen> * 500, <liquid:deuterium> * 50, null, 1.2, 1, 0.0]);
+
+//Logs
+manufactory.addRecipe([<traverse:fir_log>, <traverse:fir_planks> * 6, 0.5, 0.5]);
+manufactory.addRecipe([<thaumcraft:taint_log>, <thaumadditions:taintwood_planks> * 6, 0.5, 0.5]);
+manufactory.addRecipe([<betternether:stalagnate_bark>, <betternether:stalagnate_planks> * 6, 0.5, 0.5]);

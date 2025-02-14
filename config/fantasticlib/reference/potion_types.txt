@@ -39,6 +39,8 @@ toughasnails:cold_resistance_type
 toughasnails:long_cold_resistance_type
 toughasnails:heat_resistance_type
 toughasnails:long_heat_resistance_type
+extratan:temperature_resistance
+extratan:temperature_immunity
 rpsideas:psishock
 rpsideas:psishock_long
 rpsideas:psishock_strong

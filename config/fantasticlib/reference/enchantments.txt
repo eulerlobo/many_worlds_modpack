@@ -28,6 +28,8 @@ minecraft:luck_of_the_sea
 minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
+extratan:heat_resistance
+extratan:cold_resistance
 advancedrocketry:spacebreathing
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench

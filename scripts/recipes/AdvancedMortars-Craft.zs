@@ -136,10 +136,22 @@ val pulverizedCharcoal = <thermalfoundation:material:769>;
 val oreCoal = <ore:coal>;
 val pulverizedCoal = <thermalfoundation:material:768>;
 
+val oreGravel = <ore:gravel>;
+val flint = <minecraft:flint>;
+
+
 //--- Add Recipes ---//
 
 //---> Disable Wood Mortar
 mods.jei.JEI.removeAndHide(<advancedmortars:mortar>);
+
+//---> Add flint
+Mortar.addRecipe(["stone"], flint, 9, [oreGravel]);
+Mortar.addRecipe(["iron"], flint, 7, [oreGravel]);
+Mortar.addRecipe(["diamond"], flint, 5, [oreGravel]);
+Mortar.addRecipe(["obsidian"], flint, 3, [oreGravel]);
+Mortar.addRecipe(["emerald"], flint, 3, [oreGravel]);
+Mortar.addRecipe(["gold"], flint, 1, [oreGravel]);
 
 //---> Add Magnetite
 Mortar.addRecipe(["stone"], crushedMagnetite * 2, 9, [oreMagnetite]);

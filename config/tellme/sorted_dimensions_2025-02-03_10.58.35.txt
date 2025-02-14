@@ -1,0 +1,82 @@
+-10   Nether
+-2    space
+-1    Nether
+0     overworld
+1     the_end
+2     Storage Cell
+3     planet
+4     AetherI
+5     planet
+6     planet
+7     twilight_forest
+9     planet
+10    planet
+13    planet
+14    planet
+16    planet
+17    planet
+18    planet
+20    betweenlands
+21    planet
+23    planet
+25    planet
+28    planet
+29    planet
+30    planet
+31    planet
+50    The Abyssal Wasteland
+51    The Dreadlands
+52    Omothol
+53    The Dark Realm
+66    EREBUS
+111   lostcities
+113   lostcities
+114   lostcities
+225   JED Surface 0
+226   planet
+227   JED Surface 0
+1146  mahoutsukai
+14676 emptiness
+28885 hunting_dim
+
+
+-10
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+9
+10
+13
+14
+16
+17
+18
+20
+21
+23
+25
+28
+29
+30
+31
+50
+51
+52
+53
+66
+111
+113
+114
+225
+226
+227
+1146
+14676
+28885
