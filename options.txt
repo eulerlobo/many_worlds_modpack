@@ -322,6 +322,7 @@ key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44:SHIFT
 key_Move Vehicle Down:45:SHIFT
 key_key.control:29
+key_key.mts.config:25
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

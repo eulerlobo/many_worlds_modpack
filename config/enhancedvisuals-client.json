@@ -317,7 +317,7 @@
       }
     },
     "saturation": {
-      "enabled": true,
+      "enabled": false,
       "opacity": 0.3,
       "fadeFactor": 0.0005,
       "saturation": {

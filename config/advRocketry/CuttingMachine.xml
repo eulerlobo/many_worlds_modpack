@@ -641,4 +641,12 @@
 			<itemStack>abyssalcraft:dltplank;6;0</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="120" power ="20">
+		<input>
+			<oreDict>plankWood;1</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:stick;4;0</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

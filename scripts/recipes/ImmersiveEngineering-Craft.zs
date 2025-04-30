@@ -484,6 +484,9 @@ ArcFurnace.removeRecipe(<nuclearcraft:ingot:3>);
 //Boron Ingot
 ArcFurnace.removeRecipe(<nuclearcraft:ingot:5>);
 
+// Remove string recipe
+recipes.removeByRecipeName("immersiveengineering:material/string");
+
 //---> Add slag from furnace
 furnace.addRecipe(slag, oreGravel);
 

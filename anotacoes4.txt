@@ -78,3 +78,8 @@ https://www.curseforge.com/minecraft/mc-mods/universal-tweaks
 
 
 Mechanical parts from techguns is visible for test
+
+The liquid temperatures of some itens isn't correct, so, need to be remap for prevent clay bucket to use it.
+
+https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry-2
+Some one try to fix the problems of Advanced Rocketry because the creator abandoned the project

@@ -579,13 +579,6 @@ recipes.addShaped("TechGunT3PowerLeggings", <techguns:t3_power_leggings>.withTag
 recipes.remove(<techguns:t3_power_boots>);
 recipes.addShaped("TechGunT3PowerBoots", <techguns:t3_power_boots>.withTag({power: 0}), [[eletricMotor, oreCircuitElite, eletricMotor], [powerArmorPlate, null, powerArmorPlate], [powerArmorPlate, null, powerArmorPlate]]);
 
-recipes.remove(<techguns:riot_shield>);
-recipes.addShaped("TechGunRiotShield", <techguns:riot_shield>, [[oreIngotSteel, glassPane, oreIngotSteel], [oreIngotSteel, <minecraft:shield>, oreIngotSteel], [oreIngotSteel, glassPane, oreIngotSteel]]);
-recipes.remove(<techguns:ballistic_shield>);
-recipes.addShaped("TechGunBallisticShield", <techguns:ballistic_shield>, [[plateObsidian, glassPane, plateObsidian], [plateObsidian, <minecraft:shield>, plateObsidian], [plateObsidian, plateObsidian, plateObsidian]]);
-recipes.remove(<techguns:advanced_shield>);
-recipes.addShaped("TechGunAdvancedShield", <techguns:advanced_shield>, [[plateCarbon, glassPane, plateCarbon], [plateCarbon, <techguns:ballistic_shield>, plateCarbon], [plateCarbon, plateCarbon, plateCarbon]]);
-
 recipes.remove(<techguns:t3_exo_helmet>);
 recipes.addShaped("TechGunT3ExoHelmet", <techguns:t3_exo_helmet>.withTag({power: 0}), [[orePlateTitaniumAluminide, null, orePlateTitaniumAluminide], [eletricMotor, <techguns:t3_combat_helmet>, eletricMotor], [null, oreCircuitElite, null]]);
 recipes.remove(<techguns:t3_exo_chestplate>);

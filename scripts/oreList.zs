@@ -899,3 +899,21 @@ oreFoodMeat.add(<exoticbirds:birdmeat>);
 oreListAllChickenCooked.add(<exoticbirds:cooked_birdmeat>);
 oreListAllMeatCooked.add(<exoticbirds:cooked_birdmeat>);
 oreFoodMeat.add(<exoticbirds:cooked_birdmeat>);
+
+// Merge quartz items
+val oreQuartzMineral = <ore:oreQuartzMineral>;
+oreQuartzMineral.add(<minecraft:quartz>);
+oreQuartzMineral.add(<appliedenergistics2:material>);
+oreQuartzMineral.add(<appliedenergistics2:material:10>);
+
+// Merge crude shields
+val crudeShield = <ore:crudeShield>;
+crudeShield.add(<spartanshields:shield_basic_wood>);
+crudeShield.add(<spartanshields:shield_tower_wood>);
+
+// Sleeping Bag
+val sleepingBag = <ore:sleepingBag>;
+sleepingBag.add(<comforts:sleeping_bag:*>);
+
+val hammockCloth = <ore:hammockCloth>;
+hammockCloth.add(<comforts:hammock:*>);

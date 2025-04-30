@@ -36,6 +36,21 @@ mods.jei.JEI.removeAndHide(<primal_tech:clay_kiln>);
 recipes.remove(<primal_tech:work_stump>);
 recipes.addShapeless("PrimalWorkStump", <primal_tech:work_stump>, [<horsepower:chopping_block>, <ore:logWood>, <flintmod:tool_part_flint>]);
 
+recipes.remove(<primal_tech:rock>);
+recipes.addShapeless("PrimalRock", <primal_tech:rock>, [<divergentunderground:rock_stone>, <divergentunderground:rock_stone>]);
+
+
 //---> Remap Fire Sticks
 recipes.remove(<primal_tech:fire_sticks>);
 recipes.addShapeless("PrimalFireSticks", <primal_tech:fire_sticks>.withTag({}), [<ore:stickWood>, <ore:bone>]);
+
+//---> Remap Bed
+recipes.remove(<primal_tech:leaf_bed>);
+recipes.addShaped("PrimalLeafBed", <primal_tech:leaf_bed>, [[<ore:treeLeaves>, <ore:treeLeaves>, null], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:slabWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+
+//---> Remap campfire
+recipes.remove(<toughasnails:campfire>);
+recipes.remove(<tanspit:spit>);
+
+recipes.addShapeless("TanCampire", <toughasnails:campfire>, [<ore:plankWood>, <ore:stickWood>, <divergentunderground:rock_stone>, <divergentunderground:rock_stone>]);
+recipes.addShapeless("TanCampireSpit", <tanspit:spit>, [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);

@@ -254,6 +254,8 @@ val oreSperrylite = <ore:oreSperrylite>;
 val oreCrushedSperrylite = <ore:crushedSperrylite>;
 val orePurifiedCrushedSperrylite = <ore:crushedPurifiedSperrylite>;
 
+val oreWoolWhite = <ore:woolWhite>;
+
 //--- Add Recipes ---//
 
 //---> Remap Iron Ore recipes
@@ -579,3 +581,6 @@ recipes.removeByRecipeName("minecraft:gunpowder");
 
 //---> Remap Bone Meal recipe
 recipes.addShapeless("MCBonemeal", <minecraft:dye:15> * 2, [<minecraft:bone>]);
+
+//---> Remove vanilla stick recipe
+recipes.removeByRecipeName("minecraft:stick");

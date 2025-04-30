@@ -72,3 +72,42 @@ recipes.addShaped("InspirationRope", <inspirations:rope> * 3, [[null, <immersive
 //---> Remap Chain recipe
 recipes.remove(<inspirations:rope:1>);
 recipes.addShaped("InspirationChain", <inspirations:rope:1> * 2, [[null, null, <quark:chain>], [null, <quark:chain>, null], [<quark:chain>, null, null]]);
+
+//---> Some tips
+<inspirations:wooden_crook>.addShiftTooltip(function (item) {
+  return "§bIncrease sapling drops when used to break leaves and pull back mobs";
+}, function (item) {
+  return "§7Hold §bSHIFT §7for more information";
+});
+<inspirations:stone_crook>.addShiftTooltip(function (item) {
+  return "§bIncrease sapling drops when used to break leaves and pull back mobs";
+}, function (item) {
+  return "§7Hold §bSHIFT §7for more information";
+});
+<inspirations:bone_crook>.addShiftTooltip(function (item) {
+  return "§bIncrease sapling drops when used to break leaves and pull back mobs";
+}, function (item) {
+  return "§7Hold §bSHIFT §7for more information";
+});
+<inspirations:blaze_crook>.addShiftTooltip(function (item) {
+  return "§bIncrease sapling drops when used to break leaves and pull back mobs";
+}, function (item) {
+  return "§7Hold §bSHIFT §7for more information";
+});
+<inspirations:wither_crook>.addShiftTooltip(function (item) {
+  return "§bIncrease sapling drops when used to break leaves and pull back mobs";
+}, function (item) {
+  return "§7Hold §bSHIFT §7for more information";
+});
+
+<inspirations:edibles>.addShiftTooltip(function (item) {
+  return "§bA rare drop from beetroots which can be eaten to restore a bit of health";
+}, function (item) {
+  return "§7Hold §bSHIFT §7for more information";
+});
+
+<minecraft:waterlily>.addShiftTooltip(function (item) {
+  return "§bPrevent fall damage, but break in the process";
+}, function (item) {
+  return "§7Hold §bSHIFT §7for more information";
+});
